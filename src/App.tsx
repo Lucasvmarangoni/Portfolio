@@ -13,7 +13,7 @@ function App() {
         <Routes>          
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route element={<ErrorNoFount />} />         
+            <Route path="*" element={<ErrorNoFount />} />                    
         </Routes>
         <div
           className="text-T1 text-xs text-center flex justify-center items-end
