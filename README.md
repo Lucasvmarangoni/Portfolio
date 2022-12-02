@@ -22,7 +22,7 @@
 * [Vite](https://vitejs.dev/)
 * [React](https://pt-br.reactjs.org/)
 * [TailWind](https://tailwindcss.com/)
-* [Node e NPM](https://nodejs.org/)
+* [Node NPM](https://nodejs.org/)
 
 <br><br>
 
