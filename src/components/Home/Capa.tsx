@@ -1,4 +1,3 @@
-import ReactDOMServer from "react-dom/server";
 import { PhotoButtons } from "./capa/PhotoButtons";
 
 
@@ -29,7 +28,7 @@ export function Capa() {
         muted
         loop
         autoPlay
-        src="./public/video-capa.mp4"
+        src="../../../public/video-capa.mp4"
       ></video>
       <PhotoButtons />
     </div>

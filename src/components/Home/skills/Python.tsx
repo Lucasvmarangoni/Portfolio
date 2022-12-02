@@ -7,14 +7,14 @@ export const Python = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="./public/python.png" alt="" />
+        <img className="IMG" src="../../../../public/python.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
-          <img className="Img" src="./public/python.png" alt="" />
+          <img className="Img" src="../../../../public/python.png" alt="" />
           <h1>Python</h1>
         </Dialog.Title>
 
@@ -22,7 +22,7 @@ export const Python = () => (
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
-              <img src="./public/fiap.png" alt="" />
+              <img src="../../../../public/fiap.png" alt="" />
               <p className="P">FIAP - Python</p>
             </div>
           </div>

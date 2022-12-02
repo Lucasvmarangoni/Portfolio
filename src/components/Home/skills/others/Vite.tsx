@@ -14,7 +14,7 @@ export const Vitejs = () => {
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
             <img
-              src="../public/vite.png"
+              src="../../../../../public/vite.png"
               alt=""
               className="IMG w-[30px] h-[30px"
             />
@@ -26,7 +26,11 @@ export const Vitejs = () => {
         <Collapsible.Content>
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
-            <p className="P">Aprendi enquanto praticava</p>
+            <p className="P">
+              {" "}
+              Aprendi enquanto praticava e enquanto participei e fiz o projeto
+              do evento NLW da RocketSeat
+            </p>
           </div>
 
           <div className="Dgrid">

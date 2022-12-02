@@ -10,14 +10,14 @@ export const Javascript = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
       <button className="DialogTrigger">
-        <img className="IMG" src="./public/JS.png" alt="" />
+        <img className="IMG" src="../../../../public/JS.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
-          <img className="Img" src="./public/JS.png" alt="" />
+          <img className="Img" src="../../../../public/JS.png" alt="" />
           <h1>JavaScript</h1>{" "}
         </Dialog.Title>
 
@@ -26,7 +26,7 @@ export const Javascript = () => (
             <div className="Dgrid">
               <h2 className="H2">Formação</h2>
               <div className="LogoImg">
-                <img src="./public/rocketseat.png" alt="" />
+                <img src="../../../../public/rocketseat.png" alt="" />
                 <p className="P">RocketSeat - Discover</p>
               </div>
             </div>

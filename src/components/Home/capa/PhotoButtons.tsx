@@ -48,7 +48,7 @@ export function PhotoButtons() {
             n5:w-[120px]
             n6:w-[120px]
             n7:w-[80px]"
-            src="./public/foto-perfil.png"
+            src="../../../../public/foto-perfil.png"
             alt="Foto do perfil"
           />
 
@@ -108,7 +108,7 @@ export function PhotoButtons() {
               n6:w-3
               n7:w-3
               "
-                src="./public/linkedin.png"
+                src="../../../../public/linkedin.png"
                 alt="linkedin"
               />
               <p>Linkedin</p>
@@ -131,7 +131,7 @@ export function PhotoButtons() {
                 n5:w-3
                 n6:w-3
                 n7:w-3"
-                src="./public/github.png"
+                src="../../../../public/github.png"
                 alt="github"
               />
               <p>Github</p>
@@ -155,7 +155,7 @@ export function PhotoButtons() {
               n5:w-3
               n6:w-3
               n7:w-3"
-                src="./public/CV.png"
+                src="../../../../public/CV.png"
                 alt="curriculo"
               />
               <p>Currículo</p>

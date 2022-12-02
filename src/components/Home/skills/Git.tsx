@@ -7,14 +7,14 @@ export const Git = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="./public/git.png" alt="" />
+        <img className="IMG" src="../../../../public/git.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
-          <img className="Img" src="./public/git1.png" alt="" />
+          <img className="Img" src="../../../../public/git1.png" alt="" />
           Git e Github         
         </Dialog.Title>
 

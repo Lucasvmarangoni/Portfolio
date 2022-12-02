@@ -13,7 +13,7 @@ export const Nodejs = () => {
       <div>
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
-            <img src="../public/node.png" alt="" className="IMG" />
+            <img src="../../../../../public/node.png" alt="" className="IMG" />
             <p className="Title">Node.js</p>
             {open ? <Cross2Icon /> : <RowSpacingIcon />}
           </button>
@@ -22,7 +22,10 @@ export const Nodejs = () => {
         <Collapsible.Content>
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
-            <p className="P">Autoditada</p>
+            <div className="LogoImg">
+              <img src="../../../../../public/rocketseat.png" alt="" />
+              <p className="P">RocketSeat - Discover</p>
+            </div>
           </div>
 
           <div className="Dgrid">
