@@ -52,19 +52,7 @@ export const Port = () => {
                   </a>
                 </div>
               </div>
-              <div onMouseOver={MOver} onMouseOut={MOut}>
-                <span
-                  className="invisible text-T2 bg-BGH p-2 rounded-md ml-4 absolute"
-                  id="myPopup"
-                >
-                  Existem muitos lugares para clicar!
-                </span>
-                <img
-                  className="w-4 cursor-pointer opacity-80"
-                  src="/info.png"
-                  alt=""
-                />
-              </div>
+    
             </div>
 
             <div className="mt-2">
