@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-shadow: none;
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  background: #030303;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #55396285;
+  background: rgb(0, 0, 0);
+}
+
+::selection {
+  color: #55396285;
+  background: rgb(0, 0, 0);
+}
+
+@layer components {
+  .setinha {
+    @apply cursor-pointer 
+    relative 
+    transition-[0.5s] 
+    flex 
+    items-center 
+    after:right-[-20px]
+    after:content-["\00bb"] 
+    after:absolute 
+    after:opacity-0 
+    after:transition-[0.5s] 
+    hover:after:opacity-[1]     
+    hover:pr-6
+    opacity-50 
+    rounded-md 
+   
+    w-28 
+    justify-center 
+    hover:opacity-50;
+  }
+  .buttons {
+    @apply w-24
+    h-8
+    py-1 
+    bg-[#6d6d6d18] 
+    hover:bg-Bhover 
+    rounded-[5px] 
+    text-[#ffffff46]
+    text-xs
+    font-semibold
+    hover:underline
+    flex 
+    items-center 
+    justify-center
+    gap-[6px];
+  }
+}
+
+.img {
+  background-size: 1px;
+  
+}
+

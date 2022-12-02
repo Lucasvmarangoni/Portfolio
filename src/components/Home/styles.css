@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .CollapsibleRoot {
+    @apply 
+    w-[90vw] 
+    max-w-[44rem] 
+    max-h-[100vh]  
+    my-2 
+    flex 
+    gap-5;
+  }
+  .CollapsibleTrigger {
+    @apply flex;
+  }
+  .Button {
+    @apply 
+    flex 
+    gap-4 
+    items-center 
+    opacity-80 
+    hover:opacity-50;
+  }
+  .IMG {
+    @apply cursor-pointer 
+    opacity-80 
+    hover:opacity-50        
+    translate-x-2
+    relative
+    right-2;    
+  }
+  .Img {
+    @apply opacity-80;
+  }
+  .LogoImg {
+    @apply 
+    flex 
+    items-center 
+    gap-2;
+  }
+  .Title {
+    @apply 
+    text-T2 
+    text-lg 
+    font-semibold;
+  }
+  .CollapsibleContent {
+    @apply 
+    m-auto 
+    w-[42rem] 
+    mt-5;
+  }
+  /* .Fimg {
+    @apply w-8 opacity-50 hover:opacity-30;
+  } */
+  .DialogOverlay {
+    @apply bg-[#0000007e] 
+    fixed 
+    top-0 
+    left-0 
+    right-0 
+    bottom-0;
+  }
+  .DialogContent {
+    @apply bg-BG 
+    p-7 
+    rounded-md 
+    grid 
+    gap-5 
+    fixed 
+    top-[50%] 
+    left-[50%] 
+    overflow-y-scroll 
+    overflow-x-hidden   
+    transform 
+    -translate-x-1/2 
+    -translate-y-1/2 
+    w-[90vw] max-w-3xl 
+    max-h-[100vh];
+  }
+  .DialogTitle {
+    @apply text-T1 
+    text-2xl 
+    font-semibold 
+    flex 
+    gap-3;
+    
+  }
+  .formacao {
+    @apply text-T1 
+    text-2xl 
+    font-semibold 
+    flex 
+    gap-3;
+  }
+  .P {
+    @apply text-T2 
+    text-lg 
+    text-justify;
+  }
+  .Proj {
+    @apply hover:underline
+    text-T2 
+    text-lg 
+    text-justify;
+  }
+  .Dgrid {
+    @apply 
+    mt-5 
+    grid 
+    gap-3;
+  }
+  .H2 {
+    @apply text-T1 
+    text-xl 
+    font-bold;
+  }
+  .IconButton {
+    @apply rounded-[100%] 
+    flex 
+    items-center 
+    justify-center 
+    absolute 
+    top-3 
+    right-3;
+  }
+  .Ferramentas {
+    @apply 
+    flex 
+    items-center 
+    gap-2;
+  }
+  .menu{
+    @apply 
+    text-base
+    text-T2
+    rounded-md
+    flex
+    items-center
+    h-6
+    px-1
+    relative
+    pl-6
+    ;
+/* 
+.DropdownMenuItem,
+.DropdownMenuCheckboxItem,
+.DropdownMenuRadioItem,
+.DropdownMenuSubTrigger 
+*/
+  }
+}
+

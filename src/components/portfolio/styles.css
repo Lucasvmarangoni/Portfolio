@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .divCapa {
+    @apply  
+    grid 
+    justify-center 
+    gap-2
+  ;
+  }
+  .projCapa {
+    @apply 
+    rounded-xl
+    n0:w-[27rem]
+    n1:w-[22rem]
+    n2:w-[27rem]    
+    n3:w-[27rem]     
+    n4:w-[27rem]    
+    n5:w-[22rem]      
+    n6:w-[18rem]      
+    n7:w-[12rem];    
+  }  
+  .imgTitle {
+    @apply 
+    text-T2 
+    text-lg 
+    m-auto;    
+  }
+  .projTitle {
+    @apply 
+    text-T1
+    text-3xl;
+  }
+  .projYear {
+    @apply 
+    text-T3
+    text-2xl
+    font-semibold
+    bg-BGB
+    px-2    
+    rounded-md
+    opacity-70;
+  }
+  .banner {
+    @apply 
+    flex 
+    justify-center;
+  }
+  .Icon {
+    @apply 
+    w-[83px] 
+    bg-BGB 
+    rounded-md 
+    hover:opacity-70 
+    flex 
+    gap-1 
+    items-center 
+    justify-center;
+  }
+  .divTec {
+    @apply 
+    mt-10 
+    flex 
+    gap-3;
+  }
+  .hTec {
+    @apply 
+    font-semibold 
+    text-lg
+    bg-BGB
+    px-2
+    h-7
+    rounded-md
+    opacity-75
+    cursor-default;
+  }
+}
