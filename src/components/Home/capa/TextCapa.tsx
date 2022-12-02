@@ -36,7 +36,7 @@ export function TextCapa() {
       </p>
       <p className="">
         Meu objetivo é de me especializar no Back-end e em
-        <span className="text-T1">DevSecOps</span>.
+        <span className="text-T1"> DevSecOps</span>.
       </p>
     </>
   );
