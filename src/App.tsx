@@ -5,19 +5,7 @@ import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { ErrorNoFount } from "./components/ErrorNoFount";
 
-createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
 
-    children: [
-      {
-        path: "/portfolio",
-        element: <Portfolio />,
-      },
-    ],
-  },
-]);
 
 function App() {
   return (
