@@ -3,16 +3,17 @@ import { Home } from "./pages/Home";
 import { NavLink, Route, Routes } from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
+import { ErrorNoFount } from "./components/ErrorNoFount";
 
 function App() {
   return (
     <>
       <div className="mx-auto w-[100vw] fixed left-[0.1vw]">
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          {/* <Route element={ErrorNoFount} /> */}
+        <Routes>          
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route element={<ErrorNoFount />} />         
         </Routes>
         <div
           className="text-T1 text-xs text-center flex justify-center items-end
