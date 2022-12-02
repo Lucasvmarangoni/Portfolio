@@ -11,7 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           {/* <Route element={ErrorNoFount} /> */}
         </Routes>
         <div
