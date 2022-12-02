@@ -21,7 +21,7 @@ export const Esports = () => {
             <img
               id="mouse"
               className="projCapa"
-              src="../../../public/Hnlw.jpg"
+              src="/Hnlw.jpg"
               alt=""
             />
           </button>
