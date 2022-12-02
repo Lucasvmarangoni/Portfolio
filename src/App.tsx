@@ -5,21 +5,29 @@ import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { ErrorNoFount } from "./components/ErrorNoFount";
 
+import { motion, AnimatePresence } from "framer-motion";
 
-if (typeof window !== 'undefined') {
-  window.history.scrollRestoration = 'manual'
+if (typeof window !== "undefined") {
+  window.history.scrollRestoration = "manual";
 }
-
 
 function App() {
   return (
-    <>
+    <AnimatePresence
+      exitBeforeEnter
+      initial={true}
+      onExitComplete={() => {
+        if (typeof window !== "undefined") {
+          window.scrollTo({ top: 0 });
+        }
+      }}
+    >
       <div className="mx-auto w-[100vw] fixed left-[0.1vw]">
         <Header />
-        <Routes>          
-            <Route path="/" element={<Home />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="*" element={<ErrorNoFount />} />                    
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<ErrorNoFount />} />
         </Routes>
         <div
           className="text-T1 text-xs text-center flex justify-center items-end
@@ -34,7 +42,7 @@ function App() {
           <p>© 2022 Lucas V Marangoni. All Rights Reserved.</p>
         </div>
       </div>
-    </>
+    </AnimatePresence>
   );
 }
 export default App;
