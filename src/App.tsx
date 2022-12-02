@@ -5,6 +5,12 @@ import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { ErrorNoFount } from "./components/ErrorNoFount";
 
+
+if (typeof window !== 'undefined') {
+  window.history.scrollRestoration = 'manual'
+}
+
+
 function App() {
   return (
     <>
