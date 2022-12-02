@@ -7,7 +7,7 @@ export const Python = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="../../../../public/python.png" alt="" />
+        <img className="IMG" src="/python.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>

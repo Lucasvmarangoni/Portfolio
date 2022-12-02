@@ -6,14 +6,14 @@ export const Security = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="../../../../public/security.png" alt="" />
+        <img className="IMG" src="/security.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
-          <img className="Img" src="../../../../public/security.png" alt="" />
+          <img className="Img" src="/security.png" alt="" />
           <h1>CiberSecurity</h1>
         </Dialog.Title>
 

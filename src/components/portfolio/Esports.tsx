@@ -5,11 +5,11 @@ import "./styles.css";
 
 const onMouse = () => {
   const onmouse: any = document.querySelector("#mouse");
-  return onmouse.setAttribute("src", "../../../public/Menu.jpg");
+  return onmouse.setAttribute("src", "/Menu.jpg");
 };
 const outMouse = () => {
   const onmouse: any = document.querySelector("#mouse");
-  return onmouse.setAttribute("src", "../../../public/Hnlw.jpg");
+  return onmouse.setAttribute("src", "/Hnlw.jpg");
 };
 
 export const Esports = () => {
