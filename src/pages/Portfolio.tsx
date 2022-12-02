@@ -1,12 +1,13 @@
 import { Esports } from "../components/portfolio/Esports";
 import { Lab01 } from "../components/portfolio/Lab01";
+import { Port } from "../components/portfolio/Port";
 
 export const Portfolio = () => {
   return (
     <div
-      className="mt-10 w-[1030px] py-20 bg-BGH m-auto flex justify-center flex-wrap 
-       n0:w-[1030px]   
-       n1:w-[830px] n1:gap-0   
+      className="mt-10 w-[1030px] py-20 bg-BGH m-auto flex flex-wrap
+       n0:w-[1030px]    
+       n1:w-[830px]
        n2:w-[781px] n2:mt-10 n2:gap-14
        n3:w-[576px] n3:mt-6 n3:gap-14  
        n4:w-[530px] n4:mt-6 n4:gap-14
@@ -17,6 +18,7 @@ export const Portfolio = () => {
     >
       <Esports />
       <Lab01 />
+      <Port />
     </div>
   );
 };
