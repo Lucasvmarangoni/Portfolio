@@ -13,7 +13,7 @@ export const Typescript = () => {
       <div>
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
-            <img src="../../../../../public/TS.png" alt="TypeScript" className="IMG" />
+            <img src="/TS.png" alt="TypeScript" className="IMG" />
             <h2 className="Title">TypeScript</h2>
             {open ? <Cross2Icon /> : <RowSpacingIcon />}
           </button>
@@ -23,7 +23,7 @@ export const Typescript = () => {
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
-              <img src="../../../../../public/udemy.png" alt="" />
+              <img src="/udemy.png" alt="" />
               <p className="P">TypeScript - Porof. Matheus Fraga - Udemy.</p>
             </div>
           </div>

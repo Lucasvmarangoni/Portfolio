@@ -13,7 +13,7 @@ export const SQLite = () => {
       <div>
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
-            <img src="../../../../../public/SQLite.png" alt="" className="IMG" />
+            <img src="/SQLite.png" alt="" className="IMG" />
             <h2 className="Title">SQLite</h2>
             {open ? <Cross2Icon /> : <RowSpacingIcon />}
           </button>
@@ -23,7 +23,7 @@ export const SQLite = () => {
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
-              <img src="../../../../../public/rocketseat.png" alt="" />
+              <img src="/rocketseat.png" alt="" />
               <p className="P">RocketSeat - Discover</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ export const SQLite = () => {
           <div className="Dgrid">
             <h2 className="H2">Ferramentas</h2>
             <div className="Ferramentas">
-              <img className="Fimg" src="../public/beekeeper.png" alt="" />
+              <img className="Fimg" src="/beekeeper.png" alt="" />
               <p className="P">Beekeeper Studio</p>
             </div>
           </div>

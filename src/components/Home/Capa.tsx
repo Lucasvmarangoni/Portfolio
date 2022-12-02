@@ -28,7 +28,7 @@ export function Capa() {
         muted
         loop
         autoPlay
-        src="../../../public/video-capa.mp4"
+        src="/video-capa.mp4"
       ></video>
       <PhotoButtons />
     </div>

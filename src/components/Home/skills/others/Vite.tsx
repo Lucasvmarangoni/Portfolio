@@ -14,7 +14,7 @@ export const Vitejs = () => {
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
             <img
-              src="../../../../../public/vite.png"
+              src="/vite.png"
               alt=""
               className="IMG w-[30px] h-[30px"
             />

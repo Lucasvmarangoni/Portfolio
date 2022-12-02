@@ -13,7 +13,7 @@ export const Reactjs = () => {
       <div>
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
-            <img src="../../../../../public/react.png" alt="" className="IMG" />
+            <img src="/react.png" alt="" className="IMG" />
             <h2 className="Title">React.js</h2>
             {open ? <Cross2Icon /> : <RowSpacingIcon />}
           </button>
@@ -59,7 +59,7 @@ export const Reactjs = () => {
           <div className="Dgrid">
             <h2 className="H2">Ferramentas</h2>
             <div className="Ferramentas">
-              <img className="Fimg" src="../public/radix.png" alt="" />
+              <img className="Fimg" src="/radix.png" alt="" />
               <p className="P">Radix UI</p>
             </div>
           </div>

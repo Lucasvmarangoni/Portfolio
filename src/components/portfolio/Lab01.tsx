@@ -25,7 +25,7 @@ export const Lab01 = () => {
             <img
               id="mouse"
               className="projCapa"
-              src="../../../public/project1.png"
+              src="/project1.png"
               alt=""
             />
           </button>
@@ -42,7 +42,7 @@ export const Lab01 = () => {
               Explorer Lab 01 - <span className="projYear">2022</span>
             </h1>
             <div id="img" className="banner">
-              <video controls src="../../../public/Explorerlab.mp4"></video>
+              <video controls src="/Explorerlab.mp4"></video>
             </div>
 
             <div className="flex gap-1">
@@ -50,7 +50,7 @@ export const Lab01 = () => {
                 <div className="Icon">
                   <img
                     className="h-5"
-                    src="../../../public/github-proj.png"
+                    src="/github-proj.png"
                     alt=""
                   />
                   <a
@@ -83,7 +83,7 @@ export const Lab01 = () => {
                 </span>
                 <img
                   className="w-4 cursor-pointer opacity-80"
-                  src="../../../public/info.png"
+                  src="/info.png"
                   alt=""
                 />
               </div>

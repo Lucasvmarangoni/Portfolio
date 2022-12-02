@@ -21,7 +21,7 @@ export const Security = () => (
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
-              <img src="../../../../public/pato.png" alt="" />
+              <img src="/pato.png" alt="" />
               <p className="P">Pato Academy - Do bug ao bounty</p>
             </div>
           </div>
@@ -44,7 +44,7 @@ export const Security = () => (
             <div className="Dgrid">
               <h2 className="H2">Ferramentas</h2>
               <div className="Ferramentas">
-                <img className="Fimg" src="../../../../public/charles.png" alt="" />
+                <img className="Fimg" src="/charles.png" alt="" />
                 <p className="P">Charles Proxy</p>
               </div>
             </div>

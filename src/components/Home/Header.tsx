@@ -34,7 +34,7 @@ export function Header() {
           <img
             id="img"
             className="w-6 opacity-50"
-            src="../../../public/logo.png"
+            src="/logo.png"
             alt=""
           />
           <Link to="/">

@@ -14,7 +14,7 @@ export const Python = () => (
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
-          <img className="Img" src="../../../../public/python.png" alt="" />
+          <img className="Img" src="/python.png" alt="" />
           <h1>Python</h1>
         </Dialog.Title>
 
@@ -22,7 +22,7 @@ export const Python = () => (
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
-              <img src="../../../../public/fiap.png" alt="" />
+              <img src="/fiap.png" alt="" />
               <p className="P">FIAP - Python</p>
             </div>
           </div>

@@ -38,13 +38,13 @@ export const Esports = () => {
               NLW ESports Ignite - <span className="projYear">2022</span>
             </h1>
             <div id="img" className="banner">
-              <video controls src="../../../public/eSports.mp4"></video>
+              <video controls src="/eSports.mp4"></video>
             </div>
 
             <div className="Icon">
               <img
                 className="h-5"
-                src="../../../public/github-proj.png"
+                src="/github-proj.png"
                 alt=""
               />
               <a
