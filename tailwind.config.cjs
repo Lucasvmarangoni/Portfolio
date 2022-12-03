@@ -8,7 +8,7 @@ module.exports = {
       sans: ['Inter', 'sans-serif']
     },
     screens: {
-      'n7': '250px',
+      'n7': '50px',
       'n6': '360px',
       'n5': '464px',
       'n4': '564px',

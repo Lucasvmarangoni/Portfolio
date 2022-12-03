@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="mx-auto w-[100vw] fixed left-[0.1vw]">
+    <div className="mx-auto w-[100vw] left-[0.1vw]">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

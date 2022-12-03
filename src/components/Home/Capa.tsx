@@ -31,8 +31,8 @@ export function Capa() {
         n3:w-[576px] n3:h-[500px]
         n4:w-[530px] n4:h-[450px]
         n5:w-[430px] n5:h-[420px]
-        n6:w-[350px] n6:h-[400px]
-        n7:w-[240px] n7:h-[400px]"
+        n6:w-[350px] n6:h-[420px]
+        n7:w-[240px] n7:h-[440px]"
         muted
         loop
         autoPlay

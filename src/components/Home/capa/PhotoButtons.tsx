@@ -15,15 +15,15 @@ export function PhotoButtons() {
   return (
     <div className="grid absolute">
       <div
-        className="m-auto flex justify-center items-center gap-0
-        n0:flex
-        n1:flex
-        n2:flex 
-        n3:grid 
-        n4:grid
-        n5:grid
-        n6:grid
-        n7:grid
+        className="m-auto flex justify-center items-center 
+        n0:flex n0:gap-0
+        n1:flex n1:gap-0
+        n2:flex n2:gap-0 n2:mt-0
+        n3:grid n3:gap-8 n3:mt-10
+        n4:grid n4:gap-8 n4:mt-10
+        n5:grid n5:gap-8 n5:mt-10
+        n6:grid n6:gap-6 n6:mt-10
+        n7:grid n7:gap-4 n7:mt-10
       "
       >
         <motion.div
