@@ -29,7 +29,7 @@ export const Security = () => (
           <div className="Dgrid">
             <h2 className="H2">Prática</h2>
             <div className="P">
-              <p >
+              <p>
                 O curso da Pato Academy é uma assinatura em que novas aulas são
                 disponibilizadas constantemente, as quais eu acompanho.
               </p>

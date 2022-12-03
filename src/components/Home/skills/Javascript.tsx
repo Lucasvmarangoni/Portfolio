@@ -8,8 +8,8 @@ import "../styles.css";
 
 export const Javascript = () => (
   <Dialog.Root>
-    <Dialog.Trigger asChild>
-      <button className="DialogTrigger">
+    <Dialog.Trigger asChild className="DialogTrigger">
+      <button>
         <img className="IMG" src="/JS.png" alt="" />
       </button>
     </Dialog.Trigger>
@@ -22,7 +22,7 @@ export const Javascript = () => (
         </Dialog.Title>
 
         <Dialog.Description>
-          <div className="grid gap-5">
+          <div className="Dgrid">
             <div className="Dgrid">
               <h2 className="H2">Formação</h2>
               <div className="LogoImg">
@@ -33,15 +33,17 @@ export const Javascript = () => (
 
             <div className="Dgrid">
               <h2 className="H2">Prática</h2>
-              <p className="P">
-                Desenvolvi projetos em javascript, sendo o mais relevante um
-                formulario de pagamento com cartão de crédito no Explorer Lab
-                01, evento promovido pela RocketSeat.
-                <p className="mt-3">
-                  -{">"} Nesse projeto criei, por conta própria, o modelo de
+              <div className="P">
+                <p>
+                  Desenvolvi projetos em javascript, sendo o mais relevante um
+                  formulario de pagamento com cartão de crédito no Explorer Lab
+                  01, evento promovido pela RocketSeat.
+                </p>
+                <p>
+                  -&gt; Nesse projeto criei, por conta própria, o modelo de
                   cartão com a bandeira ELO.
                 </p>
-              </p>
+              </div>
             </div>
           </div>
 
