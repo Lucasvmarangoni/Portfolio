@@ -39,7 +39,7 @@ export const Javascript = () => (
                   formulario de pagamento com cartão de crédito no Explorer Lab
                   01, evento promovido pela RocketSeat.
                 </p>
-                <p>
+                <p className="mt-3">
                   -&gt; Nesse projeto criei, por conta própria, o modelo de
                   cartão com a bandeira ELO.
                 </p>

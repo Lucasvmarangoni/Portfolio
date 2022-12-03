@@ -5,11 +5,9 @@ import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { motion } from "framer-motion";
 
-
-
 function App() {
   return (
-    <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll ">
+    <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,9 +25,9 @@ function App() {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
-        duration: 0.8,
-        delay: 1.5,
-        ease: [0, 0.71, 0.2, 1.01],
+          duration: 0.8,
+          delay: 1.5,
+          ease: [0, 0.71, 0.2, 1.01],
         }}
       >
         <p>© 2022 Lucas V Marangoni. All Rights Reserved.</p>

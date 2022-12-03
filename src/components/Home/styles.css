@@ -5,7 +5,7 @@
 @layer components {
   .CollapsibleRoot {
     @apply 
-    w-[90vw] 
+    w-[80vw] 
     max-w-[44rem] 
     max-h-[100vh]  
     my-2 

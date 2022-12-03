@@ -1,6 +1,5 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-
 import "../styles.css";
 
 export const Git = () => (
@@ -15,7 +14,7 @@ export const Git = () => (
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
           <img className="Img" src="/git1.png" alt="" />
-          Git e Github         
+          <h1>Git e Github </h1>
         </Dialog.Title>
 
         <Dialog.Description>
