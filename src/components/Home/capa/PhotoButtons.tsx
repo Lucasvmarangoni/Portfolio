@@ -1,6 +1,7 @@
 import ReactDOMServer from "react-dom/server";
 import { TextBack } from "./TextBack";
 import { TextCapa } from "./TextCapa";
+import { motion } from "framer-motion";
 
 const click = () => {
   const text: any = document.querySelector("#texto");
@@ -25,7 +26,7 @@ export function PhotoButtons() {
         n7:grid
       "
       >
-        <div
+        <motion.div
           className="w-[311px]
         n0:w-[311px] 
         n1:w-[311px] 
@@ -36,6 +37,13 @@ export function PhotoButtons() {
         n6:w-[500px]        
         n7:w-[280px]        
         "
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.7,
+            delay: 0.6,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
         >
           <img
             onClick={click}
@@ -52,9 +60,16 @@ export function PhotoButtons() {
             alt="Foto do perfil"
           />
 
-          <div
+          <motion.div
             className="flex items-center justify-center gap-2              
           "
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.6,
+              delay: 0.8,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
           >
             <a
               className="hover:bg-[#6d6d6d0e] rounded-2xl"
@@ -76,7 +91,7 @@ export function PhotoButtons() {
                 alt="Perfil Ldragk CodeWar"
               />
             </a>
-          </div>
+          </motion.div>
 
           <div
             className="mt-1 flex justify-center gap-1
@@ -90,39 +105,58 @@ export function PhotoButtons() {
             n7:flex-wrap
           "
           >
-            <a
-              className="buttons
-              "
-              href="https://www.linkedin.com/in/lucas-v-marangoni/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.6,
+                delay: 0.9,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
             >
-              <img
-                className="
-              n0:w-5
-              n1:w-5
-              n2:w-4
-              n3:w-4
-              n4:w-3
-              n5:w-3
-              n6:w-3
-              n7:w-3
+              <a
+                className="buttons
               "
-                src="/linkedin.png"
-                alt="linkedin"
-              />
-              <p>Linkedin</p>
-            </a>
+                href="https://www.linkedin.com/in/lucas-v-marangoni/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="
+                  n0:w-5
+                  n1:w-5
+                  n2:w-4
+                  n3:w-4
+                  n4:w-3
+                  n5:w-3
+                  n6:w-3
+                  n7:w-3
+                  "
+                  src="/linkedin.png"
+                  alt="linkedin"
+                />
+                <p>Linkedin</p>
+              </a>
+            </motion.div>
 
-            <a
-              className="buttons
-              "
-              href="https://github.com/Ldragk"
-              target="_blank"
-              rel="noopener noreferrer"
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.6,
+                delay: 0.9,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
             >
-              <img
-                className="
+              <a
+                className="buttons
+              "
+                href="https://github.com/Ldragk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="             
                 n0:w-5
                 n1:w-5
                 n2:w-4
@@ -131,22 +165,32 @@ export function PhotoButtons() {
                 n5:w-3
                 n6:w-3
                 n7:w-3"
-                src="/github.png"
-                alt="github"
-              />
-              <p>Github</p>
-            </a>
+                  src="/github.png"
+                  alt="github"
+                />
+                <p>Github</p>
+              </a>
+            </motion.div>
 
-            <a
-              className="buttons
+            <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                duration: 0.6,
+                delay: 0.9,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <a
+                className="buttons
                 n5:w24
               "
-              href="https://ldragk.github.io/Curriculo/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="
+                href="https://ldragk.github.io/Curriculo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="
               n0:w-5
               n1:w-5
               n2:w-4
@@ -155,15 +199,16 @@ export function PhotoButtons() {
               n5:w-3
               n6:w-3
               n7:w-3"
-                src="/CV.png"
-                alt="curriculo"
-              />
-              <p>Currículo</p>
-            </a>
+                  src="/CV.png"
+                  alt="curriculo"
+                />
+                <p>Currículo</p>
+              </a>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
 
-        <div
+        <motion.div
           id="texto"
           className="text-T2 text-xl font-medium text-justify pb-10
         n0:w-[540px] n0:text-xl
@@ -174,9 +219,16 @@ export function PhotoButtons() {
         n5:w-[350px] n5:text-xs n5:m-auto 
         n6:w-[300px] n6:text-xs n6:m-auto
         n7:w-[200px] n7:text-xs n7:m-auto"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.6,
+          delay: 1.0,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
         >
           <TextCapa />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

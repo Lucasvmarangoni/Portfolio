@@ -3,7 +3,7 @@ import { Home } from "./pages/Home";
 import { createBrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
-import { ErrorNoFount } from "./components/ErrorNoFount";
+import { motion } from "framer-motion";
 
 
 
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
-      <div
+      <motion.div
         className="text-T1 text-xs text-center flex justify-center items-end
         n2:mt-10
         n3:mt-6
@@ -24,9 +24,16 @@ function App() {
         n6:mt-6
         n7:mt-6
         "
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+        duration: 0.8,
+        delay: 1.5,
+        ease: [0, 0.71, 0.2, 1.01],
+        }}
       >
         <p>© 2022 Lucas V Marangoni. All Rights Reserved.</p>
-      </div>
+      </motion.div>
     </div>
   );
 }

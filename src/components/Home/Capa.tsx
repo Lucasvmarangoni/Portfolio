@@ -1,19 +1,27 @@
 import { PhotoButtons } from "./capa/PhotoButtons";
+import { motion } from "framer-motion";
 
 
 
 export function Capa() {
   return (
-    <div
+    <motion.div
       id="vid"
       className="mt-10 flex justify-center items-center flex-wrap
-    n2:mt-10
-    n3:mt-6
-    n4:mt-6
-    n5:mt-6
-    n6:mt-4
-    n7:mt-4
-    "
+      n2:mt-10
+      n3:mt-6
+      n4:mt-6
+      n5:mt-6
+      n6:mt-4
+      n7:mt-4
+      "
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+      duration: 0.8,
+      delay: 0.4,
+      ease: [0, 0.71, 0.2, 1.01],
+      }}
     >
       <video
         className="m-auto  opacity-25 object-cover
@@ -31,6 +39,6 @@ export function Capa() {
         src="/video-capa.mp4"
       ></video>
       <PhotoButtons />
-    </div>
+    </motion.div>
   );
 }
