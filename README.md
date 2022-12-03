@@ -1,6 +1,6 @@
 
 
-<h1 align="center">NLW Ignite eSports 2022</h1>
+<h1 align="center">WebSite Portfólio</h1>
 
 
 <p align="center">
@@ -14,7 +14,7 @@
 </div>
 
 
-## 🚀 Tecnologias
+## Tecnologias
 
 <h2>Global</h2><br>
 
@@ -26,7 +26,7 @@
 
 <br><br>
 
-## 🔖 Projeto
+## Projeto
 Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus trabalhos pessoais como Software Engineer.
 <p> 
 
