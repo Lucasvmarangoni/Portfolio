@@ -1,9 +1,11 @@
+import { motion } from "framer-motion";
+
 export function TextCapa() {
   return (
     <>
-      <div className="mb-2 text-center">
-        <h1
-          className="text-T2 font-medium 
+      <div
+        className="mb-2 text-center">
+        <h1 className="text-T2 font-medium 
         n0:text-2xl n0:text-left
         n1:text-2xl n1:text-left
         n2:text-2xl n2:text-left
@@ -28,7 +30,7 @@ export function TextCapa() {
         >
           Lucas Vazzoller Marangoni
         </h1>
-      </div>
+      </div>      
       <p className="mb-1 ">
         Estou no inicio da profissão de
         <span className="text-T1"> Software Engineer</span>, cursando Analise e

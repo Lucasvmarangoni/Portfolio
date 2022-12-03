@@ -15,7 +15,7 @@ export function PhotoButtons() {
   return (
     <div className="grid absolute">
       <div
-        className="m-auto flex justify-center items-center gap-5
+        className="m-auto flex justify-center items-center gap-0
         n0:flex
         n1:flex
         n2:flex 
