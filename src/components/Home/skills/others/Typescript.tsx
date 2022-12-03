@@ -36,7 +36,7 @@ export const Typescript = () => {
               evento promovido pela RocketSeat.
             </p>
             <p className="P">
-              Utilizei TypeScript no desenvolvimento desse site.
+              Utilizei TypeScript no desenvolvimento desse website.
             </p>
           </div>
 

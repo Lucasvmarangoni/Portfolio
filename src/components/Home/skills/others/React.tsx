@@ -23,9 +23,9 @@ export const Reactjs = () => {
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <p className="P">
-              Aprendi enquanto praticava, com documentação e youtube, também
-              aprendi enquanto participei e fiz o projeto do evento NLW da
-              RocketSeat
+              Aprendi enquanto participei e fiz o projeto do evento NLW da
+              RocketSeat. Mas principalmente, com documentação e youtube,
+              enquanto desenvolvi esse website.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export const Reactjs = () => {
               evento promovido pela RocketSeat.
             </p>
             <p className="P">
-              Utilizei React.js, no desenvolvimento desse site, também de
+              Utilizei React.js, no desenvolvimento desse website, também de
               componentes a biblioteca de componentes Radix UI
             </p>
             <p className="P">

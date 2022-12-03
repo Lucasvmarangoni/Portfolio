@@ -40,7 +40,7 @@ export const Vitejs = () => {
               sistema para jogadores online encontrarem equipes, no NLW Ignite
               eSports, evento promovido pela RocketSeat.
             </p>
-            <p className="P">Utilizei Vite.js no desenvolvimento desse site.</p>
+            <p className="P">Utilizei Vite.js no desenvolvimento desse website.</p>
           </div>
 
           <div className="Dgrid">
