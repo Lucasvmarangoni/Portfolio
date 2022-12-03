@@ -86,7 +86,7 @@ export function PhotoButtons() {
                 n4:w-56 n4:h-full
                 n5:w-56 n5:h-full
                 n6:w-44 n6:h-full
-                n7:w-40 n7:h-full"
+                n7:w-44 n7:h-full"
                 src="https://www.codewars.com/users/Ldragk/badges/small"
                 alt="Perfil Ldragk CodeWar"
               />
