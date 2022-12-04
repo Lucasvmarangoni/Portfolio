@@ -8,7 +8,7 @@ export const Database = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="/database.png" alt="" />
+        <img className="IMG" src="/database1.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>
