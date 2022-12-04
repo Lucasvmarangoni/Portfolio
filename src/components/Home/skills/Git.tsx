@@ -6,7 +6,7 @@ export const Git = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="/git.png" alt="" />
+        <img className="IMG" src="/git1.png" alt="" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>
