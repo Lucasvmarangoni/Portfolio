@@ -10,7 +10,7 @@ import "./styles.css";
 import { Link, NavLink } from "react-router-dom";
 import { Contato } from "./Contato";
 
-var pathname = window.location.pathname;
+const pathname = window.location.pathname;
 const link: any = document.querySelector("link");
 const href:any = pathname == "/portfolio" ? link.setAttribute("to", "/portfolio") : link.setAttribute("to", "/")
 
