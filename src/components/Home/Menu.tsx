@@ -10,6 +10,11 @@ import "./styles.css";
 import { Link, NavLink } from "react-router-dom";
 import { Contato } from "./Contato";
 
+var pathname = window.location.pathname;
+const link: any = document.querySelector("link");
+const href:any = pathname == "/portfolio" ? link.setAttribute("to", "/portfolio") : link.setAttribute("to", "/")
+
+
 export const Menu = () => {
   const [bookmarksChecked, setBookmarksChecked]: any = React.useState(true);
   const [urlsChecked, setUrlsChecked]: any = React.useState(false);
@@ -42,7 +47,7 @@ export const Menu = () => {
           </DropdownMenu.Item>
 
           <DropdownMenu.Item className="menu">
-            <Link to="/">
+            <Link id="link" to={href} >
               <button className="">
                 <Contato />
               </button>
