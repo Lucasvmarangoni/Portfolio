@@ -21,9 +21,18 @@ export const Git = () => (
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
-              <p className="P">
-                Aprendi enquanto fiz os projetos dos eventos da RokectSeat e,
-                também, usando durante meus estudos.
+              <img src="/rocketseat.png" alt="" />
+              <p className="P">RocketSeat - Discover</p>
+            </div>
+          </div>
+
+          <div className="Dgrid">
+            <h2 className="H2">Prática</h2>
+            <div className="P">
+              <p>
+                Inialmente aprendi no meu primeiro projeto da RockeSeat, o NLW
+                eSports, posteriormente continuei usando em meus estudos, até
+                que cheguei nessa parte do curso Discover.
               </p>
             </div>
           </div>
