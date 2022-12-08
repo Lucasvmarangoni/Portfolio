@@ -60,7 +60,7 @@ export function PhotoButtons() {
             alt="Foto do perfil"
           />
 
-          {/* <motion.div
+          <motion.div
             className="flex items-center justify-center gap-2              
           "
             initial={{ opacity: 0, scale: 0.5 }}
@@ -91,7 +91,7 @@ export function PhotoButtons() {
                 alt="Perfil Ldragk CodeWar"
               />
             </a>
-          </motion.div> */}
+          </motion.div>
 
           <div
             className="mt-1 flex justify-center gap-1
