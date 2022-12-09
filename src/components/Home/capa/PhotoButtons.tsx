@@ -185,7 +185,7 @@ export function PhotoButtons() {
                 className="buttons
                 n5:w24
               "
-                href="https://ldragk.github.io/Curriculo/"
+                href="../.github/Curriculo.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
