@@ -30,9 +30,12 @@ export const Git = () => (
             <h2 className="H2">Prática</h2>
             <div className="P">
               <p>
-                Inialmente aprendi no meu primeiro projeto da RockeSeat, o NLW
+                Inicialmente aprendi no meu primeiro projeto da RockeSeat, o NLW
                 eSports, posteriormente continuei usando em meus estudos, até
-                que cheguei nessa parte do curso Discover.
+                que cheguei nessa parte do curso Discover, apesar de ter
+                assistido com atenção as aulas, não tive situações que me
+                exigissem usar o Git de forma mais avançada e pelo terminal, das
+                vezes que usei foram pelo VS Code.
               </p>
             </div>
           </div>
