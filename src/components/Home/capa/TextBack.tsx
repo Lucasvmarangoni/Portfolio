@@ -16,12 +16,11 @@ export function TextBack() {
         A escolha do DevSecOps
       </h1>
       <p className="">
-        Sempre tive interesse por hacking e CyberSecurity, mas não só pela
-        segurança cibernética, também sempre fui muito ligado em sistemas de
-        segurança e defesa, acredito que por influência de filmes e animes.
-        Contudo, também gosto de codar, por isso decidi unir o desenvolvimento
-        de software à minha aptidão pela segurança, com o DevSecOps, que tem como
-        objetivo a segurança de aplicações e sistemas.
+        Sempre tive interesse por hacking e CyberSecurity, mas além da segurança
+        cibernética, também sempre fui muito ligado em sistemas de segurança e
+        defesa. Contudo, também gosto de codar, por isso decidi unir o
+        desenvolvimento de software à minha aptidão pela segurança, com o
+        DevSecOps, que tem como objetivo a segurança de aplicações e sistemas.
       </p>
     </>
   );
