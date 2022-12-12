@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 export function TextCapa() {
   return (
     <>
-      <div
-        className="mb-2 text-center">
-        <h1 className="text-T2 font-medium 
+      <div className="mb-2 text-center">
+        <h1
+          className="text-T2 font-medium 
         n0:text-2xl n0:text-left
         n1:text-2xl n1:text-left
         n2:text-2xl n2:text-left
@@ -30,14 +30,15 @@ export function TextCapa() {
         >
           Lucas Vazzoller Marangoni
         </h1>
-      </div>      
+      </div>
       <p className="mb-1 ">
         Estou no inicio da profissão de
-        <span className="text-T1"> Software Engineer</span>, cursando Analise e
-        desenvolvimento de sistemas na PUC Minas.
+        <span className="text-T1"> Software Engineer</span>, atualmente cursando
+        Analise e desenvolvimento de sistemas na PUC Minas.
       </p>
       <p className="">
-        Meu objetivo é de me especializar no Back-end e em
+        Meu objetivo é trabalhar no Back-end e me especializar em
+        <span className="text-T1"> CyberSecurity</span> e{" "}
         <span className="text-T1"> DevSecOps</span>.
       </p>
     </>
