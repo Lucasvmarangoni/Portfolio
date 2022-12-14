@@ -23,9 +23,10 @@ export const Reactjs = () => {
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <p className="P">
-              Aprendi enquanto participei e fiz o projeto do evento NLW da
-              RocketSeat. Mas principalmente, com documentação e youtube,
-              enquanto desenvolvi esse website.
+              inicialmente aprendi enquanto participei e fiz o projeto do evento
+              NLW da RocketSeat, mas principalmente com documentação e youtube
+              durante o desenvolvimento desse website. Posteriormente, alcancei
+              o modulo de React no curso Discover - Especializar.
             </p>
           </div>
 
