@@ -15,7 +15,7 @@ function App() {
       </Routes>
       <motion.div
         className="text-T1 text-xs text-center flex justify-center items-end
-        n2:mt-10
+        n2:mt-9
         n3:mt-6
         n4:mt-6
         n5:mt-6
