@@ -17,10 +17,11 @@ export function BackText() {
       </h1>
       <p className="">
         Sempre tive interesse por hacking e CyberSecurity, mas além da segurança
-        cibernética, também sempre fui muito ligado em sistemas de segurança e
-        defesa. Contudo, também gosto de codar, por isso decidi unir o
-        desenvolvimento de software à minha aptidão pela segurança, com o
-        DevSecOps, que tem como objetivo a segurança de aplicações e sistemas.
+        cibernética, também sempre fui muito ligado em sistemas de segurança
+        residencial e defesa pessoal. Contudo, gosto e tenho prazer em
+        programar, por isso decidi unir o desenvolvimento de software à minha
+        aptidão pela segurança, com o DevSecOps, que tem como objetivo a
+        segurança de aplicações e sistemas.
       </p>
     </>
   );
