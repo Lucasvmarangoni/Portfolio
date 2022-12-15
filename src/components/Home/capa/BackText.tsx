@@ -1,4 +1,4 @@
-export function TextBack() {
+export function BackText() {
   return (
     <>
       <h1

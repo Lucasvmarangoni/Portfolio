@@ -1,17 +1,25 @@
 import ReactDOMServer from "react-dom/server";
-import { TextBack } from "./TextBack";
+import { BackText } from "./BackText";
 import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
+import React, { useState } from "react";
 
-const click = () => {
-  const text: any = document.querySelector("#texto");
-
-  text.innerHTML == ReactDOMServer.renderToString(<TextCapa />)
-    ? (text.innerHTML = ReactDOMServer.renderToString(<TextBack />))
-    : (text.innerHTML = ReactDOMServer.renderToString(<TextCapa />));
-};
 
 export function PhotoButtons() {
+  let [texts, setText]: any = useState(0);
+  const obejctTexts: any = [<TextCapa />, <BackText />];
+  function click() {    
+    setText(
+      texts == 0
+        ? (texts = 1)
+        : (texts = 0)
+    );
+    // const text: any = document.querySelector("#texto");
+    // text.innerHTML == ReactDOMServer.renderToString(<TextCapa />)
+    //   ? (text.innerHTML = ReactDOMServer.renderToString(<BackText />))
+    //   : (text.innerHTML = ReactDOMServer.renderToString(<TextCapa />));
+  }
+
   return (
     <div className="grid absolute">
       <div
@@ -173,9 +181,9 @@ export function PhotoButtons() {
             </motion.div>
 
             <motion.div
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
                 duration: 0.6,
                 delay: 0.9,
                 ease: [0, 0.71, 0.2, 1.01],
@@ -219,15 +227,16 @@ export function PhotoButtons() {
         n5:w-[350px] n5:text-xs n5:m-auto 
         n6:w-[300px] n6:text-xs n6:m-auto
         n7:w-[200px] n7:text-xs n7:m-auto"
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{
-          duration: 0.6,
-          delay: 1.0,
-          ease: [0, 0.71, 0.2, 1.01],
-        }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.6,
+            delay: 1.0,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
         >
-          <TextCapa />
+          {obejctTexts[texts]}
+          {/* <TextCapa /> */}
         </motion.div>
       </div>
     </div>
