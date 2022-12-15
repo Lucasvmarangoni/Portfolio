@@ -14,7 +14,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       <motion.div
-        className="text-T1 text-xs text-center flex justify-center items-end
+        className="text-T1 text-sm text-center flex justify-center items-end
         n2:mt-10
         n3:mt-6
         n4:mt-6
