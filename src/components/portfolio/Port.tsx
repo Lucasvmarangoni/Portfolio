@@ -62,10 +62,10 @@ export const Port = () => {
             <div className="mt-2">
               <p className="P">
                 Projeto Web desenvolvido para minha apresentação pessoal e
-                exposição de meus projetos pessoais como Software Engineer.
-                Também utilizo para praticar o que aprendo nos cursos que faço,
+                exposição de meus projetos pessoais como Software Engineer. <br />
+                Também utilizo para praticar o que aprendo em cursos,
                 por esse motivo busco sempre aplicar o máximo de funcionalidades
-                possíveis, sem deixar que isso prejudique a qualidade e objetivo
+                possíveis, sem deixar que isso prejudique a qualidade e o objetivo
                 do site.
               </p>
 
