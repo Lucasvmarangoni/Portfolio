@@ -13,6 +13,7 @@
   .projCapa {
     @apply 
     rounded-xl
+    opacity-50
     n0:w-[27rem]
     n1:w-[22rem]
     n2:w-[27rem]    
@@ -24,7 +25,8 @@
   }  
   .imgTitle {
     @apply 
-    text-T2 
+    text-T4 
+    font-semibold
     text-lg 
     m-auto;    
   }
