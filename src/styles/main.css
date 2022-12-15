@@ -10,8 +10,9 @@
   outline: none;
 }
 
-*::-webkit-scrollbar {
-  background: #030303;
+*::-webkit-scrollbar {  
+  scroll-behavior: auto;
+  width: 0px;
 }
 
 ::-moz-selection {
@@ -38,13 +39,10 @@
     after:opacity-0 
     after:transition-[0.5s] 
     hover:after:opacity-[1]     
-    hover:pr-6
-    opacity-50 
-    rounded-md 
-   
+    hover:pr-6    
+    rounded-md    
     w-28 
-    justify-center 
-    hover:opacity-50;
+    justify-center     
   }
   .buttons {
     @apply w-24

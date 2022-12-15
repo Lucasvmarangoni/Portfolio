@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export function Skills() {
   return (
     <motion.div
-      className="h-[75px] bg-BGH m-auto mt-10
+      className="h-[75px] bg-BGH m-auto mt-10 brightness-150  
        n0:w-[1030px]   
        n1:w-[830px]    
        n2:w-[781px] n2:mt-10
@@ -27,7 +27,7 @@ export function Skills() {
       }}
     >
       <div
-        className="h-[75px] flex items-center justify-center
+        className="h-[75px] flex items-center justify-center 
       n0:w-[1030px]   
       n1:w-[830px]    
       n2:w-[781px] 
@@ -39,7 +39,7 @@ export function Skills() {
       "
       >
         <div
-          className="box-border flex gap-10
+          className="box-border flex gap-10 mt-1
         n6:gap-10 n6:p-0
         n7:gap-4 n7:p-2"
         >

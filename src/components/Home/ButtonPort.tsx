@@ -11,7 +11,7 @@ export const ButtonPort = () => {
     n7:mt-4
     ">
       <button
-        className="bg-[#141414fa] hover:bg-Bhover text-T1 w-48 h-16 font-medium hover:text-T2 text-3xl
+        className="bg-BGH hover:bg-Bhover brightness-150  font-medium text-T4 w-48 h-16 hover:text-T2 text-3xl
         setinha hover:after:right-5"
       >
         <Link to="/portfolio">

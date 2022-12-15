@@ -23,8 +23,9 @@ module.exports = {
     },   
     textColor: {
       'T1': '#55396285',
-      'T2': '#ffffff85',
-      'T3': '#030303'
+      'T2': '#ffffff85',      
+      'T3': '#030303',
+      'T4': '#4829575b',
     },
     animation: {
       'contentShow': '150ms cubic-bezier(0.16, 1, 0.3, 1)',

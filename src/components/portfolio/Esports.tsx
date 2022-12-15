@@ -18,12 +18,7 @@ export const Esports = () => {
       <Dialog.Trigger asChild className="m-auto       ">
         <div className="divCapa">
           <button onMouseOver={onMouse} onMouseOut={outMouse}>
-            <img
-              id="mouse"
-              className="projCapa"
-              src="/Hnlw.jpg"
-              alt=""
-            />
+            <img id="mouse" className="projCapa" src="/Hnlw.jpg" alt="" />
           </button>
           <h2 className="imgTitle">NLW ESports Ignite</h2>
         </div>
@@ -42,11 +37,7 @@ export const Esports = () => {
             </div>
 
             <div className="Icon">
-              <img
-                className="h-5"
-                src="/github-proj.png"
-                alt=""
-              />
+              <img className="h-5" src="/github-proj.png" alt="" />
               <a
                 className="hover:underline"
                 href="https://github.com/Ldragk/NLW-Ignite-2022"
@@ -69,7 +60,7 @@ export const Esports = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
-                  Typescript, Node.js, Express, SQLite, Prisma Studio, React.js, 
+                  Typescript, Node.js, Express, SQLite, Prisma Studio, React.js,
                   Vite.js, Axios, Tailwind{" "}
                 </p>
               </div>
@@ -78,7 +69,7 @@ export const Esports = () => {
 
           <Dialog.Close asChild>
             <button className="IconButton">
-              <Cross2Icon />
+              <Cross2Icon color="#ffffff85" />
             </button>
           </Dialog.Close>
         </Dialog.Content>

@@ -28,11 +28,11 @@ export const Python = () => (
           </div>
 
           <div className="Dgrid">
-              <h2 className="H2">Prática</h2>
-              <p className="P">
-                Desenvolvi alguns pequenos projetos para praticar durante o curso.
-              </p>
-            </div>         
+            <h2 className="H2">Prática</h2>
+            <p className="P">
+              Desenvolvi alguns pequenos projetos para praticar durante o curso.
+            </p>
+          </div>
 
           <div className="Dgrid">
             <h2 className="H2">Projetos</h2>
@@ -47,7 +47,7 @@ export const Python = () => (
 
         <Dialog.Close asChild>
           <button className="IconButton">
-            <Cross2Icon />
+            <Cross2Icon color="#ffffff85" />
           </button>
         </Dialog.Close>
       </Dialog.Content>

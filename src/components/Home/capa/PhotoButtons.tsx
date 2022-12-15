@@ -88,13 +88,13 @@ export function PhotoButtons() {
               <img
                 className="w-72 opacity-25
                 n0:w-72 n0:h-full
-                n1:w-64 n1:h-full
+                n1:w-72 n1:h-full
                 n2:w-56 n2:h-full
-                n3:w-60 n3:h-full
-                n4:w-56 n4:h-full
-                n5:w-56 n5:h-full
-                n6:w-44 n6:h-full
-                n7:w-44 n7:h-full"
+                n3:w-64 n3:h-full
+                n4:w-64 n4:h-full
+                n5:w-60 n5:h-full
+                n6:w-60 n6:h-full
+                n7:w-48 n7:h-full"
                 src="https://www.codewars.com/users/Ldragk/badges/small"
                 alt="Perfil Ldragk CodeWar"
               />

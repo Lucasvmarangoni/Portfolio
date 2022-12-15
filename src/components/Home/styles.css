@@ -25,7 +25,8 @@
   }
   .IMG {
     @apply cursor-pointer 
-    opacity-80 
+    opacity-60
+    brightness-105
     hover:opacity-50        
     translate-x-2
     relative
@@ -118,13 +119,10 @@
     font-bold;
   }
   .IconButton {
-    @apply rounded-[100%] 
-    flex 
-    items-center 
-    justify-center 
+    @apply 
+    p-2
     absolute 
-    top-3 
-    right-3;
+    right-0    
   }
   .Ferramentas {
     @apply 

@@ -53,7 +53,7 @@ export const Security = () => (
 
         <Dialog.Close asChild>
           <button className="IconButton">
-            <Cross2Icon />
+            <Cross2Icon color="#ffffff85" />
           </button>
         </Dialog.Close>
       </Dialog.Content>

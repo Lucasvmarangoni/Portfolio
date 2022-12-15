@@ -9,7 +9,7 @@ export const button1: any = document.querySelector("#button1");
 
 export function Header() {
   return (
-    <header className="h-11 bg-BGH flex items-center justify-center">
+    <header className="h-11 w-full bg-BGH brightness-150 flex items-center justify-center">
       <div
         className="flex justify-between items-center absolute
        n0:w-[1030px]   
@@ -24,7 +24,7 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T1 font-medium text-xl flex gap-2 items-center hover:opacity-50 hover:text-[1.29rem]
+          className="text-T4 font-medium text-xl flex gap-2 items-center hover:opacity-50 hover:text-[1.29rem]
           n4:text-xl
           n5:text-base
           n6:text-base
@@ -33,7 +33,7 @@ export function Header() {
         >
           <img
             id="img"
-            className="w-6 opacity-50"
+            className="w-6 opacity-30"
             src="/logo.png"
             alt=""
           />
@@ -43,7 +43,7 @@ export function Header() {
         </button>
 
         <div          
-          className="text-T1  items-center gap-5 right-0 top-0        
+          className="text-T4  items-center gap-5 right-0 top-0        
           n2:flex n2:static
           n3:absolute
           n4:absolute

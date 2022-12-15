@@ -15,18 +15,12 @@ export const Database = () => (
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
-          <img
-            className="Img"
-            src="/database1.png"
-            alt="Bancos de dados"
-          />
+          <img className="Img" src="/database1.png" alt="Bancos de dados" />
           Bancos de dados
         </Dialog.Title>
 
         <Dialog.Description>
-
-
-         <SQLite />
+          <SQLite />
         </Dialog.Description>
 
         <Dialog.Close asChild>
@@ -35,7 +29,7 @@ export const Database = () => (
 
         <Dialog.Close asChild>
           <button className="IconButton">
-            <Cross2Icon />
+            <Cross2Icon color="#ffffff85" />
           </button>
         </Dialog.Close>
       </Dialog.Content>

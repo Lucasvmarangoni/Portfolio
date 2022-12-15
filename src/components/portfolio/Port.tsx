@@ -22,7 +22,12 @@ export const Port = () => {
       >
         <div className="divCapa">
           <button>
-            <img id="mouse" className="projCapa border border-[#1b1b1bab]" src="/readme.png" alt="" />
+            <img
+              id="mouse"
+              className="projCapa border border-[#1b1b1bab]"
+              src="/readme.png"
+              alt=""
+            />
           </button>
           <h2 className="imgTitle">Website Portfólio</h2>
         </div>
@@ -52,7 +57,6 @@ export const Port = () => {
                   </a>
                 </div>
               </div>
-    
             </div>
 
             <div className="mt-2">
@@ -64,7 +68,8 @@ export const Port = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
-                  TypeScript, Node NPM, Vite.js, React.js, TailWind, Radix ui, Framer
+                  TypeScript, Node NPM, Vite.js, React.js, TailWind, Radix ui,
+                  Framer
                 </p>
               </div>
             </div>
@@ -72,7 +77,7 @@ export const Port = () => {
 
           <Dialog.Close asChild>
             <button className="IconButton">
-              <Cross2Icon />
+              <Cross2Icon color="#ffffff85" />
             </button>
           </Dialog.Close>
         </Dialog.Content>

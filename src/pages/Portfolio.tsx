@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export const Portfolio = () => {
   return (
     <motion.div
-      className="mt-10 w-[1030px] py-20 bg-BGH m-auto flex flex-wrap justify-center 
+      className="mt-10 w-[1030px] py-20 bg-BGH brightness-150 m-auto flex flex-wrap justify-center 
        n0:w-[1030px]    
        n1:w-[830px]
        n2:w-[781px] n2:mt-10 n2:gap-14

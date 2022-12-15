@@ -22,12 +22,7 @@ export const Lab01 = () => {
       >
         <div className="divCapa">
           <button>
-            <img
-              id="mouse"
-              className="projCapa"
-              src="/project1.png"
-              alt=""
-            />
+            <img id="mouse" className="projCapa" src="/project1.png" alt="" />
           </button>
           <h2 className="imgTitle">Explorer Lab 01</h2>
         </div>
@@ -48,11 +43,7 @@ export const Lab01 = () => {
             <div className="flex gap-1">
               <div className="flex gap-2">
                 <div className="Icon">
-                  <img
-                    className="h-5"
-                    src="/github-proj.png"
-                    alt=""
-                  />
+                  <img className="h-5" src="/github-proj.png" alt="" />
                   <a
                     className="hover:underline"
                     href="https://github.com/Ldragk/Explorer-Lab-01"
@@ -108,7 +99,7 @@ export const Lab01 = () => {
 
           <Dialog.Close asChild>
             <button className="IconButton">
-              <Cross2Icon />
+              <Cross2Icon color="#ffffff85" />
             </button>
           </Dialog.Close>
         </Dialog.Content>

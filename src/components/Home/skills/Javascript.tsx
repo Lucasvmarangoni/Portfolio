@@ -70,10 +70,11 @@ export const Javascript = () => (
             <Vitejs />
           </Dialog.Close>
         </div>
+        
 
         <Dialog.Close asChild>
           <button className="IconButton">
-            <Cross2Icon />
+            <Cross2Icon color="#ffffff85"/>
           </button>
         </Dialog.Close>
       </Dialog.Content>
