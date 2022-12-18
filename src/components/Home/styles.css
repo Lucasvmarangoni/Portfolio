@@ -66,7 +66,7 @@
   }
   .DialogContent {
     @apply bg-BG 
-    p-7 
+    p-3 
     rounded-md 
     grid 
     gap-5 
@@ -121,7 +121,7 @@
   .IconButton {
     @apply 
     p-2
-    absolute 
+    absolute    
     right-0    
   }
   .Ferramentas {

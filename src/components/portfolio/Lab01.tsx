@@ -30,12 +30,13 @@ export const Lab01 = () => {
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent focus:outline-none">
-          <Dialog.Title className="DialogTitle"></Dialog.Title>
-
-          <Dialog.Description className="Dgrid">
+          <Dialog.Title className="DialogTitle">
             <h1 className="projTitle">
               Explorer Lab 01 - <span className="projYear">2022</span>
             </h1>
+          </Dialog.Title>
+
+          <Dialog.Description className="Dgrid">
             <div id="img" className="banner">
               <video controls src="/Explorerlab.mp4"></video>
             </div>

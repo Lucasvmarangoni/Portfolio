@@ -35,12 +35,13 @@ export const Port = () => {
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent focus:outline-none">
-          <Dialog.Title className="DialogTitle"></Dialog.Title>
-
-          <Dialog.Description className="Dgrid">
+          <Dialog.Title className="DialogTitle">
             <h1 className="projTitle">
               Website Portfólio - <span className="projYear">2022</span>
             </h1>
+          </Dialog.Title>
+
+          <Dialog.Description className="Dgrid">
             <div id="img" className="banner">
               <img src="/readme.png"></img>
             </div>
@@ -62,11 +63,12 @@ export const Port = () => {
             <div className="mt-2">
               <p className="P">
                 Projeto Web desenvolvido para minha apresentação pessoal e
-                exposição de meus projetos pessoais como Software Engineer. <br />
-                Também utilizo para praticar o que aprendo em cursos,
-                por esse motivo busco sempre aplicar o máximo de funcionalidades
-                possíveis, sem deixar que isso prejudique a qualidade e o objetivo
-                do site.
+                exposição de meus projetos pessoais como Software Engineer.{" "}
+                <br />
+                Também utilizo para praticar o que aprendo em cursos, por esse
+                motivo busco sempre aplicar o máximo de funcionalidades
+                possíveis, sem deixar que isso prejudique a qualidade e o
+                objetivo do site.
               </p>
 
               <div className="divTec">
