@@ -23,6 +23,10 @@ export const Typescript = () => {
           <div className="Dgrid">
             <h2 className="H2">Formação</h2>
             <div className="LogoImg">
+              <img src="/rocketseat.png" alt="" />
+              <p className="P">RocketSeat - Discover</p>
+            </div>
+            <div className="LogoImg">
               <img src="/udemy.png" alt="" />
               <p className="P">TypeScript - Porof. Matheus Fraga - Udemy.</p>
             </div>
