@@ -2,6 +2,7 @@ import { Esports } from "../components/portfolio/Esports";
 import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { motion } from "framer-motion";
+import { Hidden } from "../components/portfolio/Hidden";
 
 export const Portfolio = () => {
   return (
@@ -59,6 +60,8 @@ export const Portfolio = () => {
       >
         <Port />
       </motion.div>
+
+      <Hidden />
     </motion.div>
   );
 };

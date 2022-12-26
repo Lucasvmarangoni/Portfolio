@@ -3,24 +3,20 @@ import { Cross2Icon } from "@radix-ui/react-icons";
 import { Slides } from "../functions/Slides";
 import "./styles.css";
 
-export const Port = () => {
+export const Hidden = () => {
   return (
     <Dialog.Root>
-      <Dialog.Trigger
-        asChild
-        className="m-auto 
-     "
-      >
+      <Dialog.Trigger asChild>
         <div className="divCapa">
           <button>
             <img
               id="mouse"
-              className="projCapa border border-[#1b1b1bab]"
-              src="/readme.png"
+              className="projCapa"
+              src=""
               alt=""
             />
           </button>
-          <h2 className="imgTitle">Website Portfólio</h2>
+          
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
