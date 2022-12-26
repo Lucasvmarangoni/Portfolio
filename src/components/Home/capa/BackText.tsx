@@ -1,28 +1,18 @@
 export function BackText() {
   return (
-    <>
-      <h1
-        className="text-T1 font-semibold text-2xl mb-1
-       n0:text-2xl
-       n1:text-2xl
-       n2:text-2xl n2:text-left
-       n3:text-base 
-       n4:text-sm 
-       n5:text-xs
-       n6:text-xs
-       n7:text-xs
-      "
-      >
-        A escolha do DevSecOps
-      </h1>
+    <div>
       <p className="">
-        Sempre tive interesse por hacking e CyberSecurity, mas além da segurança
-        cibernética, também sempre fui muito ligado em sistemas de segurança
-        residencial e defesa pessoal. Contudo, gosto e tenho prazer em
-        programar, por isso decidi unir o desenvolvimento de software à minha
-        aptidão pela segurança, com o DevSecOps, que tem como objetivo a
-        segurança de aplicações e sistemas.
+        A escolha de ser Desenvolvedor Back-end foi pelas características que
+        essa área possui, que correspondem mais as minhas características
+        pessoais. A CyberSecurity sempre me interessou, principalmente pela
+        seriedade que envolve, o que causa uma sensaçao de adrenalina, e por
+        isso pretendo me especializar.
       </p>
-    </>
+      <p>
+        Nesse momento estou concentrando meus estudos estudos de Back-end,
+        enquanto paralelamente e de forma subsidiária estudo Engenharia de
+        software e CyberSecurity.
+      </p>
+    </div>
   );
 }
