@@ -1,11 +1,17 @@
 export function BackText() {
   return (
-    <p className="">
-      A escolha de ser Desenvolvedor Back-end foi pelas características que essa
-      área possui, que correspondem mais às minhas características pessoais. A
-      CyberSecurity sempre me interessou, principalmente pela seriedade que
-      envolve, o que causa uma sensação de adrenalina, por isso pretendo me
-      especializar.
-    </p>
+    <div>
+      <p className="">
+        Meus estudos estão focados em desenvolvimento Back-end com Node.js, de
+        forma subsidiária estudo Engenharia de Software e segurança de
+        aplicações web.
+      </p>
+      <p>
+        Minha graduação em ADS inicia em 2023, antes disso já tenho estudado a
+        maior parte do conteúdo que será abordado e pretendo iniciar um Pós
+        graduação em Cibersegurança e Governança de Dados durante a graduação de
+        ADS.
+      </p>
+    </div>
   );
 }
