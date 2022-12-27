@@ -8,8 +8,8 @@ export function BackText() {
       <p>
         A graduação em ADS inicia em 2023, antes disso já estou estudando a
         maior parte do conteúdo que será abordado e pretendo iniciar um Pós
-        graduação em Cibersegurança e Governança de Dados durante a graduação de
-        ADS.
+        graduação em Cibersegurança e Governança de Dados durante a
+        graduação.
       </p>
     </div>
   );
