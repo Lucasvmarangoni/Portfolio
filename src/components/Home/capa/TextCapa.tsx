@@ -34,10 +34,11 @@ export function TextCapa() {
       <p className="mb-1 ">
         Estou no inicio da profissão de
         <span className="text-T1"> Software Engineer</span>, atualmente cursando
-        graduação em Analise e desenvolvimento de sistemas na PUC Minas.
+        graduação em analise e desenvolvimento de sistemas na PUC Minas.
       </p>
       <p className="">
-        Meu objetivo é ser desenvolvedor Back-end e me especializar em
+        Sou desenvolvedor <span className="text-T1"> Back-end</span> e
+        futuramente tenho inteção de me especializar em{" "}
         <span className="text-T1"> DevSecOps</span>.
       </p>
     </>
