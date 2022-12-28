@@ -4,16 +4,11 @@ import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 
-
 export function PhotoButtons() {
   let [texts, setText]: any = useState(0);
   const obejctTexts: any = [<TextCapa />, <BackText />];
-  function click() {    
-    setText(
-      texts == 0
-        ? (texts = 1)
-        : (texts = 0)
-    );
+  function click() {
+    setText(texts == 0 ? (texts = 1) : (texts = 0));
     // const text: any = document.querySelector("#texto");
     // text.innerHTML == ReactDOMServer.renderToString(<TextCapa />)
     //   ? (text.innerHTML = ReactDOMServer.renderToString(<BackText />))
@@ -55,7 +50,7 @@ export function PhotoButtons() {
         >
           <img
             onClick={click}
-            className="bg-[#6d6d6d10] rounded-[60px] mb-1 hover:bg-Bhover m-auto cursor-pointer
+            className="bg-[#6d6d6d10] opacity-90  rounded-[60px] mb-1 hover:bg-Bhover m-auto cursor-pointer
             n0:w-[211px]   
             n1:w-[180px]    
             n2:w-[160px]
@@ -67,39 +62,6 @@ export function PhotoButtons() {
             src="/foto-perfil.png"
             alt="Foto do perfil"
           />
-
-          <motion.div
-            className="flex items-center justify-center gap-2              
-          "
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              duration: 0.6,
-              delay: 0.8,
-              ease: [0, 0.71, 0.2, 1.01],
-            }}
-          >
-            <a
-              className="hover:bg-[#6d6d6d0e] rounded-2xl"
-              href="https://www.codewars.com/users/Ldragk"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="w-72 opacity-25
-                n0:w-72 n0:h-full
-                n1:w-72 n1:h-full
-                n2:w-56 n2:h-full
-                n3:w-64 n3:h-full
-                n4:w-64 n4:h-full
-                n5:w-60 n5:h-full
-                n6:w-60 n6:h-full
-                n7:w-48 n7:h-full"
-                src="https://www.codewars.com/users/Ldragk/badges/small"
-                alt="Perfil Ldragk CodeWar"
-              />
-            </a>
-          </motion.div>
 
           <div
             className="mt-1 flex justify-center gap-1

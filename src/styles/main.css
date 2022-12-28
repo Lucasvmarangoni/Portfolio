@@ -45,11 +45,12 @@
     justify-center     
   }
   .buttons {
-    @apply w-24
+    @apply 
+    w-24
     h-8
     py-1 
     bg-[#6d6d6d18] 
-    hover:bg-Bhover 
+    hover:bg-Bhover
     rounded-[5px] 
     text-[#ffffff46]
     text-xs

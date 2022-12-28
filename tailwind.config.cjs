@@ -13,17 +13,17 @@ module.exports = {
       'n5': '464px',
       'n4': '564px',
       'n3': '664px',
-      'n2': '800px',      
-      'n1': '950px',      
-      'n0': '1100px',     
+      'n2': '800px',
+      'n1': '950px',
+      'n0': '1100px',
     },
 
     backgroundSize: {
       "icons": "1px"
-    },   
+    },
     textColor: {
       'T1': '#55396285',
-      'T2': '#ffffff85',      
+      'T2': '#ffffff85',
       'T3': '#030303',
       'T4': '#4829575b',
     },
@@ -40,7 +40,7 @@ module.exports = {
       },
       transitionTimingFunction: {
         'in-menu': 'cubic-bezier(0.16, 1, 0.3, 1)',
-       
+
       }
     },
   },
