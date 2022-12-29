@@ -24,7 +24,7 @@ export const Lab01 = () => {
           <button>
             <img id="mouse" className="projCapa" src="/project1.png" alt="" />
           </button>
-          <h2 className="imgTitle">Explorer Lab 01</h2>
+          <h2 className="imgTitle">ROCKETPAY</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
@@ -32,7 +32,7 @@ export const Lab01 = () => {
         <Dialog.Content className="DialogContent focus:outline-none">
           <Dialog.Title className="DialogTitle">
             <h1 className="projTitle">
-              Explorer Lab 01 - <span className="projYear">2022</span>
+              RocketPay - <span className="projYear">2022</span>
             </h1>
           </Dialog.Title>
 
@@ -88,8 +88,8 @@ export const Lab01 = () => {
                 máscara aos inputs e atualizar elementos HTML via DOM.
               </p>
               <p className="P mt-2">
-                -&gt; Nesse projeto criei, por conta própria, o modelo de cartão
-                com a bandeira ELO.
+                --{">"} Desenvolvido durante o evento Explorer Lab 01 da
+                RokectSeat.
               </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>

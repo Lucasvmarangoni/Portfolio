@@ -20,7 +20,7 @@ export const Port = () => {
               alt=""
             />
           </button>
-          <h2 className="imgTitle">Website Portfólio</h2>
+          <h2 className="imgTitle">WEBSITE PORTFÓLIO</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>

@@ -20,20 +20,19 @@ export const Esports = () => {
           <button onMouseOver={onMouse} onMouseOut={outMouse}>
             <img id="mouse" className="projCapa" src="/Hnlw.jpg" alt="" />
           </button>
-          <h2 className="imgTitle">NLW ESports Ignite</h2>
+          <h2 className="imgTitle"> ESPORTS DUO</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent focus:outline-none">
           <Dialog.Title className="DialogTitle">
-          <h1 className="projTitle">
-              NLW ESports Ignite - <span className="projYear">2022</span>
+            <h1 className="projTitle">
+              Esports Duo - <span className="projYear">2022</span>
             </h1>
           </Dialog.Title>
 
           <Dialog.Description className="Dgrid">
-            
             <div id="img" className="banner">
               <video controls src="/eSports.mp4"></video>
             </div>
@@ -51,13 +50,16 @@ export const Esports = () => {
             <div>
               <p className="P">
                 O projeto tem a finalidade de ajudar jogadores de jogos online a
-                encontrarem uma equipe para jogar, assim possibilita que criem
-                anúncios para que outros jogadores possam ver entrar em contato
-                para jogarem juntos.
+                encontrarem uma dupla, assim possibilita que criem anúncios para
+                que outros jogadores possam entrar em contato.
               </p>
               <p className="P">
                 Nos anúncios é possível informar várias características sobre o
                 jogador e suas preferências de jogabilidade.
+              </p>
+              <p className="P mt-2">
+                --{">"} Desenvolvido durante o evento NLW Esports Ignite da
+                Rocketseat.
               </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
