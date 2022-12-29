@@ -37,8 +37,8 @@ export function TextCapa() {
         graduação em analise e desenvolvimento de sistemas na PUC Minas.
       </p>
       <p className="">
-        Sou desenvolvedor <span className="text-T1"> Back-end</span> e
-        futuramente tenho inteção de me especializar em{" "}
+        Sou desenvolvedor <span className="text-T1"> Back-end</span>, 
+        futuramente tenho intenção de me especializar em{" "}
         <span className="text-T1"> DevSecOps</span>.
       </p>
     </>
