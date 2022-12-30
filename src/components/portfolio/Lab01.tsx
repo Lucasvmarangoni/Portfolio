@@ -92,6 +92,10 @@ export const Lab01 = () => {
                 --{">"} Desenvolvido durante o evento Explorer Lab 01 da
                 RokectSeat.
               </p>
+              <p className="P mt-2">
+                --{">"} O modelo de Cartão Elo é de minha autoria, sendo uma
+                alteração pessoal minha ao projeto do evento.
+              </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
