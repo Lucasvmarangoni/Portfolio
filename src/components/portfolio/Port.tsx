@@ -42,6 +42,8 @@ export const Port = () => {
                 <div className="Icon">
                   <img className="h-5" src="/github-proj.png" alt="" />
                   <a
+                    target={"_blank"}
+                    rel={"noreferrer"}
                     className="hover:underline"
                     href="https://github.com/Ldragk/Portfolio"
                   >

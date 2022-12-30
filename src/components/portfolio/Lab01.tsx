@@ -56,6 +56,7 @@ export const Lab01 = () => {
                 <div className="Icon">
                   <a
                     target={"_blank"}
+                    rel={"noreferrer"}
                     className="setinha font-semibold hover:after:right-4 "
                     href="https://explorer-lab-01-two-lemon.vercel.app/"
                   >
