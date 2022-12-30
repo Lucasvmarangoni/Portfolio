@@ -1,5 +1,4 @@
 import { Database } from "../Home/skills/Database";
-import { Git } from "../Home/skills/Git";
 import { Javascript } from "../Home/skills/Javascript";
 import { Python } from "../Home/skills/Python";
 import { Security } from "../Home/skills/Security";
