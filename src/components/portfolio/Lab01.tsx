@@ -94,7 +94,9 @@ export const Lab01 = () => {
               </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P">JavaScript, JSON, Node NPM, Vite.js, IMask</p>
+                <p className="P">
+                  JavaScript | JSON | Node NPM | Vite.js | IMask |
+                </p>
               </div>
             </div>
           </Dialog.Description>
