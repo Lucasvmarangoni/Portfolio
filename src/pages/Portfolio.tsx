@@ -3,6 +3,7 @@ import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { motion } from "framer-motion";
 import { Hidden } from "../components/portfolio/Hidden";
+import { NotificationsService } from "../components/portfolio/Notifications-service";
 
 export const Portfolio = () => {
   return (
@@ -61,7 +62,23 @@ export const Portfolio = () => {
         <Port />
       </motion.div>
 
-      <Hidden />
+
+
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.8,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
+        <NotificationsService />
+      </motion.div>
+
+      
+
+      {/* <Hidden /> */}
     </motion.div>
   );
 };
