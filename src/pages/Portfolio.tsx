@@ -41,15 +41,40 @@ export const Portfolio = () => {
       n6:w-[350px] 
       n7:w-[240px] "
       >
-        
+        <label
+          aria-label="Pesquise o projeto pela tecnologia."
+          htmlFor="input"
+        ></label>
         <input
+          pattern="Ex: node.js"
           id="input"
           onInput={Search}
-          type="text"
-          placeholder="Pesquise pela tecnologia usada"
-          className="w-80 h-10 px-2 bg-BG text-T2 placeholder:text-[#a0aec042]"
+          autoComplete="on"
+          type="search"
+          placeholder="Pesquise pela tecnologia. Ex: node.js"
+          className="px-2 bg-BG text-T2 text-sm placeholder:text-[#a0aec042]
+          n0:w-80 n0:h-10
+          n1:w-80 n1:h-10
+          n2:w-80 n2:h-10
+          n3:w-80 n3:h-10
+          n4:w-80 n4:h-10
+          n5:w-80 n5:h-10 n5:text-sm
+          n6:w-64 n6:h-8 n6:text-xs
+          n7:w-48 n7:h-6 n7:text-xs
+          "
         />
-        < VscSearch color="#a0aec042" className="bg-BG w-10 h-10 py-2"/>
+        <VscSearch
+          color="#a0aec042"
+          className="bg-BG  pr-2
+           n0:w-8 n0:h-10
+           n1:w-8 n1:h-10
+           n2:w-8 n2:h-10
+           n3:w-8 n3:h-10
+           n4:w-8 n4:h-10
+           n5:w-8 n5:h-10 
+           n6:w-8 n6:h-8
+           n7:w-6 n7:h-6"
+        />         
       </div>
 
       <div
