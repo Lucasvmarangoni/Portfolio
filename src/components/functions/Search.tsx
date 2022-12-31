@@ -2,7 +2,7 @@ const esports =
   "typescript, node.js, react.js, vite.js, prisma studio, sqlite, express, axios, tailwind, radix ui,";
 const lab01 = "javascript, vite.js, tailwind, npm, imask,";
 const port = "typescript, npm, react.js, vite.js, tailwind, radix ui, framer motion,";
-const notServ = "typescript, node.js, nest.js, jest.js, prisma, sqlite,";
+const notServ = "typescript, node.js, nest.js, jest.js, prisma studio, sqlite,";
 
 
 export function Search(t: any) {
