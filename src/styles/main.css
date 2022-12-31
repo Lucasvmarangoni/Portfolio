@@ -71,7 +71,7 @@
 }
 
 input:-webkit-autofill {
-  background-color: #030303;
+  -webkit-box-shadow: 0 0 0 30px #030303 inset;
 }
 
 /* Cor do texto do autocomplete */
