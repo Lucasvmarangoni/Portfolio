@@ -38,8 +38,8 @@ export function TextCapa() {
       </p>
       <p className="">
         Atualmente sou desenvolvedor Full-stack, mas meu objetivo é ser{" "}
-        <span className="text-T1"> Back-end</span> e futuramente tenho intenção
-        de me especializar em <span className="text-T1"> DevSecOps</span>.
+        <span className="text-T1"> Back-end</span>, e futuramente me
+        especializar em <span className="text-T1"> DevSecOps</span>.
       </p>
     </>
   );
