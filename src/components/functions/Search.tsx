@@ -35,18 +35,18 @@ export function Search() {
   const TnotServ: any = document.querySelector("#TnotServ");
 
   esports.includes(filterInput.value.toLowerCase())
-    ? (Tesports.style = "visibility: visible")
-    : (Tesports.style = "visibility: hidden");
+    ? (Tesports.style = "display: flex")
+    : (Tesports.style = "display: none");
 
   lab01.includes(filterInput.value.toLowerCase())
-    ? (Tlab01.style = "visibility: visible")
-    : (Tlab01.style = "visibility: hidden");
+    ? (Tlab01.style = "display: flex")
+    : (Tlab01.style = "display: none");
 
   port.includes(filterInput.value.toLowerCase())
-    ? (Tport.style = "visibility: visible")
-    : (Tport.style = "visibility: hidden");
+    ? (Tport.style = "display: flex")
+    : (Tport.style = "display: none");
 
   notServ.includes(filterInput.value.toLowerCase())
-    ? (TnotServ.style = "visibility: visible")
-    : (TnotServ.style = "visibility: hidden");
+    ? (TnotServ.style = "display: flex")
+    : (TnotServ.style = "display: none");
 }
