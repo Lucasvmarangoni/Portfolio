@@ -10,7 +10,7 @@
   outline: none;
 }
 
-*::-webkit-scrollbar {  
+*::-webkit-scrollbar {
   scroll-behavior: auto;
   width: 0px;
 }
@@ -42,11 +42,10 @@
     hover:pr-6    
     rounded-md    
     w-28 
-    justify-center     
+    justify-center;
   }
   .buttons {
-    @apply 
-    w-24
+    @apply w-24
     h-8
     py-1 
     bg-[#6d6d6d18] 
@@ -65,10 +64,17 @@
 
 .img {
   background-size: 1px;
-  
 }
 
 #input::-webkit-search-cancel-button {
-  -webkit-appearance: none;  
+  -webkit-appearance: none;
 }
 
+input:-webkit-autofill {
+  background-color: #030303;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+  -webkit-text-fill-color: #55396285 !important;
+}

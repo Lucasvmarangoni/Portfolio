@@ -45,14 +45,13 @@ export const Portfolio = () => {
           aria-label="Pesquise o projeto pela tecnologia."
           htmlFor="input"
         ></label>
-        <input
-          pattern="Ex: node.js"
+        <input         
           id="input"
           onInput={Search}
           autoComplete="on"
           type="search"
           placeholder="Pesquise pela tecnologia. Ex: node.js"
-          className="px-2 bg-BG text-T2 text-sm placeholder:text-[#a0aec042]
+          className="px-2 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
           n2:w-80 n2:h-10
