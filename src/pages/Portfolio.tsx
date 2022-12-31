@@ -47,7 +47,7 @@ export const Portfolio = () => {
           onInput={Search}
           type="text"
           placeholder="Pesquise pela tecnologia usada"
-          className="w-80 h-10 bg-BG text-T2 placeholder:text-[#a0aec042]"
+          className="w-80 h-10 px-2 bg-BG text-T2 placeholder:text-[#a0aec042]"
         />
         < VscSearch color="#a0aec042" className="bg-BG w-10 h-10 py-2"/>
       </div>
