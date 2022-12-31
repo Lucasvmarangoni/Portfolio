@@ -1,12 +1,11 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { Slides } from "../functions/Slides";
 import "./styles.css";
 
 export const NotificationsService = () => {
   return (
     <Dialog.Root>
-      <Dialog.Trigger asChild className="m-auto       ">
+      <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
             <img
@@ -58,7 +57,7 @@ export const NotificationsService = () => {
               </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P">
+                <p className="P TnotServ">
                   TypeScript | Node.js | Nest.js | Jest.js | Prisma Studio |
                   SQLite
                 </p>

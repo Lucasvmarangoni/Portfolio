@@ -6,11 +6,7 @@ import "./styles.css";
 export const Port = () => {
   return (
     <Dialog.Root>
-      <Dialog.Trigger
-        asChild
-        className="m-auto 
-     "
-      >
+      <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
             <img
@@ -58,17 +54,16 @@ export const Port = () => {
                 Projeto Web desenvolvido para minha apresentação pessoal e
                 exposição de meus projetos pessoais como Software Engineer.{" "}
                 <br />
-                Também utilizo para praticar o que aprendo em cursos, por esse
-                motivo busco sempre aplicar o máximo de funcionalidades
-                possíveis, sem deixar que isso prejudique a qualidade e o
-                objetivo do site.
+                Também utilizo meu portfólio para praticar, por esse motivo
+                busco sempre aplicar o máximo de funcionalidades possíveis,
+                utilizando recursos diferentes ou mais avançados.
               </p>
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
-                  TypeScript | Node NPM | Vite.js | React.js | TailWind | Radix ui |
-                  Framer Motion |
+                  TypeScript | Node NPM | Vite.js | React.js | TailWind | Radix
+                  ui | Framer Motion |
                 </p>
               </div>
             </div>

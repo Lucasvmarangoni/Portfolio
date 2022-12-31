@@ -12,13 +12,13 @@ const MOut = () => {
   popup.style = "visibility: hidden;";
 };
 
+
 export const Lab01 = () => {
   return (
     <Dialog.Root>
       <Dialog.Trigger
         asChild
-        className="m-auto 
-     "
+        className="m-auto"
       >
         <div className="divCapa">
           <button>

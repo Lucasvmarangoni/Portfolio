@@ -15,7 +15,7 @@ const outMouse = () => {
 export const Esports = () => {
   return (
     <Dialog.Root>
-      <Dialog.Trigger asChild className="m-auto       ">
+      <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button onMouseOver={onMouse} onMouseOut={outMouse}>
             <img id="mouse" className="projCapa" src="/Hnlw.jpg" alt="" />
