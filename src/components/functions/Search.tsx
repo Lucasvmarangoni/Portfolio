@@ -1,28 +1,9 @@
-const esports = [
-  "typescript",
-  "node",
-  "react",
-  "vite",
-  "prisma",
-  "sqlite",
-  "express",
-  "axios",
-  "tailwind",
-  "radix ui",
-  "",
-];
-const lab01 = ["javascript", "vite", "tailwind", "npm", "imask", ""];
-const port = [
-  "typescript",
-  "npm",
-  "react",
-  "vite",
-  "tailwind",
-  "radix ui",
-  "framer motion",
-  "",
-];
-const notServ = ["typescript", "node", "nest", "jest", "prisma", "sqlite", ""];
+const esports =
+  "typescript, node, react, vite, prisma, sqlite, express, axios, tailwind, radix ui,";
+const lab01 = "javascript, vite, tailwind, npm, imask,";
+const port = "typescript, npm, react, vite, tailwind, radix ui, framer motion,";
+const notServ = "typescript, node, nest, jest, prisma, sqlite,";
+
 
 export function Search(t: any) {
   const filterInput: any = document.querySelector("#input");
