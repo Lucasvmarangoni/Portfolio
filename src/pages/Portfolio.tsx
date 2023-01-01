@@ -51,7 +51,7 @@ export const Portfolio = () => {
           autoComplete="on"
           type="search"
           placeholder="Pesquise pela tecnologia. Ex: node.js"
-          className="px-2 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
+          className="px-3 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
           n2:w-80 n2:h-10
@@ -63,7 +63,7 @@ export const Portfolio = () => {
           "
         />
         <VscSearch
-          color="#a0aec042"
+          color="#55396285"
           className="bg-BG  pr-2
            n0:w-8 n0:h-10
            n1:w-8 n1:h-10
