@@ -73,7 +73,7 @@
     fixed 
     top-[50%] 
     n5:top-[50%] 
-    n7:top-[54%] 
+    n7:top-[53%] 
     left-[50%] 
     overflow-y-scroll 
     overflow-x-hidden   
@@ -81,7 +81,7 @@
     -translate-x-1/2 
     -translate-y-1/2 
     w-[90vw] max-w-3xl 
-    max-h-[90vh];
+    max-h-[88vh];
   }
   .DialogTitle {
     @apply text-T1 
