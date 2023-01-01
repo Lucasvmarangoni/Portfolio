@@ -10,7 +10,7 @@ export const Javascript = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
       <button>
-        <img className="IMG" src="/JS.png" alt="" />
+        <img className="IMG" src="/JS.png" alt="Javascript" />
       </button>
     </Dialog.Trigger>
     <Dialog.Portal>

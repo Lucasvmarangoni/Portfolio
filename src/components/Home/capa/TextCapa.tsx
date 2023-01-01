@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Figs } from "../../functions/Figs";
 
 export function TextCapa() {
   return (
@@ -14,7 +15,7 @@ export function TextCapa() {
         n5:text-xs 
         n6:text-xs 
         n7:text-xs"
-        >
+        >{<Figs />}
           Ola, meu nome é
         </h1>
         <h1
@@ -37,7 +38,8 @@ export function TextCapa() {
         graduação em analise e desenvolvimento de sistemas na PUC Minas.
       </p>
       <p className="">
-        Atualmente sou desenvolvedor Full-stack, mas meu objetivo trabalhar somente com
+        Atualmente sou desenvolvedor Full-stack, mas meu objetivo trabalhar
+        somente com
         <span className="text-T1"> Back-end</span>, e futuramente me
         especializar em <span className="text-T1"> DevSecOps</span>.
       </p>

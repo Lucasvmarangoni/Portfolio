@@ -2,7 +2,7 @@ import ReactDOMServer from "react-dom/server";
 import { BackText } from "./BackText";
 import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export function PhotoButtons() {
   let [texts, setText]: any = useState(0);
@@ -30,10 +30,10 @@ export function PhotoButtons() {
       "
       >
         <motion.div
-          className="w-[311px]
-        n0:w-[311px] 
-        n1:w-[311px] 
-        n2:w-[250px]  
+          className=" ml-0
+        n0:w-[230px] 
+        n1:w-[230px] 
+        n2:w-[230px]  
         n3:w-[600px]   
         n4:w-[600px]        
         n5:w-[600px]        
@@ -65,8 +65,8 @@ export function PhotoButtons() {
 
           <div
             className="mt-1 flex justify-center gap-1
-            n0:flex-nowrap
-            n1:flex-nowrap
+            n0:flex-wrap
+            n1:flex-wrap
             n2:flex-wrap
             n3:flex-wrap 
             n4:flex-wrap
@@ -177,7 +177,7 @@ export function PhotoButtons() {
             </motion.div>
           </div>
         </motion.div>
-
+        
         <motion.div
           id="texto"
           className="text-T2 text-xl font-medium text-justify pb-10
@@ -196,7 +196,7 @@ export function PhotoButtons() {
             delay: 1.0,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-        >
+        >          
           {obejctTexts[texts]}
           {/* <TextCapa /> */}
         </motion.div>

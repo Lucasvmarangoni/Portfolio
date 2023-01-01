@@ -46,7 +46,7 @@ export const Portfolio = () => {
           aria-label="Pesquise o projeto pela tecnologia."
           htmlFor="input"
         ></label>
-        <input         
+        <input
           id="input"
           onInput={Search}
           autoComplete="on"
@@ -74,7 +74,7 @@ export const Portfolio = () => {
            n5:w-8 n5:h-10 
            n6:w-8 n6:h-8
            n7:w-6 n7:h-6"
-        />         
+        />
       </div>
 
       <div
