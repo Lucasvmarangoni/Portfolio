@@ -37,7 +37,7 @@ export function TextCapa() {
         graduação em analise e desenvolvimento de sistemas na PUC Minas.
       </p>
       <p className="">
-        Atualmente sou desenvolvedor Full-stack, mas meu objetivo é ser{" "}
+        Atualmente sou desenvolvedor Full-stack, mas meu objetivo trabalhar somente com
         <span className="text-T1"> Back-end</span>, e futuramente me
         especializar em <span className="text-T1"> DevSecOps</span>.
       </p>

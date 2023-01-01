@@ -18,7 +18,7 @@ export const Javascript = () => (
       <Dialog.Content className="DialogContent focus:outline-none">
         <Dialog.Title className="DialogTitle">
           <img className="Img" src="/JS.png" alt="" />
-          <h1>JavaScript</h1>{" "}
+          <h1>JavaScript</h1>
         </Dialog.Title>
 
         <Dialog.Description>
