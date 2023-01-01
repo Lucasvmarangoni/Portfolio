@@ -34,12 +34,13 @@ export const Portfolio = () => {
         className=" flex justify-center items-center
       n0:w-[1030px]
       n1:w-[830px]      
-      n2:w-[781px] 
-      n3:w-[576px] 
-      n4:w-[530px] 
-      n5:w-[430px] 
-      n6:w-[350px] 
-      n7:w-[240px] "
+      n2:w-[781px] n2:pb-0
+      n3:w-[576px] n3:pb-4
+      n4:w-[530px] n4:pb-4
+      n5:w-[430px] n5:pb-4
+      n6:w-[350px] n6:pb-4
+      n7:w-[240px] n7:pb-4
+      "
       >
         <label
           aria-label="Pesquise o projeto pela tecnologia."
@@ -54,8 +55,8 @@ export const Portfolio = () => {
           className="px-3 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
-          n2:w-80 n2:h-10
-          n3:w-80 n3:h-10
+          n2:w-80 n2:h-10 
+          n3:w-80 n3:h-10 
           n4:w-80 n4:h-10
           n5:w-80 n5:h-10 n5:text-sm
           n6:w-64 n6:h-8 n6:text-xs
