@@ -99,7 +99,7 @@ export function Figs() {
     "
     >
       <img
-        className="h-11 opacity-90 "
+        className="h-11 opacity-60 "
         src={`/fig/${randonFig}.png`}
         alt="fig1"
       />
