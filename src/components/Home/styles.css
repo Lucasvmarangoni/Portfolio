@@ -66,14 +66,14 @@
   }
   .DialogContent {
     @apply bg-BG 
-    p-7 
+    p-7     
     rounded-md 
     grid 
     gap-5 
     fixed 
     top-[50%] 
     n5:top-[50%] 
-    n7:top-[60%] 
+    n7:top-[52%] 
     left-[50%] 
     overflow-y-scroll 
     overflow-x-hidden   
@@ -88,8 +88,7 @@
     text-2xl 
     font-semibold 
     flex 
-    gap-3;
-    
+    gap-3;    
   }
   .formacao {
     @apply text-T1 
