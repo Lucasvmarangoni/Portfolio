@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function setPositionFig() {
   const viewportWidth: number = window.innerWidth;
   const figDiv: any = document.querySelector("#figDiv");
-  let randomPosition: number = Math.floor(Math.random() * (0 - 101 + 1)) + 101;
+  let randomPosition: number = 5 //Math.floor(Math.random() * (0 - 101 + 1)) + 101;
   if (randomPosition >= 30 && randomPosition < 60) {
     if (viewportWidth >= 1100) {
       figDiv.style.top = "19%";
@@ -33,7 +33,7 @@ function setPositionFig() {
   } else if (randomPosition < 30) {
     if (viewportWidth >= 1100) {
       figDiv.style.top = "-2%";
-      figDiv.style.left = "30%";
+      figDiv.style.left = "37%";
     } else if (viewportWidth >= 950 && viewportWidth < 1100) {
       figDiv.style.top = "-13%";
       figDiv.style.left = "34%";
