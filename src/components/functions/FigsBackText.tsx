@@ -41,20 +41,20 @@ function setPositionFig() {
       figDiv.style.top = "-1%";
       figDiv.style.left = "38%";
     } else if (viewportWidth >= 664 && viewportWidth < 800) {
-      figDiv.style.top = "62%";
+      figDiv.style.top = "58%";
       figDiv.style.left = "78%";
     } else if (viewportWidth >= 564 && viewportWidth < 664) {
-      figDiv.style.top = "64%";
+      figDiv.style.top = "58%";
       figDiv.style.left = "78%";
     } else if (viewportWidth >= 464 && viewportWidth < 564) {
-      figDiv.style.top = "60%";
-      figDiv.style.left = "73%";
+      figDiv.style.top = "95%";
+      figDiv.style.left = "75%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "59%";
-      figDiv.style.left = "72%";
+      figDiv.style.top = "93%";
+      figDiv.style.left = "74%";
     } else {
-      figDiv.style.top = "43%";
-      figDiv.style.left = "19%";
+      figDiv.style.top = "41%";
+      figDiv.style.left = "16%";
     }
   } else {
     if (viewportWidth >= 1100) {
