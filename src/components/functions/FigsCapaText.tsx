@@ -85,7 +85,7 @@ function setPositionFig() {
   }
 }
 
-export function Figs() {
+export function FigsCapaText() {
   let randonFig: number = Math.floor(Math.random() * (0 - 6 + 1)) + 6;
 
   useEffect(() => {

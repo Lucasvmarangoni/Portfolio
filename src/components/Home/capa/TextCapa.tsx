@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Figs } from "../../functions/Figs";
+import { FigsCapaText } from "../../functions/FigsCapaText";
 
 export function TextCapa() {
   return (
@@ -16,7 +16,7 @@ export function TextCapa() {
         n6:text-xs 
         n7:text-xs"
         >
-          {<Figs />}
+          {<FigsCapaText />}
           Ola, meu nome é
         </h1>
         <h1

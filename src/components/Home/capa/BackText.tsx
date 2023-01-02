@@ -1,6 +1,9 @@
+import { FigsBackText } from "../../functions/FigsBackText";
+
 export function BackText() {
   return (
     <div>
+      {<FigsBackText />}
       <p className="">
         A graduação em ADS inicia em 2023, antes disso já estou estudando a
         maior parte do conteúdo que será abordado. Atualmente meus estudos estão
