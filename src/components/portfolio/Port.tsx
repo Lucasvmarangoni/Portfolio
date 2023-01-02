@@ -58,6 +58,9 @@ export const Port = () => {
                 busco sempre aplicar o máximo de funcionalidades possíveis,
                 utilizando recursos diferentes ou mais avançados.
               </p>
+              <p className="P mt-2">
+                --&gt; Dica: De alguns cliques na foto de perfil.
+              </p>
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
