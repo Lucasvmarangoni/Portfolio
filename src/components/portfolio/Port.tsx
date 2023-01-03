@@ -54,6 +54,10 @@ export const Port = () => {
                 Projeto Web desenvolvido para minha apresentação pessoal e
                 exposição de meus projetos pessoais como Software Engineer.{" "}
                 <br />
+                Busquei por meio desse meu website pessoal transmitir o máximo
+                da minha personalidade, entendendo que isso faz parte do
+                seu objetivo.
+                <br />
                 Também utilizo meu portfólio para praticar, por esse motivo
                 busco sempre aplicar o máximo de funcionalidades possíveis,
                 utilizando recursos diferentes ou mais avançados.
