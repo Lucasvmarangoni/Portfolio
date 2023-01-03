@@ -36,10 +36,18 @@ export const Python = () => (
 
           <div className="Dgrid">
             <h2 className="H2">Projetos</h2>
-            <a href="https://github.com/Ldragk/Recepcao-Hospitalar">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/Recepcao-Hospitalar"
+            >
               <p className="Proj">Recepcao Hospitalar</p>
             </a>
-            <a href="https://github.com/Ldragk/Estoque-de-loja">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/Estoque-de-loja"
+            >
               <p className="Proj">Estoque de loja</p>
             </a>
           </div>

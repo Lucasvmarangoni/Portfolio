@@ -49,7 +49,11 @@ export const Javascript = () => (
 
           <div className="Dgrid">
             <h2 className="H2">Projetos</h2>
-            <a href="https://github.com/Ldragk/Explorer-Lab-01">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/Explorer-Lab-01"
+            >
               <p className="Proj">Explorer Lab 01 </p>
             </a>
           </div>
@@ -70,11 +74,10 @@ export const Javascript = () => (
             <Vitejs />
           </Dialog.Close>
         </div>
-        
 
         <Dialog.Close asChild>
           <button className="IconButton">
-            <Cross2Icon color="#ffffff85"/>
+            <Cross2Icon color="#ffffff85" />
           </button>
         </Dialog.Close>
       </Dialog.Content>

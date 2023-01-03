@@ -35,7 +35,11 @@ export const SQLite = () => {
 
           <div className="Dgrid">
             <h2 className="H2">Projetos</h2>
-            <a href="https://github.com/Ldragk/NLW-Ignite-2022">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/NLW-Ignite-2022"
+            >
               <p className="Proj">NLW Ignite eSports </p>
             </a>
           </div>

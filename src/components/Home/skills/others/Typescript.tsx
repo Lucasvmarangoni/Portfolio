@@ -46,10 +46,18 @@ export const Typescript = () => {
 
           <div className="Dgrid">
             <h2 className="H2">Projetos</h2>
-            <a href="https://github.com/Ldragk/NLW-Ignite-2022">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/NLW-Ignite-2022"
+            >
               <p className="Proj">NLW Ignite eSports </p>
             </a>
-            <a href="https://github.com/Ldragk/Portfolio">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/Portfolio"
+            >
               <p className="Proj">Este site portfólio</p>
             </a>
           </div>

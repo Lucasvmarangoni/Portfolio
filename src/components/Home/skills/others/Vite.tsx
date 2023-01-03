@@ -13,11 +13,7 @@ export const Vitejs = () => {
       <div>
         <Collapsible.Trigger className="CollapsibleTrigger">
           <button className="Button">
-            <img
-              src="/vite.png"
-              alt=""
-              className="IMG w-[30px] h-[30px"
-            />
+            <img src="/vite.png" alt="" className="IMG w-[30px] h-[30px" />
             <p className="Title">Vite.js</p>
             {open ? <Cross2Icon /> : <RowSpacingIcon />}
           </button>
@@ -40,12 +36,18 @@ export const Vitejs = () => {
               sistema para jogadores online encontrarem equipes, no NLW Ignite
               eSports, evento promovido pela RocketSeat.
             </p>
-            <p className="P">Utilizei Vite.js no desenvolvimento desse website.</p>
+            <p className="P">
+              Utilizei Vite.js no desenvolvimento desse website.
+            </p>
           </div>
 
           <div className="Dgrid">
             <h2 className="H2">Projetos</h2>
-            <a href="https://github.com/Ldragk/NLW-Ignite-2022">
+            <a
+              target={"_blank"}
+              rel={"noreferrer"}
+              href="https://github.com/Ldragk/NLW-Ignite-2022"
+            >
               <p className="Proj">NLW Ignite eSports </p>
             </a>
           </div>
