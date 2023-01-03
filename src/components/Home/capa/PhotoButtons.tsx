@@ -207,7 +207,7 @@ export function PhotoButtons() {
           {/* <TextCapa /> */}
         </motion.div>
       </div>
-      <p id="sicret" className="text-T2 font-medium absolute top-[90%]
+      <p id="sicret" className="text-T1 font-medium absolute top-[90%]
       n0:text-xl
       n1:text-xl
       n2:text-base
