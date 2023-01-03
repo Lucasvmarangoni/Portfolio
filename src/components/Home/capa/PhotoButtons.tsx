@@ -2,13 +2,19 @@ import ReactDOMServer from "react-dom/server";
 import { BackText } from "./BackText";
 import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Contar } from "../../functions/ShowText";
 
 export function PhotoButtons() {
+  const primeiroTexto: any = `Você descobriu um segredo!`;
+  const segundoTexto: string = `Pensar na segurança faz parte da minha personalidade!`
   let [texts, setText]: any = useState(0);
   const obejctTexts: any = [<TextCapa />, <BackText />];
   function click() {
     setText(texts == 0 ? (texts = 1) : (texts = 0));
+
+    Contar(primeiroTexto, segundoTexto);
+
     // const text: any = document.querySelector("#texto");
     // text.innerHTML == ReactDOMServer.renderToString(<TextCapa />)
     //   ? (text.innerHTML = ReactDOMServer.renderToString(<BackText />))
@@ -22,11 +28,11 @@ export function PhotoButtons() {
         n0:flex n0:gap-0
         n1:flex n1:gap-0
         n2:flex n2:gap-0 n2:mt-0
-        n3:grid n3:gap-8 n3:mt-10
-        n4:grid n4:gap-8 n4:mt-10
-        n5:grid n5:gap-8 n5:mt-10
-        n6:grid n6:gap-6 n6:mt-10
-        n7:grid n7:gap-4 n7:mt-10
+        n3:grid n3:gap-4 n3:mt-8
+        n4:grid n4:gap-8 n4:mt-8
+        n5:grid n5:gap-8 n5:mt-8
+        n6:grid n6:gap-6 n6:mt-8
+        n7:grid n7:gap-2 n7:mt-8
       "
       >
         <motion.div
@@ -50,7 +56,7 @@ export function PhotoButtons() {
         >
           <img
             onClick={click}
-            className="bg-[#6d6d6d10] opacity-90  rounded-[60px] mb-1 hover:bg-Bhover m-auto cursor-pointer
+            className="bg-[#6d6d6d10] opacity-90  rounded-[60px]  hover:bg-Bhover m-auto cursor-pointer
             n0:w-[211px]   
             n1:w-[180px]    
             n2:w-[160px]
@@ -177,7 +183,7 @@ export function PhotoButtons() {
             </motion.div>
           </div>
         </motion.div>
-        
+
         <motion.div
           id="texto"
           className="text-T2 text-xl font-medium text-justify pb-10
@@ -196,11 +202,21 @@ export function PhotoButtons() {
             delay: 1.0,
             ease: [0, 0.71, 0.2, 1.01],
           }}
-        >          
+        >
           {obejctTexts[texts]}
           {/* <TextCapa /> */}
         </motion.div>
       </div>
+      <p id="sicret" className="text-T2 font-medium absolute top-[90%]
+      n0:text-xl
+      n1:text-xl
+      n2:text-base
+      n3:text-sm
+      n4:text-xs
+      n5:text-xs
+      n6:text-xs
+      n7:text-xs
+      "></p>
     </div>
   );
 }
