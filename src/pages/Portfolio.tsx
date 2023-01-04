@@ -20,7 +20,7 @@ export const Portfolio = () => {
        n4:w-[530px] n4:mt-6 
        n5:w-[430px] n5:mt-6 
        n6:w-[350px] n6:mt-4 
-       n7:w-[240px] n7:mt-4        
+       n7:w-[300px] n7:mt-4        
     "
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
@@ -39,7 +39,7 @@ export const Portfolio = () => {
       n4:w-[530px] n4:pb-4
       n5:w-[430px] n5:pb-4
       n6:w-[350px] n6:pb-4
-      n7:w-[240px] n7:pb-4
+      n7:w-[300px] n7:pb-4
       "
       >
         <label
@@ -60,7 +60,7 @@ export const Portfolio = () => {
           n4:w-80 n4:h-10
           n5:w-80 n5:h-10 n5:text-sm
           n6:w-64 n6:h-8 n6:text-xs
-          n7:w-48 n7:h-6 n7:text-xs
+          n7:w-52 n7:h-8 n7:text-xs
           "
         />
         <VscSearch
@@ -73,7 +73,7 @@ export const Portfolio = () => {
            n4:w-8 n4:h-10
            n5:w-8 n5:h-10 
            n6:w-8 n6:h-8
-           n7:w-6 n7:h-6"
+           n7:w-8 n7:h-8"
         />
       </div>
 

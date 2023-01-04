@@ -8,7 +8,6 @@ export function Contar(a: string, b: string) {
   const viewportWidth: number = window.innerWidth;
 
   if (contador == 10) {
-
     if (viewportWidth >= 1100) {
       sicret.style.left = "60%";
       sicret.style.top = "90%";
@@ -34,8 +33,7 @@ export function Contar(a: string, b: string) {
       sicret.style.left = "30%";
       sicret.style.top = "92%";
     }
-  
-   
+
     const fistSetInterval: any = setInterval(() => {
       if (!fistText.length) {
         sicret.innerHTML = fistText;
@@ -68,7 +66,7 @@ export function Contar(a: string, b: string) {
         sicret.style.left = "18%";
       } else {
         sicret.style.left = "10%";
-      }         
+      }
     }, 1720);
 
     setTimeout(() => {
@@ -92,4 +90,3 @@ export function Contar(a: string, b: string) {
     }, 6000);
   }
 }
-

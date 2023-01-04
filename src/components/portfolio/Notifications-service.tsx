@@ -8,8 +8,7 @@ export const NotificationsService = () => {
       <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
-            <img
-              id="mouse"
+            <img              
               className="projCapa"
               src="/igniteLab04.png"
               alt=""

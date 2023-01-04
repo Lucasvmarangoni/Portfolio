@@ -1,6 +1,5 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { Slides } from "../functions/Slides";
 import "./styles.css";
 
 export const Port = () => {
@@ -9,8 +8,7 @@ export const Port = () => {
       <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
-            <img
-              id="mouse"
+            <img              
               className="projCapa border border-[#1b1b1bab]"
               src="/readme.png"
               alt=""

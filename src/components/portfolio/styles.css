@@ -14,14 +14,14 @@
     @apply 
     rounded-xl
     opacity-50
-    n0:w-[27rem]
-    n1:w-[22rem]
-    n2:w-[27rem]    
-    n3:w-[27rem]     
-    n4:w-[27rem]    
-    n5:w-[22rem]      
-    n6:w-[18rem]      
-    n7:w-[12rem];    
+    n0:w-[27rem] n0:h-[14rem] 
+    n1:w-[22rem] n1:h-[12rem]
+    n2:w-[27rem] n2:h-[14rem]    
+    n3:w-[27rem] n3:h-[14rem]     
+    n4:w-[27rem] n4:h-[14rem]    
+    n5:w-[22rem] n5:h-[12rem]      
+    n6:w-[18rem] n6:h-[10rem]      
+    n7:w-[16rem] n7:h-[9rem];        
   }  
   .imgTitle {
     @apply 
