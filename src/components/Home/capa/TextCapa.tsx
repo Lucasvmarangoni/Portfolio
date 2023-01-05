@@ -34,8 +34,9 @@ export function TextCapa() {
       </div>
       <p className="mb-1 ">
         Estou no inicio da profissão de
-        <span className="text-T1"> Software Engineer</span>, atualmente cursando graduação
-        em analise e desenvolvimento de sistemas na PUC Minas.
+        <span className="text-T1"> Engenheiro de Software</span>, atualmente
+        cursando graduação em analise e desenvolvimento de sistemas na PUC
+        Minas.
       </p>
       <p className="">
         Sou desenvolvedor Full-stack, mas meu objetivo é trabalhar com
