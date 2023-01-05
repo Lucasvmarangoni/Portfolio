@@ -24,7 +24,7 @@ function setPositionFig() {
       figDiv.style.top = "35%";
       figDiv.style.left = "27%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "36%";
+      figDiv.style.top = "35%";
       figDiv.style.left = "24%";
     } else {
       figDiv.style.top = "22%";
@@ -76,7 +76,7 @@ function setPositionFig() {
       figDiv.style.top = "35%";
       figDiv.style.left = "63%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "36%";
+      figDiv.style.top = "35%";
       figDiv.style.left = "67%";
     } else {
       figDiv.style.top = "22%";

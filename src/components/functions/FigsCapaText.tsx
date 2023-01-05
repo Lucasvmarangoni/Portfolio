@@ -24,7 +24,7 @@ function setPositionFig() {
       figDiv.style.top = "35%";
       figDiv.style.left = "27%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "36%";
+      figDiv.style.top = "35%";
       figDiv.style.left = "24%";
     } else {
       figDiv.style.top = "22%";
@@ -50,8 +50,8 @@ function setPositionFig() {
       figDiv.style.top = "60%";
       figDiv.style.left = "73%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "59%";
-      figDiv.style.left = "72%";
+      figDiv.style.top = "58%";
+      figDiv.style.left = "70%";
     } else {
       figDiv.style.top = "43%";
       figDiv.style.left = "19%";
@@ -76,7 +76,7 @@ function setPositionFig() {
       figDiv.style.top = "35%";
       figDiv.style.left = "63%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "36%";
+      figDiv.style.top = "35%";
       figDiv.style.left = "67%";
     } else {
       figDiv.style.top = "22%";
