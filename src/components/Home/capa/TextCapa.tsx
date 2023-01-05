@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { FigsCapaText } from "../../functions/FigsCapaText";
 
 export function TextCapa() {

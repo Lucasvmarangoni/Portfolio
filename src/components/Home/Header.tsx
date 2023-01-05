@@ -1,13 +1,14 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { OnOut, OnOver } from "../../components/functions/OverOut";
 import { Contato } from "./Contato";
 import { Menu } from "./Menu";
-OnOver;
-OnOut;
 
-export const button1: any = document.querySelector("#button1");
+// export const button1: any = document.querySelector("#button1");
 
 export function Header() {
+  OnOver;
+  OnOut;
   return (
     <header className="h-11 w-full bg-BGH brightness-150 flex items-center justify-center">
       <div
@@ -24,25 +25,20 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T4 font-medium text-xl flex gap-2 items-center hover:opacity-50 hover:text-[1.29rem]
+          className="text-T4 font-medium text-xl flex gap-1 items-center hover:opacity-50 hover:text-[1.29rem]
           n4:text-xl
           n5:text-base
           n6:text-base
           n7:text-base
           "
         >
-          <img
-            id="img"
-            className="w-6 opacity-30"
-            src="/logo.png"
-            alt=""
-          />
+          <img id="img" className="w-5 opacity-30" src="/logo.png" alt="" />
           <Link to="/">
             <h1 className="">Lucas V Marangoni</h1>
           </Link>
         </button>
 
-        <div          
+        <div
           className="text-T4  items-center gap-5 right-0 top-0        
           n2:flex n2:static
           n3:absolute
@@ -52,8 +48,8 @@ export function Header() {
           n7:absolute
         "
         >
-          <div            
-          className="invisible absolute right-1 top-1
+          <div
+            className="invisible absolute right-1 top-1
           n2:invisible
           n3:visible
           n4:visible
@@ -65,7 +61,6 @@ export function Header() {
           </div>
 
           <button
-            
             className=" h-8 w-20 rounded-md hover:opacity-50 hover:text-[1.05rem] block
             n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
@@ -78,7 +73,6 @@ export function Header() {
           </button>
 
           <button
-            
             className="h-8 w-20 hover:opacity-50 hover:text-[1.05rem]         
           n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible          
           n3:invisible 
@@ -86,7 +80,8 @@ export function Header() {
           n5:invisible
           n6:invisible
           n7:invisible  
-          ">
+          "
+          >
             <Contato />
           </button>
         </div>
