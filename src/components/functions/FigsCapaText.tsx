@@ -47,11 +47,11 @@ function setPositionFig() {
       figDiv.style.top = "64%";
       figDiv.style.left = "78%";
     } else if (viewportWidth >= 464 && viewportWidth < 564) {
-      figDiv.style.top = "60%";
-      figDiv.style.left = "73%";
+      figDiv.style.top = "59%";
+      figDiv.style.left = "71%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
       figDiv.style.top = "58%";
-      figDiv.style.left = "70%";
+      figDiv.style.left = "71%";
     } else {
       figDiv.style.top = "43%";
       figDiv.style.left = "19%";
