@@ -12,13 +12,8 @@ export const PortDica = () => {
     >
       <div>
         <Collapsible.Trigger className="CollapsibleTrigger">
-          <button className="Button">
-            <h2
-              className="w-20 bg-BGB font-semibold 
-                text-lg  rounded-md opacity-75"
-            >
-              Dica
-            </h2>
+          <button className="Icon">
+            <h2 className="text-lg">Dica</h2>
           </button>
         </Collapsible.Trigger>
 
