@@ -27,8 +27,8 @@ export const Typescript = () => {
               <p className="P">RocketSeat - Discover</p>
             </div>
             <div className="LogoImg">
-              <img src="/udemy.png" alt="" />
-              <p className="P">TypeScript - Porof. Matheus Fraga - Udemy.</p>
+              <img src="/ts.png" alt="" />
+              <p className="P">TypeScript Documentation</p>
             </div>
           </div>
 

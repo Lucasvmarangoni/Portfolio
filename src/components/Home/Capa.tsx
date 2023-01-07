@@ -8,12 +8,12 @@ export function Capa() {
     <motion.div
       id="vid"
       className="mt-10 flex justify-center items-center flex-wrap
-      n2:mt-10
-      n3:mt-6
-      n4:mt-6
-      n5:mt-6
-      n6:mt-4
-      n7:mt-4
+      n2:mt-20
+      n3:mt-20
+      n4:mt-10
+      n5:mt-10
+      n6:mt-8
+      n7:mt-8
       "
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}

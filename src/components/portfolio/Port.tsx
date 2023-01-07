@@ -1,5 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
+import { PortDica } from "./components/PortDica";
 import "./styles.css";
 
 export const Port = () => {
@@ -8,7 +9,7 @@ export const Port = () => {
       <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
-            <img              
+            <img
               className="projCapa border border-[#1b1b1bab]"
               src="/readme.png"
               alt=""
@@ -53,16 +54,19 @@ export const Port = () => {
                 exposição de meus projetos pessoais como Software Engineer.{" "}
                 <br />
                 Busquei por meio desse meu website pessoal transmitir o máximo
-                da minha personalidade, pois entendo que isso compõem sua
+                da minha personalidade, pois entendo que isso compõem parte de sua
                 finalidade.
                 <br />
                 Também utilizo meu portfólio para praticar, por esse motivo
                 busco sempre aplicar o máximo de funcionalidades possíveis,
                 utilizando recursos diferentes ou mais avançados.
               </p>
-              <p className="P mt-2">
-                --&gt; Dica: De alguns cliques na foto de perfil.
-              </p>
+
+              <div
+                className="mt-4 "  
+              >
+                <PortDica />
+              </div>
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
