@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Hidden } from "../components/portfolio/Hidden";
 import { NotificationsService } from "../components/portfolio/Notifications-service";
-import { Search } from "../components/functions/Search";
+import { Search } from "../components/portfolio/functions/Search";
 import { Esports } from "../components/portfolio/Esports";
 import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";

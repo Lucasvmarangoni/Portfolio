@@ -3,7 +3,7 @@ import { BackText } from "./BackText";
 import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Contar } from "../../functions/ShowText";
+import { Contar } from "./functions/ShowText";
 
 export function PhotoButtons() {
   const primeiroTexto: any = `Você descobriu um segredo!`;

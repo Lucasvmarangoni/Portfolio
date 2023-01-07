@@ -1,6 +1,5 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { OnOut, OnOver } from "../../components/functions/OverOut";
+import { OnOut, OnOver } from "./functions/OverOut";
 import { Contato } from "./Contato";
 import { Menu } from "./Menu";
 

@@ -1,4 +1,4 @@
-import { FigsCapaText } from "../../functions/FigsCapaText";
+import { FigsCapaText } from "./functions/FigsCapaText";
 
 export function TextCapa() {
   return (
