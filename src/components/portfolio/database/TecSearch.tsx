@@ -1,0 +1,47 @@
+export const esports = [
+  "typescript",
+  "node",
+  "react",
+  "vite",
+  "prisma",
+  "sqlite",
+  "express",
+  "axios",
+  "tailwind",
+  "radix",
+  "ui",
+  " ",
+  "",
+];
+export const lab01 = [
+  "javascript",
+  "vite",
+  "tailwind",
+  "npm",
+  "imask",
+  " ",
+  "",
+];
+export const port = [
+  "typescript",
+  "npm",
+  "react",
+  "vite",
+  "tailwind",
+  "radix",
+  "ui",
+  "framer",
+  "motion",
+  " ",
+  "",
+];
+export const notServ = [
+  "typescript",
+  "node",
+  "nest",
+  "jest",
+  "prisma",
+  "sqlite",
+  " ",
+  "",
+];
