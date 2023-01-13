@@ -51,7 +51,7 @@ export const Portfolio = () => {
           onInput={Search}
           autoComplete="on"
           type="search"
-          placeholder="Pesquise pelas tecnologias. Ex: node typescript"
+          placeholder="Pesquise pelas tecnologias. Ex: node vite"
           className="px-3 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
@@ -59,7 +59,7 @@ export const Portfolio = () => {
           n3:w-80 n3:h-10 
           n4:w-80 n4:h-10
           n5:w-80 n5:h-10 n5:text-sm
-          n6:w-64 n6:h-8 n6:text-xs
+          n6:w-64 n6:h-8 n6:text-xs 
           n7:w-52 n7:h-8 n7:text-xs
           "
         />
