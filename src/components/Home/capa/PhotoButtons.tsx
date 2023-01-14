@@ -7,9 +7,9 @@ import { Contar } from "./functions/ShowText";
 
 export function PhotoButtons() {
   const primeiroTexto: any = `Você descobriu um segredo!`;
-  const segundoTexto: string = `Pretendo me especializar na segurança das aplicações.`;
+  const segundoTexto: string = `Pretendo me especializar em Cibersegurança.`;
   let [texts, setText]: any = useState(0);
-  const obejctTexts: any = [<TextCapa />, <BackText />];
+  const objectTexts: any = [<TextCapa />, <BackText />];
   function click() {
     setText(texts == 0 ? (texts = 1) : (texts = 0));
 
@@ -203,7 +203,7 @@ export function PhotoButtons() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          {obejctTexts[texts]}
+          {objectTexts[texts]}
           {/* <TextCapa /> */}
         </motion.div>
       </div>

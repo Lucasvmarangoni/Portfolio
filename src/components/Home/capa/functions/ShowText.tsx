@@ -7,7 +7,7 @@ export function Contar(a: string, b: string) {
   const secondText = b.split("").reverse();
   const viewportWidth: number = window.innerWidth;
 
-  if (contador == 10) {
+  if (contador == 3) {
     if (viewportWidth >= 1100) {
       sicret.style.left = "60%";
       sicret.style.top = "90%";
@@ -18,20 +18,20 @@ export function Contar(a: string, b: string) {
       sicret.style.left = "65%";
       sicret.style.top = "90%";
     } else if (viewportWidth >= 664 && viewportWidth < 800) {
-      sicret.style.left = "53%";
+      sicret.style.left = "35%";
       sicret.style.top = "94%";
     } else if (viewportWidth >= 564 && viewportWidth < 664) {
-      sicret.style.left = "56%";
+      sicret.style.left = "35%";
       sicret.style.top = "94%";
     } else if (viewportWidth >= 464 && viewportWidth < 564) {
-      sicret.style.left = "53%";
-      sicret.style.top = "92%";
+      sicret.style.left = "35%";
+      sicret.style.top = "93%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      sicret.style.left = "42%";
+      sicret.style.left = "38%";
       sicret.style.top = "93%";
     } else {
-      sicret.style.left = "30%";
-      sicret.style.top = "92%";
+      sicret.style.left = "20%";
+      sicret.style.top = "93%";
     }
 
     const fistSetInterval: any = setInterval(() => {
@@ -53,19 +53,19 @@ export function Contar(a: string, b: string) {
       if (viewportWidth >= 1100) {
         sicret.style.left = "31%";
       } else if (viewportWidth >= 950 && viewportWidth < 1100) {
-        sicret.style.left = "35%";
+        sicret.style.left = "34%";
       } else if (viewportWidth >= 800 && viewportWidth < 950) {
         sicret.style.left = "37%";
       } else if (viewportWidth >= 664 && viewportWidth < 800) {
-        sicret.style.left = "20%";
+        sicret.style.left = "24%";
       } else if (viewportWidth >= 564 && viewportWidth < 664) {
-        sicret.style.left = "24%";
+        sicret.style.left = "28%";
       } else if (viewportWidth >= 464 && viewportWidth < 564) {
-        sicret.style.left = "24%";
+        sicret.style.left = "28%";
       } else if (viewportWidth >= 360 && viewportWidth < 464) {
-        sicret.style.left = "18%";
+        sicret.style.left = "24%";
       } else {
-        sicret.style.left = "10%";
+        sicret.style.left = "4%";
       }
     }, 1720);
 
@@ -82,7 +82,7 @@ export function Contar(a: string, b: string) {
 
     setTimeout(() => {
       sicret.innerHTML = b;
-    }, 4780);
+    }, 4280);
 
     setTimeout(() => {
       sicret.innerHTML = "";

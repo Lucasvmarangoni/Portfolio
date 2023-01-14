@@ -27,7 +27,7 @@ function setPositionFig() {
       figDiv.style.top = "39%";
       figDiv.style.left = "24%";
     } else {
-      figDiv.style.top = "24%";
+      figDiv.style.top = "27%";
       figDiv.style.left = "18%";
     }
   } else if (randomPosition === 2) {
@@ -44,7 +44,7 @@ function setPositionFig() {
       figDiv.style.top = "58%";
       figDiv.style.left = "78%";
     } else if (viewportWidth >= 564 && viewportWidth < 664) {
-      figDiv.style.top = "58%";
+      figDiv.style.top = "59%";
       figDiv.style.left = "78%";
     } else if (viewportWidth >= 464 && viewportWidth < 564) {
       figDiv.style.top = "95%";
@@ -53,7 +53,7 @@ function setPositionFig() {
       figDiv.style.top = "93%";
       figDiv.style.left = "74%";
     } else {
-      figDiv.style.top = "41%";
+      figDiv.style.top = "46%";
       figDiv.style.left = "16%";
     }
   } else {
@@ -79,7 +79,7 @@ function setPositionFig() {
       figDiv.style.top = "39%";
       figDiv.style.left = "67%";
     } else {
-      figDiv.style.top = "24%";
+      figDiv.style.top = "27%";
       figDiv.style.left = "69%";
     }
   }
@@ -99,7 +99,9 @@ export function FigsBackText() {
     "
     >
       <img
-        className="h-11 opacity-60 "
+        className="h-11 opacity-60 
+        n6:h-11 n7:h-8
+        "
         src={`/fig/${randonFig}.png`}
         alt="fig1"
       />
