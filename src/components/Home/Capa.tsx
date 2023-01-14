@@ -1,8 +1,6 @@
 import { PhotoButtons } from "./capa/PhotoButtons";
 import { motion } from "framer-motion";
 
-
-
 export function Capa() {
   return (
     <motion.div
@@ -18,13 +16,13 @@ export function Capa() {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
-      duration: 0.8,
-      delay: 0.4,
-      ease: [0, 0.71, 0.2, 1.01],
+        duration: 0.8,
+        delay: 0.4,
+        ease: [0, 0.71, 0.2, 1.01],
       }}
     >
       <video
-        className="m-auto opacity-25 object-cover
+        className="m-auto opacity-20 object-cover
         n0:w-[1030px] 
         n1:w-[830px] n1:h-full
         n2:w-[781px] n2:h-full
@@ -36,9 +34,11 @@ export function Capa() {
         muted
         loop
         autoPlay
-        src="/video.mp4"
+        preload=""
+        src="/video1.mp4"
       ></video>
       <PhotoButtons />
+     
     </motion.div>
   );
 }
