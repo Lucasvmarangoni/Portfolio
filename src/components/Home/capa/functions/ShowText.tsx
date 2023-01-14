@@ -7,7 +7,7 @@ export function Contar(a: string, b: string) {
   const secondText = b.split("").reverse();
   const viewportWidth: number = window.innerWidth;
 
-  if (contador == 3) {
+  if (contador == 10) {
     if (viewportWidth >= 1100) {
       sicret.style.left = "60%";
       sicret.style.top = "90%";
