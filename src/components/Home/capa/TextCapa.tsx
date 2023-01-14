@@ -34,7 +34,7 @@ export function TextCapa() {
       </div>
       <p className="mb-1 ">
         Estou no inicio da profissão de
-        <span className="text-T1"> Engenheiro de Software</span>, atualmente cursando
+        <span className="text-T1"> Engenheiro de Software</span>, cursando
         graduação em analise e desenvolvimento de sistemas na PUC Minas.
       </p>
       <p className="">
