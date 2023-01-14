@@ -7,7 +7,7 @@ import { Contar } from "./functions/ShowText";
 
 export function PhotoButtons() {
   const primeiroTexto: any = `Você descobriu um segredo!`;
-  const segundoTexto: string = `Pensar na segurança faz parte da minha personalidade!`;
+  const segundoTexto: string = `Pretendo me especializar na segurança das aplicações.`;
   let [texts, setText]: any = useState(0);
   const obejctTexts: any = [<TextCapa />, <BackText />];
   function click() {
