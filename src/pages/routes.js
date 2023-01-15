@@ -16,7 +16,7 @@ app.get('/portfolio', function (req, res) {
 
 app.get('*', function (req, res) {
     req.url = '*';
-    res.sendFile(path.join(__dirname, 'build', 'PageNotFound.tsx'));
+    res.sendFile(path.join(__dirname, 'build', 'ErrorNotFound.tsx'));
 });
 
 app.listen(3000);
