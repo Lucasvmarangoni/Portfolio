@@ -1,19 +1,27 @@
 import "./styles/main.css";
 import { Home } from "./pages/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+  Routes,
+} from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { motion } from "framer-motion";
 import { ErrorNotFound } from "./pages/ErrorNotFound";
+
+
 
 function App() {
   return (
     <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />     
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="*" element={<ErrorNotFound />} />
+        <Route path="" element={<Home />}  loader={Home}/>
+        <Route path="portfolio" element={<Portfolio />} loader={Portfolio}/>
+        <Route path="*" element={<ErrorNotFound />} loader={ErrorNotFound} />
       </Routes>
       <motion.div
         className="text-T1 text-sm text-center flex justify-center items-end
