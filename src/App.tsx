@@ -11,9 +11,15 @@ function App() {
     <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />     
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="*" element={<ErrorNotFound />} />
+        <BrowserRouter basename="/">
+          <Route path="" element={<Home />} />
+        </BrowserRouter>
+        <BrowserRouter basename="/portfolio">
+          <Route path="portfolio" element={<Portfolio />} />
+        </BrowserRouter>
+        <BrowserRouter>
+          <Route path="*" element={<ErrorNotFound />} />
+        </BrowserRouter>
       </Routes>
       <motion.div
         className="text-T1 text-sm text-center flex justify-center items-end
