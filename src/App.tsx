@@ -6,16 +6,13 @@ import { Header } from "./components/Home/Header";
 import { motion } from "framer-motion";
 import { ErrorNotFound } from "./pages/ErrorNotFound";
 
-
-
-
 function App() {
   return (
     <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="" element={<Home />} />
+        <Route path="portfolio" element={<Portfolio />} />
         <Route path="*" element={<ErrorNotFound />} />
       </Routes>
       <motion.div
