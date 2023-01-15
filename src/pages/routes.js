@@ -19,4 +19,4 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'PageNotFound.tsx'));
 });
 
-app.listen(9000);
+app.listen(3000);
