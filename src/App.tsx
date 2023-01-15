@@ -1,6 +1,6 @@
 import "./styles/main.css";
 import { Home } from "./pages/Home";
-import { createBrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { motion } from "framer-motion";
