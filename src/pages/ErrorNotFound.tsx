@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-export const ErrorNotFount = () => {
+export const ErrorNotFound = () => {
   return (
     <motion.div
       id="vid"

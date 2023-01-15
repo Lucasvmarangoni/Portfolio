@@ -4,7 +4,7 @@ import { createBrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { motion } from "framer-motion";
-import { ErrorNotFount } from "./pages/ErrorNotFount";
+import { ErrorNotFound } from "./pages/ErrorNotFound";
 
 
 
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="*" element={<ErrorNotFount />} />
+        <Route path="*" element={<ErrorNotFound />} />
       </Routes>
       <motion.div
         className="text-T1 text-sm text-center flex justify-center items-end
