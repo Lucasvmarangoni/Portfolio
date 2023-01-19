@@ -24,21 +24,21 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T4 font-medium text-xl flex gap-1 items-center hover:opacity-50 hover:text-[1.29rem]
+          className="text-T1 font-medium text-xl flex gap-1 items-center hover:opacity-50 hover:text-[1.29rem] brightness-125
           n4:text-xl
           n5:text-base
           n6:text-base
           n7:text-base
           "
         >
-          <img id="img" className="w-5 opacity-30" src="/logo.png" alt="" />
+          <img id="img" className="w-5 opacity-60" src="/logo.png" alt="" />
           <Link to="/">
             <h1 className="">Lucas V Marangoni</h1>
           </Link>
         </button>
 
         <div
-          className="text-T4  items-center gap-5 right-0 top-0        
+          className="text-T1  items-center gap-5 right-0 top-0 brightness-125     
           n2:flex n2:static
           n3:absolute
           n4:absolute
