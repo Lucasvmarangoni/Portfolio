@@ -22,7 +22,7 @@ export function Capa() {
       }}
     >
       <video
-        className="m-auto opacity-20 object-cover
+        className="m-auto opacity-30 object-cover
         n0:w-[1030px] 
         n1:w-[830px] n1:h-full
         n2:w-[781px] n2:h-full
