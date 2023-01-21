@@ -5,11 +5,12 @@ export function BackText() {
     <div>
       {<FigsBackText />}
       <p className="">
-        Nesse momento, meus estudos estão focados em Desenvolvimento Back-end
-        com TypeScript e Node.js, utilizando os frameworks Nest.js e Jest.js.
-        <br />
-        Também estou estudando e me aperfeiçõando em Engenharia de Software e
-        Segurança das aplicações e sistemas.
+        Escolhi ser desenvolvedor Back-end porque gosto de trabalhar com lógica
+        e resolver problemas. Acredito que essa é a área que mais se alinha com
+        minhas habilidades e interesses, possibilitando aproveitar ao
+        máximo meu potencial e me desenvolver como profissional, contribuindo
+        para a criação de soluções eficientes e escaláveis para ajudar as
+        empresas a alcançar seus objetivos.
       </p>
     </div>
   );

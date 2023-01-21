@@ -40,7 +40,7 @@ export function TextCapa() {
       <p className="">
         Atualmente sou desenvolvedor Full-stack, afim de entender completamente
         as aplicações, mas tenho como objetivo futuramente trabalhar somente com
-        <span className="text-T1"> Back-end</span>.
+        Back-end.
       </p>
     </>
   );
