@@ -9,7 +9,7 @@ function setPositionFig() {
       figDiv.style.top = "2%";
       figDiv.style.left = "92%";
     } else if (viewportWidth >= 950 && viewportWidth < 1100) {
-      figDiv.style.top = "-8%";
+      figDiv.style.top = "-9%";
       figDiv.style.left = "93%";
     } else if (viewportWidth >= 800 && viewportWidth < 950) {
       figDiv.style.top = "-4%";
@@ -35,7 +35,7 @@ function setPositionFig() {
       figDiv.style.top = "2%";
       figDiv.style.left = "32%";
     } else if (viewportWidth >= 950 && viewportWidth < 1100) {
-      figDiv.style.top = "-8%";
+      figDiv.style.top = "-9%";
       figDiv.style.left = "36%";
     } else if (viewportWidth >= 800 && viewportWidth < 950) {
       figDiv.style.top = "-4%";
@@ -61,7 +61,7 @@ function setPositionFig() {
       figDiv.style.top = "2%";
       figDiv.style.left = "67%";
     } else if (viewportWidth >= 950 && viewportWidth < 1100) {
-      figDiv.style.top = "-8%";
+      figDiv.style.top = "-9%";
       figDiv.style.left = "70%";
     } else if (viewportWidth >= 800 && viewportWidth < 950) {
       figDiv.style.top = "-4%";
