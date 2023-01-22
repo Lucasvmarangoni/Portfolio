@@ -39,7 +39,7 @@ export const Contato = () => (
             <form
               id="form"
               method="POST"
-              action=""
+              action="https://lucasvmarangoni.vercel.app/send"
               className="grid row-span-3 gap-3"
             >
               <div className="text-T2 grid gap-2 w-5 ">

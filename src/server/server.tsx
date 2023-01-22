@@ -37,7 +37,7 @@ app.get("/send", (req, res) => {
     });
 });
 
-const port: number = 3000;
+const port = "https://lucasvmarangoni.vercel.app/";
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
