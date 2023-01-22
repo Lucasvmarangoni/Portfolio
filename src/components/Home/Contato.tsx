@@ -1,12 +1,19 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 
+export let inputEmail = document.querySelector(
+  "inputEmail"
+) as HTMLInputElement;
+
+export let inputDescription = document.querySelector(
+  "inputDescription"
+) as HTMLInputElement;
+
+
 export const Contato = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild className="DialogTrigger">
-      
-        <p>Contato</p>
-      
+      <p>Contato</p>
     </Dialog.Trigger>
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
@@ -32,7 +39,7 @@ export const Contato = () => (
             <form
               id="form"
               method="POST"
-              action="https://formsubmit.co/lucasvm.ti@gmail.com"
+              action=""
               className="grid row-span-3 gap-3"
             >
               <div className="text-T2 grid gap-2 w-5 ">

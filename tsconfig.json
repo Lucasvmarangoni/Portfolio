@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "removeComments": true,     
   },
-  "include": ["src", "server/routes.ts"],
+  "include": ["src", "src/server/routes.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
