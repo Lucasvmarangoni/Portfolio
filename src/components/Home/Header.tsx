@@ -24,7 +24,7 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T1 font-medium text-xl flex gap-1 items-center opacity-50 hover:opacity-70 hover:text-[1.29rem] brightness-150
+          className="text-T1 font-medium text-xl flex gap-1 items-center opacity-50 hover:opacity-70 brightness-150
           n4:text-xl
           n5:text-base
           n6:text-base
@@ -38,7 +38,7 @@ export function Header() {
         </button>
 
         <div
-          className="text-T1  items-center gap-5 right-0 top-0 opacity-50 hover:opacity-70 brightness-150    
+          className="text-T1 items-center gap-5 right-0 top-0 opacity-50 hover:opacity-70 brightness-150    
           n2:flex n2:static
           n3:absolute
           n4:absolute
@@ -48,7 +48,7 @@ export function Header() {
         "
         >
           <div
-            className="invisible absolute right-1 top-1
+            className="invisible absolute right-0 top-0
           n2:invisible
           n3:visible
           n4:visible

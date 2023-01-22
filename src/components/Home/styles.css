@@ -134,15 +134,13 @@
   }
   .menu{
     @apply 
-    text-base
-    text-T2
+    text-xl
+    text-T1
     rounded-md
-    flex
-    items-center
-    h-6
-    px-1
+    flex    
+    h-6    
     relative
-    pl-6
+    
     ;
 /* 
 .DropdownMenuItem,
