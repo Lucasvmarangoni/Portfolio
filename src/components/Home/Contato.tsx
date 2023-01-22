@@ -1,5 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
+import { SendEmail } from "./SendEmail";
 
 export let inputEmail = document.querySelector(
   "inputEmail"
@@ -8,7 +9,6 @@ export let inputEmail = document.querySelector(
 export let inputDescription = document.querySelector(
   "inputDescription"
 ) as HTMLInputElement;
-
 
 export const Contato = () => (
   <Dialog.Root>
@@ -39,7 +39,7 @@ export const Contato = () => (
             <form
               id="form"
               method="POST"
-              action="https://lucasvmarangoni.vercel.app/send"
+              action=""
               className="grid row-span-3 gap-3"
             >
               <div className="text-T2 grid gap-2 w-5 ">
@@ -89,7 +89,7 @@ export const Contato = () => (
         </Dialog.Description>
 
         <Dialog.Close asChild>
-          <button className="IconButton">
+          <button className="IconButton" onClick={SendEmail}>
             <Cross2Icon />
           </button>
         </Dialog.Close>

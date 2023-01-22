@@ -1,25 +1,20 @@
-import express from "express";
 import nodemailer from "nodemailer";
-import {inputEmail, inputDescription} from "../components/Home/Contato"
+import { inputEmail, inputDescription } from "./Contato";
 
-const app = express();
 
 const user: string = "email-lvm@lucasvmarangoni.vercel.app";
 const toMyEmail: string = "lucasvm.ti@gmail.com";
 const pass: string = "Teste123";
 
-app.get("/send", (req, res) => {
+export function SendEmail() {
   const transporter = nodemailer.createTransport({
     host: "smtp.umbles.com",
     port: 587,
-    secure: true,
+    secure: false,
     auth: {
       user,
       pass,
-    },
-    tls: {
-      rejectUnauthorized: false,
-    },
+    },  
   });
   transporter
     .sendMail({
@@ -30,14 +25,9 @@ app.get("/send", (req, res) => {
       text: inputDescription.value,
     })
     .then((message) => {
-      res.send(message);
+      console.log(message);
     })
     .catch((err) => {
-      res.send(err);
+      console.log(err);
     });
-});
-
-const port = "https://lucasvmarangoni.vercel.app/";
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
-});
+}
