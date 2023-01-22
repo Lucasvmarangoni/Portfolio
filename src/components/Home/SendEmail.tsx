@@ -1,12 +1,11 @@
 import nodemailer from "nodemailer";
-import { inputEmail, inputDescription } from "./Contato";
-
+// import { inputEmail, inputDescription } from "./Contato";
 
 const user: string = "email-lvm@lucasvmarangoni.vercel.app";
 const toMyEmail: string = "lucasvm.ti@gmail.com";
 const pass: string = "Teste123";
 
-export function SendEmail() {
+export async function SendEmail() {
   const transporter = nodemailer.createTransport({
     host: "smtp.umbles.com",
     port: 587,
@@ -14,20 +13,19 @@ export function SendEmail() {
     auth: {
       user,
       pass,
-    },  
+    },
   });
-  transporter
-    .sendMail({
-      from: user,
-      to: toMyEmail,
-      replyTo: inputEmail.value,
-      subject: "🆕 Contato do Portfólio.",
-      text: inputDescription.value,
-    })
-    .then((message) => {
-      console.log(message);
-    })
-    .catch((err) => {
-      console.log(err);
-    });
+  try {
+    const message = await transporter
+      .sendMail({
+        from: user,
+        to: toMyEmail,
+        replyTo: inputEmail.value,
+        subject: "🆕 Contato do Portfólio.",
+        text: inputDescription.value,
+      });
+    console.log(message);
+  } catch (err) {
+    console.log(err);
+  }
 }
