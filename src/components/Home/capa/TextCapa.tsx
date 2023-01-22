@@ -39,7 +39,7 @@ export function TextCapa() {
       </p>
       <p className="">
         Atualmente sou desenvolvedor Full-stack, afim de ter uma compreensão
-        completa, mas tenho como objetivo trabalhar somente no Back-end.
+        completa, mas meu objetivo é trabalhar somente no Back-end.
       </p>
     </>
   );
