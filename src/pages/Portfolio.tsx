@@ -6,6 +6,7 @@ import { Esports } from "../components/portfolio/Esports";
 import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
+import { TasksList } from "../components/portfolio/TasksList";
 
 // Colocar no buscador opções de alterar o parâmetrod de busca, como pelo nome do projeto ou ano de criação...
 
@@ -138,9 +139,35 @@ export const Portfolio = () => {
         >
           <NotificationsService />
         </motion.div>
-      </div>
 
-      {/* <Hidden /> */}
+        <motion.div
+          id="TnotServ"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.9,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+          <TasksList />
+        </motion.div>
+
+        <motion.div
+          id="TnotServ"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 1.0,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+           <Hidden />
+        </motion.div>
+
+       
+      </div>
     </motion.div>
   );
 };
