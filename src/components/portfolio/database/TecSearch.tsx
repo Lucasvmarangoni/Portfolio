@@ -10,7 +10,8 @@ export const esports = [
   "axios",
   "tailwind",
   "radix",
-  "ui",  
+  "ui",
+  "js,",
   " ",
   "",
 ];
@@ -29,10 +30,11 @@ export const port = [
   "react",
   "vite",
   "tailwind",
-  "radix",  
+  "radix",
   "ui",
   "framer",
   "motion",
+  "js,",
   " ",
   "",
 ];
@@ -44,6 +46,7 @@ export const notServ = [
   "prisma",
   "studio",
   "sqlite",
+  "js,",
   " ",
   "",
 ];
@@ -57,8 +60,9 @@ export const taskslist = [
   "sqlite",
   "express",
   "axios",
-  "tailwind",  
+  "tailwind",
   "vitest",
+  "js,",
   " ",
   "",
 ];
