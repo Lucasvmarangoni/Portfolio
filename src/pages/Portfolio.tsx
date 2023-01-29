@@ -141,7 +141,7 @@ export const Portfolio = () => {
         </motion.div>
 
         <motion.div
-          id="TnotServ"
+          id="TTasksList"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -153,8 +153,7 @@ export const Portfolio = () => {
           <TasksList />
         </motion.div>
 
-        <motion.div
-          id="TnotServ"
+        <motion.div          
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
