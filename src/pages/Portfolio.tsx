@@ -7,10 +7,23 @@ import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TasksList } from "../components/portfolio/TasksList";
+import { useEffect } from "react";
 
 // Colocar no buscador opções de alterar o parâmetrod de busca, como pelo nome do projeto ou ano de criação...
+function hidden (){
+  const THidden: any = document.querySelector("#THidden");
+if (window.innerWidth <= 949) {
+  THidden.style = "display: none";
+}
+}
+
 
 export const Portfolio = () => {
+
+  useEffect(() => {
+    hidden();
+  }, []);
+
   return (
     <motion.div
       className="mt-10 w-[1030px] pb-20 pt-10 bg-BGH brightness-150 m-auto
@@ -153,7 +166,8 @@ export const Portfolio = () => {
           <TasksList />
         </motion.div>
 
-        <motion.div          
+        <motion.div
+          id="THidden"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -162,10 +176,8 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-           <Hidden />
+          <Hidden />
         </motion.div>
-
-       
       </div>
     </motion.div>
   );
