@@ -7,18 +7,19 @@ import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TasksList } from "../components/portfolio/TasksList";
-import { useEffect } from "react";
-
-// Colocar no buscador opções de alterar o parâmetrod de busca, como pelo nome do projeto ou ano de criação...
-function hidden (){
-  const THidden: any = document.querySelector("#THidden");
-if (window.innerWidth <= 949) {
-  THidden.style = "display: none";
-}
-}
-
+import { SetStateAction, useEffect, useState } from "react";
 
 export const Portfolio = () => {
+  let [windowWidth, windowCheck]: SetStateAction<any> = useState();
+  function hidden() {
+    const THidden: any = document.querySelector("#THidden");
+    windowWidth = window.innerWidth;
+    windowCheck(
+      windowWidth <= 949
+        ? (THidden.style = "display: none")
+        : (THidden.style = "display: flex")
+    );
+  }
 
   useEffect(() => {
     hidden();
