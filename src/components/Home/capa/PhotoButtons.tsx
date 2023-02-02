@@ -127,7 +127,7 @@ export function PhotoButtons() {
               <a
                 className="buttons
               "
-                href="https://github.com/Ldragk"
+                href="https://github.com/Lucasvmarangoni"
                 target="_blank"
                 rel="noopener noreferrer"
               >

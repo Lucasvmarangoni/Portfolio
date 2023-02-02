@@ -47,7 +47,7 @@ export const Lab01 = () => {
                   <img className="h-5" src="/github-proj.png" alt="" />
                   <a
                     className="hover:underline"
-                    href="https://github.com/Ldragk/Explorer-Lab-01"
+                    href="https://github.com/Lucasvmarangoni/Explorer-Lab-01"
                   >
                     Github
                   </a>

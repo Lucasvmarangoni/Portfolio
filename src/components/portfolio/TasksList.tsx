@@ -33,7 +33,7 @@ export const TasksList = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
                 className="hover:underline"
-                href="https://github.com/Ldragk/TasksList"
+                href="https://github.com/Lucasvmarangoni/TasksList"
               >
                 Github
               </a>

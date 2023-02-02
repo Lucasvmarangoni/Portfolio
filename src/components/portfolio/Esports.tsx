@@ -43,7 +43,7 @@ export const Esports = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
                 className="hover:underline"
-                href="https://github.com/Ldragk/NLW-Ignite-2022"
+                href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022"
               >
                 Github
               </a>

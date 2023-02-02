@@ -37,7 +37,7 @@ export const NotificationsService = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
                 className="hover:underline"
-                href="https://github.com/Ldragk/notifications-service"
+                href="https://github.com/Lucasvmarangoni/notifications-service"
               >
                 Github
               </a>

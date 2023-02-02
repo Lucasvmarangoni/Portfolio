@@ -40,7 +40,7 @@ export const Port = () => {
                     target={"_blank"}
                     rel={"noreferrer"}
                     className="hover:underline"
-                    href="https://github.com/Ldragk/Portfolio"
+                    href="https://github.com/Lucasvmarangoni/Portfolio"
                   >
                     Github
                   </a>
