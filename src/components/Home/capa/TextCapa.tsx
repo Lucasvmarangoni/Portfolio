@@ -38,7 +38,7 @@ export function TextCapa() {
         <span className="text-T1"> Engenheiro de Software</span>. Além disso,
         também estou cursando o primeiro período da graduação em analise e
         desenvolvimento de sistemas na Pontifícia Universidade Católica de
-        Minas.
+        Minas Gerais.
       </p>
     </>
   );
