@@ -6,8 +6,9 @@ import { useEffect, useState } from "react";
 import { Contar } from "./functions/ShowText";
 
 export function PhotoButtons() {
-  const primeiroTexto: any = `Você descobriu um segredo!`;
-  const segundoTexto: string = `Pretendo me especializar em Cibersegurança.`;
+  const primeiroTexto: string = `Você descobriu um segredo!`;
+  const segundoTexto: string = `Objetivo me tornar um desenvolvedor GoLang.`;
+
   let [texts, setText]: any = useState(0);
   const objectTexts: any = [<TextCapa />, <BackText />];
   function click() {
