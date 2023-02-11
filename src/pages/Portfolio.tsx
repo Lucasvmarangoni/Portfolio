@@ -6,7 +6,7 @@ import { Esports } from "../components/portfolio/Esports";
 import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
-import { TasksList } from "../components/portfolio/TasksList";
+import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 
 export const Portfolio = () => {
@@ -164,7 +164,7 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <TasksList />
+          <TaskList />
         </motion.div>
 
         <motion.div

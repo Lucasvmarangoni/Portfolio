@@ -2,15 +2,15 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import "./styles.css";
 
-export const TasksList = () => {
+export const TaskList = () => {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
-            <img className="projCapa" src="/taskslist.png" alt="" />
+            <img className="projCapa" src="/tasklist.png" alt="" />
           </button>
-          <h2 className="imgTitle"> TASKSLIST</h2>
+          <h2 className="imgTitle"> TASKLIST</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
@@ -18,13 +18,13 @@ export const TasksList = () => {
         <Dialog.Content className="DialogContent focus:outline-none">
           <Dialog.Title className="DialogTitle">
             <h1 className="projTitle">
-              TasksList - <span className="projYear">2023</span>
+              TaskList - <span className="projYear">2023</span>
             </h1>
           </Dialog.Title>
 
           <Dialog.Description className="Dgrid">
             <div id="img" className="banner">
-              <img src="/taskslist.png"></img>
+              <img src="/tasklist.png"></img>
             </div>
 
             <div className="Icon">
@@ -33,7 +33,7 @@ export const TasksList = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
                 className="hover:underline"
-                href="https://github.com/Lucasvmarangoni/TasksList"
+                href="https://github.com/Lucasvmarangoni/TaskList"
               >
                 Github
               </a>
