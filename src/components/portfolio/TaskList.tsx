@@ -54,7 +54,7 @@ export const TaskList = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
-                  TypeScript | Node.js | Express | Vitest | Prisma Studio |
+                  TypeScript | Node.js | Express | Vitest | Supertest | Prisma Studio |
                   SQLite | React.js | TailWind | Axios | Vite.js |
                 </p>
               </div>
