@@ -7,10 +7,12 @@ import { motion } from "framer-motion";
 import { ErrorNotFound } from "./pages/ErrorNotFound";
 import { Layout } from "./pages/Layout";
 
+let save: any
+
 addEventListener("keydown", (e) => {
   if (e.key === "F5" || e.key === window.location.pathname) {
     e.preventDefault();
-    <Route path="portfolio" element={<Portfolio />} />;
+    save = <Route path="portfolio" element={<Portfolio />} />;
   }
 });
 
@@ -21,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-
+          {save}
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="*" element={<ErrorNotFound />} />
         </Route>
