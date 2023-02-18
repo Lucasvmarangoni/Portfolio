@@ -4,7 +4,7 @@ import * as ReactDOM from "react-dom/client";
 import { BrowserRouter, HashRouter } from "react-router-dom";
 
 if (window.location.hash) {
-  window.history.replaceState("", "https://lucasvmarangoni.vercel.app/", window.location.pathname);
+  window.history.replaceState("", "https://lucasvmarangoni.vercel.app/", "portfolio");
   console.log(document.title)
   console.log(window.location.pathname);
   ;
