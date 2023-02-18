@@ -4,7 +4,11 @@ import * as ReactDOM from "react-dom/client";
 import { BrowserRouter, HashRouter } from "react-router-dom";
 
 if (window.location.hash) {
-  window.history.replaceState("", window.location.pathname);
+  window.history.replaceState("", document.title, window.location.pathname);
+  console.log(document.title)
+  console.log(window.location.pathname);
+  ;
+  
 }
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
