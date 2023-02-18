@@ -12,6 +12,4 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     {/* </HashRouter> */}
   </React.StrictMode>
 );
-function createBrowserHistory() {
-  throw new Error("Function not implemented.");
-}
+
