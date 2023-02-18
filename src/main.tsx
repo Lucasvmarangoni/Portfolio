@@ -11,7 +11,7 @@ if (window.location.hash) {
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     {/* <HashRouter> */}
-    <BrowserRouter basename={"https://lucasvmarangoni.vercel.app/"}>
+    <BrowserRouter basename={"/"}>
       <App />
     </BrowserRouter>
 
