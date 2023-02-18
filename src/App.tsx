@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="*" element={<ErrorNotFound />} />
         </Route>
@@ -42,5 +41,3 @@ function App() {
   );
 }
 export default App;
-
-
