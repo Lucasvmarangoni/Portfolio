@@ -8,8 +8,17 @@ import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
+import axios from "axios";
 
 export const Portfolio = () => {
+  useEffect(() => {
+    axios("https://lucasvmarangoni.vercel.app/portfolio").then(
+      (response: any) => {
+        console.log(response);
+      }
+    );
+  }, []);
+
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
     const THidden: any = document.querySelector("#THidden");
