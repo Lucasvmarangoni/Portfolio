@@ -10,15 +10,14 @@ import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 import axios from "axios";
 
-export const Portfolio = () => {
-  useEffect(() => {
-    axios("https://lucasvmarangoni.vercel.app/portfolio").then(
-      (response: any) => {
-        console.log(response);
-      }
-    );
-  }, []);
+function refresh(){
+  
+}
 
+
+
+
+export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
     const THidden: any = document.querySelector("#THidden");

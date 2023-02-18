@@ -5,11 +5,7 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 
 export const Home = () => {
-  useEffect(() => {
-    axios("https://lucasvmarangoni.vercel.app/").then((response: any) => {
-      console.log(response);
-    });
-  }, []);
+
   return (
     <>
       <Capa />

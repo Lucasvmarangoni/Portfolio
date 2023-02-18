@@ -7,6 +7,13 @@ import { motion } from "framer-motion";
 import { ErrorNotFound } from "./pages/ErrorNotFound";
 import { Layout } from "./pages/Layout";
 
+addEventListener("keydown", (e) => {
+  if (e.key === "F5" || e.key === window.location.pathname) {
+    e.preventDefault();
+    <Route path="portfolio" element={<Portfolio />} />;
+  }
+});
+
 function App() {
   return (
     <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
@@ -14,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="*" element={<ErrorNotFound />} />
         </Route>
