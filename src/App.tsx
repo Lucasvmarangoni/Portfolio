@@ -1,6 +1,6 @@
 import "./styles/main.css";
 import { Home } from "./pages/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
 import { Header } from "./components/Home/Header";
 import { motion } from "framer-motion";
@@ -11,15 +11,13 @@ function App() {
   return (
     <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
       <Header />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="portfolio" element={<Portfolio />} />
-            <Route path="*" element={<ErrorNotFound />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="*" element={<ErrorNotFound />} />
+        </Route>
+      </Routes>
       <motion.div
         className="text-T1 text-sm text-center flex justify-center items-end
         n2:mt-10
