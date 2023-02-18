@@ -62,6 +62,7 @@ export const taskslist = [
   "axios",
   "tailwind",
   "vitest",
+  "supertest",
   "js,",
   " ",
   "",
