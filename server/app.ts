@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+app.listen("https://lucasvmarangoni.vercel.app/", () => {
+  console.log("Server is running on port https://lucasvmarangoni.vercel.app/");
 });
