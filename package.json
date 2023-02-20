@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://lucasvmarangoni.vercel.app",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
