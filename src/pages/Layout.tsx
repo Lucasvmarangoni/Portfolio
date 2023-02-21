@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 export const Layout = () => {
   return (
     <>
-      <nav>
+      <nav className="hidden">
         <ul>
           <li>
             <Link to="/">Home</Link>
