@@ -34,7 +34,7 @@ export function TextCapa() {
       </div>
       <p className="mb-1 ">
         Sou desenvolvedor <span className="text-T1">back-end</span>, e estou
-        estudando para aprimorar minhas habilidades e conhecimentos para ser um
+        estudando para aprimorar minhas habilidades e conhecimentos como 
         <span className="text-T1"> Engenheiro de Software</span>. Além disso,
         também estou cursando o primeiro período da graduação de analise e
         desenvolvimento de sistemas na Pontifícia Universidade Católica de
