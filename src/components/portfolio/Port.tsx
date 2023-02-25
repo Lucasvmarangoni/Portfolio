@@ -56,10 +56,7 @@ export const Port = () => {
                 Busquei por meio desse meu website pessoal transmitir o máximo
                 da minha personalidade, pois entendo que isso compõem parte de sua
                 finalidade.
-                <br />
-                Também utilizo meu portfólio para praticar, por esse motivo
-                busco sempre aplicar o máximo de funcionalidades possíveis,
-                utilizando recursos diferentes ou mais avançados.
+                <br />               
               </p>
 
               <div
