@@ -4,6 +4,7 @@ import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Contar } from "./functions/ShowText";
+import { NavLink } from "react-router-dom";
 
 export function PhotoButtons() {
   const primeiroTexto: string = `Você descobriu um segredo!`;
@@ -91,10 +92,10 @@ export function PhotoButtons() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <a
+              <NavLink
                 className="buttons
               "
-                href="https://www.linkedin.com/in/lucas-v-marangoni/"
+                to="https://www.linkedin.com/in/lucas-v-marangoni/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,7 +114,7 @@ export function PhotoButtons() {
                   alt="linkedin"
                 />
                 <p>Linkedin</p>
-              </a>
+              </NavLink>
             </motion.div>
 
             <motion.div
@@ -125,10 +126,10 @@ export function PhotoButtons() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <a
+              <NavLink
                 className="buttons
               "
-                href="https://github.com/Lucasvmarangoni"
+                to="https://github.com/Lucasvmarangoni"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -146,7 +147,7 @@ export function PhotoButtons() {
                   alt="github"
                 />
                 <p>Github</p>
-              </a>
+              </NavLink>
             </motion.div>
 
             <motion.div
@@ -158,11 +159,11 @@ export function PhotoButtons() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <a
+              <NavLink
                 className="buttons
                 n5:w24
               "
-                href="/Curriculo.pdf"
+                to="/Curriculo.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -180,7 +181,7 @@ export function PhotoButtons() {
                   alt="curriculo"
                 />
                 <p>Currículo</p>
-              </a>
+              </NavLink>
             </motion.div>
           </div>
         </motion.div>
