@@ -10,12 +10,7 @@ import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 import axios from "axios";
 
-function refresh(){
-  
-}
-
-
-
+function refresh() {}
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
@@ -75,6 +70,7 @@ export const Portfolio = () => {
           autoComplete="on"
           type="search"
           placeholder="Pesquise pelas tecnologias. Ex: node vite"
+          list="datalist"
           className="px-3 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
@@ -98,6 +94,21 @@ export const Portfolio = () => {
            n6:w-8 n6:h-8
            n7:w-8 n7:h-8"
         />
+        <datalist id="datalist">
+          <option value="node" />
+          <option value="vite" />
+          <option value="react" />
+          <option value="typescript" />
+          <option value="javascript" />
+          <option value="nest" />
+          <option value="jest" />
+          <option value="vitest" />
+          <option value="framer" />
+          <option value="tailwind" />
+          <option value="express" />
+          <option value="SQLite" />
+          <option value="Prisma" />
+        </datalist>
       </div>
 
       <div
