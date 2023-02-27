@@ -10,7 +10,7 @@ import { Layout } from "./pages/Layout";
 function App() {
   return (
     <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="*" element={<ErrorNotFound />} />
         </Route>
       </Routes>
-      <motion.div
+      {/* <motion.div
         className="text-T1 text-sm text-center flex justify-center items-end
         n2:mt-10
         n3:mt-6
@@ -36,7 +36,7 @@ function App() {
         }}
       >
         <p>© 2022 Lucas V Marangoni. All Rights Reserved.</p>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }
