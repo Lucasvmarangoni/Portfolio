@@ -108,6 +108,9 @@ export const Portfolio = () => {
           <option value="express" />
           <option value="SQLite" />
           <option value="Prisma" />
+          <option value="node typescript" />
+          <option value="node typescript express" />
+          
         </datalist>
       </div>
 
