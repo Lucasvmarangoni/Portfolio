@@ -8,9 +8,6 @@ import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
-import axios from "axios";
-
-function refresh() {}
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
@@ -95,22 +92,10 @@ export const Portfolio = () => {
            n7:w-8 n7:h-8"
         />
         <datalist id="datalist">
-          <option value="node" />
-          <option value="vite" />
-          <option value="react" />
-          <option value="typescript" />
-          <option value="javascript" />
-          <option value="nest" />
-          <option value="jest" />
-          <option value="vitest" />
-          <option value="framer" />
-          <option value="tailwind" />
-          <option value="express" />
-          <option value="SQLite" />
-          <option value="Prisma" />
-          <option value="node typescript" />
-          <option value="node typescript express" />
-          
+          <option value="Node Vitest" />
+          <option value="Nest Jest" />
+          <option value="Node Typescript" />
+          <option value="Node Typescript express" />
         </datalist>
       </div>
 
