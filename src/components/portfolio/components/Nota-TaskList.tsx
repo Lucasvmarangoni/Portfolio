@@ -23,9 +23,9 @@ export const NotaTaskList = () => {
             de eventos, com a prática e aprender mais ao longo do
             desenvolvimento. Assim inicie desenvolvendo de acordo com o
             aprendido no evento{" "}
-            <a href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022">
+            <a href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022" target="_blank">
               NLW ESpots Ignite
-            </a>{" "}
+            </a>
             da RocketSeat.
           </p>
 
@@ -35,7 +35,7 @@ export const NotaTaskList = () => {
             arquitetura do software, mas comecei a aprimorar algumas coisas e
             acabei decidindo por já organizar tudo logo, de acordo com o
             aprendizado com o evento{" "}
-            <a href="https://github.com/Lucasvmarangoni/notifications-service">
+            <a href="https://github.com/Lucasvmarangoni/notifications-service" target="_blank">
               Ignite Lab 04
             </a>{" "}
             da RocketSeat.
