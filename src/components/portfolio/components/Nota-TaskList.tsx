@@ -21,7 +21,7 @@ export const NotaTaskList = () => {
             Não iniciei o projeto aplicando TDD, nem mesmo DDD ou Engenharia de
             software. A ideia era consolidar meu estudos, de cursos e projetos
             de eventos, com a prática e aprender mais ao longo do
-            desenvolvimento. Assim inicie desenvolvendo de acordo com o
+            desenvolvimento. Assim iniciei desenvolvendo de acordo com o
             aprendizado do evento{" "}
             <a
               href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022"
