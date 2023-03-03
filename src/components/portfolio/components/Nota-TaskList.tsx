@@ -54,7 +54,7 @@ export const NotaTaskList = () => {
             coisas, como validações e entre outros recursos de estrutura e
             engenharia. Por ter desenvolvido o projeto dessa forma tive que
             alterar muitas coisas por diversas vezes, o que foi bom, pois
-            aumentou meu tempo programando e resolvendo problemas (muitos), além
+            aumentou meu tempo programando e resolvendo problemas, além
             de desenvolver minha habilidade de manutenção do código.
           </p>
         </Collapsible.Content>
