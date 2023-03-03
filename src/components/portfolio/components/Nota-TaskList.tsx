@@ -22,7 +22,7 @@ export const NotaTaskList = () => {
             software. A ideia era consolidar meu estudos, de cursos e projetos
             de eventos, com a prática e aprender mais ao longo do
             desenvolvimento. Assim inicie desenvolvendo de acordo com o
-            aprendido no evento{" "}
+            aprendizado do evento{" "}
             <a
               href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022"
               target="_blank"
