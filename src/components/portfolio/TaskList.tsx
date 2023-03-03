@@ -1,5 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
+import { NotaTaskList } from "./components/Nota-TaskList";
 import "./styles.css";
 
 export const TaskList = () => {
@@ -40,24 +41,20 @@ export const TaskList = () => {
             </div>
 
             <div>
-              <p className="text-T1 brightness-150 text-2xl my-2">
-                --{">"} ⚒ Em Desenvolvimento!
-              </p>
               <p className="P">
                 O projeto é uma API Rest para criar e manipular tarefas por meio
                 de rotas utilizando os verbos http e banco de dados, com uma
                 interface front-end básica para interação do usuário.
               </p>
-              <p className="P">
-                Tem o objetivo de consolidar e ampliar meus conhecimentos no
-                Back-end e Engenharia de Software.
-              </p>
+              <div className="mt-4">
+                <NotaTaskList />
+              </div>
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
-                  TypeScript | Node.js | Express | Vitest | Supertest | Prisma
-                  Studio | SQLite | 
+                  TypeScript | Node.js | Express | Vitest | Prisma Studio |
+                  SQLite |
                 </p>
               </div>
             </div>
