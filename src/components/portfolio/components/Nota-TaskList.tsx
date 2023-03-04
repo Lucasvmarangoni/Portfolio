@@ -18,11 +18,10 @@ export const NotaTaskList = () => {
 
         <Collapsible.Content className="CollapsibleContent">
           <p className="P mt-2">
-            Não iniciei o projeto aplicando TDD, nem mesmo DDD ou Engenharia de
-            software. A ideia era consolidar meu estudos, de cursos e projetos
-            de eventos, com a prática e aprender mais ao longo do
-            desenvolvimento. Assim iniciei desenvolvendo de acordo com o
-            aprendizado do evento{" "}
+            Não iniciei o projeto aplicando TDD, nem mesmo DDD. A ideia era
+            consolidar meu estudos, de cursos e projetos de eventos, com a
+            prática e aprender mais ao longo do desenvolvimento. Assim iniciei
+            desenvolvendo de acordo com o aprendizado do evento{" "}
             <a
               href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022"
               target="_blank"
@@ -54,8 +53,8 @@ export const NotaTaskList = () => {
             coisas, como validações e entre outros recursos de estrutura e
             engenharia. Por ter desenvolvido o projeto dessa forma tive que
             alterar muitas coisas por diversas vezes, o que foi bom, pois
-            aumentou meu tempo programando e resolvendo problemas, além
-            de desenvolver minha habilidade de manutenção do código.
+            aumentou meu tempo programando e resolvendo problemas, além de
+            desenvolver minha habilidade de manutenção do código.
           </p>
         </Collapsible.Content>
       </div>
