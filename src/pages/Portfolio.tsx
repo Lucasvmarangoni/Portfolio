@@ -12,7 +12,7 @@ import { SetStateAction, useEffect, useState } from "react";
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
-    const THidden: any = document.querySelector("#THidden");
+    const THidden = document.querySelector("#THidden") as HTMLElement | any;
     windowWidth = window.innerWidth;
     windowCheck(
       windowWidth <= 949

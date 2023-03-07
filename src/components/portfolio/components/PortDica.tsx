@@ -1,6 +1,5 @@
 import React from "react";
 import * as Collapsible from "@radix-ui/react-collapsible";
-import { RowSpacingIcon, Cross2Icon } from "@radix-ui/react-icons";
 
 export const PortDica = () => {
   const [open, setOpen] = React.useState(false);

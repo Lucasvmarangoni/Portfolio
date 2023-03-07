@@ -3,7 +3,6 @@ import { OnOut, OnOver } from "./functions/OverOut";
 import { Contato } from "./Contato";
 import { Menu } from "./Menu";
 
-// export const button1: any = document.querySelector("#button1");
 
 export function Header() {
   OnOver;

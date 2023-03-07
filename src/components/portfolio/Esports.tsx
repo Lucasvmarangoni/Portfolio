@@ -4,11 +4,11 @@ import { Slides } from "../functions/Slides";
 import "./styles.css";
 
 const onMouse = () => {
-  const onmouse: any = document.querySelector("#mouse");
+  const onmouse = document.querySelector("#mouse") as HTMLImageElement;
   return onmouse.setAttribute("src", "/Menu.jpg");
 };
 const outMouse = () => {
-  const onmouse: any = document.querySelector("#mouse");
+  const onmouse = document.querySelector("#mouse") as HTMLImageElement;
   return onmouse.setAttribute("src", "/Hnlw.jpg");
 };
 
@@ -66,8 +66,8 @@ export const Esports = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
-                  Typescript | Node.js | Express | SQLite | Prisma Studio | React.js |
-                  Vite.js | Axios | Tailwind |
+                  Typescript | Node.js | Express | SQLite | Prisma Studio |
+                  React.js | Vite.js | Axios | Tailwind |
                 </p>
               </div>
             </div>

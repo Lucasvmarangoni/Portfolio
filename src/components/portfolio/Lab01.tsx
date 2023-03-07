@@ -1,10 +1,9 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { Slides } from "../functions/Slides";
 import "./styles.css";
 
 const MOver = () => {
-  const popup: any = document.querySelector("#myPopup");
+  const popup = document.querySelector("#myPopup") as HTMLImageElement | any;
   popup.style = "visibility: visible;";
 };
 const MOut = () => {
@@ -12,14 +11,10 @@ const MOut = () => {
   popup.style = "visibility: hidden;";
 };
 
-
 export const Lab01 = () => {
   return (
     <Dialog.Root>
-      <Dialog.Trigger
-        asChild
-        className="m-auto"
-      >
+      <Dialog.Trigger asChild className="m-auto">
         <div className="divCapa">
           <button>
             <img id="mouse" className="projCapa" src="/project1.png" alt="" />

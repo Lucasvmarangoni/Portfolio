@@ -1,8 +1,7 @@
-import ReactDOMServer from "react-dom/server";
 import { BackText } from "./BackText";
 import { TextCapa } from "./TextCapa";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { Contar } from "./functions/ShowText";
 import { NavLink } from "react-router-dom";
 
@@ -10,8 +9,8 @@ export function PhotoButtons() {
   const primeiroTexto: string = `Você descobriu um segredo!`;
   const segundoTexto: string = `Objetivo me tornar um desenvolvedor GoLang.`;
 
-  let [texts, setText]: any = useState(0);
-  const objectTexts: any = [<TextCapa />, <BackText />];
+  let [texts, setText] = useState(0);
+  const objectTexts = [<TextCapa />, <BackText />];
   function click() {
     setText(texts == 0 ? (texts = 1) : (texts = 0));
 

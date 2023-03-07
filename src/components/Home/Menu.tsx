@@ -1,14 +1,13 @@
-import React from "react";
+import React, { RefAttributes } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import "./styles.css";
-import { Link } from "react-router-dom";
+import { Link, Path, To } from "react-router-dom";
 import { Contato } from "./Contato";
 
 const pathname = window.location.pathname;
-const link: any = document.querySelector("link");
+const link = document.querySelector("link") as HTMLLinkElement;
 const href: any =
-  pathname == "/portfolio"
+  pathname === "/portfolio"
     ? link.setAttribute("to", "/portfolio")
     : link.setAttribute("to", "/");
 

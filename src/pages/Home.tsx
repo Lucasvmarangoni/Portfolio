@@ -1,8 +1,6 @@
 import { ButtonPort } from "../components/Home/ButtonPort";
 import { Capa } from "../components/Home/Capa";
-import axios from "axios";
 import { motion } from "framer-motion";
-import { useEffect } from "react";
 
 export const Home = () => {
 
