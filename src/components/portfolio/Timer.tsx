@@ -47,7 +47,7 @@ export const Timer = () => {
                 trabalho.
               </p>
               <p className="P mt-2">
-                --{">"} Desenvolvido durante o curso Ignite da RocketSeat.
+                --{">"} Desenvolvido no curso Ignite da RocketSeat.
               </p>
 
               <div className="divTec">
