@@ -11,7 +11,7 @@ export const Port = () => {
           <button>
             <img
               className="projCapa border border-[#1b1b1bab]"
-              src="/readme.png"
+              src="/portfolio.png"
               alt=""
             />
           </button>
@@ -29,7 +29,7 @@ export const Port = () => {
 
           <Dialog.Description className="Dgrid">
             <div id="img" className="banner">
-              <img src="/readme.png"></img>
+              <img src="/portfolio.png"></img>
             </div>
 
             <div className="flex gap-1">
