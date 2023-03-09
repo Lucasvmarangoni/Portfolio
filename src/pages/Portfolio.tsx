@@ -176,19 +176,6 @@ export const Portfolio = () => {
         </motion.div>
 
 
-        <motion.div
-          id="THidden"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 1.0,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-          <Timer />
-        </motion.div>
-
         {/* <motion.div
           id="THidden"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -199,8 +186,21 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Hidden />
+          <Timer />
         </motion.div> */}
+
+        <motion.div
+          id="THidden"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 1.0,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+          <Hidden />
+        </motion.div>
       </div>
     </motion.div>
   );
