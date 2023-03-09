@@ -42,9 +42,8 @@ export const TaskList = () => {
 
             <div>
               <p className="P">
-                O projeto é uma API Rest para criar e manipular tarefas por meio
-                de rotas utilizando os verbos http e banco de dados, com uma
-                interface front-end básica para interação do usuário.
+                Projeto back-end com API REST, sendo um app para criar tarefas, editar, deletar, consultar e receber notificações de aviso. 
+              
               </p>
               <div className="mt-4">
                 <NotaTaskList />
@@ -53,8 +52,8 @@ export const TaskList = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
-                  TypeScript | Node.js | Express | Vitest | Prisma Studio | Class-validator |
-                  SQLite |
+                  TypeScript | Node.js | Express | Vitest | Prisma Studio |
+                  Class-validator | SQLite |
                 </p>
               </div>
             </div>
