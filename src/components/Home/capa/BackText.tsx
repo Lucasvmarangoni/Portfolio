@@ -6,11 +6,11 @@ export function BackText() {
       {<FigsBackText />}
       <p className="">
         Escolhi ser desenvolvedor Back-end porque gosto de trabalhar com lógica
-        e resolver problemas. Acredito que essa é a área que mais se alinha com
-        minhas habilidades e interesses, possibilitando aproveitar ao
-        máximo meu potencial e me desenvolver como profissional, contribuindo
-        para a criação de soluções eficientes e escaláveis para ajudar as
-        empresas a alcançar seus objetivos.
+        e resolver problemas. Acredito que o back-end mais se alinha com minhas
+        habilidades e interesses. Assim anseio por me envolver e contribuir em
+        projetos complexos e de grande importância para a sociedade e para o
+        mundo, possibilitando aproveitar ao máximo meu potencial e me
+        desenvolvendo como profissional.
       </p>
     </div>
   );
