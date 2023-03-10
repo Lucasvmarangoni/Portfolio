@@ -10,7 +10,7 @@ export function BackText() {
         habilidades e interesses. Assim anseio por me envolver e contribuir em
         projetos complexos e de grande importância para a sociedade e para o
         mundo, possibilitando aproveitar ao máximo meu potencial e me
-        desenvolvendo como profissional.
+        desenvolver como profissional.
       </p>
     </div>
   );
