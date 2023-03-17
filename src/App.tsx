@@ -9,7 +9,7 @@ import { Layout } from "./pages/Layout";
 
 function App() {
   return (
-    <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden">
+    <div className="mx-auto w-[100vw] h-[100%] fixed left-[0.1vw] overflow-y-scroll overflow-x-hidden brightness-150">
       {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
