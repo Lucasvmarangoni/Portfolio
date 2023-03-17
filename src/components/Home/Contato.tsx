@@ -10,7 +10,7 @@ export function Contato() {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild className="DialogTrigger">
-        <p>Contato</p>
+        <p className="">Contato</p>
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />

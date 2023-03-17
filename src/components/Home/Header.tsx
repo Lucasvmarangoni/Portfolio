@@ -8,7 +8,7 @@ export function Header() {
   OnOver;
   OnOut;
   return (
-    <header className="h-11 w-full bg-BGH brightness-150 flex items-center justify-center">
+    <header className="h-11 w-full bg-BGH brightness-100 flex items-center justify-center">
       <div
         className="flex justify-between items-center absolute
        n0:w-[1030px]   
@@ -30,9 +30,9 @@ export function Header() {
           n7:text-base
           "
         >
-          <img id="img" className="w-5 opacity-60" src="/logo.png" alt="" />
+          <img id="img" className="w-5 opacity-60 brightness-150" src="/logo.png" alt="" />
           <Link to="/">
-            <h1 className="">Lucas V Marangoni</h1>
+            <h1 className="brightness-150">Lucas V Marangoni</h1>
           </Link>
         </button>
 
@@ -59,7 +59,7 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 w-20 rounded-md opacity-50 hover:opacity-70 brightness-150 hover:text-[1.05rem] block
+            className=" h-8 w-20 text-lg rounded-md opacity-70 hover:opacity-80 brightness-200 hover:text-[1.05rem] block  
             n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
             n4:invisible
@@ -71,7 +71,7 @@ export function Header() {
           </button>
 
           <button
-            className="h-8 w-20 opacity-50 hover:opacity-70 brightness-150 hover:text-[1.05rem]         
+            className="h-8 w-20 text-lg opacity-70 hover:opacity-80 brightness-200 hover:text-[1.05rem] 
           n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible          
           n3:invisible 
           n4:invisible
