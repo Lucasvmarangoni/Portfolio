@@ -40,6 +40,7 @@ export const BestSurf = () => {
             </div>
 
             <div>
+              <h2 className="hTec mb-3 text-center">EM DESENVOLVIMENTO! </h2>
               <p className="P">
                 --{">"} Projeto oferecido pelo desenvolvedor Waldemar Neto, do
                 canal do YouTube <a href="https://www.youtube.com/@WaldemarNetoDevLab">Waldemar Neto - Dev Lab</a>.
