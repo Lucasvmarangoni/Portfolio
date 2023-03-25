@@ -41,18 +41,24 @@ export const BestSurf = () => {
 
             <div>
               <p className="P">
-                --{">"} Projeto oferecido pelo desenvolvedor Waldemar Neto, do canal do
-                YouTube Waldemar Neto - Dev Lab.
+                --{">"} Projeto oferecido pelo desenvolvedor Waldemar Neto, do
+                canal do YouTube Waldemar Neto - Dev Lab.
               </p>
+
               <p className="P mt-2">
-                É uma aplicação que monitora o clima nas praia e permite ao
-                usuário cadastrar suas praias de interesses e monitora-las, além
-                de receber informações úteis, para aproveitar ao máximo seu
-                esporte. Nesse projeto vou criar e rodar micro-serviços na cloud
+                O projeto é uma aplicação que monitora o clima nas praia e
+                permite ao usuário cadastrar suas praias de interesses e
+                monitora-las, além de receber informações úteis, para aproveitar
+                ao máximo seu esporte.
+              </p>
+
+              <p className="P mt-2">
+                Nesse projeto vou criar e rodar micro-serviços na cloud
                 utilizando Node.js com Typescript seguindo as melhores práticas
                 de desenvolvimento em um curso que vai do desenvolvimento a
                 produção.
               </p>
+
               <p className="P  mt-2">
                 Durante o curso é criado uma API para calcular a melhor condição
                 de surf entre varias praias, essa API tem como objetivo servir a
