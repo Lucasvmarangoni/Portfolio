@@ -42,7 +42,7 @@ export const BestSurf = () => {
             <div>
               <p className="P">
                 --{">"} Projeto oferecido pelo desenvolvedor Waldemar Neto, do
-                canal do YouTube Waldemar Neto - Dev Lab.
+                canal do YouTube <a href="https://www.youtube.com/@WaldemarNetoDevLab">Waldemar Neto - Dev Lab</a>.
               </p>
 
               <p className="P mt-2">
