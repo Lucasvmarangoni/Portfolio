@@ -9,6 +9,7 @@ import { VscSearch } from "react-icons/vsc";
 import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 import { Timer } from "../components/portfolio/Timer";
+import { BestSurf } from "../components/portfolio/BestSurf";
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
@@ -175,6 +176,18 @@ export const Portfolio = () => {
           <TaskList />
         </motion.div>
 
+        <motion.div
+          id="THidden"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 1.0,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+          <BestSurf />
+        </motion.div>
 
         {/* <motion.div
           id="THidden"
@@ -186,21 +199,8 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Timer />
-        </motion.div> */}
-
-        <motion.div
-          id="THidden"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 1.0,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
           <Hidden />
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.div>
   );
