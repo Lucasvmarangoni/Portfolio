@@ -76,7 +76,7 @@ export const BestSurf = () => {
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
                   TypeScript | Node js | Express | MongoDB | Mongoose | Jest |
-                  Supertest | Github Actions.
+                  Supertest | Github Actions | ... .
                 </p>
               </div>
             </div>
