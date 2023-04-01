@@ -21,7 +21,7 @@ export const Port = () => {
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent focus:outline-none ">
-          <Dialog.Title className="DialogTitle">
+          <Dialog.Title className="DialogTitle ">
             <h1 className="projTitle ">
               Website Portfólio - <span className="projYear">2022</span>
             </h1>

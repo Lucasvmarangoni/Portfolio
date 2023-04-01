@@ -37,8 +37,7 @@
     font-semibold
     bg-BGB
     px-2    
-    rounded-md    
-    brightness-150;
+    rounded-md;
   }
   .banner {
     @apply flex 
