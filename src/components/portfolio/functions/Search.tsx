@@ -1,4 +1,11 @@
-import { esports, lab01, port, notServ, taskslist } from "../database/TecSearch";
+import {
+  esports,
+  lab01,
+  port,
+  notServ,
+  taskslist,
+  bestsurfing,
+} from "../database/TecSearch";
 
 export function Search() {
   const filterInput: any = document.querySelector("#input");
@@ -7,6 +14,7 @@ export function Search() {
   const Tport: any = document.querySelector("#Tport");
   const TnotServ: any = document.querySelector("#TnotServ");
   const TTasksList: any = document.querySelector("#TTasksList");
+  const TBestSurfing: any = document.querySelector("#TBestSurfing");
 
   let filter = filterInput.value.toLowerCase().split(" ");
 
@@ -49,4 +57,12 @@ export function Search() {
   checkTasksList >= filter.length
     ? (TTasksList.style = "display: flex")
     : (TTasksList.style = "display: none");
+
+  let checkBestsurfing: number = 0;
+  for (let i = 0; i < bestsurfing.length; i++) {
+    bestsurfing.includes(filter[i]) ? ++checkTasksList : (checkTasksList += 0);
+  }
+  checkBestsurfing >= filter.length
+    ? (TBestSurfing.style = "display: flex")
+    : (TBestSurfing.style = "display: none");
 }
