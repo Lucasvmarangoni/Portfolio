@@ -10,7 +10,7 @@ export const BestSurfing = () => {
           <button>
             <img className="projCapa" src="/bestsurf.png" alt="" />
           </button>
-          <h2 className="imgTitle"> BEST SUFT</h2>
+          <h2 className="imgTitle"> BEST SURFING</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
@@ -18,7 +18,7 @@ export const BestSurfing = () => {
         <Dialog.Content className="DialogContent focus:outline-none">
           <Dialog.Title className="DialogTitle">
             <h1 className="projTitle">
-              Best Surf - <span className="projYear">2023</span>
+              Best Surfing - <span className="projYear">2023</span>
             </h1>
           </Dialog.Title>
 

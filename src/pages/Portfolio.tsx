@@ -8,8 +8,7 @@ import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
-import { Timer } from "../components/portfolio/Timer";
-import { BestSurf } from "../components/portfolio/BestSurf";
+import { BestSurfing } from "../components/portfolio/BestSurfing";
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
@@ -186,7 +185,7 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <BestSurf />
+          <BestSurfing />
         </motion.div>
 
         {/* <motion.div
