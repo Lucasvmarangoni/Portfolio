@@ -4,8 +4,7 @@
 
 @layer components {
   .CollapsibleRoot {
-    @apply 
-    w-[80vw] 
+    @apply w-[80vw] 
     max-w-[44rem] 
     max-h-[100vh]  
     my-2 
@@ -16,8 +15,7 @@
     @apply flex;
   }
   .Button {
-    @apply 
-    flex 
+    @apply flex 
     gap-4 
     items-center 
     opacity-80 
@@ -30,26 +28,23 @@
     hover:opacity-50        
     translate-x-2
     relative
-    right-2;    
+    right-2;
   }
   .Img {
     @apply opacity-80;
   }
   .LogoImg {
-    @apply 
-    flex 
+    @apply flex 
     items-center 
     gap-2;
   }
   .Title {
-    @apply 
-    text-T2 
+    @apply text-T2 
     text-lg 
     font-semibold;
   }
   .CollapsibleContent {
-    @apply 
-    m-auto 
+    @apply m-auto 
     w-[42rem] 
     mt-5;
   }
@@ -88,7 +83,7 @@
     text-2xl 
     font-semibold 
     flex 
-    gap-3;    
+    gap-3;
   }
   .formacao {
     @apply text-T1 
@@ -109,8 +104,7 @@
     text-justify;
   }
   .Dgrid {
-    @apply 
-    mt-5 
+    @apply mt-5 
     grid 
     gap-3;
   }
@@ -120,29 +114,24 @@
     font-bold;
   }
   .IconButton {
-    @apply 
-    p-2
+    @apply p-2
     absolute
     top-1    
-    right-0    
+    right-0;
   }
   .Ferramentas {
-    @apply 
-    flex 
+    @apply flex 
     items-center 
     gap-2;
   }
-  .menu{
-    @apply 
-    text-xl
+  .menu {
+    @apply text-xl
     text-T1
     rounded-md
     flex    
     h-6    
-    relative
-    
-    ;
-/* 
+    relative;
+    /* 
 .DropdownMenuItem,
 .DropdownMenuCheckboxItem,
 .DropdownMenuRadioItem,
@@ -150,4 +139,3 @@
 */
   }
 }
-

@@ -4,15 +4,12 @@
 
 @layer components {
   .divCapa {
-    @apply  
-    grid 
+    @apply grid 
     justify-center 
-    gap-2
-  ;
+    gap-2;
   }
   .projCapa {
-    @apply 
-    rounded-xl
+    @apply rounded-xl
     opacity-50
     n0:w-[27rem] n0:h-[14rem] 
     n1:w-[22rem] n1:h-[12rem]
@@ -21,61 +18,57 @@
     n4:w-[27rem] n4:h-[14rem]    
     n5:w-[22rem] n5:h-[12rem]      
     n6:w-[18rem] n6:h-[10rem]      
-    n7:w-[16rem] n7:h-[9rem];        
-  }  
+    n7:w-[16rem] n7:h-[9rem];
+  }
   .imgTitle {
-    @apply 
-    text-T4 
+    @apply text-T4 
     font-semibold
     text-lg 
-    m-auto;    
+    m-auto;
   }
   .projTitle {
-    @apply 
-    text-T1
-    text-3xl;
+    @apply text-T1
+    text-3xl
+    brightness-150;
   }
   .projYear {
-    @apply 
-    text-T3
+    @apply text-T3
     text-2xl
     font-semibold
     bg-BGB
     px-2    
-    rounded-md
-    opacity-70;
+    rounded-md    
+    brightness-150;
   }
   .banner {
-    @apply 
-    flex 
+    @apply flex 
     justify-center;
   }
   .Icon {
-    @apply 
-    w-[83px] 
+    @apply w-[83px] 
     bg-BGB 
     rounded-md 
     hover:opacity-70 
     flex 
     gap-1 
     items-center 
-    justify-center;
+    justify-center
+    brightness-150;
   }
   .divTec {
-    @apply 
-    mt-10 
+    @apply mt-10 
     flex 
     gap-3;
   }
   .hTec {
-    @apply 
-    font-semibold 
+    @apply font-semibold 
     text-lg
     bg-BGB
     px-2
     h-7
     rounded-md
     hover:opacity-70 
-    cursor-default;
+    cursor-default
+    brightness-150;
   }
 }

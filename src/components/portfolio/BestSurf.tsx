@@ -27,12 +27,12 @@ export const BestSurf = () => {
               <img src="/bestsurf.png"></img>
             </div>
 
-            <div className="Icon">
-              <img className="h-5" src="/github-proj.png" alt="" />
+            <div className="Icon ">
+              <img className="h-5 " src="/github-proj.png" alt="" />
               <a
                 target={"_blank"}
                 rel={"noreferrer"}
-                className="hover:underline"
+                className="hover:underline "
                 href="https://github.com/Lucasvmarangoni/Best-Surf"
               >
                 Github
@@ -43,7 +43,11 @@ export const BestSurf = () => {
               <h2 className="hTec mb-3 text-center">EM DESENVOLVIMENTO! </h2>
               <p className="P">
                 --{">"} Projeto oferecido pelo desenvolvedor Waldemar Neto, do
-                canal do YouTube <a href="https://www.youtube.com/@WaldemarNetoDevLab">Waldemar Neto - Dev Lab</a>.
+                canal do YouTube{" "}
+                <a href="https://www.youtube.com/@WaldemarNetoDevLab">
+                  Waldemar Neto - Dev Lab
+                </a>
+                .
               </p>
 
               <p className="P mt-2">

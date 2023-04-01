@@ -20,15 +20,15 @@ export const Port = () => {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
-        <Dialog.Content className="DialogContent focus:outline-none">
+        <Dialog.Content className="DialogContent focus:outline-none ">
           <Dialog.Title className="DialogTitle">
-            <h1 className="projTitle">
+            <h1 className="projTitle ">
               Website Portfólio - <span className="projYear">2022</span>
             </h1>
           </Dialog.Title>
 
           <Dialog.Description className="Dgrid">
-            <div id="img" className="banner">
+            <div id="img" className="banner ">
               <img src="/portfolio.png"></img>
             </div>
 
@@ -54,14 +54,12 @@ export const Port = () => {
                 exposição de meus projetos pessoais como Software Engineer.{" "}
                 <br />
                 Busquei por meio desse meu website pessoal transmitir o máximo
-                da minha personalidade, pois entendo que isso compõem parte de sua
-                finalidade.
-                <br />               
+                da minha personalidade, pois entendo que isso compõem parte de
+                sua finalidade.
+                <br />
               </p>
 
-              <div
-                className="mt-4"  
-              >
+              <div className="mt-4 ">
                 <PortDica />
               </div>
 
