@@ -69,14 +69,14 @@ export const taskslist = [
 ];
 
 export const bestsurfing = [
-  "TypeScript",
-  "Node",
-  "Express",
-  "MongoDB",
-  "Mongoose",
-  "Jest",
-  "Supertest",
-  "Github Actions",
+  "typeScript",
+  "node",
+  "express",
+  "mongoDB",
+  "mongoose",
+  "jest",
+  "supertest",
+  "github Actions",
   "js,",
   " ",
   "",

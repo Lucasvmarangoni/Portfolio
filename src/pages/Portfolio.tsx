@@ -12,19 +12,19 @@ import { BestSurfing } from "../components/portfolio/BestSurfing";
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
-  function hidden() {
-    const THidden = document.querySelector("#THidden") as HTMLElement | any;
-    windowWidth = window.innerWidth;
-    windowCheck(
-      windowWidth <= 949
-        ? (THidden.style = "display: none")
-        : (THidden.style = "display: flex")
-    );
-  }
+  // function hidden() {
+  //   const THidden = document.querySelector("#THidden") as HTMLElement | any;
+  //   windowWidth = window.innerWidth;
+  //   windowCheck(
+  //     windowWidth <= 949
+  //       ? (THidden.style = "display: none")
+  //       : (THidden.style = "display: flex")
+  //   );
+  // }
 
-  useEffect(() => {
-    hidden();
-  }, []);
+  // useEffect(() => {
+  //   hidden();
+  // }, []);
 
   return (
     <motion.div

@@ -60,7 +60,9 @@ export function Search() {
 
   let checkBestsurfing: number = 0;
   for (let i = 0; i < bestsurfing.length; i++) {
-    bestsurfing.includes(filter[i]) ? ++checkTasksList : (checkTasksList += 0);
+    bestsurfing.includes(filter[i])
+      ? ++checkBestsurfing
+      : (checkBestsurfing += 0);
   }
   checkBestsurfing >= filter.length
     ? (TBestSurfing.style = "display: flex")
