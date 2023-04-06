@@ -11,7 +11,7 @@ export const esports = [
   "tailwind",
   "radix",
   "ui",
-  "js,",
+  "js",
   " ",
   "",
 ];
@@ -34,7 +34,7 @@ export const port = [
   "ui",
   "framer",
   "motion",
-  "js,",
+  "js",
   " ",
   "",
 ];
@@ -46,7 +46,7 @@ export const notServ = [
   "prisma",
   "studio",
   "sqlite",
-  "js,",
+  "js",
   " ",
   "",
 ];
@@ -63,7 +63,7 @@ export const taskslist = [
   "tailwind",
   "vitest",
   "supertest",
-  "js,",
+  "js",
   " ",
   "",
 ];
@@ -77,7 +77,7 @@ export const bestsurfing = [
   "jest",
   "supertest",
   "github Actions",
-  "js,",
+  "js",
   " ",
   "",
 ];
