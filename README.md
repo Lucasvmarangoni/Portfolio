@@ -9,10 +9,6 @@
 </p>
 
 
-<div align="center">
-<img width="100%" title="Clique para abrir" width="100px" src="./.github/readme.png"></a>
-</div>
-
 
 ## Tecnologias
 
