@@ -42,8 +42,8 @@ export const BestSurfing = () => {
             <div>
               <h2 className="hTec mb-3 text-center">EM DESENVOLVIMENTO! </h2>
               <p className="P">
-                --{">"} Projeto oferecido pelo desenvolvedor Waldemar Neto, do
-                canal do YouTube{" "}
+                --{">"} Projeto oferecido pelo canal do YouTube Waldemar Neto -
+                Dev Lab.
                 <a href="https://www.youtube.com/@WaldemarNetoDevLab">
                   Waldemar Neto - Dev Lab
                 </a>
@@ -79,7 +79,7 @@ export const BestSurfing = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
-                  TypeScript | Node js | Express | MongoDB | Mongoose | Jest |
+                  TypeScript | Node.js | Express | OvernightJS | MongoDB | Mongoose | Jest |
                   Supertest | Github Actions | ... .
                 </p>
               </div>
