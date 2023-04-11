@@ -42,12 +42,9 @@ export const BestSurfing = () => {
             <div>
               <h2 className="hTec mb-3 text-center">EM DESENVOLVIMENTO! </h2>
               <p className="P">
-                --{">"} Projeto oferecido pelo canal do YouTube Waldemar Neto -
-                Dev Lab.
-                <a href="https://www.youtube.com/@WaldemarNetoDevLab">
-                  Waldemar Neto - Dev Lab
-                </a>
-                .
+                --{">"} Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">"DO ZERO A PRODUÇÃO"</a> 
+                disponibilizado pelo Engenheiro de software Waldemar Neto do canal 
+                <a href="https://www.youtube.com/@WaldemarNetoDevLab">Dev Lab</a>.
               </p>
 
               <p className="P mt-2">
