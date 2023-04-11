@@ -42,8 +42,8 @@ export const BestSurfing = () => {
             <div>
               <h2 className="hTec mb-3 text-center">EM DESENVOLVIMENTO! </h2>
               <p className="P">
-                --{">"} Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">DO ZERO A PRODUÇÃO</a>  
-                disponibilizado pelo Engenheiro de software Waldemar Neto.
+                --{">"} Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
+                  DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
               </p>
 
               <p className="P mt-2">
