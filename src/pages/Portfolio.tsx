@@ -3,7 +3,7 @@ import { Hidden } from "../components/portfolio/Hidden";
 import { NotificationsService } from "../components/portfolio/Notifications-service";
 import { Search } from "../components/portfolio/functions/Search";
 import { Esports } from "../components/portfolio/Esports";
-import { Lab01 } from "../components/portfolio/Lab01";
+// import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TaskList } from "../components/portfolio/TaskList";
@@ -12,19 +12,19 @@ import { BestSurfing } from "../components/portfolio/BestSurfing";
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
-  // function hidden() {
-  //   const THidden = document.querySelector("#THidden") as HTMLElement | any;
-  //   windowWidth = window.innerWidth;
-  //   windowCheck(
-  //     windowWidth <= 949
-  //       ? (THidden.style = "display: none")
-  //       : (THidden.style = "display: flex")
-  //   );
-  // }
+  function hidden() {
+    const THidden = document.querySelector("#THidden") as HTMLElement | any;
+    windowWidth = window.innerWidth;
+    windowCheck(
+      windowWidth <= 949
+        ? (THidden.style = "display: none")
+        : (THidden.style = "display: flex")
+    );
+  }
 
-  // useEffect(() => {
-  //   hidden();
-  // }, []);
+  useEffect(() => {
+    hidden();
+  }, []);
 
   return (
     <motion.div
@@ -123,7 +123,7 @@ export const Portfolio = () => {
           <Esports />
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           id="Tlab01"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -134,7 +134,7 @@ export const Portfolio = () => {
           }}
         >
           <Lab01 />
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           id="Tport"
@@ -188,7 +188,7 @@ export const Portfolio = () => {
           <BestSurfing />
         </motion.div>
 
-        {/* <motion.div
+        <motion.div
           id="THidden"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -199,7 +199,7 @@ export const Portfolio = () => {
           }}
         >
           <Hidden />
-        </motion.div> */}
+        </motion.div>
       </div>
     </motion.div>
   );
