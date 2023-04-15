@@ -14,8 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "removeComments": true,     
+    "jsx": "react-jsx",    
+    "noImplicitAny": false, 
   },
   "include": ["src", "src/server/routes.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]

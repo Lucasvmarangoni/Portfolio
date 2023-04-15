@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 export function PhotoButtons() {
   const primeiroTexto: string = `Você descobriu um segredo!`;
-  const segundoTexto: string = `Objetivo me tornar um desenvolvedor GoLang.`;
+  const segundoTexto: string = `Ainda estou pensando em algo para por aqui.`;
 
   let [texts, setText] = useState(0);
   const objectTexts = [<TextCapa />, <BackText />];
