@@ -3,7 +3,7 @@ import { useEffect } from "react";
 function setPositionFig() {
   const viewportWidth: number = window.innerWidth;
   const figDiv: any = document.querySelector("#figDiv");
-  let randomPosition: number = 3 //Math.floor(Math.random() * (0 - 4 + 1)) + 4;
+  let randomPosition: number = Math.floor(Math.random() * (0 - 4 + 1)) + 4;
   if (randomPosition === 1) {
     if (viewportWidth >= 1100) {
       figDiv.style.top = "24%";
