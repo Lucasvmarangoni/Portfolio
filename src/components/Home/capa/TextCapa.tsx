@@ -33,12 +33,9 @@ export function TextCapa() {
         </h1>
       </div>
       <p className="mb-1 ">
-        Sou desenvolvedor <span className="text-T1">back-end</span>, e estou
-        estudando para aprimorar minhas habilidades e conhecimentos como
-        <span className="text-T1"> Engenheiro de Software</span>. Além disso,
-        também estou cursando a graduação de tecnólogo em analise e
-        desenvolvimento de sistemas na Pontifícia Universidade Católica de Minas
-        Gerais.
+      Sou desenvolvedor <span className="text-T1">back-end</span> e estou cursando a graduação de Tecnólogo em 
+      Análise e Desenvolvimento de Sistemas na Pontifícia Universidade Católica de Minas Gerais. 
+      Aqui, apresento meus principais projetos, além de compartilhar algumas informações sobre mim.   
       </p>
     </>
   );
