@@ -1,6 +1,5 @@
 import {
-  esports,
-  lab01,
+  esports,  //
   port,
   notServ,
   taskslist,
@@ -10,7 +9,7 @@ import {
 export function Search() {
   const filterInput: any = document.querySelector("#input");
   const Tesports: any = document.querySelector("#Tesports");
-  const Tlab01: any = document.querySelector("#Tlab01");
+  // const Tlab01: any = document.querySelector("#Tlab01");
   const Tport: any = document.querySelector("#Tport");
   const TnotServ: any = document.querySelector("#TnotServ");
   const TTasksList: any = document.querySelector("#TTasksList");
@@ -26,13 +25,13 @@ export function Search() {
     ? (Tesports.style = "display: flex")
     : (Tesports.style = "display: none");
 
-  let checkLab01: number = 0;
-  for (let i = 0; i < esports.length; i++) {
-    lab01.includes(filter[i]) ? ++checkLab01 : (checkLab01 += 0);
-  }
-  checkLab01 >= filter.length
-    ? (Tlab01.style = "display: flex")
-    : (Tlab01.style = "display: none");
+  // let checkLab01: number = 0;
+  // for (let i = 0; i < esports.length; i++) {
+  //   lab01.includes(filter[i]) ? ++checkLab01 : (checkLab01 += 0);
+  // }
+  // checkLab01 >= filter.length
+  //   ? (Tlab01.style = "display: flex")
+  //   : (Tlab01.style = "display: none");
 
   let checkPort: number = 0;
   for (let i = 0; i < esports.length; i++) {

@@ -15,18 +15,17 @@ export const esports = [
   " ",
   "",
 ];
-export const lab01 = [
-  "javascript",
-  "vite",
-  "tailwind",
-  "npm",
-  "imask",
-  " ",
-  "",
-];
+// export const lab01 = [
+//   "javascript",
+//   "vite",
+//   "tailwind",
+//   "npm",
+//   "imask",
+//   " ",
+//   "",
+// ];
 export const port = [
-  "typescript",
-  "npm",
+  "typescript",  
   "react",
   "vite",
   "tailwind",

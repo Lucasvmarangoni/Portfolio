@@ -66,7 +66,7 @@ export const Port = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
-                  TypeScript | Node NPM | Vite.js | React.js | TailWind | Radix
+                  TypeScript| Vite.js | React.js | TailWind | Radix
                   ui | Framer Motion |
                 </p>
               </div>
