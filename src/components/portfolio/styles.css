@@ -52,7 +52,8 @@
     gap-1 
     items-center 
     justify-center
-    brightness-150;
+    brightness-150
+    cursor-pointer;
   }
   .divTec {
     @apply mt-10 

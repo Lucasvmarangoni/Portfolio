@@ -41,9 +41,17 @@ export const TaskList = () => {
             </div>
 
             <div>
-              <p className="P">
-                Projeto back-end com API REST, sendo um app para criar tarefas, editar, deletar, consultar e receber notificações de aviso. 
-              
+              <p className="P"> - Esse é um projeto que planejei e desenvolvi do zero sozinho. </p>
+              <p className="P mt-4">
+             
+                É um Projeto back-end que utiliza API REST, sendo um app para criar tarefas, 
+                editar, deletar, consultar e receber notificações.              
+              </p>
+            
+              <p className="P mb-8 mt-4">      
+              Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software, 
+              além de praticar a utilização de Node.js com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar, 
+              aprimorando-o com as novas habilidades, tecnologias e ferramentas que adquiro desenvolvendo outros projetos de eventos ou cursos.       
               </p>
               <div className="mt-4">
                 <NotaTaskList />
