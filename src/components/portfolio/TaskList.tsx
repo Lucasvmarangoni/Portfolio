@@ -11,7 +11,7 @@ export const TaskList = () => {
           <button>
             <img className="projCapa" src="/tasklist.png" alt="" />
           </button>
-          <h2 className="imgTitle"> TASKLIST</h2>
+          <h2 className="imgTitle">TASKLIST</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
@@ -44,8 +44,10 @@ export const TaskList = () => {
               <p className="P"> - Esse é um projeto que planejei e desenvolvi do zero sozinho. </p>
               <p className="P mt-4">
              
-                É um Projeto back-end que utiliza API REST, sendo um app para criar tarefas, 
-                editar, deletar, consultar e receber notificações.              
+                
+              O projeto é uma API REST para servir uma aplicação de Lista de tarefas. 
+              Permite criar, editar, deletar, consultar e receber notificações.
+        
               </p>
             
               <p className="P mb-8 mt-4">      
