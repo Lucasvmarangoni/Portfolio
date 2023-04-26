@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { PortDica } from "./components/PortDica";
+import { PortDica } from "./components/port-components/PortDica";
 import "./styles.css";
 
 export const Port = () => {

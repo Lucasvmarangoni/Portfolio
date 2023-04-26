@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { NotaTaskList } from "./components/Nota-TaskList";
+import { NotaTaskList } from "./components/task-list-components/Nota-TaskList";
 import "./styles.css";
 
 export const TaskList = () => {
@@ -66,6 +66,8 @@ export const TaskList = () => {
                   Class-validator | SQLite |
                 </p>
               </div>
+
+        
             </div>
           </Dialog.Description>
 
