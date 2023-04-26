@@ -10,10 +10,9 @@ import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 import { BestSurfing } from "../components/portfolio/BestSurfing";
 
-const projetos: any = [<BestSurfing />, <TaskList />, <NotificationsService />, <Port />, <Esports />];
+export const projetos: any = [<BestSurfing />, <TaskList />, <NotificationsService />, <Port />, <Esports />];
 
-let n: number[] = [0.4]
-
+const projetosId: string[] = ["TbestSurfing", "TtaskList", "TnotServ", "Tport", "Tesports"]
 
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
@@ -116,8 +115,10 @@ export const Portfolio = () => {
       "
       >{
             projetos.map((projeto: any, transitionDelay: number ) => {
-              return   <motion.div
-              id="TBestSurfing"
+              return   (
+               
+              <motion.div
+              id={projetosId[transitionDelay]}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
@@ -125,10 +126,14 @@ export const Portfolio = () => {
                 delay: transitionDelay / 4,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
-            >             
-              {projeto}
+            >               
+      
+                {projeto}
+           
+             
             </motion.div>
-            })
+            )})        
+            
           }     
           
         <motion.div

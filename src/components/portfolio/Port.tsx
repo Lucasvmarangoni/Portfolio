@@ -3,13 +3,15 @@ import { Cross2Icon } from "@radix-ui/react-icons";
 import { PortDica } from "./components/port-components/PortDica";
 import "./styles.css";
 
+
+
 export const Port = () => {
   return (
     <Dialog.Root>
-      <Dialog.Trigger asChild className="m-auto">
-        <div className="divCapa">
+      <Dialog.Trigger asChild className="m-auto" >
+        <div className="divCapa"  >
           <button>
-            <img
+            <img 
               className="projCapa border border-[#1b1b1bab]"
               src="/portfolio.png"
               alt=""

@@ -12,8 +12,8 @@ export function Search() {
   // const Tlab01: any = document.querySelector("#Tlab01");
   const Tport: any = document.querySelector("#Tport");
   const TnotServ: any = document.querySelector("#TnotServ");
-  const TTasksList: any = document.querySelector("#TTasksList");
-  const TBestSurfing: any = document.querySelector("#TBestSurfing");
+  const TtaskList: any = document.querySelector("#TtaskList");
+  const TbestSurfing: any = document.querySelector("#TbestSurfing");
 
   let filter = filterInput.value.toLowerCase().split(" ");
 
@@ -54,8 +54,8 @@ export function Search() {
     taskslist.includes(filter[i]) ? ++checkTasksList : (checkTasksList += 0);
   }
   checkTasksList >= filter.length
-    ? (TTasksList.style = "display: flex")
-    : (TTasksList.style = "display: none");
+    ? (TtaskList.style = "display: flex")
+    : (TtaskList.style = "display: none");
 
   let checkBestsurfing: number = 0;
   for (let i = 0; i < bestsurfing.length; i++) {
@@ -64,6 +64,6 @@ export function Search() {
       : (checkBestsurfing += 0);
   }
   checkBestsurfing >= filter.length
-    ? (TBestSurfing.style = "display: flex")
-    : (TBestSurfing.style = "display: none");
+    ? (TbestSurfing.style = "display: flex")
+    : (TbestSurfing.style = "display: none");
 }

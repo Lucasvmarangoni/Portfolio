@@ -13,6 +13,7 @@ export const esports = [
   "ui",
   "js",
   " ",
+  ""
 ];
 // export const lab01 = [
 //   "javascript",
@@ -34,7 +35,7 @@ export const port = [
   "motion",
   "js",
   " ",
- 
+ ""
 ];
 export const notServ = [
   "typescript",
@@ -46,7 +47,7 @@ export const notServ = [
   "sqlite",
   "js",
   " ",
-  
+  ""
 ];
 export const taskslist = [
   "typescript",
@@ -63,7 +64,7 @@ export const taskslist = [
   "supertest",
   "js",
   " ",
-  
+  ""
 ];
 
 export const bestsurfing = [
@@ -77,5 +78,5 @@ export const bestsurfing = [
   "github Actions",
   "js",
   " ",
-  
+  ""
 ];
