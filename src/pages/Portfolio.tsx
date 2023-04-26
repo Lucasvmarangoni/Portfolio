@@ -120,7 +120,8 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Esports />
+          <BestSurfing />
+         
         </motion.div>
 
         {/* <motion.div
@@ -146,7 +147,8 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Port />
+           <TaskList />
+          
         </motion.div>
 
         <motion.div
@@ -172,7 +174,7 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <TaskList />
+         <Port />
         </motion.div>
 
         <motion.div
@@ -185,7 +187,7 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <BestSurfing />
+           <Esports />
         </motion.div>
 
         <motion.div
