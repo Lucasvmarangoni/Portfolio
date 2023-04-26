@@ -10,6 +10,11 @@ import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 import { BestSurfing } from "../components/portfolio/BestSurfing";
 
+const projetos: any = [<BestSurfing />, <TaskList />, <NotificationsService />, <Port />, <Esports />];
+
+let n: number[] = [0.4]
+
+
 export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
@@ -109,87 +114,23 @@ export const Portfolio = () => {
          n6:gap-14 n6:mt-4 
          n7:gap-10 n7:mt-4        
       "
-      >
-        <motion.div
-          id="Tesports"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.5,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-          <BestSurfing />
-         
-        </motion.div>
-
-        {/* <motion.div
-          id="Tlab01"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.6,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-          <Lab01 />
-        </motion.div> */}
-
-        <motion.div
-          id="Tport"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.7,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-           <TaskList />
+      >{
+            projetos.map((projeto: any, transitionDelay: number ) => {
+              return   <motion.div
+              id="TBestSurfing"
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: transitionDelay / 4,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >             
+              {projeto}
+            </motion.div>
+            })
+          }     
           
-        </motion.div>
-
-        <motion.div
-          id="TnotServ"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.8,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-          <NotificationsService />
-        </motion.div>
-
-        <motion.div
-          id="TTasksList"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.9,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-         <Port />
-        </motion.div>
-
-        <motion.div
-          id="TBestSurfing"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 1.0,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-           <Esports />
-        </motion.div>
-
         <motion.div
           id="THidden"
           initial={{ opacity: 0, scale: 0.5 }}
@@ -200,8 +141,9 @@ export const Portfolio = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Hidden />
+          { projetos.length % 2 == 0 ? null : <Hidden /> }
         </motion.div>
+        
       </div>
     </motion.div>
   );
