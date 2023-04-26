@@ -75,8 +75,8 @@ export const BestSurfing = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
-                  TypeScript | Node.js | Express | OvernightJS | MongoDB | Mongoose | Jest |
-                  Supertest | Github Actions | ... .
+                  TypeScript | Node | Express | Overnight | MongoDB | Mongoose | Jest |
+                  Supertest | Github Actions | Docker | Docker Compose | Github Actions .
                 </p>
               </div>
             </div>

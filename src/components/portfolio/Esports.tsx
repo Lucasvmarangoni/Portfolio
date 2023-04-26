@@ -66,8 +66,8 @@ export const Esports = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">
-                  Typescript | Node.js | Express | SQLite | Prisma Studio |
-                  React.js | Vite.js | Axios | Tailwind |
+                  Typescript | Node | Express | SQLite | Prisma Studio |
+                  React | Vite | Axios | Tailwind |
                 </p>
               </div>
             </div>

@@ -58,7 +58,7 @@ export const NotificationsService = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P TnotServ">
-                  TypeScript | Node.js | Nest.js | Jest.js | Prisma Studio |
+                  TypeScript | Node | Nest | Jest | Prisma Studio |
                   SQLite
                 </p>
               </div>
