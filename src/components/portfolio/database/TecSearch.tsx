@@ -10,8 +10,7 @@ export const esports = [
   "axios",
   "tailwind",
   "radix",
-  "ui",
-  "js",
+  "ui",  
   " ",
   ""
 ];
@@ -33,8 +32,7 @@ export const port = [
   "ui",
   "framer",
   "motion",
-  "js",
-  " ",
+    " ",
  ""
 ];
 export const notServ = [
@@ -45,8 +43,7 @@ export const notServ = [
   "prisma",
   "studio",
   "sqlite",
-  "js",
-  " ",
+   " ",
   ""
 ];
 export const taskslist = [
@@ -61,8 +58,7 @@ export const taskslist = [
   "axios",
   "tailwind",
   "vitest",
-  "supertest",
-  "js",
+  "supertest",  
   " ",
   ""
 ];
@@ -75,8 +71,10 @@ export const bestsurfing = [
   "mongoose",
   "jest",
   "supertest",
-  "github Actions",
-  "js",
+  "github Actions",  
+  "docker",
+  "docker compose",
+  "github actions",
   " ",
   ""
 ];
