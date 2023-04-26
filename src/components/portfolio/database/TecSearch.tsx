@@ -48,9 +48,7 @@ export const notServ = [
 ];
 export const taskslist = [
   "typescript",
-  "node",
-  "react",
-  "vite",
+  "node",  
   "prisma",
   "studio",
   "sqlite",
