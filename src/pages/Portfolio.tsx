@@ -118,7 +118,7 @@ export const Portfolio = () => {
         <datalist id="datalist">
           {datalist.map((data) => {
             return <option value={data} />;
-          })} 
+          })}
         </datalist>
       </div>
 
@@ -140,7 +140,8 @@ export const Portfolio = () => {
             <h2 className="text-T4 text-xl mt-10">Projetos pessoais</h2>
             <p className="text-base text-[#252525] text-justify mt-5" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
-              O objetivo desses projetos é praticar para consolidar novos conhecimentos e habilidades adquiridas.
+              O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas, 
+              além de adquirir outras em virtude do desenvolvimento do projeto.
             </p>
 
 
