@@ -169,7 +169,7 @@ export const Portfolio = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
                     duration: 0.8,
-                    delay: transitionDelay / 4,
+                    delay: transitionDelay / 2,
                     ease: [0, 0.71, 0.2, 1.01],
                   }}
                 >
@@ -248,7 +248,7 @@ export const Portfolio = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
                     duration: 0.8,
-                    delay: transitionDelay / 4,
+                    delay: transitionDelay / 2,
                     ease: [0, 0.71, 0.2, 1.01],
                   }}
                 >
