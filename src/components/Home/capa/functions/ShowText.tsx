@@ -82,7 +82,7 @@ export function Contar(a: string, b: string) {
 
     setTimeout(() => {
       secret.innerHTML = b;
-    }, 4280);
+    }, 4680);
 
     setTimeout(() => {
       secret.innerHTML = "";
