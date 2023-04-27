@@ -16,10 +16,16 @@ export const projetos: any = [<BestSurfing />, <NotificationsService />, <Esport
 const autoraisId: string[] = ["TtaskList", "Tport"]
 const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
 
-export const THidden = document.querySelector("#THidden") as HTMLElement | any;
+const THidden = document.querySelector("#THidden") as HTMLElement | any;
+
+const datalist: string[] = [
+  'Node Vitest',
+  'Nest Jest',
+  'Node Typescript',
+  'Node Typescript express'
+]
 
 export const Portfolio = () => {
-
 
 
 
@@ -86,7 +92,7 @@ export const Portfolio = () => {
           type="search"
           placeholder="Pesquise pelas tecnologias. Ex: node vite"
           list="datalist"
-          className="px-3 bg-BG text-T1 text-sm placeholder:text-[#a0aec042]
+          className="px-3 bg-BG text-T1 text-sm placeholder:text-[#302f2f] 
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
           n2:w-80 n2:h-10 
@@ -110,10 +116,9 @@ export const Portfolio = () => {
            n7:w-8 n7:h-8"
         />
         <datalist id="datalist">
-          <option value="Node Vitest" />
-          <option value="Nest Jest" />
-          <option value="Node Typescript" />
-          <option value="Node Typescript express" />
+          {datalist.map((data) => {
+            return <option value={data} />;
+          })} 
         </datalist>
       </div>
 
