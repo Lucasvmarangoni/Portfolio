@@ -27,16 +27,20 @@ export const BestSurfing = () => {
               <img src="/bestsurf.png"></img>
             </div>
 
-            <div className="Icon ">
-              <img className="h-5 " src="/github-proj.png" alt="" />
-              <a
-                target={"_blank"}
-                rel={"noreferrer"}
-                className="hover:underline "
-                href="https://github.com/Lucasvmarangoni/Best-Surf"
-              >
-                Github
-              </a>
+            <div className="flex gap-2">
+              <div className="Icon ">
+                <img className="h-5 " src="/github-proj.png" alt="" />
+                <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className="hover:underline "
+                  href="https://github.com/Lucasvmarangoni/Best-Surf"
+                >
+                  Github
+                </a>
+              </div>
+              <img src="https://img.shields.io/badge/Back end-black" alt="Back end"></img>
+              <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 
             <div>

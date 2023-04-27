@@ -28,32 +28,38 @@ export const TaskList = () => {
               <img src="/tasklist.png"></img>
             </div>
 
-            <div className="Icon">
-              <img className="h-5" src="/github-proj.png" alt="" />
-              <a
-                target={"_blank"}
-                rel={"noreferrer"}
-                className="hover:underline"
-                href="https://github.com/Lucasvmarangoni/TaskList"
-              >
-                Github
-              </a>
+            <div className="flex gap-2">
+              <div className="Icon">
+                <img className="h-5" src="/github-proj.png" alt="" />
+                <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className="hover:underline"
+                  href="https://github.com/Lucasvmarangoni/TaskList"
+                >
+                  Github
+                </a>
+              </div>
+              <img src="https://img.shields.io/badge/version-2.0.0-black" alt="Versão 2.0.0"></img>
+              <img src="https://img.shields.io/badge/Back end-black" alt="Back end"></img>
+              <img src="https://img.shields.io/badge/Projeto pessoal-black" alt="Projeto pessoal"></img>
+
             </div>
 
-            <div>
-              <p className="P"> - Esse é um projeto que planejei e desenvolvi do zero sozinho. </p>
+
+            <div>              
               <p className="P mt-4">
-             
-                
-              O projeto é uma API REST para servir uma aplicação de Lista de tarefas. 
-              Permite criar, editar, deletar, consultar e receber notificações.
-        
+
+
+                O projeto é uma API REST para servir uma aplicação de Lista de tarefas.
+                Permite criar, editar, deletar, consultar e receber notificações.
+
               </p>
-            
-              <p className="P mb-8 mt-4">      
-              Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software, 
-              além de praticar a utilização de Node.js com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar, 
-              aprimorando-o com as novas habilidades, tecnologias e ferramentas que adquiro desenvolvendo outros projetos de eventos ou cursos.       
+
+              <p className="P mb-8 mt-4">
+                Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software,
+                além de praticar a utilização de Node.js com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar,
+                aprimorando-o com as novas habilidades, tecnologias e ferramentas que adquiro desenvolvendo outros projetos de eventos ou cursos.
               </p>
               <div className="mt-4">
                 <NotaTaskList />
@@ -67,7 +73,7 @@ export const TaskList = () => {
                 </p>
               </div>
 
-        
+
             </div>
           </Dialog.Description>
 

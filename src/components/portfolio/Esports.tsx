@@ -36,17 +36,21 @@ export const Esports = () => {
             <div id="img" className="banner">
               <video controls src="/eSports.mp4"></video>
             </div>
+            <div className="flex gap-2">
 
-            <div className="Icon">
-              <img className="h-5" src="/github-proj.png" alt="" />
-              <a
-                target={"_blank"}
-                rel={"noreferrer"}
-                className="hover:underline"
-                href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022"
-              >
-                Github
-              </a>
+              <div className="Icon">
+                <img className="h-5" src="/github-proj.png" alt="" />
+                <a
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                  className="hover:underline"
+                  href="https://github.com/Lucasvmarangoni/NLW-Ignite-2022"
+                >
+                  Github
+                </a>
+              </div>
+              <img src="https://img.shields.io/badge/Full Stack-black" alt="Full Stack"></img>
+              <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 
             <div>
