@@ -16,24 +16,31 @@ export const projetos: any = [<BestSurfing />, <NotificationsService />, <Esport
 const autoraisId: string[] = ["TtaskList", "Tport"]
 const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
 
-// export const THidden = document.querySelector("#THidden") as HTMLElement | any;
+export const THidden = document.querySelector("#THidden") as HTMLElement | any;
 
 export const Portfolio = () => {
-  // let [windowWidth, windowCheck]: SetStateAction<any> = useState();
-  // function hidden() {
-  //   const THidden = document.querySelector("#THidden") as HTMLElement | any;
-  //   windowWidth = window.innerWidth;
-  //   windowCheck(
-  //     windowWidth <= 949
-  //       ? (THidden.style = "display: none")
-  //       : (THidden.style = "display: flex")
-  //   );
-  // }
+ 
+
+  
 
 
-  // useEffect(() => {
-  //   hidden();   
-  // }, []);
+  let [windowWidth, windowCheck]: SetStateAction<any> = useState();
+  function hidden() {
+    const THidden = document.querySelector("#THidden") as HTMLElement | any;
+    windowWidth = window.innerWidth;
+    windowCheck(
+      windowWidth <= 949
+        ? (THidden.style = "display: none")
+        : (THidden.style = "display: flex")
+    );
+  }
+
+
+  useEffect(() => {
+    hidden();   
+  }, []);
+
+
 
 
   return (
@@ -245,12 +252,13 @@ export const Portfolio = () => {
             })
 
           }
-         
+        
+          
           {
           
-            projetos.length % 2 == 0 ?
-              null
-              :
+            projetos.length % 2 == 0 
+            ? null
+            :                    
               <motion.div
                 id="THidden"
                 className="THiddenCurse"

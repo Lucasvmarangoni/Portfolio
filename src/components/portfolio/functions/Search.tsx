@@ -1,3 +1,4 @@
+import { autorais, projetos } from "../../../pages/Portfolio";
 import {
   esports,  //
   port,
@@ -10,7 +11,7 @@ import {
 
 
 
- 
+
 
 export function Search() {
   const filterInput: any = document.querySelector("#input");
@@ -21,8 +22,8 @@ export function Search() {
   const TtaskList: any = document.querySelector("#TtaskList");
   const TbestSurfing: any = document.querySelector("#TbestSurfing");
 
-  const THiddenCurse: any = document.querySelector(".THiddenCurse") 
-  const THiddenPersonal: any = document.querySelector(".THiddenPersonal") 
+  const THiddenCurse: any = document.querySelector(".THiddenCurse")
+  const THiddenPersonal: any = document.querySelector(".THiddenPersonal")
 
 
   let filter = filterInput.value.toLowerCase().split(" ");
@@ -39,8 +40,8 @@ export function Search() {
   checkEsports >= filter.length
     ? (Tesports.style = "display: flex")
     : (Tesports.style = "display: none");
-    
-   
+
+
 
 
   // let checkLab01: number = 0;
@@ -83,22 +84,35 @@ export function Search() {
   }
   checkBestsurfing >= filter.length
     ? (TbestSurfing.style = "display: flex")
-    : (TbestSurfing.style = "display: none");    
+    : (TbestSurfing.style = "display: none");
 
+
+
+  Tesports.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
+  TnotServ.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
+  TbestSurfing.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
+
+  if (autorais.length % 2 == 0) {
+    THiddenCurse.style.display = "none"   
+  }
+  if(noneCurseCheck == 0 || noneCurseCheck != 2)
+  THiddenCurse.style.display = "flex"
  
 
-    Tesports.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;   
-    TnotServ.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;    
-    TbestSurfing.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
 
-    if(noneCurseCheck == 2) THiddenCurse.style.display = "none" 
+  Tport.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
+  TtaskList.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
 
-    Tport.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
-    TtaskList.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
- 
-    if(nonePersonalCheck == 2) THiddenPersonal.style.display = "none" ;
 
- 
+  if(projetos.length % 2 == 0){
+    THiddenPersonal.style.display = "none"
+  }
+  if(nonePersonalCheck == 0 || nonePersonalCheck != 2){
+    THiddenPersonal.style.display = "flex"
+  }
+
+
+
 }
 
 
