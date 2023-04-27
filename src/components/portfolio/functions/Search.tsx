@@ -104,7 +104,7 @@ export function Search() {
   TtaskList.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
 
 
-  if(projetos.length % 2 == 0){
+  if(nonePersonalCheck == 2){
     THiddenPersonal.style.display = "none"
   }
   if(nonePersonalCheck == 0 || nonePersonalCheck != 2){

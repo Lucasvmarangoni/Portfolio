@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Hidden } from "../components/portfolio/Hidden";
 import { NotificationsService } from "../components/portfolio/Notifications-service";
-import { Search} from "../components/portfolio/functions/Search";
+import { Search } from "../components/portfolio/functions/Search";
 import { Esports } from "../components/portfolio/Esports";
 // import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
@@ -19,9 +19,9 @@ const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
 export const THidden = document.querySelector("#THidden") as HTMLElement | any;
 
 export const Portfolio = () => {
- 
 
-  
+
+
 
 
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
@@ -37,7 +37,7 @@ export const Portfolio = () => {
 
 
   useEffect(() => {
-    hidden();   
+    hidden();
   }, []);
 
 
@@ -188,7 +188,7 @@ export const Portfolio = () => {
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >
-                : <Hidden />
+                <Hidden />
               </motion.div>
           }
         </div>
@@ -252,13 +252,13 @@ export const Portfolio = () => {
             })
 
           }
-        
-          
+
+
           {
-          
-            projetos.length % 2 == 0 
-            ? null
-            :                    
+
+            projetos.length % 2 == 0
+              ? null
+              :
               <motion.div
                 id="THidden"
                 className="THiddenCurse"
