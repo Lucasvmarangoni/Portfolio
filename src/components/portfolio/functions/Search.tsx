@@ -6,6 +6,12 @@ import {
   bestsurfing,
 } from "../database/TecSearch";
 
+
+
+
+
+ 
+
 export function Search() {
   const filterInput: any = document.querySelector("#input");
   const Tesports: any = document.querySelector("#Tesports");
@@ -15,15 +21,27 @@ export function Search() {
   const TtaskList: any = document.querySelector("#TtaskList");
   const TbestSurfing: any = document.querySelector("#TbestSurfing");
 
+  const THiddenCurse: any = document.querySelector(".THiddenCurse") 
+  const THiddenPersonal: any = document.querySelector(".THiddenPersonal") 
+
+
   let filter = filterInput.value.toLowerCase().split(" ");
 
-  let checkEsports: number = 0;
+  let nonePersonalCheck: number = 0;
+  let noneCurseCheck: number = 0;
+
+
+
+  let checkEsports: number | boolean = 0;
   for (let i = 0; i < esports.length; i++) {
     esports.includes(filter[i]) ? ++checkEsports : (checkEsports += 0);
   }
   checkEsports >= filter.length
     ? (Tesports.style = "display: flex")
     : (Tesports.style = "display: none");
+    
+   
+
 
   // let checkLab01: number = 0;
   // for (let i = 0; i < esports.length; i++) {
@@ -34,7 +52,7 @@ export function Search() {
   //   : (Tlab01.style = "display: none");
 
   let checkPort: number = 0;
-  for (let i = 0; i < esports.length; i++) {
+  for (let i = 0; i < port.length; i++) {
     port.includes(filter[i]) ? ++checkPort : (checkPort += 0);
   }
   checkPort >= filter.length
@@ -42,7 +60,7 @@ export function Search() {
     : (Tport.style = "display: none");
 
   let checkNotServ: number = 0;
-  for (let i = 0; i < esports.length; i++) {
+  for (let i = 0; i < notServ.length; i++) {
     notServ.includes(filter[i]) ? ++checkNotServ : (checkNotServ += 0);
   }
   checkNotServ >= filter.length
@@ -65,5 +83,22 @@ export function Search() {
   }
   checkBestsurfing >= filter.length
     ? (TbestSurfing.style = "display: flex")
-    : (TbestSurfing.style = "display: none");
+    : (TbestSurfing.style = "display: none");    
+
+ 
+
+    Tesports.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;   
+    TnotServ.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;    
+    TbestSurfing.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
+
+    if(noneCurseCheck == 2) THiddenCurse.style.display = "none" 
+
+    Tport.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
+    TtaskList.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
+ 
+    if(nonePersonalCheck == 2) THiddenPersonal.style.display = "none" ;
+
+ 
 }
+
+

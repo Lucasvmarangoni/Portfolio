@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Hidden } from "../components/portfolio/Hidden";
 import { NotificationsService } from "../components/portfolio/Notifications-service";
-import { Search } from "../components/portfolio/functions/Search";
+import { Search} from "../components/portfolio/functions/Search";
 import { Esports } from "../components/portfolio/Esports";
 // import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
@@ -11,28 +11,30 @@ import { SetStateAction, useEffect, useState } from "react";
 import { BestSurfing } from "../components/portfolio/BestSurfing";
 
 export const autorais: any = [<TaskList />, <Port />];
-export const projetos: any = [<BestSurfing />, <NotificationsService />, <Esports />];
+export const projetos: any = [<BestSurfing />, <NotificationsService />, <Esports />]
 
-
-const autoraisId: string[] = ["TtaskList","Tport"]
+const autoraisId: string[] = ["TtaskList", "Tport"]
 const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
 
+// export const THidden = document.querySelector("#THidden") as HTMLElement | any;
 
 export const Portfolio = () => {
-  let [windowWidth, windowCheck]: SetStateAction<any> = useState();
-  function hidden() {
-    const THidden = document.querySelector("#THidden") as HTMLElement | any;
-    windowWidth = window.innerWidth;
-    windowCheck(
-      windowWidth <= 949
-        ? (THidden.style = "display: none")
-        : (THidden.style = "display: flex")
-    );
-  }
+  // let [windowWidth, windowCheck]: SetStateAction<any> = useState();
+  // function hidden() {
+  //   const THidden = document.querySelector("#THidden") as HTMLElement | any;
+  //   windowWidth = window.innerWidth;
+  //   windowCheck(
+  //     windowWidth <= 949
+  //       ? (THidden.style = "display: none")
+  //       : (THidden.style = "display: flex")
+  //   );
+  // }
 
-  useEffect(() => {
-    hidden();
-  }, []);
+
+  // useEffect(() => {
+  //   hidden();   
+  // }, []);
+
 
   return (
     <motion.div
@@ -125,8 +127,8 @@ export const Portfolio = () => {
 
             <h2 className="text-T4 text-xl mt-10">Projetos pessoais</h2>
             <p className="text-base text-[#252525] text-justify mt-5" >
-            Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho. 
-            O objetivo desses projetos é praticar para consolidar novos conhecimentos e habilidades adquiridas.
+              Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
+              O objetivo desses projetos é praticar para consolidar novos conhecimentos e habilidades adquiridas.
             </p>
 
 
@@ -164,26 +166,27 @@ export const Portfolio = () => {
             })
 
           }
-          {           
-          (autorais.length % 2) == 0 ?
-            null
-            :
-            <motion.div
-              id="THidden"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{
-                duration: 0.8,
-                delay: 1.0,
-                ease: [0, 0.71, 0.2, 1.01],
-              }}
-            >
-              : <Hidden />
-            </motion.div>
+          {
+            (autorais.length % 2) == 0 ?
+              null
+              :
+              <motion.div
+                id="THidden"
+                className="THiddenPersonal"
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.8,
+                  delay: 1.0,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+              >
+                : <Hidden />
+              </motion.div>
           }
         </div>
 
-          <hr  className=" border-[#252525] w-[80%] m-auto
+        <hr className=" border-[#252525] w-[80%] m-auto
            n2:mt-10 
            n3:mt-6   
            n4:mt-6 
@@ -215,8 +218,8 @@ export const Portfolio = () => {
 
             <h2 className="text-T4 text-xl">Projetos de cursos</h2>
             <p className="text-base text-[#252525] text-justify mt-5" >
-            Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria. 
-            O objetivo desses projetos é aprender para obter novos conhecimentos e habilidades.
+              Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
+              O objetivo desses projetos é aprender para obter novos conhecimentos e habilidades.
             </p>
 
 
@@ -242,12 +245,15 @@ export const Portfolio = () => {
             })
 
           }
+         
           {
+          
             projetos.length % 2 == 0 ?
               null
               :
               <motion.div
                 id="THidden"
+                className="THiddenCurse"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -256,7 +262,7 @@ export const Portfolio = () => {
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >
-                : <Hidden />
+                <Hidden />
               </motion.div>
           }
         </div>
