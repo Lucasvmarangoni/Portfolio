@@ -232,7 +232,7 @@ export const Portfolio = () => {
             <h2 className="text-T4 text-xl">Projetos de cursos</h2>
             <p className="text-base text-[#252525] text-justify mt-5" >
               Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
-              O objetivo desses projetos é aprender para obter novos conhecimentos e habilidades.
+              O objetivo desses projetos é adquirir novos conhecimentos e habilidades.
             </p>
 
 
