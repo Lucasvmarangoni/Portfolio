@@ -12,6 +12,9 @@ const outMouse = () => {
   return onmouse.setAttribute("src", "/Hnlw.jpg");
 };
 
+const tecnologias: string[] = ["Typescript", "Node", "Express", "SQLite", "Prisma Studio",
+  "React", "Vite", "Axios", "Tailwind",]
+
 export const Esports = () => {
   return (
     <Dialog.Root>
@@ -48,7 +51,7 @@ export const Esports = () => {
                 >
                   Github
                 </a>
-              </div>              
+              </div>
               <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 
@@ -68,10 +71,11 @@ export const Esports = () => {
               </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P">
-                  Typescript | Node | Express | SQLite | Prisma Studio |
-                  React | Vite | Axios | Tailwind |
-                </p>
+                <p className="P">{
+                  tecnologias.map((tecnologia) => {
+                    return tecnologia
+                  }).join(", ")
+                }</p>
               </div>
             </div>
           </Dialog.Description>

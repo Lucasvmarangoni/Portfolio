@@ -3,7 +3,7 @@ import { Cross2Icon } from "@radix-ui/react-icons";
 import { PortDica } from "./components/port-components/PortDica";
 import "./styles.css";
 
-
+const tecnologias: string[] = ["TypeScript", "Vite", "React", "TailWind", "Radix ui", "Framer Motion"]
 
 export const Port = () => {
   return (
@@ -11,7 +11,7 @@ export const Port = () => {
       <Dialog.Trigger asChild className="m-auto" >
         <div className="divCapa"  >
           <button>
-            <img 
+            <img
               className="projCapa border border-[#1b1b1bab]"
               src="/portfolio.png"
               alt=""
@@ -47,7 +47,7 @@ export const Port = () => {
                     Github
                   </a>
                 </div>
-                <img src="https://img.shields.io/badge/version-1.7.20-black" alt="Versão 1.7.20"></img>               
+                <img src="https://img.shields.io/badge/version-1.7.20-black" alt="Versão 1.7.20"></img>
                 <img src="https://img.shields.io/badge/Projeto pessoal-black" alt="Projeto pessoal"></img>
               </div>
             </div>
@@ -69,10 +69,13 @@ export const Port = () => {
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P">
-                  TypeScript| Vite | React | TailWind | Radix
-                  ui | Framer Motion |
-                </p>
+
+                <p className="P">{
+                  tecnologias.map((tecnologia) => {
+                    return tecnologia
+                  }).join(", ")
+                }</p>
+
               </div>
             </div>
           </Dialog.Description>

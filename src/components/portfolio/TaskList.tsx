@@ -3,6 +3,9 @@ import { Cross2Icon } from "@radix-ui/react-icons";
 import { NotaTaskList } from "./components/task-list-components/Nota-TaskList";
 import "./styles.css";
 
+const tecnologias: string[] = ["TypeScript", "Node", "Express", "Vitest", "Prisma Studio",
+  "Class-validator", "SQLite"];
+
 export const TaskList = () => {
   return (
     <Dialog.Root>
@@ -40,13 +43,13 @@ export const TaskList = () => {
                   Github
                 </a>
               </div>
-              <img src="https://img.shields.io/badge/version-2.0.0-black" alt="Versão 2.0.0"></img>              
+              <img src="https://img.shields.io/badge/version-2.0.0-black" alt="Versão 2.0.0"></img>
               <img src="https://img.shields.io/badge/Projeto pessoal-black" alt="Projeto pessoal"></img>
 
             </div>
 
 
-            <div>              
+            <div>
               <p className="P mt-4">
 
 
@@ -66,10 +69,15 @@ export const TaskList = () => {
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P TnotServ">
-                  TypeScript | Node | Express | Vitest | Prisma Studio |
-                  Class-validator | SQLite |
-                </p>
+
+                <p className="P">{
+                  tecnologias.map((tecnologia) => {
+                    return tecnologia
+                  }).join(", ")
+                }</p>
+
+
+
               </div>
 
 

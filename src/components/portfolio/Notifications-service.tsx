@@ -2,6 +2,9 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import "./styles.css";
 
+const tecnologias: string[] = ["TypeScript", "Node", "Nest", "Jest", "Prisma Studio",
+  "SQLite"]
+
 export const NotificationsService = () => {
   return (
     <Dialog.Root>
@@ -42,7 +45,7 @@ export const NotificationsService = () => {
                 >
                   Github
                 </a>
-              </div>                            
+              </div>
               <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 
@@ -59,10 +62,11 @@ export const NotificationsService = () => {
               </p>
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P TnotServ">
-                  TypeScript | Node | Nest | Jest | Prisma Studio |
-                  SQLite
-                </p>
+                <p className="P">{
+                  tecnologias.map((tecnologia) => {
+                    return tecnologia
+                  }).join(", ")
+                }</p>
               </div>
             </div>
           </Dialog.Description>

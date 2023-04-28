@@ -2,6 +2,29 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import "./styles.css";
 
+const tecnologias: string[] = [
+  "TypeScript",
+  "Node.js",
+  "Express",
+  "OvernightJS",
+  "Lodash",
+  "Pino",
+  "Express-pino",
+  "Json Web Token",
+  "Bcrypt",
+  "BodyParser",
+  "Node-Config",
+  "MongoDB",
+  "Mongoose",
+  "Jest",
+  "Nock",
+  "Supertest",
+  "Docker",
+  "Docker Compose",
+  "Github Actions",
+  "Heroku"
+]
+
 export const BestSurfing = () => {
   return (
     <Dialog.Root>
@@ -38,7 +61,7 @@ export const BestSurfing = () => {
                 >
                   Github
                 </a>
-              </div>              
+              </div>
               <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 
@@ -77,10 +100,11 @@ export const BestSurfing = () => {
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
-                <p className="P TnotServ">
-                  TypeScript | Node | Express | Overnight | MongoDB | Mongoose | Jest |
-                  Supertest | Github Actions | Docker | Docker Compose | Github Actions .
-                </p>
+                <p className="P">{
+                  tecnologias.map((tecnologia) => {
+                    return tecnologia
+                  }).join(", ")
+                }</p>
               </div>
             </div>
           </Dialog.Description>
