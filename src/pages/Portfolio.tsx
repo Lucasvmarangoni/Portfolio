@@ -138,7 +138,7 @@ export const Portfolio = () => {
           >
 
             <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos pessoais</h2>
-            <p className="text-base text-[#25252588] text-justify mt-5" >
+            <p className="text-base text-[#25252588] text-justify mt-5 mb-12" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
               O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas, 
               além de adquirir outras em virtude do desenvolvimento do projeto.
