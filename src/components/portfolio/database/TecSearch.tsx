@@ -1,19 +1,14 @@
-export const esports = [
-  "typescript",
-  "node",
-  "react",
-  "vite",
-  "prisma",
-  "studio",
-  "sqlite",
-  "express",
-  "axios",
-  "tailwind",
-  "radix",
-  "ui",  
-  " ",
-  ""
-];
+export const tecEsports = [
+  "Typescript",
+  "Node",
+  "Express",
+  "SQLite",
+  "Prisma Studio",
+  "React",
+  "Vite",
+  "Axios",
+  "Tailwind",
+]
 // export const lab01 = [
 //   "javascript",
 //   "vite",
@@ -23,57 +18,55 @@ export const esports = [
 //   " ",
 //   "",
 // ];
-export const port = [
-  "typescript",  
-  "react",
-  "vite",
-  "tailwind",
-  "radix",
-  "ui",
-  "framer",
-  "motion",
-    " ",
- ""
-];
-export const notServ = [
-  "typescript",
-  "node",
-  "nest",
-  "jest",
-  "prisma",
-  "studio",
-  "sqlite",
-   " ",
-  ""
-];
-export const taskslist = [
-  "typescript",
-  "node",  
-  "prisma",
-  "studio",
-  "sqlite",
-  "express",
-  "axios",
-  "tailwind",
-  "vitest",
-  "supertest",  
-  " ",
-  ""
+export const tecPort = [
+  "TypeScript",
+  "Vite",
+  "React",
+  "TailWind",
+  "Radix ui",
+  "Framer Motion"
 ];
 
-export const bestsurfing = [
-  "typescript",
-  "node",
-  "express",
-  "overnight",
-  "mongoDB",
-  "mongoose",
-  "jest",
-  "supertest",
-  "github Actions",  
-  "docker",
-  "docker compose",
-  "github actions",
-  " ",
-  ""
-];
+export const tecNotServ = [
+  "TypeScript",
+  "Node",
+  "Nest",
+  "Jest",
+  "Prisma Studio",
+  "SQLite"
+]
+
+export const tecTaskList = [
+  "TypeScript",
+  "Node",
+  "Express",
+  "Vitest",
+  "Prisma Studio",
+  "Class-validator",
+  "SQLite"
+]
+
+export const tecBestSurfing: string[] = [
+  "TypeScript",
+  "Node.js",
+  "Express",
+  "OvernightJS",
+  "Lodash",
+  "Pino",
+  "Express-pino",
+  "Json Web Token",
+  "Bcrypt",
+  "BodyParser",
+  "Node-Config",
+  "MongoDB",
+  "Mongoose",
+  "Jest",
+  "Nock",
+  "Supertest",
+  "Docker",
+  "Docker Compose",
+  "Github Actions",
+  "Heroku"
+]
+
+

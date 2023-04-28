@@ -2,6 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import { Slides } from "../functions/Slides";
 import "./styles.css";
+import { tecEsports } from "./database/TecSearch";
 
 const onMouse = () => {
   const onmouse = document.querySelector("#mouse") as HTMLImageElement;
@@ -12,8 +13,7 @@ const outMouse = () => {
   return onmouse.setAttribute("src", "/Hnlw.jpg");
 };
 
-const tecnologias: string[] = ["Typescript", "Node", "Express", "SQLite", "Prisma Studio",
-  "React", "Vite", "Axios", "Tailwind",]
+
 
 export const Esports = () => {
   return (
@@ -72,7 +72,7 @@ export const Esports = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">{
-                  tecnologias.map((tecnologia) => {
+                  tecEsports.map((tecnologia) => {
                     return tecnologia
                   }).join(", ")
                 }</p>

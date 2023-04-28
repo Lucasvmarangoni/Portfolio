@@ -1,22 +1,23 @@
 import { autorais, projetos } from "../../../pages/Portfolio";
 import {
-  esports,  //
-  port,
-  notServ,
-  taskslist,
-  bestsurfing,
+  tecEsports,
+  tecPort,
+  tecNotServ,
+  tecTaskList,
+  tecBestSurfing,
 } from "../database/TecSearch";
 
 
-
-
-
+const esports = tecEsports.concat(" ", "").join(" ").toLowerCase().split(" ");
+const port: string[] = tecPort.concat(" ", "").join(" ").toLowerCase().split(" ");
+const notServ: string[] = tecNotServ.concat(" ", "").join(" ").toLowerCase().split(" ");
+const taskList: string[] = tecTaskList.concat(" ", "").join(" ").toLowerCase().split(" ");
+const bestSurfing: string[] = tecBestSurfing.concat(" ", "").join(" ").toLowerCase().split(" ");
 
 
 export function Search() {
   const filterInput: any = document.querySelector("#input");
   const Tesports: any = document.querySelector("#Tesports");
-  // const Tlab01: any = document.querySelector("#Tlab01");
   const Tport: any = document.querySelector("#Tport");
   const TnotServ: any = document.querySelector("#TnotServ");
   const TtaskList: any = document.querySelector("#TtaskList");
@@ -25,13 +26,7 @@ export function Search() {
   const THiddenCurse: any = document.querySelector(".THiddenCurse")
   const THiddenPersonal: any = document.querySelector(".THiddenPersonal")
 
-
   let filter = filterInput.value.toLowerCase().split(" ");
-
-  let nonePersonalCheck: number = 0;
-  let noneCurseCheck: number = 0;
-
-
 
   let checkEsports: number | boolean = 0;
   for (let i = 0; i < esports.length; i++) {
@@ -40,17 +35,6 @@ export function Search() {
   checkEsports >= filter.length
     ? (Tesports.style = "display: flex")
     : (Tesports.style = "display: none");
-
-
-
-
-  // let checkLab01: number = 0;
-  // for (let i = 0; i < esports.length; i++) {
-  //   lab01.includes(filter[i]) ? ++checkLab01 : (checkLab01 += 0);
-  // }
-  // checkLab01 >= filter.length
-  //   ? (Tlab01.style = "display: flex")
-  //   : (Tlab01.style = "display: none");
 
   let checkPort: number = 0;
   for (let i = 0; i < port.length; i++) {
@@ -69,16 +53,16 @@ export function Search() {
     : (TnotServ.style = "display: none");
 
   let checkTasksList: number = 0;
-  for (let i = 0; i < taskslist.length; i++) {
-    taskslist.includes(filter[i]) ? ++checkTasksList : (checkTasksList += 0);
+  for (let i = 0; i < taskList.length; i++) {
+    taskList.includes(filter[i]) ? ++checkTasksList : (checkTasksList += 0);
   }
   checkTasksList >= filter.length
     ? (TtaskList.style = "display: flex")
     : (TtaskList.style = "display: none");
 
   let checkBestsurfing: number = 0;
-  for (let i = 0; i < bestsurfing.length; i++) {
-    bestsurfing.includes(filter[i])
+  for (let i = 0; i < bestSurfing.length; i++) {
+    bestSurfing.includes(filter[i])
       ? ++checkBestsurfing
       : (checkBestsurfing += 0);
   }
@@ -88,26 +72,27 @@ export function Search() {
 
 
 
+  let nonePersonalCheck: number = 0;
+  let noneCurseCheck: number = 0;
+
   Tesports.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
   TnotServ.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
   TbestSurfing.style.display == "none" ? noneCurseCheck += 2 : noneCurseCheck -= 2;
 
   if (autorais.length % 2 == 0) {
-    THiddenCurse.style.display = "none"   
+    THiddenCurse.style.display = "none"
   }
-  if(noneCurseCheck == 0 || noneCurseCheck != 2)
-  THiddenCurse.style.display = "flex"
- 
-
+  if (noneCurseCheck == 0 || noneCurseCheck != 2)
+    THiddenCurse.style.display = "flex"
 
   Tport.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
   TtaskList.style.display == "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
 
 
-  if(nonePersonalCheck == 2){
+  if (nonePersonalCheck == 2) {
     THiddenPersonal.style.display = "none"
   }
-  if(nonePersonalCheck == 0 || nonePersonalCheck != 2){
+  if (nonePersonalCheck == 0 || nonePersonalCheck != 2) {
     THiddenPersonal.style.display = "flex"
   }
 

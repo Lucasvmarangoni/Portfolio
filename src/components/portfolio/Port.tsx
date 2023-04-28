@@ -2,6 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import { PortDica } from "./components/port-components/PortDica";
 import "./styles.css";
+import { tecPort } from "./database/TecSearch";
 
 const tecnologias: string[] = ["TypeScript", "Vite", "React", "TailWind", "Radix ui", "Framer Motion"]
 
@@ -71,7 +72,7 @@ export const Port = () => {
                 <h2 className="hTec">Tecnologias </h2>
 
                 <p className="P">{
-                  tecnologias.map((tecnologia) => {
+                  tecPort.map((tecnologia) => {
                     return tecnologia
                   }).join(", ")
                 }</p>

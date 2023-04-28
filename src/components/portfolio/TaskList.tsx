@@ -2,9 +2,8 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import { NotaTaskList } from "./components/task-list-components/Nota-TaskList";
 import "./styles.css";
+import { tecTaskList } from "./database/TecSearch";
 
-const tecnologias: string[] = ["TypeScript", "Node", "Express", "Vitest", "Prisma Studio",
-  "Class-validator", "SQLite"];
 
 export const TaskList = () => {
   return (
@@ -71,7 +70,7 @@ export const TaskList = () => {
                 <h2 className="hTec">Tecnologias </h2>
 
                 <p className="P">{
-                  tecnologias.map((tecnologia) => {
+                  tecTaskList.map((tecnologia) => {
                     return tecnologia
                   }).join(", ")
                 }</p>

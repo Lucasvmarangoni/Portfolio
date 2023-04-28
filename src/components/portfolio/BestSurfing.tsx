@@ -1,29 +1,9 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import "./styles.css";
+import { tecBestSurfing } from "./database/TecSearch";
 
-const tecnologias: string[] = [
-  "TypeScript",
-  "Node.js",
-  "Express",
-  "OvernightJS",
-  "Lodash",
-  "Pino",
-  "Express-pino",
-  "Json Web Token",
-  "Bcrypt",
-  "BodyParser",
-  "Node-Config",
-  "MongoDB",
-  "Mongoose",
-  "Jest",
-  "Nock",
-  "Supertest",
-  "Docker",
-  "Docker Compose",
-  "Github Actions",
-  "Heroku"
-]
+
 
 export const BestSurfing = () => {
   return (
@@ -101,7 +81,7 @@ export const BestSurfing = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">{
-                  tecnologias.map((tecnologia) => {
+                  tecBestSurfing.map((tecnologia) => {
                     return tecnologia
                   }).join(", ")
                 }</p>

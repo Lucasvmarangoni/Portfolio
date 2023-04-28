@@ -1,9 +1,9 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import "./styles.css";
+import { tecNotServ } from "./database/TecSearch";
 
-const tecnologias: string[] = ["TypeScript", "Node", "Nest", "Jest", "Prisma Studio",
-  "SQLite"]
+
 
 export const NotificationsService = () => {
   return (
@@ -63,7 +63,7 @@ export const NotificationsService = () => {
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>
                 <p className="P">{
-                  tecnologias.map((tecnologia) => {
+                  tecNotServ.map((tecnologia) => {
                     return tecnologia
                   }).join(", ")
                 }</p>
