@@ -6,7 +6,7 @@ import { Contar } from "./functions/ShowText";
 import { NavLink } from "react-router-dom";
 
 export function PhotoButtons() {
-  const primeiroTexto: string = `Você descobriu um segredo!`;
+  const primeiroTexto: string = `Descobriu um easter egg!!`;
   const segundoTexto: string = `As figurinhas são personagens de Solo Leveling`;
 
   let [texts, setText] = useState(0);
