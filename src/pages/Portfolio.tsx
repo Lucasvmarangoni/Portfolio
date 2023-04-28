@@ -137,7 +137,7 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 text-xl mt-10 brightness-75">Projetos pessoais</h2>
+            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos pessoais</h2>
             <p className="text-base text-[#25252588] text-justify mt-5" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
               O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas, 
@@ -219,7 +219,7 @@ export const Portfolio = () => {
       "
         >
           <motion.div
-            className=" text-center w-[70%] m-auto brightness-150"
+            className=" text-center w-[70%] m-auto brightness-150 mt-6"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -229,7 +229,7 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 brightness-75 text-xl">Projetos de cursos</h2>
+            <h2 className="text-T4 brightness-75 text-xl font-semi-bold">Projetos de cursos</h2>
             <p className="text-base text-[#25252588] text-justify mt-5" >
               Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
               O objetivo desses projetos é adquirir novos conhecimentos e habilidades.
