@@ -48,8 +48,7 @@ export const Esports = () => {
                 >
                   Github
                 </a>
-              </div>
-              <img src="https://img.shields.io/badge/Full Stack-black" alt="Full Stack"></img>
+              </div>              
               <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 

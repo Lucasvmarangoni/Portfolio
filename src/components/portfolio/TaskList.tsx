@@ -40,8 +40,7 @@ export const TaskList = () => {
                   Github
                 </a>
               </div>
-              <img src="https://img.shields.io/badge/version-2.0.0-black" alt="Versão 2.0.0"></img>
-              <img src="https://img.shields.io/badge/Back end-black" alt="Back end"></img>
+              <img src="https://img.shields.io/badge/version-2.0.0-black" alt="Versão 2.0.0"></img>              
               <img src="https://img.shields.io/badge/Projeto pessoal-black" alt="Projeto pessoal"></img>
 
             </div>

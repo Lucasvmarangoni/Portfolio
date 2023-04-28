@@ -38,8 +38,7 @@ export const BestSurfing = () => {
                 >
                   Github
                 </a>
-              </div>
-              <img src="https://img.shields.io/badge/Back end-black" alt="Back end"></img>
+              </div>              
               <img src="https://img.shields.io/badge/Projeto curso-black" alt="Projeto curso"></img>
             </div>
 
