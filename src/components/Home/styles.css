@@ -6,7 +6,7 @@
   .CollapsibleRoot {
     @apply w-[80vw] 
     max-w-[44rem] 
-    max-h-[100vh]  
+    /* max-h-[1000vh]   */
     my-2 
     flex 
     gap-5;
