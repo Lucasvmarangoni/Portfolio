@@ -45,7 +45,7 @@
   }
   .CollapsibleContent {
     @apply m-auto 
-    w-[42rem] 
+    max-w-[42rem] 
     mt-5;
   }
   /* .Fimg {
