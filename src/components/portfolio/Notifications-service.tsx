@@ -48,8 +48,7 @@ export const NotificationsService = () => {
 
             <div>
               <p className="P">
-                O projeto é um sistema de serviço de notificações,{" "}
-                <span className="text-T1">Back-end</span>. Possui as seguintes
+                O projeto é um sistema de microservice de notificações. Possui as seguintes
                 funcionalidades e rotas: Send, Cancel, Count Recipient, Get
                 Recipient, Read, Unread.
               </p>
