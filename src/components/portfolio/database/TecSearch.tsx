@@ -9,15 +9,7 @@ export const tecEsports = [
   "Axios",
   "Tailwind",
 ]
-// export const lab01 = [
-//   "javascript",
-//   "vite",
-//   "tailwind",
-//   "npm",
-//   "imask",
-//   " ",
-//   "",
-// ];
+
 export const tecPort = [
   "TypeScript",
   "Vite",
@@ -69,4 +61,25 @@ export const tecBestSurfing: string[] = [
   "Heroku"
 ]
 
+export const esports = tecEsports.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const port: string[] = tecPort.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const notServ: string[] = tecNotServ.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const taskList: string[] = tecTaskList.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const bestSurfing: string[] = tecBestSurfing.concat(" ", "").join(" ").toLowerCase().split(" ");
 
+
+
+const fullDatabase = [...esports, ...port, ...notServ, ...taskList, ...bestSurfing]
+let tecnologias: string[] = []
+
+const ordenedFullDatabase: string[] = fullDatabase.sort()
+
+
+for (let i = 0; i < ordenedFullDatabase.length; i++) {
+  if (ordenedFullDatabase[i] !== ordenedFullDatabase[i + 1]) {
+    tecnologias.push(ordenedFullDatabase[i])
+  }
+
+}
+
+export const fullFilterDatabase = tecnologias

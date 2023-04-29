@@ -3,32 +3,54 @@ import { Hidden } from "../components/portfolio/Hidden";
 import { NotificationsService } from "../components/portfolio/Notifications-service";
 import { Search } from "../components/portfolio/functions/Search";
 import { Esports } from "../components/portfolio/Esports";
-// import { Lab01 } from "../components/portfolio/Lab01";
 import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
 import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
 import { BestSurfing } from "../components/portfolio/BestSurfing";
+import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 
-export const autorais: any = [<TaskList />, <Port />];
-export const projetos: any = [<BestSurfing />, <NotificationsService />, <Esports />]
-
-const autoraisId: string[] = ["TtaskList", "Tport"]
-const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
-
-const THidden = document.querySelector("#THidden") as HTMLElement | any;
-
-const datalist: string[] = [
-  'Node Vitest',
-  'Nest Jest',
-  'Node Typescript',
-  'Node Typescript express'
-]
 
 export const Portfolio = () => {
 
+  const autorais: any = [<TaskList />, <Port />];
+  const projetos: any = [<BestSurfing />, <NotificationsService />, <Esports />]
 
+  const autoraisId: string[] = ["TtaskList", "Tport"]
+  const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
 
+  const datalist: string[] = [
+    'Node Vitest',
+    'Nest Jest',
+    'Node Typescript',
+    'Node Typescript express'
+  ]
+
+  const [list, setList] = useState<string[]>([])
+
+  function dynamicDatalist() {
+    const filterInput: any = document.querySelector("#input");
+    const filter = filterInput.value.toLowerCase();
+
+    const tecnologias: string[] = [];
+    for (let i = 0; i < fullFilterDatabase.length; i++) {
+      if (fullFilterDatabase[i] !== fullFilterDatabase[i + 1]) {
+        tecnologias.push(fullFilterDatabase[i]);
+      }
+    }
+    const dList: string[] = []
+    for (let i = 0; i < tecnologias.length; i++) {
+
+      if (filter.length >= 2) {
+        if (tecnologias[i].includes(filter)) {
+          dList.push(tecnologias[i])
+        }
+      }
+      setList(dList.map((tecnologia) => {
+        return tecnologia
+      }))
+    }
+  }
 
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
@@ -40,14 +62,11 @@ export const Portfolio = () => {
         : (THidden.style = "display: flex")
     );
   }
-
-
   useEffect(() => {
     hidden();
+    dynamicDatalist()
+
   }, []);
-
-
-
 
   return (
     <motion.div
@@ -87,7 +106,8 @@ export const Portfolio = () => {
         ></label>
         <input
           id="input"
-          onInput={Search}
+          onChange={Search}
+          onInput={dynamicDatalist}
           autoComplete="on"
           type="search"
           placeholder="Pesquise pelas tecnologias. Ex: node vite"
@@ -116,9 +136,16 @@ export const Portfolio = () => {
            n7:w-8 n7:h-8"
         />
         <datalist id="datalist">
-          {datalist.map((data) => {
-            return <option value={data} />;
-          })}
+          {list.map((tecnologia) =>
+            <option key={tecnologia} value={tecnologia} />
+          )
+          }
+          {
+            datalist.map((tecnologia) =>
+              <option value={tecnologia} />
+            )
+          }
+
         </datalist>
       </div>
 
@@ -140,7 +167,7 @@ export const Portfolio = () => {
             <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos pessoais</h2>
             <p className="text-base text-[#25252588] text-justify mt-5 mb-12" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
-              O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas, 
+              O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas,
               além de adquirir outras em virtude do desenvolvimento do projeto.
             </p>
 
@@ -285,3 +312,4 @@ export const Portfolio = () => {
     </motion.div>
   );
 };
+
