@@ -41,7 +41,7 @@ export function Contato() {
     -translate-y-1/2  
     focus:outline-none"
         >
-          <Dialog.Title className="text-2xl flex gap-2 m-auto" >
+          <Dialog.Title className="text-xl flex gap-2 m-auto" >
             <button className="text-black px-3 bg-BGB flex justify-center rounded-md w-32 hover:opacity-75"
               onClick={email}
             >
