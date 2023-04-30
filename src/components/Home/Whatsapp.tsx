@@ -8,7 +8,7 @@ export function Whatsapp() {
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
 
-  const link = `api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
+  const link = `https://api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
 
 
 
