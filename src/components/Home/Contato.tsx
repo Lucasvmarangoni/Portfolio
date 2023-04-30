@@ -56,10 +56,7 @@ export function Contato() {
 
           {contactArray[contact]}
 
-          <Dialog.Close asChild>
-            <button className="IconButton">
-              <Cross2Icon />
-            </button>
+          <Dialog.Close asChild>           
           </Dialog.Close>
         </Dialog.Content>
       </Dialog.Portal>

@@ -69,7 +69,8 @@ export function Email() {
                     form="form"
                     type="submit"
                     className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70"
-                    disabled={!email && !description}
+                    disabled={!email || !description}
+
                 >
                     Enviar
                 </button>
