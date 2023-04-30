@@ -10,7 +10,7 @@ export function PhotoButtons() {
   const segundoTexto: string = `As figurinhas são personagens de Solo Leveling`;
 
   let [texts, setText] = useState(0);
-  const objectTexts = [<TextCapa />, <BackText />];
+  const textArray = [<TextCapa />, <BackText />];
   function click() {
     setText(texts == 0 ? (texts = 1) : (texts = 0));
 
@@ -204,7 +204,7 @@ export function PhotoButtons() {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          {objectTexts[texts]}
+          {textArray[texts]}
           {/* <TextCapa /> */}
         </motion.div>
       </div>
