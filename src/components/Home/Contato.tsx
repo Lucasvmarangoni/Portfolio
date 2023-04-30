@@ -42,12 +42,12 @@ export function Contato() {
     focus:outline-none"
         >
           <Dialog.Title className="text-2xl flex gap-2 m-auto" >
-            <button className="text-black px-3 bg-BGB m-auto rounded-md "
+            <button className="text-black px-3 bg-BGB flex justify-center rounded-md w-32 hover:opacity-75"
               onClick={email}
             >
               Email
             </button>
-            <button className="text-black px-3 bg-BGB m-auto rounded-md "
+            <button className="text-black px-3 bg-BGB flex justify-center rounded-md w-32 hover:opacity-75"
               onClick={whatsapp}
             >
               Whatsapp

@@ -2,7 +2,6 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { useState } from "react";
 
 
-
 export function Whatsapp() {
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
@@ -10,14 +9,10 @@ export function Whatsapp() {
 
   const link = `https://api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
 
-
-
   return (
 
     <Dialog.Description className="mt-0">
       <div className="grid gap-4 justify-center">
-
-
         <div className="text-T2 grid gap-2 w-5 ">
           <label htmlFor="inputName">Nome:</label>
           <input
@@ -48,7 +43,6 @@ export function Whatsapp() {
           />
         </div>
 
-
         <div className="text-T2 grid gap-2 w-64">
           <label className="text-T2" htmlFor="inputMessage">
             Mensagem:
@@ -69,7 +63,7 @@ export function Whatsapp() {
           type="submit"
           className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70"
           disabled={!message}
-          
+
         >
           <a href={link} target="_blank">Enviar</a>
         </button>
