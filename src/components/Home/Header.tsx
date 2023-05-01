@@ -37,7 +37,7 @@ export function Header() {
         </button>
 
         <div
-          className="text-T1 mt-1 items-center gap-5 right-0 top-0 opacity-70 hover:opacity-80 
+          className="text-T1 mt-[2px] items-center gap-5 right-0 top-0 opacity-70 hover:opacity-80 
           n2:flex n2:static
           n3:absolute
           n4:absolute
