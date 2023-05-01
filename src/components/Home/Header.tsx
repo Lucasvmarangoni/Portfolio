@@ -23,7 +23,7 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-[#3b27535b] font-medium text-xl flex gap-1 items-center opacity-50 hover:opacity-70 brightness-150
+          className="text-[#3b27535b] font-medium text-xl flex gap-1 items-center hover:opacity-70 brightness-110
           n4:text-xl
           n5:text-base
           n6:text-base
@@ -31,13 +31,13 @@ export function Header() {
           "
         >
           <img id="img" className="w-5 opacity-60" src="/logo.svg" alt="" />
-          <Link to="/" className="border-b-2 border-t-2 border-transparent">
+          <Link to="/" className="">
             <h1 className="brightness-150">Lucas V Marangoni</h1>
           </Link>
         </button>
 
         <div
-          className="text-T1 mt-[2px] items-center gap-5 right-0 top-0 opacity-70 hover:opacity-80 
+          className="text-T1 mt-[2px] items-center gap-5 right-0 top-0 hover:opacity-100 
           n2:flex n2:static
           n3:absolute
           n4:absolute
@@ -59,7 +59,7 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 w-20 text-lg rounded-md opacity-70 hover:opacity-80 brightness-200 hover:text-[1.05rem] block  
+            className=" h-8 w-20 text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
             n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
             n4:invisible
@@ -72,7 +72,7 @@ export function Header() {
 
           <button
           id="contato"
-            className="h-8 w-20 text-lg opacity-70 hover:opacity-80 brightness-200 hover:text-[1.05rem] 
+            className="h-8 w-20 text-lg hover:opacity-100 brightness-150 hover:text-[1.05rem] 
           n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible          
           n3:invisible 
           n4:invisible
