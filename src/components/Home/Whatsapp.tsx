@@ -65,7 +65,7 @@ export function Whatsapp() {
         </div>
         <button
           type="submit"
-          className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70"
+          className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70 brightness-150"
           disabled={!message}
 
         >
