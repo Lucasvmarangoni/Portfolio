@@ -70,7 +70,7 @@ export const Portfolio = () => {
 
   return (
     <motion.div
-      className="mt-10 w-[1030px] pb-20 pt-10 bg-BGH brightness-100 m-auto
+      className="mt-10 w-[1030px] pb-20 pt-10 bg-BGH m-auto brightness-150
        n0:w-[1030px]    
        n1:w-[830px]
        n2:w-[781px] n2:mt-10 
@@ -154,7 +154,7 @@ export const Portfolio = () => {
 
         <div>
           <motion.div
-            className=" text-center w-[70%] m-auto brightness-150"
+            className=" text-center w-[70%] m-auto brightness-200"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -246,7 +246,7 @@ export const Portfolio = () => {
       "
         >
           <motion.div
-            className=" text-center w-[70%] m-auto brightness-150 mt-6"
+            className=" text-center w-[70%] m-auto brightness-200 mt-6"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
