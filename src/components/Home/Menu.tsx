@@ -1,7 +1,7 @@
 import React, { RefAttributes } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import "./styles.css";
-import { Link, Path, To } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Contato } from "./Contato";
 
 const pathname = window.location.pathname;

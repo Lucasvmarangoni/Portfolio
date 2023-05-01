@@ -31,9 +31,9 @@ export function Header() {
           "
         >
           <img id="img" className="w-5 opacity-60 brightness-150" src="/logo.png" alt="" />
-          <NavLink to="/">
+          <Link to="/" className="border-b-2 border-t-2 border-transparent">
             <h1 className="brightness-150">Lucas V Marangoni</h1>
-          </NavLink>
+          </Link>
         </button>
 
         <div
@@ -71,6 +71,7 @@ export function Header() {
           </button>
 
           <button
+          id="contato"
             className="h-8 w-20 text-lg opacity-70 hover:opacity-80 brightness-200 hover:text-[1.05rem] 
           n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible          
           n3:invisible 
@@ -78,8 +79,9 @@ export function Header() {
           n5:invisible
           n6:invisible
           n7:invisible  
-          "
+          "          
           >
+          
             <Contato />
           </button>
         </div>

@@ -2,19 +2,22 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { useEffect, useState } from "react";
 import { Email } from "./Email";
 import { Whatsapp } from "./Whatsapp";
+import { Cross2Icon } from "@radix-ui/react-icons";
 
 
 
 export function Contato() {
-  const emailButton: any = document.querySelector("#emailButton")
-  const whatsappButton: any = document.querySelector("#whatsappButton")
+  const contato: any = document.querySelector("#contato");
 
   let [contact, setContact] = useState(0);
   let [Emailopacity, setEmailopacity] = useState<any>(0);
   let [whatsappopacity, setWhatsappopacity] = useState<any>(0);
 
   const contactArray = [<Email />, <Whatsapp />];
-  const EmailopacityArray = [[``]];
+
+  const x = document.querySelector("#xButton")
+
+
 
 
 
@@ -76,6 +79,11 @@ export function Contato() {
           {contactArray[contact]}
 
           <Dialog.Close asChild>
+            <button id="xButton" className="IconButton"
+
+            >
+              <Cross2Icon color="#ffffff85" />
+            </button>
           </Dialog.Close>
         </Dialog.Content>
       </Dialog.Portal>

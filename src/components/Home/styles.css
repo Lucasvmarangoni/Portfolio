@@ -145,6 +145,8 @@
 
 .active {  
   border-bottom: 2px solid #55396285;
+  padding: 1px;
+  
 
 }
 
