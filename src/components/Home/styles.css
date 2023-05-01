@@ -130,7 +130,8 @@
     rounded-md
     flex    
     h-6    
-    relative;
+    relative
+    brightness-150;
     /* 
 .DropdownMenuItem,
 .DropdownMenuCheckboxItem,

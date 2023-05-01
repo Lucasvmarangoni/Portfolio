@@ -13,8 +13,8 @@ const href: any =
 
 export const Menu = () => {
   return (
-    <DropdownMenu.Root>
-      <DropdownMenu.Trigger asChild>
+    <DropdownMenu.Root >
+      <DropdownMenu.Trigger asChild className="brightness-150">
         <button className="" aria-label="">
           {/* <HamburgerMenuIcon /> */}
           <svg
@@ -44,8 +44,10 @@ export const Menu = () => {
           duration-1000 
           in-menu
           grid
-          justify-center
-          gap-4"
+          justify-center          
+          gap-4
+          brightness-200
+          "
           sideOffset={10}
         >
           <DropdownMenu.Item className="menu">
