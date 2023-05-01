@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { OnOut, OnOver } from "./functions/OverOut";
 import { Contato } from "./Contato";
 import { Menu } from "./Menu";
@@ -31,9 +31,9 @@ export function Header() {
           "
         >
           <img id="img" className="w-5 opacity-60 brightness-150" src="/logo.png" alt="" />
-          <Link to="/">
+          <NavLink to="/">
             <h1 className="brightness-150">Lucas V Marangoni</h1>
-          </Link>
+          </NavLink>
         </button>
 
         <div
@@ -67,7 +67,7 @@ export function Header() {
             n6:invisible           
             n7:invisible"
           >
-            <Link to="/portfolio">Portfólio</Link>
+            <NavLink to="/portfolio">Portfólio</NavLink>
           </button>
 
           <button
