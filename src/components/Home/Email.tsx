@@ -33,7 +33,7 @@ export function Email() {
                     </div>
 
                     <div className="text-T2 grid gap-2 w-5 ">
-                        <label className="text-T2" htmlFor="inputEmail">
+                        <label className="" htmlFor="inputEmail">
                             Email:
                         </label>
                         <input
