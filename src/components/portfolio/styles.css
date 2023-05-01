@@ -45,7 +45,7 @@
   }
   .Icon {
     @apply w-[83px] 
-    bg-BGB 
+    bg-BGB
     rounded-md 
     hover:opacity-70 
     flex 

@@ -22,10 +22,10 @@ module.exports = {
       "icons": "1px"
     },
     textColor: {
-      'T1': '#55396285',
+      'T1': '#3b27535b',
       'T2': '#ffffff85',
       'T3': '#030303',
-      'T4': '#4829575b',
+      'T4': '#3b27535b',
     },
     animation: {
       'contentShow': '150ms cubic-bezier(0.16, 1, 0.3, 1)',
@@ -34,8 +34,8 @@ module.exports = {
       backgroundColor: {
         "BG": "#030303",
         'BH': '#000000f8',
-        'BGH': '#0c0c0cf8',
-        'BGB': '#55396285',
+        'BGH': '#0c0c0c86',
+        'BGB': '#3b275367',
         'Bhover': '#22212185'
       },
       transitionTimingFunction: {

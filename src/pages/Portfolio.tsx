@@ -124,7 +124,7 @@ export const Portfolio = () => {
           "
         />
         <VscSearch
-          color="#55396285"
+          color="#3b275367"
           className="bg-BG  pr-2
            n0:w-8 n0:h-10
            n1:w-8 n1:h-10

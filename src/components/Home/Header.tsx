@@ -23,14 +23,14 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T1 font-medium text-xl flex gap-1 items-center opacity-50 hover:opacity-70 brightness-150
+          className="text-[#3b27535b] font-medium text-xl flex gap-1 items-center opacity-50 hover:opacity-70 brightness-150
           n4:text-xl
           n5:text-base
           n6:text-base
           n7:text-base
           "
         >
-          <img id="img" className="w-5 opacity-60 brightness-150" src="/logo.png" alt="" />
+          <img id="img" className="w-5 opacity-60" src="/logo.svg" alt="" />
           <Link to="/" className="border-b-2 border-t-2 border-transparent">
             <h1 className="brightness-150">Lucas V Marangoni</h1>
           </Link>
