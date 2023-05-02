@@ -2,9 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { useState } from "react";
 import { NavLink, NavLinkProps } from "react-router-dom";
 
-interface CustomNavLinkProps extends NavLinkProps {
-  disabled?: boolean;
-}
+
 
 
 export function Whatsapp() {
@@ -14,7 +12,7 @@ export function Whatsapp() {
 
   const link = `https://api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
 
-  function CustomNavLink({ disabled, ...rest }: CustomNavLinkProps) {
+  function CustomNavLink({ ...rest }: NavLinkProps) {
     if (!message) {
       return <span>Enviar</span>;
     }
@@ -78,7 +76,7 @@ export function Whatsapp() {
           type="submit"
           disabled={!message}
           className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70 brightness-150"
-          
+
 
         >
           <CustomNavLink to={link} target="_blank">Enviar</CustomNavLink>
