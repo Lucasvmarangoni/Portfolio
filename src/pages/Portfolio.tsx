@@ -227,12 +227,12 @@ export const Portfolio = () => {
         </div>
 
         <hr className=" border-[#25252588] w-[80%] m-auto
-           n2:mt-10 
-           n3:mt-6   
-           n4:mt-6 
-           n5:mt-6 
-           n6:mt-4 
-           n7:mt-4        
+           n2:mt-10   
+           n3:mt-6      
+           n4:mt-6  
+           n5:mt-6  
+           n6:mt-6  
+           n7:mt-6          
           "/>
 
         <div
@@ -246,7 +246,7 @@ export const Portfolio = () => {
       "
         >
           <motion.div
-            className=" text-center w-[70%] m-auto brightness-200 mt-6"
+            className=" text-center w-[70%] m-auto brightness-200"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
