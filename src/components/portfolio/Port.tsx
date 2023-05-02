@@ -48,7 +48,7 @@ export const Port = () => {
                     Github
                   </a>
                 </div>
-                <img src="https://img.shields.io/badge/version-1.7.20-black" alt="Versão 1.7.20"></img>
+                <img src="https://img.shields.io/badge/version-1.7.20-black" alt="Versão 1.9.20"></img>
                 <img src="https://img.shields.io/badge/Projeto pessoal-black" alt="Projeto pessoal"></img>
               </div>
             </div>
