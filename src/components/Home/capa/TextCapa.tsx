@@ -33,7 +33,7 @@ export function TextCapa() {
         </h1>
       </div>
       <p className="mb-1 ">
-      Sou desenvolvedor back-end Node.js e estou cursando graduação em 
+      Sou desenvolvedor backend Node.js e estou cursando graduação de tecnólogo em 
       Análise e Desenvolvimento de Sistemas na Pontifícia Universidade Católica de Minas Gerais. 
       Aqui, apresento meus principais projetos, além de compartilhar algumas informações sobre mim.   
       </p>
