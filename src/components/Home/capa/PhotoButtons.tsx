@@ -210,7 +210,7 @@ export function PhotoButtons() {
       </div>
       <p
         id="sicret"
-        className="text-T1 font-medium absolute top-[90%]
+        className="text-T1 font-medium absolute top-[90%] brightness-200
       n0:text-xl
       n1:text-xl
       n2:text-base
