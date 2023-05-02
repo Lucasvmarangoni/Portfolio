@@ -29,7 +29,7 @@
   .projTitle {
     @apply text-T1
     text-3xl
-    brightness-150;
+    brightness-200;
   }
   .projYear {
     @apply text-T3
@@ -37,7 +37,8 @@
     font-semibold
     bg-BGB
     px-2    
-    rounded-md;
+    rounded-md
+    ;
   }
   .banner {
     @apply flex 
@@ -52,7 +53,7 @@
     gap-1 
     items-center 
     justify-center
-    brightness-150
+    brightness-200
     cursor-pointer;
   }
   .divTec {
@@ -69,6 +70,6 @@
     rounded-md
     hover:opacity-70 
     cursor-default
-    brightness-150;
+    brightness-200;
   }
 }
