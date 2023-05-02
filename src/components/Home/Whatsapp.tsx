@@ -1,14 +1,25 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, NavLinkProps } from "react-router-dom";
+
+interface CustomNavLinkProps extends NavLinkProps {
+  disabled?: boolean;
+}
 
 
 export function Whatsapp() {
-  const [name, setName] = useState("");
-  const [company, setCompany] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState<string>("");
+  const [company, setCompany] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
 
   const link = `https://api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
+
+  function CustomNavLink({ disabled, ...rest }: CustomNavLinkProps) {
+    if (!message) {
+      return <span>Enviar</span>;
+    }
+    return <NavLink {...rest} />;
+  }
 
   return (
 
@@ -65,11 +76,12 @@ export function Whatsapp() {
         </div>
         <button
           type="submit"
-          className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70 brightness-150"
           disabled={!message}
+          className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70 brightness-150"
+          
 
         >
-          <NavLink to={link} target="_blank">Enviar</NavLink>
+          <CustomNavLink to={link} target="_blank">Enviar</CustomNavLink>
         </button>
       </div>
     </Dialog.Description>
