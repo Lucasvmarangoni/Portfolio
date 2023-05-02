@@ -11,7 +11,7 @@ export const MOut = (item?: any) => {
 
 export function SpanTag(text: string) {
   return <span
-    className="w-64 invisible text-black text-sm font-semibold bg-[#1d1229] p-2 rounded-md absolute"
+    className="w-64 invisible text-black text-sm font-semibold bg-[#1d1229] p-2 rounded-md absolute cursor-default"
     id="sendButton"
   >
     <p>{text}</p>
