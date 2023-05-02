@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { Cross2Icon } from "@radix-ui/react-icons";
 import { useState } from "react";
+import { MOver, MOut, SpanTag, SendObligatoryButton } from "./capa/functions/Obligatory-itens";
 
 export function Email() {
     const [name, setName] = useState("");
@@ -66,13 +66,19 @@ export function Email() {
                     </div>
                 </form>
                 <button
+                    onMouseOver={() => {
+                        MOver(email && description);
+                    }}
+                    onMouseOut={() => {
+                        MOut(email && description);
+                    }}
                     form="form"
                     type="submit"
-                    className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70 brightness-150"
+                    className="w-64 brightness-150 grid justify-center items-center"
                     disabled={!email || !description}
-
                 >
-                    Enviar
+                    <p className={`${SendObligatoryButton}`}>Enviar</p>
+                    {SpanTag("Email e mensagem obrigatórios!")}
                 </button>
             </div>
         </Dialog.Description>

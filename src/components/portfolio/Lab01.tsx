@@ -75,6 +75,7 @@ export const Lab01 = () => {
                   alt=""
                 />
               </div>
+              
             </div>
 
             <div className="mt-2">

@@ -1,7 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink, NavLinkProps } from "react-router-dom";
-
+import { MOver, MOut, SpanTag, SendObligatoryButton } from "./capa/functions/Obligatory-itens";
 
 
 
@@ -13,10 +13,12 @@ export function Whatsapp() {
   const link = `https://api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
 
   function CustomNavLink({ ...rest }: NavLinkProps) {
+    
+
     if (!message) {
-      return <span>Enviar</span>;
+      return <span className={`${SendObligatoryButton}`}>Enviar</span>;
     }
-    return <NavLink {...rest} />;
+    return <NavLink className={`${SendObligatoryButton}`} {...rest} />;
   }
 
   return (
@@ -73,13 +75,20 @@ export function Whatsapp() {
           </div>
         </div>
         <button
-          type="submit"
-          disabled={!message}
-          className="bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70 brightness-150"
+          onMouseOver={() => {
+            MOver(message);
+          }}
 
-
+          onMouseOut={() => {
+            MOut(message);
+          }}
+          type="submit"          
+          className="w-64 brightness-150 grid justify-center items-center"
         >
-          <CustomNavLink to={link} target="_blank">Enviar</CustomNavLink>
+          <CustomNavLink to={link} target="_blank"
+          >Enviar
+          </CustomNavLink>
+          {SpanTag("O campo mensagem é obrigatório!")}
         </button>
       </div>
     </Dialog.Description>
