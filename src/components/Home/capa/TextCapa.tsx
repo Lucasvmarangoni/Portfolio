@@ -19,7 +19,7 @@ export function TextCapa() {
           Ola, meu nome é
         </h1>
         <h1
-          className="text-T1 font-semibold brightness-150
+          className="text-T1 font-semibold brightness-200
         n0:text-3xl n0:text-left
         n1:text-3xl n1:text-left
         n2:text-2xl n2:text-left
