@@ -24,7 +24,7 @@ export const Layout = () => {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <p>© 2022 Lucas V Marangoni. All Rights Reserved.</p>
+        <p className="brightness-125 ">© 2022 Lucas V Marangoni. All Rights Reserved.</p>
       </motion.div>
     </div>
   );
