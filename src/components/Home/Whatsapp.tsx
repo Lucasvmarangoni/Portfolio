@@ -10,7 +10,13 @@ export function Whatsapp() {
   const [company, setCompany] = useState<string>("");
   const [message, setMessage] = useState<string>("");
 
-  const link = `https://api.whatsapp.com/send?phone=5527999880848&text=Meu nome é ${name}, da empresa ${company}. ${message}`
+  let meuNome: string
+  let daEmpresa: string
+  let ponto: string
+  name === "" ? meuNome = "" : meuNome = "Meu nome é "
+  company === "" ? (daEmpresa = "", ponto = "") : (daEmpresa = ", da empresa ", ponto = ".")
+
+  const link = `https://api.whatsapp.com/send?phone=5527999880848&text=${meuNome}${name}${daEmpresa}${company}${ponto} ${message}`
 
   function CustomNavLink({ ...rest }: NavLinkProps) {
     
