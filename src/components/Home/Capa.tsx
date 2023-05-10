@@ -5,7 +5,7 @@ export function Capa() {
   return (
     <motion.div
       id="vid"
-      className="mt-10 flex justify-center items-center flex-wrap
+      className="mt-10 flex justify-center items-center flex-wrap 
       n2:mt-10
       n3:mt-10
       n4:mt-8
@@ -22,7 +22,7 @@ export function Capa() {
       }}
     >
       <video
-        className="m-auto opacity-30 object-cover
+        className="m-auto opacity-40 object-cover 
         n0:w-[1030px] 
         n1:w-[830px] n1:h-full
         n2:w-[781px] n2:h-full

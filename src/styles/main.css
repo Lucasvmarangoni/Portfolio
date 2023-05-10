@@ -58,7 +58,9 @@
     flex 
     items-center 
     justify-center
-    gap-[6px];
+    gap-[6px]
+    brightness-125;
+    
   }
 }
 

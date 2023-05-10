@@ -34,7 +34,7 @@ module.exports = {
       backgroundColor: {
         "BG": "#030303",
         'BH': '#000000f8',
-        'BGH': '#0c0c0c86',
+        'BGH': '#0c0c0ce7',
         'BGB': '#3b275367',
         'Bhover': '#22212185'
       },
