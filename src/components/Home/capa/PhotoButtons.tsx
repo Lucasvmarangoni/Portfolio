@@ -57,7 +57,7 @@ export function PhotoButtons() {
         >
           <img
             onClick={click}
-            className="bg-[#6d6d6d23] opacity-80  rounded-[60px]  hover:bg-Bhover m-auto cursor-pointer brightness-100
+            className="bg-[#6d6d6d1f] opacity-100  rounded-[60px]  hover:bg-Bhover m-auto cursor-pointer brightness-100
             n0:w-[211px]   
             n1:w-[180px]    
             n2:w-[160px]
