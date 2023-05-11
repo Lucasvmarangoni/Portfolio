@@ -57,7 +57,7 @@
     cursor-pointer;
   }
   .divTec {
-    @apply mt-10 
+    @apply 
     flex 
     gap-3;
   }

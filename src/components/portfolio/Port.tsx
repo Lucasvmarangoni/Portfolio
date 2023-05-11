@@ -4,7 +4,6 @@ import { PortDica } from "./components/port-components/PortDica";
 import "./styles.css";
 import { tecPort } from "./database/TecSearch";
 
-const tecnologias: string[] = ["TypeScript", "Vite", "React", "TailWind", "Radix ui", "Framer Motion"]
 
 export const Port = () => {
   return (

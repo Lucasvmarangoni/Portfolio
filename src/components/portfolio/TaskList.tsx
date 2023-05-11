@@ -50,11 +50,8 @@ export const TaskList = () => {
 
             <div>
               <p className="P mt-4">
-
-
                 O projeto é uma API REST para servir uma aplicação de Lista de tarefas.
                 Permite criar, editar, deletar, consultar e receber notificações.
-
               </p>
 
               <p className="P mb-8 mt-4">

@@ -1,32 +1,23 @@
 import { motion } from "framer-motion";
 import { Hidden } from "../components/portfolio/Hidden";
+import { NotificationsService } from "../components/portfolio/Notifications-service";
 import { Search } from "../components/portfolio/functions/Search";
+import { Esports } from "../components/portfolio/Esports";
+import { Port } from "../components/portfolio/Port";
 import { VscSearch } from "react-icons/vsc";
+import { TaskList } from "../components/portfolio/TaskList";
 import { SetStateAction, useEffect, useState } from "react";
+import { BestSurfing } from "../components/portfolio/BestSurfing";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
-import { listAllProjects } from "../components/portfolio/all";
-import { projectsDB } from "../components/portfolio/database/projetos"
+
 
 export const Portfolio = () => {
 
-
-  const personalProjects = projectsDB.filter((project) => {
-    return project.type === "pessoal"
-  })
-
-  const courseProjects = projectsDB.filter((project) => {
-    return project.type === "curso"
-  })
-
-  const groupProjects = projectsDB.filter((project) => {
-    return project.type === "grupo"
-  })
+  const autorais: any = [<TaskList />, <Port />];
+  const projetos: any = [<BestSurfing />, <NotificationsService />, <Esports />]
 
   const autoraisId: string[] = ["TtaskList", "Tport"]
-  const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports"]
-  const groupId: string[] = ["Tpaiva"]
-
-
+  const projetosId: string[] = ["TbestSurfing", "TnotServ", "Tesports"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -99,14 +90,14 @@ export const Portfolio = () => {
     >
       <div
         className=" flex justify-center items-center brightness-125
-        n0:w-[1030px]
-        n1:w-[830px]      
-        n2:w-[781px] n2:pb-0
-        n3:w-[576px] n3:pb-4
-        n4:w-[530px] n4:pb-4
-        n5:w-[430px] n5:pb-4
-        n6:w-[350px] n6:pb-4
-        n7:w-[300px] n7:pb-4
+      n0:w-[1030px]
+      n1:w-[830px]      
+      n2:w-[781px] n2:pb-0
+      n3:w-[576px] n3:pb-4
+      n4:w-[530px] n4:pb-4
+      n5:w-[430px] n5:pb-4
+      n6:w-[350px] n6:pb-4
+      n7:w-[300px] n7:pb-4
       "
       >
         <label
@@ -119,7 +110,7 @@ export const Portfolio = () => {
           onInput={dynamicDatalist}
           autoComplete="on"
           type="search"
-          placeholder="Pesquise pelas tecnologias. Ex: node vitest"
+          placeholder="Pesquise pelas tecnologias. Ex: node vite"
           list="datalist"
           className="px-3 bg-BG text-T1 text-sm placeholder:text-[#302f2f] 
           n0:w-80 n0:h-10
@@ -159,6 +150,8 @@ export const Portfolio = () => {
       </div>
 
       <div className="brightness-125">
+
+
         <div>
           <motion.div
             className=" text-center w-[70%] m-auto brightness-200"
@@ -178,22 +171,25 @@ export const Portfolio = () => {
               além de adquirir outras em virtude do desenvolvimento do projeto.
             </p>
 
+
           </motion.div>
         </div>
 
         <div
           className="m-auto flex flex-wrap justify-center 
-         n2:gap-10 n2:mt-10 
-          n3:mt-6   
-          n4:mt-6 
-          n5:mt-6 
-          n6:mt-4 
-          n7:mt-4        
+         n2:gap-14 n2:mt-10 
+         n3:gap-14 n3:mt-6   
+         n4:gap-14 n4:mt-6 
+         n5:gap-14 n5:mt-6 
+         n6:gap-14 n6:mt-4 
+         n7:gap-10 n7:mt-4        
       "
         >
+
           {
-            personalProjects.map((project, transitionDelay) => {
+            autorais.map((projeto: any, transitionDelay: number) => {
               return (
+
                 <motion.div
                   id={autoraisId[transitionDelay]}
                   initial={{ opacity: 0, scale: 0.5 }}
@@ -204,13 +200,14 @@ export const Portfolio = () => {
                     ease: [0, 0.71, 0.2, 1.01],
                   }}
                 >
-                  {listAllProjects(project)}
+                  {projeto}
                 </motion.div>
               )
             })
+
           }
           {
-            (personalProjects.length % 2) === 0 ?
+            (autorais.length % 2) == 0 ?
               null
               :
               <motion.div
@@ -237,96 +234,15 @@ export const Portfolio = () => {
            n6:mt-6  
            n7:mt-6          
           "/>
-        <div>
-          <motion.div
-            className=" text-center w-[70%] m-auto brightness-200"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              duration: 0.8,
-              delay: 0.4,
-              ease: [0, 0.71, 0.2, 1.01],
-            }}
-          >
-
-            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos grupo</h2>
-            <p className="text-base text-[#25252588] text-justify mt-5 mb-12" >
-              Projetos grupo são aqueles desenvolvidos em equipe, sendo sua criação e
-              desenvolvimento todo realizado pela equipe. Normalmente são projetos desenvolvidos em
-              função da graduação de analise e desenvolvimento de sistemas na PUC Minas.
-            </p>
-
-
-          </motion.div>
-        </div>
 
         <div
           className="m-auto flex flex-wrap justify-center 
-         n2:gap-10 n2:mt-10 
-          n3:mt-6   
-          n4:mt-6 
-          n5:mt-6 
-          n6:mt-4 
-          n7:mt-4        
-      "
-        >
-          {
-            groupProjects.map((project, transitionDelay) => {
-              return (
-
-                <motion.div
-                  id={groupId[transitionDelay]}
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{
-                    duration: 0.8,
-                    delay: transitionDelay + 1 / 2,
-                    ease: [0, 0.71, 0.2, 1.01],
-                  }}
-                >
-                  {listAllProjects(project)}
-                </motion.div>
-              )
-            })
-          }
-          {
-            groupProjects.length % 2 === 0
-              ? null
-              :
-              <motion.div
-                id="THidden"
-                className="THiddenCurse"
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{
-                  duration: 0.8,
-                  delay: 1.0,
-                  ease: [0, 0.71, 0.2, 1.01],
-                }}
-              >
-                <Hidden />
-              </motion.div>
-          }
-        </div>
-
-        <hr className=" border-[#25252588] w-[80%] m-auto
-           n2:mt-10   
-           n3:mt-6      
-           n4:mt-6  
-           n5:mt-6  
-           n6:mt-6  
-           n7:mt-6          
-          "/>
-
-
-        <div
-          className="m-auto flex flex-wrap justify-center 
-         n2:gap-10 n2:mt-10 
-          n3:mt-6   
-          n4:mt-6 
-          n5:mt-6 
-          n6:mt-4 
-          n7:mt-4        
+         n2:gap-14 n2:mt-10 
+         n3:gap-14 n3:mt-6   
+         n4:gap-14 n4:mt-6 
+         n5:gap-14 n5:mt-6 
+         n6:gap-14 n6:mt-4 
+         n7:gap-10 n7:mt-4        
       "
         >
           <motion.div
@@ -350,7 +266,7 @@ export const Portfolio = () => {
           </motion.div>
 
           {
-            courseProjects.map((project, transitionDelay) => {
+            projetos.map((projeto: any, transitionDelay: number) => {
               return (
 
                 <motion.div
@@ -363,15 +279,17 @@ export const Portfolio = () => {
                     ease: [0, 0.71, 0.2, 1.01],
                   }}
                 >
-                  {listAllProjects(project)}
+                  {projeto}
                 </motion.div>
               )
             })
+
           }
 
 
           {
-            courseProjects.length % 2 === 0
+
+            projetos.length % 2 == 0
               ? null
               :
               <motion.div

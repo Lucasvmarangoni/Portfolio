@@ -38,7 +38,7 @@ export const tecTaskList = [
   "SQLite"
 ]
 
-export const tecBestSurfing: string[] = [
+export const tecBestSurf: string[] = [
   "TypeScript",
   "Node.js",
   "Express",
@@ -61,15 +61,21 @@ export const tecBestSurfing: string[] = [
   "Heroku"
 ]
 
+export const tecPaivaMotoPecas = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+]
+
 export const esports = tecEsports.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const port: string[] = tecPort.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const notServ: string[] = tecNotServ.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const taskList: string[] = tecTaskList.concat(" ", "").join(" ").toLowerCase().split(" ");
-export const bestSurfing: string[] = tecBestSurfing.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const bestSurf: string[] = tecBestSurf.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const paivaMotoPecas: string[] = tecPaivaMotoPecas.concat(" ", "").join(" ").toLowerCase().split(" ");
 
 
-
-const fullDatabase = [...esports, ...port, ...notServ, ...taskList, ...bestSurfing]
+const fullDatabase = [...esports, ...port, ...notServ, ...taskList, ...bestSurf, ...paivaMotoPecas]
 let tecnologias: string[] = []
 
 const ordenedFullDatabase: string[] = fullDatabase.sort()

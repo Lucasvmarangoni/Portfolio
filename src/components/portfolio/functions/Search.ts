@@ -1,7 +1,8 @@
 import {
-  bestSurfing,
+  bestSurf,
   esports,
   notServ,
+  paivaMotoPecas,
   port,
   taskList,
 } from "../database/TecSearch";
@@ -16,7 +17,8 @@ export function Search() {
   const Tport: any = document.querySelector("#Tport");
   const TnotServ: any = document.querySelector("#TnotServ");
   const TtaskList: any = document.querySelector("#TtaskList");
-  const TbestSurfing: any = document.querySelector("#TbestSurfing");
+  const TbestSurf: any = document.querySelector("#TbestSurf");
+  const TpaivaMotoPecas: any = document.querySelector("#Tpaiva");
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");
@@ -33,8 +35,10 @@ export function Search() {
   SnotServ.execute();
   const StaskList = new Csearch(0, taskList, filter, TtaskList);
   StaskList.execute();
-  const SbestSurfing = new Csearch(0, bestSurfing, filter, TbestSurfing);
+  const SbestSurfing = new Csearch(0, bestSurf, filter, TbestSurf);
   SbestSurfing.execute();
+  const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
+  SpaivaMotoPecas.execute();
 
   hiddenDisplay()
 }

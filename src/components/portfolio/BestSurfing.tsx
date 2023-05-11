@@ -13,7 +13,7 @@ export const BestSurfing = () => {
           <button>
             <img className="projCapa" src="/bestsurf.png" alt="" />
           </button>
-          <h2 className="imgTitle"> BEST SURFING</h2>
+          <h2 className="imgTitle"> BEST SURF</h2>
         </div>
       </Dialog.Trigger>
       <Dialog.Portal>
@@ -72,11 +72,7 @@ export const BestSurfing = () => {
                 aplicação web. A aplicação web não é construída durante o curso,
                 pois ela não é o foco do conteúdo, ela é disponibilizada pronta,
                 portanto o front-end não é construído por mim.
-              </p>
-
-              {/* <div className="mt-4">
-                <NotaTaskList />
-              </div> */}
+              </p>             
 
               <div className="divTec">
                 <h2 className="hTec">Tecnologias </h2>

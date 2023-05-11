@@ -31,7 +31,7 @@ export const NotificationsService = () => {
 
           <Dialog.Description className="Dgrid">
             <div id="img" className="banner">
-              <img title="VÍDEO EM BREVE" src="/igniteLab04.png"></img>
+              <img title="" src="/igniteLab04.png"></img>
             </div>
 
             <div className="flex gap-2">
