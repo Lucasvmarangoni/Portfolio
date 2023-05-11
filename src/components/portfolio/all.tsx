@@ -1,9 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { NotaTaskList } from "./components/task-list-components/Nota-TaskList";
 import "./styles.css";
-import { tecTaskList } from "./database/TecSearch";
-import { ReactComponentElement } from "react";
 
 interface Props {
     name: string,

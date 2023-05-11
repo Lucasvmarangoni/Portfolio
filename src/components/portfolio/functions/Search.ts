@@ -28,8 +28,8 @@ export function Search() {
   SnotServ.execute();
   const StaskList = new Csearch(0, taskList, filter, TtaskList);
   StaskList.execute();
-  const SbestSurfing = new Csearch(0, bestSurf, filter, TbestSurf);
-  SbestSurfing.execute();
+  const SbestSurf = new Csearch(0, bestSurf, filter, TbestSurf);
+  SbestSurf.execute();
   const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
   SpaivaMotoPecas.execute();
 
