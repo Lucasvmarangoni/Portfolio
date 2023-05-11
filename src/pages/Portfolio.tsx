@@ -23,10 +23,8 @@ export const Portfolio = () => {
   })
 
   const autoraisId: string[] = ["TtaskList", "Tport"]
-  const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports"]
   const groupId: string[] = ["Tpaiva"]
-
-
+  const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -63,12 +61,15 @@ export const Portfolio = () => {
 
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
-    const THidden = document.querySelector("#THidden") as HTMLElement | any;
-    windowWidth = window.innerWidth;
+    const TCourseHidden = document.querySelector(".TCourseHidden") as HTMLElement | any;
+    const TGroupHidden = document.querySelector(".TGroupHidden") as HTMLElement | any;
+    const TPersonalHidden = document.querySelector(".TPersonalHidden") as HTMLElement | any;
+    windowWidth = window.innerWidth;    
+    
     windowCheck(
       windowWidth <= 949
-        ? (THidden.style = "display: none")
-        : (THidden.style = "display: flex")
+        ? (TCourseHidden.style.display = "none", TGroupHidden.style.display = "none")
+        : (TCourseHidden.style.display = "flex", TGroupHidden.style.display = "flex")
     );
   }
   useEffect(() => {
@@ -158,8 +159,9 @@ export const Portfolio = () => {
         </datalist>
       </div>
 
-      <div className="brightness-125">
-        <div>
+      <div className="brightness-125 m-auto flex flex-wrap justify-center 
+          gap-10 ">
+        <div className="">
           <motion.div
             className=" text-center w-[70%] m-auto brightness-200"
             initial={{ opacity: 0, scale: 0.5 }}
@@ -172,7 +174,7 @@ export const Portfolio = () => {
           >
 
             <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos pessoais</h2>
-            <p className="text-base text-[#25252588] text-justify mt-5 mb-12" >
+            <p className="text-base text-[#25252588] text-justify" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
               O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas,
               além de adquirir outras em virtude do desenvolvimento do projeto.
@@ -183,12 +185,7 @@ export const Portfolio = () => {
 
         <div
           className="m-auto flex flex-wrap justify-center 
-         n2:gap-10 n2:mt-10 
-          n3:mt-6   
-          n4:mt-6 
-          n5:mt-6 
-          n6:mt-4 
-          n7:mt-4        
+          gap-10       
       "
         >
           {
@@ -213,9 +210,8 @@ export const Portfolio = () => {
             (personalProjects.length % 2) === 0 ?
               null
               :
-              <motion.div
-                id="THidden"
-                className="THiddenPersonal"
+              <motion.div               
+                className="THiddenPersonal TPersonalHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -237,7 +233,11 @@ export const Portfolio = () => {
            n6:mt-6  
            n7:mt-6          
           "/>
-        <div>
+
+
+        <div className="m-auto flex flex-wrap justify-center 
+          gap-10 
+      ">
           <motion.div
             className=" text-center w-[70%] m-auto brightness-200"
             initial={{ opacity: 0, scale: 0.5 }}
@@ -249,8 +249,8 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos em grupo</h2>
-            <p className="text-base text-[#25252588] text-justify mt-5 mb-12" >
+            <h2 className="text-T4 text-xl brightness-75 font-semi-bold">Projetos em grupo</h2>
+            <p className="text-base text-[#25252588] text-justify" >
               Projetos em grupo normalmente são desenvolvidos em função da graduação de analise e
               desenvolvimento de sistemas na PUC Minas. Sua criação e desenvolvimento são
               realizados pela equipe.
@@ -262,7 +262,7 @@ export const Portfolio = () => {
 
         <div
           className="m-auto flex flex-wrap justify-center 
-         n2:gap-10 n2:mt-10 
+          gap-10 n2:mt-10 
           n3:mt-6   
           n4:mt-6 
           n5:mt-6 
@@ -293,9 +293,8 @@ export const Portfolio = () => {
             groupProjects.length % 2 === 0
               ? null
               :
-              <motion.div
-                id="THidden"
-                className="THiddenCurse"
+              <motion.div               
+                className="THiddenGroup TGroupHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -309,6 +308,9 @@ export const Portfolio = () => {
           }
         </div>
 
+
+
+
         <hr className=" border-[#25252588] w-[80%] m-auto
            n2:mt-10   
            n3:mt-6      
@@ -321,12 +323,7 @@ export const Portfolio = () => {
 
         <div
           className="m-auto flex flex-wrap justify-center 
-         n2:gap-10 n2:mt-10 
-          n3:mt-6   
-          n4:mt-6 
-          n5:mt-6 
-          n6:mt-4 
-          n7:mt-4        
+          gap-10      
       "
         >
           <motion.div
@@ -341,7 +338,7 @@ export const Portfolio = () => {
           >
 
             <h2 className="text-T4 brightness-75 text-xl font-semi-bold">Projetos de cursos</h2>
-            <p className="text-base text-[#25252588] text-justify mt-5" >
+            <p className="text-base text-[#25252588] text-justify" >
               Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
               O objetivo desses projetos é adquirir novos conhecimentos e habilidades.
             </p>
@@ -375,8 +372,8 @@ export const Portfolio = () => {
               ? null
               :
               <motion.div
-                id="THidden"
-                className="THiddenCurse"
+               
+                className="THiddenCourse TCourseHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -391,7 +388,7 @@ export const Portfolio = () => {
         </div>
 
       </div>
-    </motion.div>
+    </motion.div >
   );
 };
 
