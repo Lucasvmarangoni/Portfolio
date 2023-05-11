@@ -2,8 +2,6 @@ import "./styles/main.css";
 import { Home } from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import { Portfolio } from "./pages/Portfolio";
-import { Header } from "./components/Home/Header";
-import { motion } from "framer-motion";
 import { ErrorNotFound } from "./pages/ErrorNotFound";
 import { Layout } from "./pages/Layout";
 

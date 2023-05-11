@@ -9,9 +9,6 @@ import {
 import { hiddenDisplay } from "./hidden-display";
 import { Csearch } from "./search-component";
 
-
-
-
 export function Search() {
   const Tesports: any = document.querySelector("#Tesports");
   const Tport: any = document.querySelector("#Tport");
@@ -22,10 +19,6 @@ export function Search() {
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");
-
-  
-
-
 
   const Sesports = new Csearch(0, esports, filter, Tesports);
   Sesports.execute();
