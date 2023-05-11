@@ -2,7 +2,6 @@
 // import { Cross2Icon } from "@radix-ui/react-icons";
 // import { PortDica } from "./components/port-components/PortDica";
 // import "./styles.css";
-// import { tecPort } from "./database/TecSearch";
 
 
 // export const Port = () => {
