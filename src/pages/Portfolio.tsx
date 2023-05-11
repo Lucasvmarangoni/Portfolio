@@ -249,11 +249,11 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos grupo</h2>
+            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos em grupo</h2>
             <p className="text-base text-[#25252588] text-justify mt-5 mb-12" >
-              Projetos grupo são aqueles desenvolvidos em equipe, sendo sua criação e
-              desenvolvimento todo realizado pela equipe. Normalmente são projetos desenvolvidos em
-              função da graduação de analise e desenvolvimento de sistemas na PUC Minas.
+              Projetos em grupo normalmente são desenvolvidos em função da graduação de analise e
+              desenvolvimento de sistemas na PUC Minas. Sua criação e desenvolvimento são
+              realizados pela equipe.
             </p>
 
 
