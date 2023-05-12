@@ -173,7 +173,7 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold">Projetos pessoais</h2>
+            <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
             <p className="text-base text-[#25252588] text-justify" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
               O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas,
@@ -249,7 +249,7 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 text-xl brightness-75 font-semi-bold">Projetos em grupo</h2>
+            <h2 className="text-T4 text-xl brightness-75 font-semi-bold mb-4">Projetos em grupo</h2>
             <p className="text-base text-[#25252588] text-justify" >
               Projetos em grupo normalmente são desenvolvidos em função da graduação de analise e
               desenvolvimento de sistemas na PUC Minas. Sua criação e desenvolvimento são
@@ -332,7 +332,7 @@ export const Portfolio = () => {
             }}
           >
 
-            <h2 className="text-T4 brightness-75 text-xl font-semi-bold">Projetos de cursos</h2>
+            <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos de cursos</h2>
             <p className="text-base text-[#25252588] text-justify" >
               Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
               O objetivo desses projetos é adquirir novos conhecimentos e habilidades.
