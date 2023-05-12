@@ -19,8 +19,11 @@ export const projectsDB = [
 
              <strong>Integrantes:</strong>
              <p>
-             Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.                
-            </p>
+             Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.  </p>  
+             
+             <strong>Orientador:</strong>
+             <p>Joyce Carvalho</p>
+            
         `,
         technologies: [
             "HTML",
@@ -126,7 +129,7 @@ export const projectsDB = [
         picture: '/igniteLab04.png',
         github: 'https://github.com/Lucasvmarangoni/notifications-service',
         version: undefined,
-        type: 'curso',        
+        type: 'curso',
         description: `
         <p className="P">
             O projeto é um sistema de microservice de notificações. Possui as seguintes
