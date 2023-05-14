@@ -64,8 +64,7 @@ export const Portfolio = () => {
     const TCourseHidden = document.querySelector(".TCourseHidden") as HTMLElement | any;
     const TGroupHidden = document.querySelector(".TGroupHidden") as HTMLElement | any;
     const TPersonalHidden = document.querySelector(".TPersonalHidden") as HTMLElement | any;
-    windowWidth = window.innerWidth;    
-    
+    windowWidth = window.innerWidth;
     windowCheck(
       windowWidth <= 949
         ? (TCourseHidden.style.display = "none", TGroupHidden.style.display = "none")
@@ -155,10 +154,8 @@ export const Portfolio = () => {
               <option value={tecnologia} />
             )
           }
-
         </datalist>
       </div>
-
       <div className="brightness-125 m-auto flex flex-wrap justify-center 
           gap-10 ">
         <div className="">
@@ -172,7 +169,6 @@ export const Portfolio = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-
             <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
             <p className="text-base text-[#25252588] text-justify" >
               Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
@@ -182,7 +178,6 @@ export const Portfolio = () => {
 
           </motion.div>
         </div>
-
         <div
           className="m-auto flex flex-wrap justify-center 
           gap-10       
@@ -210,7 +205,7 @@ export const Portfolio = () => {
             (personalProjects.length % 2) === 0 ?
               null
               :
-              <motion.div               
+              <motion.div
                 className="THiddenPersonal TPersonalHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -224,7 +219,6 @@ export const Portfolio = () => {
               </motion.div>
           }
         </div>
-
         <hr className=" border-[#25252588] w-[80%] m-auto
            n2:mt-10   
            n3:mt-6      
@@ -233,8 +227,6 @@ export const Portfolio = () => {
            n6:mt-6  
            n7:mt-6          
           "/>
-
-
         <div className="m-auto flex flex-wrap justify-center 
           gap-10 
       ">
@@ -248,15 +240,12 @@ export const Portfolio = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-
             <h2 className="text-T4 text-xl brightness-75 font-semi-bold mb-4">Projetos em grupo</h2>
             <p className="text-base text-[#25252588] text-justify" >
               Projetos em grupo normalmente são desenvolvidos em função da graduação de analise e
               desenvolvimento de sistemas na PUC Minas. Sua criação e desenvolvimento são
               realizados pela equipe.
             </p>
-
-
           </motion.div>
         </div>
 
@@ -288,7 +277,7 @@ export const Portfolio = () => {
             groupProjects.length % 2 === 0
               ? null
               :
-              <motion.div               
+              <motion.div
                 className="THiddenGroup TGroupHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -303,9 +292,6 @@ export const Portfolio = () => {
           }
         </div>
 
-
-
-
         <hr className=" border-[#25252588] w-[80%] m-auto
            n2:mt-10   
            n3:mt-6      
@@ -314,8 +300,6 @@ export const Portfolio = () => {
            n6:mt-6  
            n7:mt-6          
           "/>
-
-
         <div
           className="m-auto flex flex-wrap justify-center 
           gap-10      
@@ -331,16 +315,12 @@ export const Portfolio = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-
             <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos de cursos</h2>
             <p className="text-base text-[#25252588] text-justify" >
               Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
               O objetivo desses projetos é adquirir novos conhecimentos e habilidades.
             </p>
-
-
           </motion.div>
-
           {
             courseProjects.map((project, transitionDelay) => {
               return (
@@ -361,13 +341,12 @@ export const Portfolio = () => {
             })
           }
 
-
           {
             courseProjects.length % 2 === 0
               ? null
               :
               <motion.div
-               
+
                 className="THiddenCourse TCourseHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}

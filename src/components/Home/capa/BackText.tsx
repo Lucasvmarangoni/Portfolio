@@ -4,7 +4,7 @@ export function BackText() {
   return (
     <div>
       {<FigsBackText />}
-      <p className="">
+      <p className="text-justify flex ">
         Escolhi ser desenvolvedor Back-end porque gosto de trabalhar com lógica
         e resolver problemas. Acredito que o back-end mais se alinha com minhas
         habilidades e interesses. Assim anseio por me envolver e contribuir em

@@ -3,7 +3,7 @@ import { FigsCapaText } from "./functions/FigsCapaText";
 export function TextCapa() {
   return (
     <>
-      <div className="mb-2 text-center">
+      <div className="mb-2 text-center flex flex-col">
         <h1
           className="text-T2 font-medium 
         n0:text-2xl n0:text-left
@@ -27,16 +27,19 @@ export function TextCapa() {
         n4:text-base 
         n5:text-sm 
         n6:text-sm 
-        n7:text-xs"
+        n7:text-sm"
         >
           Lucas Vazzoller Marangoni
         </h1>
+        <p className="mb-1 text-justify 
+        ">
+          Sou desenvolvedor backend Node.js. Gosto de programar porque para mim é como se estivesse jogando.
+          Quando preciso criar algo, fico empolgado para construir o código da melhor forma e,
+          quando surgem problemas, sinto-me desafiado.
+          Neste espaço, apresento meus principais projetos, bem como compartilho algumas informações sobre mim.
+        </p>
       </div>
-      <p className="mb-1 ">
-      Sou desenvolvedor backend Node.js e estou cursando graduação de tecnólogo em 
-      Análise e Desenvolvimento de Sistemas na Pontifícia Universidade Católica de Minas Gerais. 
-      Aqui, apresento meus principais projetos, além de compartilhar algumas informações sobre mim.   
-      </p>
+
     </>
   );
 }
