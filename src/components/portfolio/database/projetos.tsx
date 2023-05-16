@@ -90,7 +90,8 @@ export const projectsDB = [
             "Docker Compose",
             "Github Actions",
             "Heroku",
-            "OpenAPI"
+            "OpenAPI",
+            "Express-rate-limit",
         ]
     },
     {
