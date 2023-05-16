@@ -76,11 +76,11 @@ export const projectsDB = [
             "OvernightJS",
             "Lodash",
             "Pino",
-            "Express-pino",
+            "Express pino",
             "Json Web Token",
             "Bcrypt",
             "BodyParser",
-            "Node-Config",
+            "Node Config",
             "MongoDB",
             "Mongoose",
             "Jest",
@@ -91,7 +91,7 @@ export const projectsDB = [
             "Github Actions",
             "Heroku",
             "OpenAPI",
-            "Express-rate-limit",
+            "Express rate limit",
         ]
     },
     {
