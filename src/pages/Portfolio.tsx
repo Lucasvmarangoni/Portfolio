@@ -119,7 +119,7 @@ export const Portfolio = () => {
           onInput={dynamicDatalist}
           autoComplete="on"
           type="search"
-          placeholder="Pesquise pelas tecnologias. Ex: node vitest"
+          placeholder="Pesquise pelas tecnologias."
           list="datalist"
           className="px-3 bg-BG text-T1 text-sm placeholder:text-[#302f2f] 
           n0:w-80 n0:h-10
