@@ -39,9 +39,9 @@ export const NotaTaskList = () => {
 
           <p className="P mt-5">
           <img src="https://img.shields.io/badge/version-3.0.0-white" alt="Versão 3.0.0"></img>
-              A versão 3.0.0 já esta em planejamento. Será aplicado o conhecimento do projeto 
+              A versão 3.0.0 já esta em planejamento. Será aplicado o conhecimento adquirido no projeto 
               <a href="https://github.com/Lucasvmarangoni/Best-Surf" target="_blank"> Best-Surf </a> 
-              afim de aprimorar o projeto e consolidar esses novos conhecimentos.
+              além de outros.
           </p>
         </Collapsible.Content>
       </div>
