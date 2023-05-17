@@ -37,8 +37,7 @@ export const projectsDB = [
         picture: '/bestsurf.png',
         github: 'https://github.com/Lucasvmarangoni/Best-Surf',
         version: undefined,
-        type: 'curso',
-        situation: 'EM DESENVOLVIMENTO!',
+        type: 'curso',        
         description: `        
         <p className="P">
           --> Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
