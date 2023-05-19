@@ -41,7 +41,7 @@ export const projectsDB = [
         description: `        
         <p className="P">
           --> Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
-            DO ZERO A PRODUÇÃO</a> disponibilizado gratuitamente pelo Engenheiro de software Waldemar Neto.
+            DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
         </p>
 
         <p className="P mt-2">
