@@ -100,6 +100,7 @@ export const projectsDB = [
         github: 'https://github.com/Lucasvmarangoni/TaskList',
         version: '2.0.0',
         type: 'pessoal',
+        situation: 'VERSÃO 2.1.0 EM DESENVOLVIMENTO!',
         description: `
         <p className="P mt-4">
                 O projeto é uma API REST para servir uma aplicação de Lista de tarefas.
