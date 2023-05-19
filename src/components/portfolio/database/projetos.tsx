@@ -41,7 +41,7 @@ export const projectsDB = [
         description: `        
         <p className="P">
           --> Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
-            DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
+            DO ZERO A PRODUÇÃO</a> disponibilizado gratuitamente pelo Engenheiro de software Waldemar Neto.
         </p>
 
         <p className="P mt-2">
@@ -60,13 +60,7 @@ export const projectsDB = [
         <p className="P  mt-2">
         Durante o curso, é criada uma API para calcular a melhor condição de surf entre 
         várias praias. Essa API tem como objetivo servir a aplicação web.
-        </p>   
-
-        <p className="P  mt-2">
-        A aplicação web não é construída durante o curso, pois ela não é o foco do conteúdo. 
-        Ela é disponibilizada pronta. Optei por não adicionar o código front-end ao meu repositório, 
-        pois não foi feito por mim e pode ser consultado no repositório original do projeto do curso.
-        </p> 
+        </p>          
         `,
         technologies: [
             "TypeScript",
