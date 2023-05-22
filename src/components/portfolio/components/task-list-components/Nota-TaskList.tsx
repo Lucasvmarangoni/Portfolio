@@ -41,7 +41,7 @@ export const NotaTaskList = () => {
           <p className="P mt-5">
             <a href="" title="clique para ver o código da versão 2.1.0"><img src="https://img.shields.io/badge/version-2.1.0-black" alt="Versão 2.1.0"></img></a>
             O projeto será aprimorado com novos conhecimentos que obtive com o projeto <a href="https://github.com/Lucasvmarangoni/Best-Surf" target="_blank">Best-Surf</a>.
-            Nesta atualização, vou realizar a alteração de nomenclaturas, aprimorar testes unitários, Graceful shutdown, tratamento de erros, status code, logging e cache.
+            Nesta atualização, vou realizar a alteração de nomenclaturas, aprimorar testes, Graceful shutdown, tratamento de erros, status code, logging e cache.
           </p>
 
           <p className="P mt-5">
