@@ -6,6 +6,7 @@ import { SetStateAction, useEffect, useState } from "react";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 import { listAllProjects } from "../components/portfolio/all";
 import { projectsDB } from "../components/portfolio/database/projetos"
+import { hiddenDisplay } from "../components/portfolio/functions/hidden-display";
 
 export const Portfolio = () => {
 
@@ -151,7 +152,18 @@ export const Portfolio = () => {
               n5:w-8 n5:h-10 
               n6:w-8 n6:h-8
               n7:w-8 n7:h-8"
-                    />
+              onClick={() => {
+                const filterInput: any = document.querySelector("#input");   
+                filterInput.value = ""
+                setCheck(0)
+                setList([])
+                document.querySelectorAll("#Tesports, #Tport, #TnotServ, #TtaskList, #TbestSurf, #Tpaiva")
+                .forEach((element: any) => {
+                  element.style.display = "flex"
+                })
+                hiddenDisplay()
+              }}
+            />
             : <VscSearch
               color="#3b275367"
               className="bg-BG  pr-2
@@ -163,7 +175,7 @@ export const Portfolio = () => {
               n5:w-8 n5:h-10 
               n6:w-8 n6:h-8
               n7:w-8 n7:h-8"
-                      />
+            />
         }
         <datalist id="datalist">
           {list.map((tecnologia) =>

@@ -19,6 +19,7 @@ export function Search() {
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");
+  
 
   const Sesports = new Csearch(0, esports, filter, Tesports);
   Sesports.execute();
