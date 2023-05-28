@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Hidden } from "../components/portfolio/Hidden";
 import { Search } from "../components/portfolio/functions/Search";
-import { VscSearch } from "react-icons/vsc";
+import { VscChromeClose, VscSearch } from "react-icons/vsc";
 import { SetStateAction, useEffect, useState } from "react";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 import { listAllProjects } from "../components/portfolio/all";
@@ -34,10 +34,16 @@ export const Portfolio = () => {
   ]
 
   const [list, setList] = useState<string[]>([])
+  const [check, setCheck] = useState<number>(0)
+
+
+
 
   function dynamicDatalist() {
     const filterInput: any = document.querySelector("#input");
     const filter = filterInput.value.toLowerCase();
+
+
 
     const tecnologias: string[] = [];
     for (let i = 0; i < fullFilterDatabase.length; i++) {
@@ -47,7 +53,7 @@ export const Portfolio = () => {
     }
     const dList: string[] = []
     for (let i = 0; i < tecnologias.length; i++) {
-
+      filter.length > 0 ? setCheck(1) : setCheck(0)
       if (filter.length >= 2) {
         if (tecnologias[i].includes(filter)) {
           dList.push(tecnologias[i])
@@ -132,18 +138,33 @@ export const Portfolio = () => {
           n7:w-52 n7:h-8 n7:text-xs
           "
         />
-        <VscSearch
-          color="#3b275367"
-          className="bg-BG  pr-2
-           n0:w-8 n0:h-10
-           n1:w-8 n1:h-10
-           n2:w-8 n2:h-10
-           n3:w-8 n3:h-10
-           n4:w-8 n4:h-10
-           n5:w-8 n5:h-10 
-           n6:w-8 n6:h-8
-           n7:w-8 n7:h-8"
-        />
+        {
+          check === 1
+            ? <VscChromeClose
+              color="#3b275367"
+              className="bg-BG  pr-2
+              n0:w-8 n0:h-10
+              n1:w-8 n1:h-10
+              n2:w-8 n2:h-10
+              n3:w-8 n3:h-10
+              n4:w-8 n4:h-10
+              n5:w-8 n5:h-10 
+              n6:w-8 n6:h-8
+              n7:w-8 n7:h-8"
+                    />
+            : <VscSearch
+              color="#3b275367"
+              className="bg-BG  pr-2
+              n0:w-8 n0:h-10
+              n1:w-8 n1:h-10
+              n2:w-8 n2:h-10
+              n3:w-8 n3:h-10
+              n4:w-8 n4:h-10
+              n5:w-8 n5:h-10 
+              n6:w-8 n6:h-8
+              n7:w-8 n7:h-8"
+                      />
+        }
         <datalist id="datalist">
           {list.map((tecnologia) =>
             <option key={tecnologia} value={tecnologia} />
