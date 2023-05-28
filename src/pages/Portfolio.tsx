@@ -152,6 +152,7 @@ export const Portfolio = () => {
               n5:w-8 n5:h-10 
               n6:w-8 n6:h-8
               n7:w-8 n7:h-8"
+              style={{ cursor: "pointer" }}
               onClick={() => {
                 const filterInput: any = document.querySelector("#input");   
                 filterInput.value = ""
