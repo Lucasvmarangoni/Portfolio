@@ -34,7 +34,9 @@ export function Search() {
   const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
   SpaivaMotoPecas.execute();
 
+  document.addEventListener("DOMContentLoaded", () => {
   hiddenDisplay()
+  })
 }
 
 

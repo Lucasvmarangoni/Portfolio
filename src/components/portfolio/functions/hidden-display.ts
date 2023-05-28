@@ -1,21 +1,21 @@
 export function hiddenDisplay() {
-  const Tesports: any = document.querySelector("#Tesports");
-  const Tport: any = document.querySelector("#Tport");
-  const TnotServ: any = document.querySelector("#TnotServ");
-  const TtaskList: any = document.querySelector("#TtaskList");
-  const TbestSurf: any = document.querySelector("#TbestSurf");
-  const Tpaiva: any = document.querySelector("#Tpaiva");
+  const Tesports = document.querySelector("#Tesports") as HTMLElement | any;
+  const Tport = document.querySelector("#Tport") as HTMLElement | any;
+  const TnotServ = document.querySelector("#TnotServ") as HTMLElement | any;
+  const TtaskList = document.querySelector("#TtaskList") as HTMLElement | any;
+  const TbestSurf = document.querySelector("#TbestSurf") as HTMLElement | any;
+  const Tpaiva = document.querySelector("#Tpaiva") as HTMLElement | any;
 
-  const THiddenCourse: any = document.querySelector(".THiddenCourse")
-  const THiddenPersonal: any = document.querySelector(".THiddenPersonal")
-  const THiddenGroup: any = document.querySelector(".THiddenGroup")
+  const THiddenCourse = document.querySelector(".THiddenCourse") as HTMLElement | any;
+  const THiddenPersonal = document.querySelector(".THiddenPersonal") as HTMLElement | any;
+  const THiddenGroup = document.querySelector(".THiddenGroup") as HTMLElement | any; 
 
 
   let nonePersonalCheck: number = 0;
   let noneGroupCheck: number = 0;
   let noneCourseCheck: number = 0;
 
-  Tesports.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2;
+  Tesports.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck 
   TnotServ.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2;
   TbestSurf.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2;
 

@@ -10,7 +10,6 @@ import { hiddenDisplay } from "../components/portfolio/functions/hidden-display"
 
 export const Portfolio = () => {
 
-
   const personalProjects = projectsDB.filter((project) => {
     return project.type === "pessoal"
   })
@@ -37,14 +36,9 @@ export const Portfolio = () => {
   const [list, setList] = useState<string[]>([])
   const [check, setCheck] = useState<number>(0)
 
-
-
-
   function dynamicDatalist() {
     const filterInput: any = document.querySelector("#input");
     const filter = filterInput.value.toLowerCase();
-
-
 
     const tecnologias: string[] = [];
     for (let i = 0; i < fullFilterDatabase.length; i++) {
@@ -81,7 +75,7 @@ export const Portfolio = () => {
   useEffect(() => {
     hidden();
     dynamicDatalist()
-
+    Search();
   }, []);
 
   return (
@@ -154,15 +148,20 @@ export const Portfolio = () => {
               n7:w-8 n7:h-8"
               style={{ cursor: "pointer" }}
               onClick={() => {
-                const filterInput: any = document.querySelector("#input");   
+                console.log(window.innerWidth);
+                const filterInput: any = document.querySelector("#input");
                 filterInput.value = ""
                 setCheck(0)
                 setList([])
                 document.querySelectorAll("#Tesports, #Tport, #TnotServ, #TtaskList, #TbestSurf, #Tpaiva")
-                .forEach((element: any) => {
-                  element.style.display = "flex"
-                })
-                hiddenDisplay()
+                  .forEach((element: any) => {
+                    if (element) {
+                      element.style.display = "flex"
+                    }
+                  })
+                  document.addEventListener("DOMContentLoaded", () => {
+                    hiddenDisplay()
+                    })
               }}
             />
             : <VscSearch
@@ -179,13 +178,13 @@ export const Portfolio = () => {
             />
         }
         <datalist id="datalist">
-          {list.map((tecnologia) =>
-            <option key={tecnologia} value={tecnologia} />
+          {list.map((tecnologia, index) =>
+            <option key={index} value={tecnologia} />
           )
           }
           {
-            datalist.map((tecnologia) =>
-              <option value={tecnologia} />
+            datalist.map((tecnologia, index) =>
+              <option key={index} value={tecnologia} />
             )
           }
         </datalist>
@@ -222,6 +221,7 @@ export const Portfolio = () => {
               return (
                 <motion.div
                   id={autoraisId[transitionDelay]}
+                  key={transitionDelay}
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
@@ -294,6 +294,7 @@ export const Portfolio = () => {
 
                 <motion.div
                   id={groupId[transitionDelay]}
+                  key={transitionDelay}
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
@@ -361,6 +362,7 @@ export const Portfolio = () => {
 
                 <motion.div
                   id={projetosId[transitionDelay]}
+                  key={transitionDelay}
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
