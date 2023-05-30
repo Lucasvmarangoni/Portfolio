@@ -37,7 +37,7 @@ export const projectsDB = [
         picture: '/bestsurf.png',
         github: 'https://github.com/Lucasvmarangoni/Best-Surf',
         version: undefined,
-        type: 'curso',        
+        type: 'curso',
         description: `        
         <p className="P">
           --> Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
@@ -146,7 +146,7 @@ export const projectsDB = [
         ]
     },
     {
-        name: ' Website Portfólio',
+        name: ' Website Portfolio',
         year: '2022',
         picture: '/portfolio.png',
         github: 'https://github.com/Lucasvmarangoni/Portfolio',
@@ -156,7 +156,7 @@ export const projectsDB = [
         description: `
         <p className="P">
         Projeto Web desenvolvido para minha apresentação pessoal e
-        exposição de meus projetos pessoais como Software Engineer.
+        exposição de meus projetos pessoais como Software Engineer. Também praticar React.
         <br />
         Busquei por meio desse meu website pessoal transmitir o máximo
         da minha personalidade, pois entendo que isso compõem parte de
