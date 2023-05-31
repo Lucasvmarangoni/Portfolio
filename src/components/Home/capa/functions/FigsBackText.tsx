@@ -6,7 +6,7 @@ function setPositionFig() {
   let randomPosition: number = Math.floor(Math.random() * (0 - 4 + 1)) + 4;
   if (randomPosition === 1) {
     if (viewportWidth >= 1100) {
-      figDiv.style.top = "16%";
+      figDiv.style.top = "3%";
       figDiv.style.left = "92%";
     } else if (viewportWidth >= 950 && viewportWidth < 1100) {
       figDiv.style.top = "-9%";
