@@ -97,8 +97,7 @@ export const projectsDB = [
         situation: 'VERSÃO 2.1.0 EM DESENVOLVIMENTO!',
         description: `
         <p className="P mt-4">
-                O projeto é uma API REST para servir uma aplicação de Lista de tarefas.
-                Permite criar, editar, deletar, consultar e receber notificações.
+            O projeto é uma API REST para servir uma aplicação de Lista de tarefas, seguindo o padrão CRUD.
               </p>
 
               <p className="P mb-8 mt-4">

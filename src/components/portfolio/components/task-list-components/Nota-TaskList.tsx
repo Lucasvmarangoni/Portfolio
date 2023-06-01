@@ -38,11 +38,11 @@ export const NotaTaskList = () => {
           </p>
 
           <p className="P mt-5">
-            <a href="" title="clique para ver o código da versão 2.1.0"><img src="https://img.shields.io/badge/version-2.1.0-black" alt="Versão 2.1.0"></img></a>
-            O projeto será aprimorado com novos conhecimentos que obtive com o projeto <a href="https://github.com/Lucasvmarangoni/Best-Surf" target="_blank">Best-Surf</a>.
-            Nesta atualização, será realizada a alteração de nomenclaturas, aprimoramento de testes, tratamento de erros, status code, logging, cache, graceful shutdown 
-            (já existe na versão 2.0.0, com o prisma, que gera automaticamente o código, mas somente para o banco de dados, nessa versão é feito manualmente para 
-            toda a aplicação.), troca do banco de dados para mongoDB, documentação utilizando OpenAPI, automação de fluxo de trabalho.
+            <a href="" title="clique para ver o código da versão 2.1.0">![version](https://img.shields.io/badge/version-2.1.0-black)</a>
+            Nesta atualização, estou aplicando parcialmente os conhecimentos que adquiri no projeto
+            <a href="https://github.com/Lucasvmarangoni/Best-Surf" target="_blank">Best-Surf</a>.
+            Estou aprimorando e adicionando testes, aplicando tratamento de erros, status code, logging, cache, graceful shutdown,
+            troca do banco de dados para MongoDB, documentação OpenAPI, automação de fluxo de trabalho e refatoração para performance.
           </p>
 
           <p className="P mt-5">
