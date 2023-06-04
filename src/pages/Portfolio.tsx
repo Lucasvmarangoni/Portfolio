@@ -19,7 +19,7 @@ export const Portfolio = () => {
   })
 
   const groupProjects = projectsDB.filter((project) => {
-    return project.type === "grupo"
+    return project.type === "equipe"
   })
 
   const autoraisId: string[] = ["TtaskList", "Tport"]
@@ -63,13 +63,13 @@ export const Portfolio = () => {
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
   function hidden() {
     const TCourseHidden = document.querySelector(".TCourseHidden") as HTMLElement | any;
-    const TGroupHidden = document.querySelector(".TGroupHidden") as HTMLElement | any;
+    const TTeamHidden = document.querySelector(".TTeamHidden") as HTMLElement | any;
     const TPersonalHidden = document.querySelector(".TPersonalHidden") as HTMLElement | any;
     windowWidth = window.innerWidth;
     windowCheck(
       windowWidth <= 949
-        ? (TCourseHidden.style.display = "none", TGroupHidden.style.display = "none")
-        : (TCourseHidden.style.display = "flex", TGroupHidden.style.display = "flex")
+        ? (TCourseHidden.style.display = "none", TTeamHidden.style.display = "none")
+        : (TCourseHidden.style.display = "flex", TTeamHidden.style.display = "flex")
     );
   }
   useEffect(() => {
@@ -274,9 +274,9 @@ export const Portfolio = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-            <h2 className="text-T4 text-xl brightness-75 font-semi-bold mb-4">Projetos em grupo</h2>
+            <h2 className="text-T4 text-xl brightness-75 font-semi-bold mb-4">Projetos em equipe</h2>
             <p className="text-base text-[#25252588] text-justify" >
-              Projetos em grupo normalmente são desenvolvidos em função da graduação de analise e
+              Projetos em equipe normalmente são desenvolvidos em função da graduação de analise e
               desenvolvimento de sistemas na PUC Minas. Sua criação e desenvolvimento são
               realizados pela equipe.
             </p>
@@ -313,7 +313,7 @@ export const Portfolio = () => {
               ? null
               :
               <motion.div
-                className="THiddenGroup TGroupHidden"
+                className="THiddenGroup TTeamHidden"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{

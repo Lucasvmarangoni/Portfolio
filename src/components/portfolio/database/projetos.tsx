@@ -7,15 +7,23 @@ export const projectsDB = [
         name: 'Paiva Moto Peças',
         year: '2023',
         picture: '/paiva.png',
-        github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas',
+        github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
         version: undefined,
-        type: 'grupo',
+        type: 'equipe',
         situation: 'EM DESENVOLVIMENTO!',
         description: `
             <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
 
+            <p> --> Desenvolvido por equipe de seis pessoas. </p>
+
             <p>O projeto se trata de uma aplicação web responsável pela divulgação de produtos
-             e serviços da oficina Paiva Moto Peças.</p>
+             e serviços da oficina Paiva Moto Peças.</p>           
+
+            <p>
+            Foi minha responsabilidade pessoal a página "Itens da loja" e a estrutura do
+            banco de dados. Criei um filtro integrado com a barra de busca, e a alternância de entre 
+            setor de produtos ou serviços.
+            </p>
 
              <strong>Integrantes:</strong>
              <p>
@@ -45,22 +53,14 @@ export const projectsDB = [
         </p>
 
         <p className="P mt-2">
-        O projeto é uma aplicação que monitora o clima nas praias e permite ao usuário 
-        cadastrar suas praias de interesse e monitorá-las, além de receber informações 
-        úteis para aproveitar ao máximo seu esporte.
-        </p>
+        O projeto é uma API REST que calcula as melhores condições de surf para praias, consumindo a API StormGlass, utilizando
+        Node.js com Express e TypeScript e seguindo as melhores práticas de desenvolvimento.
+        </p>        
 
-        <p className="P mt-2">
-          O projeto ensina construir e rodar micro-serviços na cloud
-          utilizando Node.js com Typescript seguindo as melhores práticas
-          de desenvolvimento em um curso que vai do desenvolvimento a
-          produção.
+        <p>  Ao longo do projeto, adquiri experiência no tratamento de erros, logging, testes unitários e de ponta a ponta, mocks, 
+            criptografia e graceful shutdown.
         </p>
-
-        <p className="P  mt-2">
-        Durante o curso, é criada uma API para calcular a melhor condição de surf entre 
-        várias praias. Essa API tem como objetivo servir a aplicação web.
-        </p>          
+           
         `,
         technologies: [
             "TypeScript",
@@ -97,14 +97,16 @@ export const projectsDB = [
         situation: 'VERSÃO 2.1.0 EM DESENVOLVIMENTO!',
         description: `
         <p className="P mt-4">
-            O projeto é uma API REST para servir uma aplicação de Lista de tarefas, seguindo o padrão CRUD.
+        É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
+        unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
               </p>
 
-              <p className="P mb-8 mt-4">
-                Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software,
-                além de praticar a utilização de Node.js com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar,
-                aprimorando-o com as novas habilidades, tecnologias e ferramentas que adquiro desenvolvendo outros projetos de eventos ou cursos.
-              </p>
+        <p className="P mb-8 mt-4">
+            Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software,
+            além de praticar a utilização de Node.js com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar,
+            aprimorando-o com as novas habilidades e tecnologias que adquiro, aplicando arquitetura de microsserviços para me possibilitar utilizar 
+            outros frameworks e linguagens e assim tirar o máximo desse projeto.
+        </p>
         `,
         extra: <NotaTaskList />,
         technologies: [
@@ -125,14 +127,17 @@ export const projectsDB = [
         version: undefined,
         type: 'curso',
         description: `
-        <p className="P">
-            O projeto é um sistema de microservice de notificações. Possui as seguintes
-            funcionalidades e rotas: Send, Cancel, Count Recipient, Get
-            Recipient, Read, Unread.
-        </p>
         <p className="P mt-2">
             --> Desenvolvido durante o evento Ignite Lab 04 da
             RocketSeat.
+        </p>
+
+        <p className="P">
+        Sistema microsserviço de notificações utilizando Node.js com Nest.js e Typescript. 
+        </p>        
+
+        <p> Aprendi sobre arquitetura de
+        microservices, utilizei DDD, TDD, testes unitários, validações, factory pattern, in memory database e inversão de dependência.
         </p>
         `,
         technologies: [
@@ -154,14 +159,15 @@ export const projectsDB = [
         situation: 'REFACTORING!',
         description: `
         <p className="P">
-        Projeto Web desenvolvido para minha apresentação pessoal e
-        exposição de meus projetos pessoais como Software Engineer. Também praticar React.
-        <br />
-        Busquei por meio desse meu website pessoal transmitir o máximo
-        da minha personalidade, pois entendo que isso compõem parte de
-        sua finalidade.
-        <br />
+        Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como Software Engineer.         
         </p>
+
+        <p> É minha fonte de aprendizado de React.js, pois aprendi e aprendo enquanto 
+        desenvolvi e ainda desenvolvo funcionalidades para esse projeto. </p>
+
+        <p>  Busquei por meio desse meu website pessoal transmitir o máximo
+        da minha personalidade, pois entendo que isso compõem parte de
+        sua finalidade. </p>
         `,
         extra: <PortDica />,
         technologies: [
