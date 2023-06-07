@@ -1,7 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { useState } from "react";
 import { MOver, MOut, SpanTag, SendObligatoryButton } from "./capa/functions/Obligatory-itens";
-import axios from "axios";
 
 export function Email() {
     const [name, setName] = useState("");
@@ -75,26 +74,7 @@ export function Email() {
                 form="form"
                 type="submit"
                 className="w-64 brightness-150 grid justify-center items-center"
-                disabled={!email || !message}
-
-                onClick={() => {
-                    alert("Email enviada com sucesso!")
-                    const inputName = document.querySelector("#inputName") as HTMLInputElement
-                    const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
-                    const inputMessage = document.querySelector("#inputMessage") as HTMLInputElement
-                    if (inputName) {
-                        inputName.value = "";
-                    }
-
-                    if (inputEmail) {
-                        inputEmail.value = "";
-                    }
-
-                    if (inputMessage) {
-                        inputMessage.value = "";
-                    }
-                }
-                }
+                disabled={!email || !message}               
             >
                 <span className={`${SendObligatoryButton}`}>Enviar</span>
                 {SpanTag("Email e mensagem obrigatórios!")}
