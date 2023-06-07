@@ -27,7 +27,7 @@ export function Contato() {
   }
 
   return (
-    <Dialog.Root>
+    <Dialog.Root >
       <Dialog.Trigger asChild className="DialogTrigger ">
         <p>Contato</p>
       </Dialog.Trigger>
@@ -66,12 +66,7 @@ export function Contato() {
 
           {contactArray[contact]}
 
-          <Dialog.Close asChild>
-            <button className="IconButton"
-
-            >
-              <Cross2Icon color="#ffffff85" />
-            </button>
+          <Dialog.Close asChild>            
           </Dialog.Close>
         </Dialog.Content>
       </Dialog.Portal>

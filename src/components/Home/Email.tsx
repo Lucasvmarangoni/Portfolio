@@ -76,8 +76,29 @@ export function Email() {
                     type="submit"
                     className="w-64 brightness-150 grid justify-center items-center"
                     disabled={!email || !description}
+
+                    onClick={(event) => {
+                        alert("Email enviada com sucesso!")
+                        const inputName = document.querySelector("#inputName") as HTMLInputElement
+                        const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
+                        const inputDescription = document.querySelector("#inputDescription") as HTMLInputElement
+                        if (inputName) {
+                            inputName.value = "";
+                        }
+
+                        if (inputEmail) {
+                            inputEmail.value = "";                                                
+                        }
+
+                        if (inputDescription) {
+                            inputDescription.value = "";
+                        }
+                        event.preventDefault()
+
+                    }
+                    }
                 >
-                    <p className={`${SendObligatoryButton}`}>Enviar</p>
+                    <span className={`${SendObligatoryButton}`}>Enviar</span>
                     {SpanTag("Email e mensagem obrigatórios!")}
                 </button>
             </div>
