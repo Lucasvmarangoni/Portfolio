@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 
-app.post('https://lucasvmarangoni.vercel.app/send-mail', (req, res) => {
+app.post('/send-mail', (req, res) => {
     const { name, email, message } = req.body;
     const transporter = nodemailer.createTransport({
         service: 'gmail',

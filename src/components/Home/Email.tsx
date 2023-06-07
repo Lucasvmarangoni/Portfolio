@@ -10,7 +10,7 @@ export function Email() {
 
     function handleSubmit(event: any) {
         event.preventDefault()
-        axios.get("https://lucasvmarangoni.vercel.app/send-mail")
+        axios.get("/send-mail")
             .then(response => {
                 if (response.status === 200) {
                     return response.data;
