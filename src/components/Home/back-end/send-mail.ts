@@ -10,13 +10,13 @@ app.post('https://lucasvmarangoni.vercel.app/send-mail', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'lucasvmarangoni.sendemail@gmail.com',
+            user: 'asdfagfgf@outlook.com',
             pass: process.env.EMAIL_PASSWORD
         }
     });
 
     const mailOptions = {
-        from: 'lucasvmarangoni.sendemail@gmail.com',
+        from: 'asdfagfgf@outlook.com',
         to: 'lucasvm.ti@gmail.com',
         subject: '⭐ - CONTATO DO PORTFÓLIO - ⭐',
         text: `Nome: ${name}\nEmail: ${email}\nMensagem: ${message}`
