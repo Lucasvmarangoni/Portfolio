@@ -8,8 +8,7 @@ export function Email() {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
 
-    function handleSubmit(event: any) {
-        event.preventDefault();
+    function handleSubmit(event: any) {              
 
         const formData = new FormData();
         formData.append("name", name);
@@ -19,6 +18,7 @@ export function Email() {
         axios
             .post("https://lucasvmarangoni.vercel.app/send-mail", formData)
             .then((response) => {
+                event.preventDefault();
                 console.log(response.data);
                 alert("Email enviado com sucesso!");
                 setName("");
@@ -35,6 +35,7 @@ export function Email() {
         <Dialog.Description className="mt-0 grid gap-4 justify-center">
             <form
                 id="form"
+                encType="multipart/form-data"
                 // method="POST"
                 // action="https://formsubmit.co/lucasvm.ti@gmail.com"
                 target="_blank"

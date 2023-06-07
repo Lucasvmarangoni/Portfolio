@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 
-app.post('/send-mail', (req, res) => {
+app.post('https://lucasvmarangoni.vercel.app/send-mail', (req, res) => {
     const { name, email, message } = req.body;
     const transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -14,18 +14,18 @@ app.post('/send-mail', (req, res) => {
             pass: process.env.EMAIL_PASSWORD
         }
     });
-   
+
     const mailOptions = {
         from: 'lucasvmarangoni.sendemail@gmail.com',
         to: 'lucasvm.ti@gmail.com',
         subject: '⭐ - CONTATO DO PORTFÓLIO - ⭐',
         text: `Nome: ${name}\nEmail: ${email}\nMensagem: ${message}`
     };
-    
+
     transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {            
+        if (error) {
             res.status(500).json({ error: 'Erro ao enviar o email' });
-        } else {          
+        } else {
             res.json({ success: true });
         }
     });
