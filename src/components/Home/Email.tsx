@@ -6,39 +6,15 @@ import axios from "axios";
 export function Email() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
-
-    function handleSubmit(event: any) {              
-        event.preventDefault();
-        const formData = new FormData();
-        formData.append("name", name);
-        formData.append("email", email);
-        formData.append("message", message);
-
-        axios
-            .post("https://lucasvmarangoni.vercel.app/send-mail", formData)
-            .then((response) => {                
-                console.log(response.data);
-                alert("Email enviado com sucesso!");
-                setName("");
-                setEmail("");
-                setMessage("");
-            })
-            .catch((error) => {
-                console.error(error);
-                alert("Erro ao enviar o email.");
-            });
-    }
+    const [message, setMessage] = useState("");   
 
     return (
         <Dialog.Description className="mt-0 grid gap-4 justify-center">
             <form
                 id="form"
-                encType="multipart/form-data"
-                // method="POST"
-                // action="https://formsubmit.co/lucasvm.ti@gmail.com"
+                method="POST"
+                action="https://formsubmit.co/lucasvm.ti@gmail.com"
                 target="_blank"
-                onSubmit={handleSubmit}
                 className="grid row-span-3 gap-3"
             >
                 <div className="text-T2 grid gap-2 w-5 ">
@@ -101,24 +77,24 @@ export function Email() {
                 className="w-64 brightness-150 grid justify-center items-center"
                 disabled={!email || !message}
 
-                // onClick={() => {
-                //     alert("Email enviada com sucesso!")
-                //     const inputName = document.querySelector("#inputName") as HTMLInputElement
-                //     const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
-                //     const inputMessage = document.querySelector("#inputMessage") as HTMLInputElement
-                //     if (inputName) {
-                //         inputName.value = "";
-                //     }
+                onClick={() => {
+                    alert("Email enviada com sucesso!")
+                    const inputName = document.querySelector("#inputName") as HTMLInputElement
+                    const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
+                    const inputMessage = document.querySelector("#inputMessage") as HTMLInputElement
+                    if (inputName) {
+                        inputName.value = "";
+                    }
 
-                //     if (inputEmail) {
-                //         inputEmail.value = "";
-                //     }
+                    if (inputEmail) {
+                        inputEmail.value = "";
+                    }
 
-                //     if (inputMessage) {
-                //         inputMessage.value = "";
-                //     }
-                // }
-                // }
+                    if (inputMessage) {
+                        inputMessage.value = "";
+                    }
+                }
+                }
             >
                 <span className={`${SendObligatoryButton}`}>Enviar</span>
                 {SpanTag("Email e mensagem obrigatórios!")}
