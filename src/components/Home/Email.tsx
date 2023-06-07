@@ -6,7 +6,7 @@ import axios from "axios";
 export function Email() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [description, setDescription] = useState("");
+    const [message, setMessage] = useState("");
 
     function handleSubmit(event: any) {
         event.preventDefault()
@@ -69,38 +69,38 @@ export function Email() {
                 </div>
 
                 <div className="text-T2 grid gap-2 w-64">
-                    <label className="text-T2" htmlFor="inputDescription">
+                    <label className="text-T2" htmlFor="inputMessage">
                         Mensagem:
                     </label>
                     <textarea
                         className="bg-BGH border-[#ffffff0e] border-[0.5px]"
-                        id="inputDescription"
-                        name="description"
+                        id="inputMessage"
+                        name="message"
                         required
                         onChange={(e) => {
-                            setDescription(e.target.value);
+                            setMessage(e.target.value);
                         }}
-                        value={description}
+                        value={message}
                     />
                 </div>
             </form>
             <button
                 onMouseOver={() => {
-                    MOver(email && description);
+                    MOver(email && message);
                 }}
                 onMouseOut={() => {
-                    MOut(email && description);
+                    MOut(email && message);
                 }}
                 form="form"
                 type="submit"
                 className="w-64 brightness-150 grid justify-center items-center"
-                disabled={!email || !description}
+                disabled={!email || !message}
 
                 onClick={() => {
                     alert("Email enviada com sucesso!")
                     const inputName = document.querySelector("#inputName") as HTMLInputElement
                     const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
-                    const inputDescription = document.querySelector("#inputDescription") as HTMLInputElement
+                    const inputMessage = document.querySelector("#inputMessage") as HTMLInputElement
                     if (inputName) {
                         inputName.value = "";
                     }
@@ -109,8 +109,8 @@ export function Email() {
                         inputEmail.value = "";
                     }
 
-                    if (inputDescription) {
-                        inputDescription.value = "";
+                    if (inputMessage) {
+                        inputMessage.value = "";
                     }
 
                 }
