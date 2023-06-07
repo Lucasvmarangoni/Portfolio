@@ -9,7 +9,7 @@ export function Email() {
     const [message, setMessage] = useState("");
 
     function handleSubmit(event: any) {              
-
+        event.preventDefault();
         const formData = new FormData();
         formData.append("name", name);
         formData.append("email", email);
@@ -17,8 +17,7 @@ export function Email() {
 
         axios
             .post("https://lucasvmarangoni.vercel.app/send-mail", formData)
-            .then((response) => {
-                event.preventDefault();
+            .then((response) => {                
                 console.log(response.data);
                 alert("Email enviado com sucesso!");
                 setName("");
@@ -102,25 +101,24 @@ export function Email() {
                 className="w-64 brightness-150 grid justify-center items-center"
                 disabled={!email || !message}
 
-                onClick={() => {
-                    alert("Email enviada com sucesso!")
-                    const inputName = document.querySelector("#inputName") as HTMLInputElement
-                    const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
-                    const inputMessage = document.querySelector("#inputMessage") as HTMLInputElement
-                    if (inputName) {
-                        inputName.value = "";
-                    }
+                // onClick={() => {
+                //     alert("Email enviada com sucesso!")
+                //     const inputName = document.querySelector("#inputName") as HTMLInputElement
+                //     const inputEmail = document.querySelector("#inputEmail") as HTMLInputElement
+                //     const inputMessage = document.querySelector("#inputMessage") as HTMLInputElement
+                //     if (inputName) {
+                //         inputName.value = "";
+                //     }
 
-                    if (inputEmail) {
-                        inputEmail.value = "";
-                    }
+                //     if (inputEmail) {
+                //         inputEmail.value = "";
+                //     }
 
-                    if (inputMessage) {
-                        inputMessage.value = "";
-                    }
-
-                }
-                }
+                //     if (inputMessage) {
+                //         inputMessage.value = "";
+                //     }
+                // }
+                // }
             >
                 <span className={`${SendObligatoryButton}`}>Enviar</span>
                 {SpanTag("Email e mensagem obrigatórios!")}
