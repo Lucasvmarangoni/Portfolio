@@ -9,20 +9,25 @@ export function Email() {
     const [message, setMessage] = useState("");
 
     function handleSubmit(event: any) {
-        event.preventDefault()
-        axios.get("/send-mail")
-            .then(response => {
-                if (response.status === 200) {
-                    return response.data;
-                } else {
-                    throw new Error("Erro na requisição");
-                }
+        event.preventDefault();
+
+        const formData = new FormData();
+        formData.append("name", name);
+        formData.append("email", email);
+        formData.append("message", message);
+
+        axios
+            .post("https://lucasvmarangoni.vercel.app/send-mail", formData)
+            .then((response) => {
+                console.log(response.data);
+                alert("Email enviado com sucesso!");
+                setName("");
+                setEmail("");
+                setMessage("");
             })
-            .then(data => {
-                console.log(data);
-            })
-            .catch(error => {
+            .catch((error) => {
                 console.error(error);
+                alert("Erro ao enviar o email.");
             });
     }
 
