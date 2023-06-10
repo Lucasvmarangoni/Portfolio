@@ -20,8 +20,8 @@ export const projectsDB = [
              e serviços da oficina Paiva Moto Peças.</p>           
 
             <p>
-            Foi minha responsabilidade pessoal a página "Itens da loja" e a estrutura do
-            banco de dados. Criei um filtro integrado com a barra de busca, e a alternância de entre 
+            Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
+            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância de entre 
             setor de produtos ou serviços.
             </p>
 
