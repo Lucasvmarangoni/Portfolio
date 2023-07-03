@@ -94,7 +94,7 @@ export function PhotoButtons() {
               <NavLink
                 className="buttons
               "
-                to="https://www.linkedin.com/in/lucas-v-marangoni/"
+                to="https://www.linkedin.com/in/lucasvmarangoni/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -147,7 +147,7 @@ export function PhotoButtons() {
                 className="buttons
                 n5:w24
               "
-                to="/Curriculo.pdf"
+                to="/curriculo-lucasvmarangoni.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
