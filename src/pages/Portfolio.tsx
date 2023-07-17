@@ -22,9 +22,9 @@ export const Portfolio = () => {
     return project.type === "equipe"
   })
 
-  const autoraisId: string[] = ["TtaskList", "Tport"]
+  const autoraisId: string[] = ["Tport", "TtaskList", "TcurrencyConverter"]
   const groupId: string[] = ["Tpaiva"]
-  const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports"]
+  const projetosId: string[] = ["Tesports", "TnotServ", "TbestSurf"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -153,15 +153,15 @@ export const Portfolio = () => {
                 filterInput.value = ""
                 setCheck(0)
                 setList([])
-                document.querySelectorAll("#Tesports, #Tport, #TnotServ, #TtaskList, #TbestSurf, #Tpaiva")
+                document.querySelectorAll("#Tesports, #Tport, #TnotServ, #TtaskList, #TbestSurf, #Tpaiva, #TcurrencyConverter")
                   .forEach((element: any) => {
                     if (element) {
                       element.style.display = "flex"
                     }
                   })
-                  document.addEventListener("DOMContentLoaded", () => {
-                    hiddenDisplay()
-                    })
+
+                hiddenDisplay()
+
               }}
             />
             : <VscSearch

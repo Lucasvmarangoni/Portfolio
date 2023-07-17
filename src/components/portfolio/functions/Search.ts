@@ -1,5 +1,6 @@
 import {
   bestSurf,
+  currencyConverter,
   esports,
   notServ,
   paivaMotoPecas,
@@ -16,10 +17,10 @@ export function Search() {
   const TtaskList: any = document.querySelector("#TtaskList");
   const TbestSurf: any = document.querySelector("#TbestSurf");
   const TpaivaMotoPecas: any = document.querySelector("#Tpaiva");
+  const TcurrencyConverter: any = document.querySelector("#TcurrencyConverter");
 
   const filterInput: any = document.querySelector("#input");
-  let filter = filterInput.value.toLowerCase().split(" ");
-  
+  let filter = filterInput.value.toLowerCase().split(" ");  
 
   const Sesports = new Csearch(0, esports, filter, Tesports);
   Sesports.execute();
@@ -33,10 +34,10 @@ export function Search() {
   SbestSurf.execute();
   const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
   SpaivaMotoPecas.execute();
-
-  document.addEventListener("DOMContentLoaded", () => {
-  hiddenDisplay()
-  })
+  const ScurrencyConverter = new Csearch(0, currencyConverter, filter, TcurrencyConverter);
+  ScurrencyConverter.execute();
+  
+  hiddenDisplay() 
 }
 
 

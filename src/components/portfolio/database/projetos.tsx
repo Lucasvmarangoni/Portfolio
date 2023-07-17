@@ -4,72 +4,140 @@ import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
 
 export const projectsDB = [
     {
-        name: 'Currency converter',
-        year: '2023',
-        picture: '/currency-converter.png',
-        github: 'https://github.com/Lucasvmarangoni/currency-converter',
-        version: '1.0.0',
-        type: 'pessoal',
-        situation: 'EM DESENVOLVIMENTO!',
-        description: `           
-            <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com Node.js Typescript e 
-            Nest.js utilizando DDD, TDD. Possui testes unitários e e2e, exceções, logs, cache, doc. OpenAPI, autenticação.
-            </p>           
-
-            <p>
-            Tem o objetivo de consolidar meus conhecimentos em Node.js com Nest.js e Mongoose. 
-            Além de continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
-            tecnologias e ferramentas que adquiro.
-            </p>              
+        name: 'ESports',
+        year: '2022',
+        picture: '/Hnlw.jpg',
+        github: 'https://github.com/Lucasvmarangoni/NLW-Ignite-2022',
+        version: undefined,
+        type: 'curso',
+        description: `
+        <p className="P">
+            O projeto tem a finalidade de ajudar jogadores de jogos online a
+            encontrarem uma dupla, assim possibilita que criem anúncios para
+            que outros jogadores possam entrar em contato.
+        </p>
+        <p className="P">
+         Nos anúncios é possível informar várias características sobre o
+         jogador e suas preferências de jogabilidade.
+        </p>
+        <p className="P mt-2">
+            --> Desenvolvido durante o evento NLW Esports Ignite da
+            Rocketseat.
+        </p>
         `,
         technologies: [
-            "Node",
             "Typescript",
-            "Nest",
-            "MongoDB",
-            "Mongoose",
-            "Jest",
-            "Supertest",
-            "Docker",
-            "Docker Compose",
-            "Github Actions",
-            "OpenAPI",
+            "Node",
+            "Express",
+            "SQLite",
+            "Prisma Studio",
+            "React",
+            "Vite",
+            "Axios",
+            "Tailwind",
+        ]
+    },    
+    {
+        name: ' Website Portfolio',
+        year: '2022',
+        picture: '/portfolio.png',
+        github: 'https://github.com/Lucasvmarangoni/Portfolio',
+        version: '1.11.20',
+        type: 'pessoal',
+        situation: 'REFACTORING!',
+        description: `
+        <p className="P">
+        Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como Software Engineer.         
+        </p>
+
+        <p> É minha fonte de aprendizado de React.js, pois aprendi e aprendo enquanto 
+        desenvolvi e ainda desenvolvo funcionalidades para esse projeto. </p>
+
+        <p>  Busquei por meio desse meu website pessoal transmitir o máximo
+        da minha personalidade, pois entendo que isso compõem parte de
+        sua finalidade. </p>
+        `,
+        extra: <PortDica />,
+        technologies: [
+            "TypeScript",
+            "Vite",
+            "React",
+            "TailWind",
+            "Radix ui",
+            "Framer Motion"
         ]
     },
     {
-        name: 'Paiva Moto Peças',
-        year: '2023',
-        picture: '/paiva.png',
-        github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
+        name: 'Notifications Service',
+        year: '2022',
+        picture: '/igniteLab04.png',
+        github: 'https://github.com/Lucasvmarangoni/notifications-service',
         version: undefined,
-        type: 'equipe',
-        situation: 'EM DESENVOLVIMENTO!',
+        type: 'curso',
         description: `
-            <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
+        <p className="P mt-2">
+            --> Desenvolvido durante o evento Ignite Lab 04 da
+            RocketSeat.
+        </p>
 
-            <p> --> Desenvolvido por equipe de seis pessoas. </p>
+        <p className="P">
+        Sistema microsserviço de notificações utilizando Node.js com Nest.js e Typescript. 
+        </p>        
 
-            <p>O projeto se trata de uma aplicação web responsável pela divulgação de produtos
-             e serviços da oficina Paiva Moto Peças.</p>           
-
-            <p>
-            Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
-            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância de entre 
-            setor de produtos ou serviços.
-            </p>
-
-             <strong>Integrantes:</strong>
-             <p>
-             Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.  </p>  
-             
-             <strong>Orientador:</strong>
-             <p>Joyce Carvalho</p>
-            
+        <p> Aprendi sobre arquitetura de
+        microservices, utilizei DDD, TDD, testes unitários, validações, factory pattern, in memory database e inversão de dependência.
+        </p>
         `,
         technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
+            "TypeScript",
+            "Node",
+            "Nest",
+            "Jest",
+            "Prisma Studio",
+            "SQLite"
+        ]
+    },
+    {
+        name: 'TaskList',
+        year: '2022',
+        picture: '/tasklist.png',
+        github: 'https://github.com/Lucasvmarangoni/TaskList',
+        version: '2.0.0',
+        type: 'pessoal',
+        situation: 'VERSÃO 2.1.0 EM DESENVOLVIMENTO!',
+        description: `
+        <p className="P mt-4">
+        É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
+        unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
+        </p>
+
+        <p className="P mb-8 mt-4">
+        Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software, além de praticar a utilização de Node.js 
+        com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
+        tecnologias e ferramentas que adquiro.
+        </p>
+        `,
+        extra: <NotaTaskList />,
+        technologies: [
+            "TypeScript",
+            "Node",
+            "Express",
+            "Vitest",
+            "Supertest",
+            "Prisma Studio",
+            "Class-validator",
+            "MongoDB",
+            "Swagger ui",
+            "Express openapi validator",
+            "Bcrypt",
+            "Json Web Token",
+            "OvernightJS",
+            "Node Config",
+            "Pino",
+            "Express rate limit",
+            "Github actions",
+            "Node cache",
+            "Http status codes",
         ]
     },
     {
@@ -121,141 +189,73 @@ export const projectsDB = [
         ]
     },
     {
-        name: 'TaskList',
-        year: '2022',
-        picture: '/tasklist.png',
-        github: 'https://github.com/Lucasvmarangoni/TaskList',
-        version: '2.0.0',
-        type: 'pessoal',
-        situation: 'VERSÃO 2.1.0 EM DESENVOLVIMENTO!',
-        description: `
-        <p className="P mt-4">
-        É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
-        unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
-        </p>
-
-        <p className="P mb-8 mt-4">
-        Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software, além de praticar a utilização de Node.js 
-        com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
-        tecnologias e ferramentas que adquiro.
-        </p>
-        `,
-        extra: <NotaTaskList />,
-        technologies: [
-            "TypeScript",
-            "Node",
-            "Express",
-            "Vitest",
-            "Supertest",
-            "Prisma Studio",
-            "Class-validator",
-            "MongoDB",
-            "Swagger ui",
-            "Express openapi validator",
-            "Bcrypt",
-            "Json Web Token",
-            "OvernightJS",
-            "Node Config",
-            "Pino",
-            "Express rate limit",
-            "Github actions",
-            "Node cache",
-            "Http status codes",
-        ]
-    },
-    {
-        name: 'Notifications Service',
-        year: '2022',
-        picture: '/igniteLab04.png',
-        github: 'https://github.com/Lucasvmarangoni/notifications-service',
+        name: 'Paiva Moto Peças',
+        year: '2023',
+        picture: '/paiva.png',
+        github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
         version: undefined,
-        type: 'curso',
+        type: 'equipe',
+        situation: 'EM DESENVOLVIMENTO!',
         description: `
-        <p className="P mt-2">
-            --> Desenvolvido durante o evento Ignite Lab 04 da
-            RocketSeat.
-        </p>
+            <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
 
-        <p className="P">
-        Sistema microsserviço de notificações utilizando Node.js com Nest.js e Typescript. 
-        </p>        
+            <p> --> Desenvolvido por equipe de seis pessoas. </p>
 
-        <p> Aprendi sobre arquitetura de
-        microservices, utilizei DDD, TDD, testes unitários, validações, factory pattern, in memory database e inversão de dependência.
-        </p>
+            <p>O projeto se trata de uma aplicação web responsável pela divulgação de produtos
+             e serviços da oficina Paiva Moto Peças.</p>           
+
+            <p>
+            Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
+            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância de entre 
+            setor de produtos ou serviços.
+            </p>
+
+             <strong>Integrantes:</strong>
+             <p>
+             Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.  </p>  
+             
+             <strong>Orientador:</strong>
+             <p>Joyce Carvalho</p>
+            
         `,
         technologies: [
-            "TypeScript",
-            "Node",
-            "Nest",
-            "Jest",
-            "Prisma Studio",
-            "SQLite"
+            "HTML",
+            "CSS",
+            "JavaScript",
         ]
     },
     {
-        name: ' Website Portfolio',
-        year: '2022',
-        picture: '/portfolio.png',
-        github: 'https://github.com/Lucasvmarangoni/Portfolio',
-        version: '1.11.20',
+        name: 'Currency converter',
+        year: '2023',
+        picture: '/currency-converter.png',
+        github: 'https://github.com/Lucasvmarangoni/currency-converter',
+        version: '1.0.0',
         type: 'pessoal',
-        situation: 'REFACTORING!',
-        description: `
-        <p className="P">
-        Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como Software Engineer.         
-        </p>
+        situation: 'EM DESENVOLVIMENTO!',
+        description: `           
+            <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com Node.js Typescript e 
+            Nest.js utilizando DDD, TDD. Possui testes unitários e e2e, exceções, logs, cache, doc. OpenAPI, autenticação.
+            </p>           
 
-        <p> É minha fonte de aprendizado de React.js, pois aprendi e aprendo enquanto 
-        desenvolvi e ainda desenvolvo funcionalidades para esse projeto. </p>
-
-        <p>  Busquei por meio desse meu website pessoal transmitir o máximo
-        da minha personalidade, pois entendo que isso compõem parte de
-        sua finalidade. </p>
-        `,
-        extra: <PortDica />,
-        technologies: [
-            "TypeScript",
-            "Vite",
-            "React",
-            "TailWind",
-            "Radix ui",
-            "Framer Motion"
-        ]
-    },
-    {
-        name: 'ESports',
-        year: '2022',
-        picture: '/Hnlw.jpg',
-        github: 'https://github.com/Lucasvmarangoni/NLW-Ignite-2022',
-        version: undefined,
-        type: 'curso',
-        description: `
-        <p className="P">
-            O projeto tem a finalidade de ajudar jogadores de jogos online a
-            encontrarem uma dupla, assim possibilita que criem anúncios para
-            que outros jogadores possam entrar em contato.
-        </p>
-        <p className="P">
-         Nos anúncios é possível informar várias características sobre o
-         jogador e suas preferências de jogabilidade.
-        </p>
-        <p className="P mt-2">
-            --> Desenvolvido durante o evento NLW Esports Ignite da
-            Rocketseat.
-        </p>
+            <p>
+            Tem o objetivo de consolidar meus conhecimentos em Node.js com Nest.js e Mongoose. 
+            Além de continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
+            tecnologias e ferramentas que adquiro.
+            </p>              
         `,
         technologies: [
+            "Node",
             "Typescript",
-            "Node",
-            "Express",
-            "SQLite",
-            "Prisma Studio",
-            "React",
-            "Vite",
-            "Axios",
-            "Tailwind",
+            "Nest",
+            "MongoDB",
+            "Mongoose",
+            "Jest",
+            "Supertest",
+            "Docker",
+            "Docker Compose",
+            "Github Actions",
+            "OpenAPI",
         ]
-    }
+    },
 ]
 
