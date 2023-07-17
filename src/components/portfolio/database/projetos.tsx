@@ -4,6 +4,39 @@ import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
 
 export const projectsDB = [
     {
+        name: 'Currency converter',
+        year: '2023',
+        picture: '/currency-converter.png',
+        github: 'https://github.com/Lucasvmarangoni/currency-converter',
+        version: '1.0.0',
+        type: 'pessoal',
+        situation: 'EM DESENVOLVIMENTO!',
+        description: `           
+            <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com Node.js Typescript e 
+            Nest.js utilizando DDD, TDD. Possui testes unitários e e2e, exceções, logs, cache, doc. OpenAPI, autenticação.
+            </p>           
+
+            <p>
+            Tem o objetivo de consolidar meus conhecimentos em Node.js com Nest.js e Mongoose. 
+            Além de continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
+            tecnologias e ferramentas que adquiro.
+            </p>              
+        `,
+        technologies: [
+            "Node",
+            "Typescript",
+            "Nest",
+            "MongoDB",
+            "Mongoose",
+            "Jest",
+            "Supertest",
+            "Docker",
+            "Docker Compose",
+            "Github Actions",
+            "OpenAPI",
+        ]
+    },
+    {
         name: 'Paiva Moto Peças',
         year: '2023',
         picture: '/paiva.png',
@@ -99,13 +132,12 @@ export const projectsDB = [
         <p className="P mt-4">
         É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
         unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
-              </p>
+        </p>
 
         <p className="P mb-8 mt-4">
-            Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software,
-            além de praticar a utilização de Node.js com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar,
-            aprimorando-o com as novas habilidades e tecnologias que adquiro, aplicando arquitetura de microsserviços para me possibilitar utilizar 
-            outros frameworks e linguagens e assim tirar o máximo desse projeto.
+        Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software, além de praticar a utilização de Node.js 
+        com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
+        tecnologias e ferramentas que adquiro.
         </p>
         `,
         extra: <NotaTaskList />,
@@ -114,9 +146,21 @@ export const projectsDB = [
             "Node",
             "Express",
             "Vitest",
+            "Supertest",
             "Prisma Studio",
             "Class-validator",
-            "SQLite"
+            "MongoDB",
+            "Swagger ui",
+            "Express openapi validator",
+            "Bcrypt",
+            "Json Web Token",
+            "OvernightJS",
+            "Node Config",
+            "Pino",
+            "Express rate limit",
+            "Github actions",
+            "Node cache",
+            "Http status codes",
         ]
     },
     {
