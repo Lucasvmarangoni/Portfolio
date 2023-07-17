@@ -102,9 +102,8 @@ export const projectsDB = [
         year: '2022',
         picture: '/tasklist.png',
         github: 'https://github.com/Lucasvmarangoni/TaskList',
-        version: '2.0.0',
-        type: 'pessoal',
-        situation: 'VERSÃO 2.1.0 EM DESENVOLVIMENTO!',
+        version: '2.1.0',
+        type: 'pessoal',       
         description: `
         <p className="P mt-4">
         É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
