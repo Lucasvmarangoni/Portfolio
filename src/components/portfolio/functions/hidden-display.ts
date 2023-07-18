@@ -16,26 +16,30 @@ export function hiddenDisplay() {
   let noneGroupCheck: number = 0;
   let noneCourseCheck: number = 0;
 
+  const windowWidth = window.innerWidth <= 949
+  console.log(windowWidth);
+  
+
   Tesports.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2
   TnotServ.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2;
   TbestSurf.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2;
 
   const numberOfCourseProjects = 3;
 
-  if (noneCourseCheck !== -2 * numberOfCourseProjects) {
+  if (noneCourseCheck !== -2 * numberOfCourseProjects || windowWidth) {
     THiddenCourse.style.display = "none"
   }
 
-  if (noneCourseCheck === 0 || noneCourseCheck === -2 * numberOfCourseProjects) {
+  if (noneCourseCheck === 0 || noneCourseCheck === -2 * numberOfCourseProjects && !windowWidth) {
     THiddenCourse.style.display = "flex"
   }
 
   Tpaiva.style.display === "none" ? noneGroupCheck += 2 : noneGroupCheck -= 2;
 
-  if (noneGroupCheck === 2) {
+  if (noneGroupCheck === 2 || windowWidth) {
     THiddenGroup.style.display = "none"
   }
-  if (noneGroupCheck === 0 || noneGroupCheck !== 2) {
+  if (noneGroupCheck === 0 || noneGroupCheck !== 2 && !windowWidth) {
     THiddenGroup.style.display = "flex"
   }
 
@@ -44,12 +48,12 @@ export function hiddenDisplay() {
   TcurrencyConverter.style.display === "none" ? nonePersonalCheck += 2 : nonePersonalCheck -= 2;
 
   const numberOfPersonalProjects = 3;
-
-  if (nonePersonalCheck !== -2 * numberOfPersonalProjects) {
+  
+  if (nonePersonalCheck !== -2 * numberOfPersonalProjects || windowWidth) {
     THiddenPersonal.style.display = "none"
   }
 
-  if (nonePersonalCheck === 0 || nonePersonalCheck === -2 * numberOfPersonalProjects) {
+  if (nonePersonalCheck === 0 || nonePersonalCheck === -2 * numberOfPersonalProjects && !windowWidth) {
     THiddenPersonal.style.display = "flex"
   }
 }

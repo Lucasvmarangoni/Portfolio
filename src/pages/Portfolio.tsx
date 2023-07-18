@@ -74,7 +74,7 @@ export const Portfolio = () => {
     );
   }
   useEffect(() => {
-    hidden();
+    // hidden();
     dynamicDatalist()
     Search();
   }, []);
