@@ -153,7 +153,7 @@ export const Portfolio = () => {
                 filterInput.value = ""
                 setCheck(0)
                 setList([])
-                document.querySelectorAll("#Tesports, #Tport, #TnotServ, #TtaskList, #TbestSurf, #Tpaiva, #TcurrencyConverter")
+                document.querySelectorAll('#TcurrencyConverter, #Tpaiva, #TbestSurf, #TtaskList, #TnotServ, #Tport, #Tesports')
                   .forEach((element: any) => {
                     if (element) {
                       element.style.display = "flex"
