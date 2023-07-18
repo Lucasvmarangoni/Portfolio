@@ -12,19 +12,20 @@ export const Portfolio = () => {
 
   const personalProjects = projectsDB.filter((project) => {
     return project.type === "pessoal"
-  })
+  }).reverse();
+  console.log(personalProjects);
 
   const courseProjects = projectsDB.filter((project) => {
     return project.type === "curso"
-  })
+  }).reverse();
 
   const groupProjects = projectsDB.filter((project) => {
     return project.type === "equipe"
-  })
+  }).reverse();
 
-  const autoraisId: string[] = ["Tport", "TtaskList", "TcurrencyConverter"]
+  const autoraisId: string[] = ["TcurrencyConverter", "TtaskList", "Tport",]
   const groupId: string[] = ["Tpaiva"]
-  const projetosId: string[] = ["Tesports", "TnotServ", "TbestSurf"]
+  const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports",]
 
   const datalist: string[] = [
     'Node Vitest',
