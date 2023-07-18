@@ -21,19 +21,19 @@ export const NotaTaskList = () => {
         <Collapsible.Content className="CollapsibleContent">
           <p className="P mt-2">
             <img src="https://img.shields.io/badge/version-1.0.0-white" alt="Versão 1.0.0"></img>
-            O projeto teve seu desenvolvimento iniciado com um back-end simples e básico.
+            <span className="text-[#3b2753]">Dez 2022 | </span>O projeto teve seu desenvolvimento iniciado com um back-end simples e básico.
           </p>
 
           <p className="P mt-5">
             <a href="https://github.com/Lucasvmarangoni/TaskList/commit/92bf7f0" title="clique para ver o código da versão 2.0.0">
-              <img src="https://img.shields.io/badge/version-2.0.0-white" alt="Versão 2.0.0"></img></a>
-            O projeto passou a ser uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes unitários,
+              <img src="https://img.shields.io/badge/version-2.0.0-white" alt="Versão 2.0.0"></img></a> 
+           <span className="text-[#3b2753]">Jan 2023 - Mar 2023 | </span>O projeto passou a ser uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes unitários,
             validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
           </p>
 
           <p className="P mt-5">
             <a href="" title="clique para ver o código da versão 2.1.0"><img src="https://img.shields.io/badge/version-2.1.0-black" alt="Versão 2.0.0"></img></a>
-            Nesta atualização, aprimorei testes, adicionei mocks, testes e2e, tratamento de exceções, status code, logging, rate
+            <span className="text-[#3b2753]">Mai 2023 - Jul 2023 | </span>Nesta atualização, aprimorei testes, adicionei mocks, testes e2e, tratamento de exceções, status code, logging, rate
             limit, cache, graceful shutdown, troca do banco de dados, doc. openAPI, workflow, autenticação e refatoração.
           </p>
 

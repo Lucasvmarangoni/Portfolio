@@ -99,7 +99,7 @@ export const projectsDB = [
     },
     {
         name: 'TaskList',
-        year: '2022',
+        year: 'Jan 2023 - Jul 2023',
         picture: '/tasklist.png',
         github: 'https://github.com/Lucasvmarangoni/TaskList',
         version: '2.1.0',
@@ -189,12 +189,11 @@ export const projectsDB = [
     },
     {
         name: 'Paiva Moto Peças',
-        year: '2023',
+        year: 'Mar 2023 - Jun 2023',
         picture: '/paiva.png',
         github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
         version: undefined,
-        type: 'equipe',
-        situation: 'EM DESENVOLVIMENTO!',
+        type: 'equipe',        
         description: `
             <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
 
@@ -221,11 +220,12 @@ export const projectsDB = [
             "HTML",
             "CSS",
             "JavaScript",
+            "Github Actions",
         ]
     },
     {
         name: 'Currency converter',
-        year: '2023',
+        year: 'Jul 2023 - ',
         picture: '/currency-converter.png',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
