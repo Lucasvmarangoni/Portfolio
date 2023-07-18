@@ -16,9 +16,7 @@ export function hiddenDisplay() {
   let noneGroupCheck: number = 0;
   let noneCourseCheck: number = 0;
 
-  const windowWidth = window.innerWidth <= 949
-  console.log(windowWidth);
-  
+  const windowWidth = window.innerWidth <= 949  
 
   Tesports.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2
   TnotServ.style.display === "none" ? noneCourseCheck += 2 : noneCourseCheck -= 2;

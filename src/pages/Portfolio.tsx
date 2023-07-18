@@ -13,7 +13,6 @@ export const Portfolio = () => {
   const personalProjects = projectsDB.filter((project) => {
     return project.type === "pessoal"
   }).reverse();
-  console.log(personalProjects);
 
   const courseProjects = projectsDB.filter((project) => {
     return project.type === "curso"
@@ -148,8 +147,7 @@ export const Portfolio = () => {
               n6:w-8 n6:h-8
               n7:w-8 n7:h-8"
               style={{ cursor: "pointer" }}
-              onClick={() => {
-                console.log(window.innerWidth);
+              onClick={() => {             
                 const filterInput: any = document.querySelector("#input");
                 filterInput.value = ""
                 setCheck(0)
