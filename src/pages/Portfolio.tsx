@@ -61,17 +61,17 @@ export const Portfolio = () => {
   }
 
   let [windowWidth, windowCheck]: SetStateAction<any> = useState();
-  function hidden() {
-    const TCourseHidden = document.querySelector(".TCourseHidden") as HTMLElement | any;
-    const TTeamHidden = document.querySelector(".TTeamHidden") as HTMLElement | any;
-    const TPersonalHidden = document.querySelector(".TPersonalHidden") as HTMLElement | any;
-    windowWidth = window.innerWidth;
-    windowCheck(
-      windowWidth <= 949
-        ? (TCourseHidden.style.display = "none", TTeamHidden.style.display = "none")
-        : (TCourseHidden.style.display = "flex", TTeamHidden.style.display = "flex")
-    );
-  }
+  // function hidden() {
+  //   const TCourseHidden = document.querySelector(".TCourseHidden") as HTMLElement | any;
+  //   const TTeamHidden = document.querySelector(".TTeamHidden") as HTMLElement | any;
+  //   const TPersonalHidden = document.querySelector(".TPersonalHidden") as HTMLElement | any;
+  //   windowWidth = window.innerWidth;
+  //   windowCheck(
+  //     windowWidth <= 949
+  //       ? (TCourseHidden.style.display = "none", TTeamHidden.style.display = "none")
+  //       : (TCourseHidden.style.display = "flex", TTeamHidden.style.display = "flex")
+  //   );
+  // }
   useEffect(() => {
     // hidden();
     dynamicDatalist()
