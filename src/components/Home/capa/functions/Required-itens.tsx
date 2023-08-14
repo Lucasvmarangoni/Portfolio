@@ -18,4 +18,4 @@ export function SpanTag(text: string) {
   </span>
 }
 
-export const SendObligatoryButton = "bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70"
+export const SendRequiredButton = "bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70"

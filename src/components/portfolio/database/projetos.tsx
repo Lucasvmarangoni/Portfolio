@@ -43,8 +43,7 @@ export const projectsDB = [
         picture: '/portfolio.png',
         github: 'https://github.com/Lucasvmarangoni/Portfolio',
         version: '1.11.20',
-        type: 'pessoal',
-        situation: 'REFACTORING!',
+        type: 'pessoal',       
         description: `
         <p className="P">
         Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como Software Engineer.         

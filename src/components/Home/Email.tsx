@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { useState } from "react";
-import { MOver, MOut, SpanTag, SendObligatoryButton } from "./capa/functions/Obligatory-itens";
+import { MOver, MOut, SpanTag, SendRequiredButton } from "./capa/functions/Required-itens";
 
 export function Email() {
     const [name, setName] = useState("");
@@ -76,7 +76,7 @@ export function Email() {
                 className="w-64 brightness-150 grid justify-center items-center"
                 disabled={!email || !message}               
             >
-                <span className={`${SendObligatoryButton}`}>Enviar</span>
+                <span className={`${SendRequiredButton}`}>Enviar</span>
                 {SpanTag("Email e mensagem obrigatórios!")}
             </button>
         </Dialog.Description>

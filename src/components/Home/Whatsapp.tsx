@@ -1,7 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { useEffect, useState } from "react";
 import { NavLink, NavLinkProps } from "react-router-dom";
-import { MOver, MOut, SpanTag, SendObligatoryButton } from "./capa/functions/Obligatory-itens";
+import { MOver, MOut, SpanTag, SendRequiredButton } from "./capa/functions/Required-itens";
 
 
 
@@ -38,9 +38,9 @@ function CustomNavLink({ ...rest }: NavLinkProps) {
 
 
   if (!message) {
-    return <span className={`${SendObligatoryButton}`}>Enviar</span>;
+    return <span className={`${SendRequiredButton}`}>Enviar</span>;
   }
-  return <NavLink className={`${SendObligatoryButton}`} {...rest} />;
+  return <NavLink className={`${SendRequiredButton}`} {...rest} />;
 }
 
 return (
