@@ -36,17 +36,17 @@ export const projectsDB = [
             "Axios",
             "Tailwind",
         ]
-    },    
+    },
     {
         name: ' Website Portfolio',
         year: '2022',
         picture: '/portfolio.png',
         github: 'https://github.com/Lucasvmarangoni/Portfolio',
         version: '1.11.20',
-        type: 'pessoal',       
+        type: 'pessoal',
         description: `
         <p className="P">
-        Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como Software Engineer.         
+        Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como desenvolvedor de software.         
         </p>
 
         <p> É minha fonte de aprendizado de React.js, pois aprendi e aprendo enquanto 
@@ -103,7 +103,7 @@ export const projectsDB = [
         demo: "/tasklist-demo.mp4",
         github: 'https://github.com/Lucasvmarangoni/TaskList',
         version: '2.1.0',
-        type: 'pessoal',       
+        type: 'pessoal',
         description: `
         <p className="P mt-4">
         É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
@@ -111,9 +111,8 @@ export const projectsDB = [
         </p>
 
         <p className="P mb-8 mt-4">
-        Inicialmente teve o objetivo de consolidar meus conhecimentos de Back-end e Engenharia de Software, além de praticar a utilização de Node.js 
-        com Express e Prisma Studio. O objetivo agora é continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
-        tecnologias e ferramentas que adquiro.
+        Iniciei esse projeto para consolidar minhas habilidades no Back-end e Engenharia de Software, além de praticar a utilização de Node.js 
+        com Express e Prisma Studio.        
         </p>
         `,
         extra: <NotaTaskList />,
@@ -157,7 +156,7 @@ export const projectsDB = [
         Node.js com Express e TypeScript e seguindo as melhores práticas de desenvolvimento.
         </p>        
 
-        <p>  Ao longo do projeto, adquiri experiência no tratamento de erros, logging, testes unitários e de ponta a ponta, mocks, 
+        <p>  Ao longo do projeto, adquiri experiência sobre generic, tratamento de erros, logging, testes unitários e de ponta a ponta, mocks, 
             criptografia e graceful shutdown.
         </p>
            
@@ -193,7 +192,7 @@ export const projectsDB = [
         picture: '/paiva.png',
         github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
         version: undefined,
-        type: 'equipe',        
+        type: 'equipe',
         description: `
             <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
 
@@ -237,10 +236,15 @@ export const projectsDB = [
             </p>           
 
             <p>
-            Tem o objetivo de consolidar meus conhecimentos em Node.js com Nest.js e Mongoose. 
-            Além de continuar utilizando esse projeto para praticar, aprimorando-o com as novas habilidades, 
-            tecnologias e ferramentas que adquiro.
-            </p>              
+            Tem o objetivo de consolidar minhas habilidades com Nest.js e Mongoose.             
+            </p>     
+            
+            <p> 
+            Esse projeto foi solicitado durante um processo seletivo de vaga em que eu não pude concluir, então peguei para fazer ele por conta própria, tendo que escolher tecnologias, 
+            aprender e decidir a melhor forma de fazer tudo, sem usar algum projeto guiado como referência. 
+
+            Exatamente por esse motivo ele é especial para mim, pois me proporcionou um tipo de evolução diferente.       
+            </p>   
         `,
         technologies: [
             "Node",
