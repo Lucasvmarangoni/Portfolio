@@ -240,8 +240,8 @@ export const projectsDB = [
             </p>     
             
             <p> 
-            Esse projeto foi solicitado durante um processo seletivo de vaga em que eu não pude concluir, então peguei para fazer ele por conta própria, tendo que escolher tecnologias, 
-            aprender e decidir a melhor forma de fazer tudo, sem usar algum projeto guiado como referência. 
+            Esse projeto desenvolvi sem usar projetos guiados como referência. Diferente de como foi o projeto TaskList, escolhi todas as tecnologias, 
+            tive que aprender e decidir a melhor forma de fazer tudo. 
 
             Exatamente por esse motivo ele é especial para mim, pois me proporcionou um tipo de evolução diferente.       
             </p>   
