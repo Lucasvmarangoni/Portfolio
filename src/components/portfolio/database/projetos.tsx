@@ -236,11 +236,11 @@ export const projectsDB = [
             </p>           
 
             <p>
-            Tem o objetivo de consolidar minhas habilidades com Nest.js e Mongoose.             
+            Teve o objetivo de consolidar minhas habilidades com Nest.js e Mongoose.             
             </p>     
             
             <p> 
-            Esse projeto desenvolvi sem usar projetos guiados como referência. Diferente de como foi o projeto TaskList, escolhi todas as tecnologias, 
+            Esse projeto desenvolvi sem usar projetos guiados como referência. Diferente de como foi o projeto TaskList, 
             tive que aprender e decidir a melhor forma de fazer tudo. 
 
             Exatamente por esse motivo ele é especial para mim, pois me proporcionou um tipo de evolução diferente.       
