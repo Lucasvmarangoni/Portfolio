@@ -110,14 +110,9 @@ export const projectsDB = [
         </p>
 
         <p className="P mt-4">
-        É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
+        É uma API REST, CRUD, com sistema de notificação e lixeira, desenvolvida com Node.js, Express e Typescript, aplicando testes
         unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
-        </p>
-
-        <p className="P mb-8 mt-4">
-        Iniciei esse projeto para consolidar minhas habilidades no Back-end e Engenharia de Software, além de praticar a utilização de Node.js 
-        com Express e Prisma Studio.        
-        </p>
+        </p>        
         `,
         extra: <NotaTaskList />,
         technologies: [
