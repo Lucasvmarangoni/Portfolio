@@ -105,6 +105,10 @@ export const projectsDB = [
         version: '2.1.0',
         type: 'pessoal',
         description: `
+        <p className="P mb-8 mt-4">
+        --> O vídeo consiste em uma breve apresentação de algum arquivos do código e a apresentação das requests e responses no insomnia.      
+        </p>
+
         <p className="P mt-4">
         É uma API REST, CRUD, com sistema de notificação, desenvolvida com Node.js, Express e Typescript, aplicando testes
         unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
