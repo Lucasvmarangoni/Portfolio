@@ -15,7 +15,7 @@ export const Portfolio = () => {
   }).reverse();
 
   const courseProjects = projectsDB.filter((project) => {
-    return project.type === "curso"
+    return project.type === "guiado"
   }).reverse();
 
   const groupProjects = projectsDB.filter((project) => {
@@ -147,7 +147,7 @@ export const Portfolio = () => {
               n6:w-8 n6:h-8
               n7:w-8 n7:h-8"
               style={{ cursor: "pointer" }}
-              onClick={() => {             
+              onClick={() => {
                 const filterInput: any = document.querySelector("#input");
                 filterInput.value = ""
                 setCheck(0)
@@ -203,11 +203,12 @@ export const Portfolio = () => {
           >
             <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
             <p className="text-base text-[#25252588] text-justify" >
-              Projetos pessoais são aqueles de minha autoria, ou seja, que crio e desenvolvo do zero sozinho.
-              O objetivo desses projetos é praticar para consolidar os novos conhecimentos e habilidades adquiridas,
-              além de adquirir outras em virtude do desenvolvimento do projeto.
+              Projetos pessoais são aqueles de minha autoria, ou seja, que planejo e desenvolvo do zero sozinho.
+              O objetivo principal desses projetos é praticar e aprender.
             </p>
-
+            <p className="text-base text-[#25252588] text-justify">
+              Aplico melhoria continua nos meus projetos pessoais, por isso faço atualizações e modificações após a data de conclusão.    
+              </p>
           </motion.div>
         </div>
         <div
@@ -349,10 +350,9 @@ export const Portfolio = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
           >
-            <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos de cursos</h2>
+            <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
             <p className="text-base text-[#25252588] text-justify" >
-              Projetos de curso são aqueles desenvolvidos durante os cursos que faço, ou seja, sua criação não é de minha autoria.
-              O objetivo desses projetos é adquirir novos conhecimentos e habilidades.
+              Projetos guiados são aqueles desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, sua criação não é de minha autoria.             
             </p>
           </motion.div>
           {

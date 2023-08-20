@@ -9,7 +9,7 @@ export const projectsDB = [
         picture: '/Hnlw.jpg',
         github: 'https://github.com/Lucasvmarangoni/NLW-Ignite-2022',
         version: undefined,
-        type: 'curso',
+        type: 'guiado',
         description: `
         <p className="P">
             O projeto tem a finalidade de ajudar jogadores de jogos online a
@@ -72,7 +72,7 @@ export const projectsDB = [
         picture: '/igniteLab04.png',
         github: 'https://github.com/Lucasvmarangoni/notifications-service',
         version: undefined,
-        type: 'curso',
+        type: 'guiado',
         description: `
         <p className="P mt-2">
             --> Desenvolvido durante o evento Ignite Lab 04 da
@@ -107,7 +107,7 @@ export const projectsDB = [
         description: `
         <p className="P mb-8 mt-4">
         --> O vídeo consiste em uma breve apresentação de alguns arquivos do código e a apresentação das requests e responses no insomnia.      
-        </p>
+        </p>       
 
         <p className="P mt-4">
         É uma API REST, CRUD, com sistema de notificação e lixeira, desenvolvida com Node.js, Express e Typescript, aplicando testes
@@ -143,10 +143,10 @@ export const projectsDB = [
         picture: '/bestsurf.png',
         github: 'https://github.com/Lucasvmarangoni/Best-Surf',
         version: undefined,
-        type: 'curso',
+        type: 'guiado',
         description: `        
         <p className="P">
-          --> Projeto curso <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
+          --> Projeto guiado <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
             DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
         </p>
 
