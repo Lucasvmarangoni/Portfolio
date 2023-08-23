@@ -110,7 +110,7 @@ export const projectsDB = [
         </p>       
 
         <p className="P mt-4">
-        É uma API REST, para servir aplicação de lista de tarefas, possui as funções criar, consultar (de várias formas), alterar e deletar as tarefas e conta com sistema de notificação e lixeira. 
+        O projeto é uma API REST para servir aplicação de lista de tarefas, possui as funções criar, consultar (de várias formas), alterar e deletar as tarefas, também conta com sistema de notificação e lixeira. 
         Foi desenvolvido com Node.js, Express e Typescript, de banco de dados a ORM Prisma Studio com mongoDB (Atlas) e nos testes o framework Vitest.             
         </p>        
 
@@ -120,7 +120,7 @@ export const projectsDB = [
 
         <p className="P mt-4">
         Foi desenvolvida seguindo DDD e TDD, realizado testes unitários e e2e, além de validações. Também foi realizado o tratamento de exceções, 
-        status code, logging, rate limit, caching, graceful shutdown, documentação openAPI, workflow, autenticação (local).      
+        status code, logging, rate limit, caching, graceful shutdown, documentação openAPI, workflow e autenticação (local).      
         </p>
 
         <p className="P mt-4">
