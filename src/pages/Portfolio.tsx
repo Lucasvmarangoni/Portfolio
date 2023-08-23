@@ -207,8 +207,8 @@ export const Portfolio = () => {
               O objetivo principal desses projetos é praticar e aprender.
             </p>
             <p className="text-base text-[#25252588] text-justify">
-              Aplico melhoria continua nos meus projetos pessoais, por isso faço atualizações e modificações após a data de conclusão.    
-              </p>
+              Aplico melhoria continua nos meus projetos pessoais, por isso faço atualizações e modificações após a data de conclusão.
+            </p>
           </motion.div>
         </div>
         <div
@@ -276,8 +276,7 @@ export const Portfolio = () => {
           >
             <h2 className="text-T4 text-xl brightness-75 font-semi-bold mb-4">Projetos em equipe</h2>
             <p className="text-base text-[#25252588] text-justify" >
-              Projetos em equipe normalmente são desenvolvidos em função da graduação de analise e
-              desenvolvimento de sistemas na PUC Minas. Sua criação e desenvolvimento são
+              Projetos em equipe são desenvolvidos em conjunto com outras pessoas. Sua criação e desenvolvimento são
               realizados pela equipe.
             </p>
           </motion.div>
@@ -352,7 +351,7 @@ export const Portfolio = () => {
           >
             <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
             <p className="text-base text-[#25252588] text-justify" >
-              Projetos guiados são aqueles desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, sua criação não é de minha autoria.             
+              Projetos guiados são aqueles desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, sua criação não é de minha autoria.
             </p>
           </motion.div>
           {
