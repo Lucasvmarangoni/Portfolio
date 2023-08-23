@@ -120,7 +120,7 @@ export const projectsDB = [
         </p>
 
         <p className="P mt-4">
-        Foi desenvolvida seguindo DDD e TDD, realizado testes unitários e e2e, além de validações. Também foi realizado o tratamento de exceções, 
+        Foi desenvolvida seguindo DDD e TDD, possui testes unitários e e2e, além de validações. Também foi realizado o tratamento de exceções, 
         status code, logging, rate limit, caching, graceful shutdown, documentação openAPI, workflow e autenticação (local).      
         </p>
 
