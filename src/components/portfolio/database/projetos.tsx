@@ -114,8 +114,8 @@ export const projectsDB = [
         Foi desenvolvido com Node.js, Express e Typescript, de banco de dados a ORM Prisma Studio com mongoDB (Atlas) e nos testes o framework Vitest.             
         </p>        
 
-        p className="P mt-4">
-         - A lixeira não foi feita marcando um campo no banco de dados como "deletado", mas criando uma nova collection no mongoDB para armazenar as tarefas deletadas.        
+        <p className="P mt-4">
+         - A lixeira foi feita criando uma nova collection para armazenar as tarefas deletadas.        
         </p>
 
         <p className="P mt-4">
@@ -123,7 +123,7 @@ export const projectsDB = [
         status code, logging, rate limit, caching, graceful shutdown, documentação openAPI, workflow, autenticação (local).      
         </p>
 
-        p className="P mt-4">
+        <p className="P mt-4">
          Utilizei padrões de projeto in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.  
         </p>
         `,
