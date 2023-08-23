@@ -203,11 +203,11 @@ export const Portfolio = () => {
           >
             <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
             <p className="text-base text-[#25252588] text-justify" >
-              Projetos pessoais são aqueles de minha autoria, ou seja, que planejo e desenvolvo do zero sozinho.
+              Projetos pessoais são de minha autoria, ou seja, planejo e desenvolvo do zero sozinho.
               O objetivo principal desses projetos é praticar e aprender.
             </p>
             <p className="text-base text-[#25252588] text-justify">
-              Aplico melhoria continua nos meus projetos pessoais, por isso faço atualizações e modificações após a data de conclusão.
+              Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
             </p>
           </motion.div>
         </div>
