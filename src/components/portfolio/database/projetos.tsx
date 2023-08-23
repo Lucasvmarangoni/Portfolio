@@ -110,8 +110,15 @@ export const projectsDB = [
         </p>       
 
         <p className="P mt-4">
-        É uma API REST, CRUD, com sistema de notificação e lixeira, desenvolvida com Node.js, Express e Typescript, aplicando testes
-        unitários, validações, DDD, TDD, in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.
+        É uma API REST, para servir aplicação de lista de tarefas, possui as funções criar, consultar (de várias formas), alterar e deletar as tarefas e conta com sistema de notificação e lixeira. 
+        Foi desenvolvido com Node.js, Express e Typescript, de banco de dados a ORM Prisma Studio com mongoDB (Atlas) e nos testes o framework Vitest.
+
+        - A lixeira não foi feita marcando um campo no banco de dados como "deletado", mas criando uma nova collection no mongoDB para armazenar as tarefas deletadas.
+
+        Foi desenvolvida seguindo DDD e TDD, realizado testes unitários e e2e, além de validações. Também foi realizado o tratamento de exceções, 
+        status code, logging, rate limit, caching, graceful shutdown, documentação openAPI, workflow, autenticação (local).
+        
+        Utilizei alguns padrões de projeto como in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.        
         </p>        
         `,
         extra: <NotaTaskList />,
