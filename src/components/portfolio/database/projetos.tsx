@@ -106,7 +106,7 @@ export const projectsDB = [
         type: 'pessoal',
         description: `
         <p className="P mb-8 mt-4">
-        --> O vídeo consiste em uma breve apresentação de alguns arquivos do código e a apresentação das requests e responses no insomnia.      
+        --> O vídeo consiste em uma breve apresentação de alguns arquivos do código e a demonstração das requests e responses no insomnia.      
         </p>       
 
         <p className="P mt-4">
