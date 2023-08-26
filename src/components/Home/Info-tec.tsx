@@ -27,7 +27,7 @@ export const Info = () => {
     } = status;
     const githubStatsUrl = `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=${layout}&title_color=${titleColor}&text_color=${textColor}&bg_color=${bgColor}&border_color=${borderColor}&border_radius=${borderRadius}&hide_border=${hideBorder}&langs_count=${langsCount}`;
 
-
+    // TODO  When there is more content, use the BGH color.
 
     return (
         <div className="
@@ -60,10 +60,9 @@ export const Info = () => {
 
                 <div className="relative">
                     <div className="absolute top-0 right-0 mt-[-2em] 
-                n0:mr-[-7.5em]
-                n1:mr-[-1.5em]
-                n7:mr-[-1.4em]
-                
+                n0:mr-[-7.5em]     
+                n4:mr-[-2em]            
+                n7:mr-[0.2em]                
                 ">
                         <Now />
                     </div>
@@ -89,7 +88,7 @@ export const Info = () => {
                 <div className=" 
             flex align-center justify-center flex-wrap m-auto
             n0:gap-20 n0:mb-0
-            n7:gap-10 n7:mb-12
+            n7:gap-0 n7:mb-12
             
             ">
                     <div className=" mb-10">
@@ -102,7 +101,7 @@ export const Info = () => {
                     ">Linguagens que utilizo</h2>
                         <img
                             src={githubStatsUrl}
-                            className="w-[530px] m-auto"
+                            className="w-[530px] m-auto min-w-[400px]"
                         />
                     </div>
 
