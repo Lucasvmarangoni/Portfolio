@@ -1,11 +1,12 @@
 import { ButtonPort } from "../components/Home/ButtonPort";
 import { Capa } from "../components/Home/Capa";
 import { motion } from "framer-motion";
+import { Info } from "../components/Home/Info";
 
 export const Home = () => {
 
   return (
-    <>
+    <div className="grid gap-10">
       <Capa />
       {/* <Skills /> */}
       <motion.div
@@ -19,6 +20,7 @@ export const Home = () => {
       >
         <ButtonPort />
       </motion.div>
-    </>
+      <Info />
+    </div>
   );
 };
