@@ -2,6 +2,7 @@ import { ButtonPort } from "../components/Home/ButtonPort";
 import { Capa } from "../components/Home/Capa";
 import { motion } from "framer-motion";
 import { Info } from "../components/Home/Info";
+import { Motion } from "../components/functions/motion";
 
 export const Home = () => {
 
@@ -9,28 +10,13 @@ export const Home = () => {
     <div className="grid gap-10">
       <Capa />
       {/* <Skills /> */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{
-          duration: 0.8,
-          delay: 1.2,
-          ease: [0, 0.71, 0.2, 1.01],
-        }}
-      >
+      {Motion(0.8, 1.2,
         <ButtonPort />
-      </motion.div>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{
-          duration: 0.8,
-          delay: 1.4,
-          ease: [0, 0.71, 0.2, 1.01],
-        }}
-      >
+      )}
+
+      {Motion(0.8, 1.4,
         <Info />
-      </motion.div>
+      )}
 
     </div>
   );

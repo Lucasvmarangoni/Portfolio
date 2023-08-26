@@ -2,6 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { useEffect, useState } from "react";
 import { NavLink, NavLinkProps } from "react-router-dom";
 import { MOver, MOut, SpanTag, SendRequiredButton } from "./capa/functions/Required-itens";
+import { Motion } from "../functions/motion";
 
 
 
@@ -29,91 +30,101 @@ export function Whatsapp() {
 
     } else {
       daEmpresa = ", da empresa "
+    }
   }
-}
 
-const link = `https://api.whatsapp.com/send?phone=5527999880848&text=${meuNome}${name}${pontoName}${daEmpresa}${company}${pontoCompany} ${message}`
+  const link = `https://api.whatsapp.com/send?phone=5527999880848&text=${meuNome}${name}${pontoName}${daEmpresa}${company}${pontoCompany} ${message}`
 
-function CustomNavLink({ ...rest }: NavLinkProps) {
+  function CustomNavLink({ ...rest }: NavLinkProps) {
 
 
-  if (!message) {
-    return <span className={`${SendRequiredButton}`}>Enviar</span>;
+    if (!message) {
+      return <span className={`${SendRequiredButton}`}>Enviar</span>;
+    }
+    return <NavLink className={`${SendRequiredButton}`} {...rest} />;
   }
-  return <NavLink className={`${SendRequiredButton}`} {...rest} />;
-}
 
-return (
+  return (
 
-  <Dialog.Description className="mt-0">
-    <div className="grid gap-4 justify-center">
-      <div className="grid row-span-3 gap-3">
-        <div className="text-T2 grid gap-2 w-5 ">
-          <label htmlFor="inputName">Nome:</label>
-          <input
-            className="bg-BGH border-[#ffffff0e] border-[0.5px]"
-            id="inputName"
-            name="name"
-            type="text"
-            required
-            onChange={(e) => {
-              setName(e.target.value);
-            }}
-            value={name}
-          />
+    <Dialog.Description className="mt-0">
+      <div className="grid gap-4 justify-center">
+        <div className="grid row-span-3 gap-3">
+
+          {Motion(1.0, 0.5,
+            <div className="text-T2 grid gap-2 w-5 ">
+              <label htmlFor="inputName">Nome:</label>
+              <input
+                className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                id="inputName"
+                name="name"
+                type="text"
+                required
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                value={name}
+              />
+            </div>
+          )}
+
+          {Motion(1.0, 0.6,
+            <div className="text-T2 grid gap-2 w-5 ">
+              <label className="" htmlFor="inputCompany">
+                Empresa:
+              </label>
+              <input
+                className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                id="inputCompany"
+                name="company"
+                type="text"
+                required
+                onChange={(e) => {
+                  setCompany(e.target.value);
+                }}
+                value={company}
+              />
+            </div>
+          )}
+
+          {Motion(1.0, 0.7,
+            <div className="text-T2 grid gap-2 w-64">
+              <label className="text-T2" htmlFor="inputMessage">
+                Mensagem:
+              </label>
+              <textarea
+                className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                id="inputMessage"
+                name="message"
+                required
+                value={message}
+                onChange={(e) => {
+                  setMessage(e.target.value);
+                }}
+              />
+            </div>
+          )}
         </div>
 
-        <div className="text-T2 grid gap-2 w-5 ">
-          <label className="" htmlFor="inputCompany">
-            Empresa:
-          </label>
-          <input
-            className="bg-BGH border-[#ffffff0e] border-[0.5px]"
-            id="inputCompany"
-            name="company"
-            type="text"
-            required
-            onChange={(e) => {
-              setCompany(e.target.value);
+        {Motion(1.0, 0.8,
+          <button
+            onMouseOver={() => {
+              MOver(message);
             }}
-            value={company}
-          />
-        </div>
 
-        <div className="text-T2 grid gap-2 w-64">
-          <label className="text-T2" htmlFor="inputMessage">
-            Mensagem:
-          </label>
-          <textarea
-            className="bg-BGH border-[#ffffff0e] border-[0.5px]"
-            id="inputMessage"
-            name="message"
-            required
-            value={message}
-            onChange={(e) => {
-              setMessage(e.target.value);
+            onMouseOut={() => {
+              MOut(message);
             }}
-          />
-        </div>
+            type="submit"
+            className="w-64 brightness-150 grid justify-center items-center"
+          >
+            <CustomNavLink to={link} target="_blank"
+            >Enviar
+            </CustomNavLink>
+            {SpanTag("O campo mensagem é obrigatório!")}
+          </button>
+        )}
       </div>
-      <button
-        onMouseOver={() => {
-          MOver(message);
-        }}
+    </Dialog.Description>
 
-        onMouseOut={() => {
-          MOut(message);
-        }}
-        type="submit"
-        className="w-64 brightness-150 grid justify-center items-center"
-      >
-        <CustomNavLink to={link} target="_blank"
-        >Enviar
-        </CustomNavLink>
-        {SpanTag("O campo mensagem é obrigatório!")}
-      </button>
-    </div>
-  </Dialog.Description>
-
-);
+  );
 }

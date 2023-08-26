@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { useState } from "react";
-import { Cross2Icon } from "@radix-ui/react-icons";
+import { motion } from "framer-motion";
+import { Motion } from "../../functions/motion";
 
 
 
@@ -34,48 +34,61 @@ export function Now() {
     -translate-y-1/2  
     focus:outline-none"
         >
-          <Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-200" >
-            Atualmente estou:
-          </Dialog.Title>
+          {Motion(1.0, 0.5,
+            (<Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-200" >
+              Atualmente estou:
+            </Dialog.Title>)
+          )}
+
+
 
           <div className="grid gap-4">
-            <div className="flex flex-wrap gap-2">
-              <p className="P">
-                Desenvolvendo o projeto:
-              </p>
-              <a href="https://github.com/Lucasvmarangoni/currency-converter"
-                className={link}
-              >Currency Converter (v1.0.0)
-              </a>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <p className="P">
-                Bootcamp:
-              </p>
-              <a href="https://www.xpeducacao.com.br/bootcamp/arquiteto-de-solucoes"
-                className={link}
-              >Arquiteto de Soluções (XPe)
-              </a>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <p className="P">
-                Bootcamp:
-              </p>
-              <a href="https://www.xpeducacao.com.br/pos-graduacao/pos-seguranca-cibernetica"
-                className={link}
-              >Analista em Defesa Cibernética (XPe)
-              </a>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              <p className="P">
-                Livro: 
-              </p>
-              <span
+            {Motion(1.0, 0.7,
+              <div className="flex flex-wrap gap-2">
+                <p className="P">
+                  Desenvolvendo o projeto:
+                </p>
+                <a href="https://github.com/Lucasvmarangoni/currency-converter"
+                  className={link}
+                >Currency Converter (v1.0.0)
+                </a>
+              </div>
+            )}
+            {Motion(1.0, 0.8,
+              <div className="flex flex-wrap gap-2">
+                <p className="P">
+                  Bootcamp:
+                </p>
+                <a href="https://www.xpeducacao.com.br/bootcamp/arquiteto-de-solucoes"
+                  className={link}
+                >Arquiteto de Soluções (XPe)
+                </a>
+              </div>
+            )}
+            {Motion(1.0, 0.9,
+              <div className="flex flex-wrap gap-2">
+                <p className="P">
+                  Bootcamp:
+                </p>
+                <a href="https://www.xpeducacao.com.br/pos-graduacao/pos-seguranca-cibernetica"
+                  className={link}
+                >Analista em Defesa Cibernética (XPe)
+                </a>
+              </div>
+            )}
+            {Motion(1.0, 1.0,
+              <div className="flex flex-wrap gap-2">
+                <p className="P">
+                  Livro:
+                </p>
+                <span
                   className={link}
                 >Entendendo algoritmos (Aditya Y. Bhargava)
                 </span>
-            </div>
+              </div>
+            )}
           </div>
+
 
           <Dialog.Close asChild>
           </Dialog.Close>
