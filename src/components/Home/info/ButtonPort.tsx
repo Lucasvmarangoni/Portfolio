@@ -20,8 +20,8 @@ export const ButtonPort = () => {
         n7:w-36 n7:h-14 n7:text-2xl n7:hover:after:right-4        
         "
       >
-        <Link to="/projetos">
-          <h1 className="">Projetos</h1>
+        <Link to="/projetos" onClick={() => (document.querySelector('#topo') as any ).scrollIntoView(0)}>
+          <h1 className="" id="topo">Projetos</h1>
         </Link>
       </button>
     </div>
