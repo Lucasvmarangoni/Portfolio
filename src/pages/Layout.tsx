@@ -9,7 +9,7 @@ export const Layout = () => {
       <Outlet />
       {Motion(0.8, 1.5,
         <div
-          className="text-T1 text-sm text-center flex justify-center items-end brightness-200 
+          className="text-T1 text-sm text-center flex justify-center items-end brightness-200 mb-1
         n2:mt-10
         n3:mt-6
         n4:mt-6
@@ -19,7 +19,7 @@ export const Layout = () => {
         "
 
         >
-          <p className="brightness-125 ">© 2022 Lucas V Marangoni. All Rights Reserved.</p>
+          <p className="">© 2022 Lucas V Marangoni. All Rights Reserved.</p>
         </div>
       )}
     </div>
