@@ -1,7 +1,7 @@
 import { ButtonPort } from "../components/Home/ButtonPort";
 import { Capa } from "../components/Home/Capa";
 import { Motion } from "../components/functions/motion";
-import { Info } from "../components/Home/Info";
+import { Info } from "../components/Home/Info-tec";
 
 export const Home = () => {
 

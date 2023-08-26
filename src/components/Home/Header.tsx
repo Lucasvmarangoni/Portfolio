@@ -8,7 +8,7 @@ export function Header() {
   OnOver;
   OnOut;
   return (
-    <header className="h-11 w-full bg-BGH brightness-150 flex items-center justify-center">
+    <header className="h-11 w-full bg-[#070707] brightness-150 flex items-center justify-center">
       <div
         className="flex justify-between items-center absolute
        n0:w-[1030px]   
