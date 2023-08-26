@@ -10,7 +10,7 @@ export const ButtonPort = () => {
       <button
         className="w-48 h-16 
         text-3xl font-medium text-T1
-        border-[#3b27535b] border-[3px] 
+        border-[#3b27535b] border-b-[3px] 
          hover:opacity-80 brightness-150
         setinha hover:after:right-7          
         n3:w-48 n3:h-16 n3:text-3xl n3:hover:after:right-7
