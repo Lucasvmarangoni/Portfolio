@@ -7,8 +7,7 @@ export const Home = () => {
 
   return (
     <div className="grid gap-10">
-      <Capa />
-      {/* <Skills /> */}
+      <Capa />     
       {Motion(0.8, 1.2,
         <ButtonPort />
       )}
