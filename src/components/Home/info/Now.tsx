@@ -6,7 +6,7 @@ import { Motion } from "../../functions/motion";
 
 export function Now() {
 
-  const link = "underline text-T1 brightness-200 hover:opacity-80"
+  const link = "underline text-T1 brightness-200 hover:opacity-80 P"
 
   const now = (duration: number, delay: number, title: string, href: string, activity: string): any => {
     return (
