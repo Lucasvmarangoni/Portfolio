@@ -88,7 +88,7 @@ export const Info = () => {
             {Motion(1.0, 1.8,
                 <div className=" 
             flex align-center justify-center flex-wrap m-auto
-            n0:gap-20
+            n0:gap-20 n0:mb-0
             n7:gap-10 n7:mb-12
             
             ">
