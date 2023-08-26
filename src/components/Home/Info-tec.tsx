@@ -109,7 +109,7 @@ export const Info = () => {
                     <div className="m-auto">
 
                         <div className="flex flex-col gap-4">
-                            <h2 className="text-T1 brightness-200 font-semibold text-xl relative top-[-16px]">Pratica de algoritimos</h2>
+                            <h2 className="text-T1 brightness-200 font-semibold text-xl relative top-[-16px]">Prática de algorítimos</h2>
                             <div className="flex flex-col gap-2">
                                 <div>
                                     <a href="https://www.codewars.com/users/Ldragk" target="_blank"
