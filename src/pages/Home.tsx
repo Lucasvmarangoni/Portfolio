@@ -1,4 +1,3 @@
-import { ButtonPort } from "../components/Home/ButtonPort";
 import { Capa } from "../components/Home/Capa";
 import { Motion } from "../components/functions/motion";
 import { Info } from "../components/Home/Info-tec";
@@ -7,10 +6,7 @@ export const Home = () => {
 
   return (
     <div className="grid gap-10">
-      <Capa />     
-      {Motion(0.8, 1.2,
-        <ButtonPort />
-      )}
+      <Capa />          
 
       {Motion(0.8, 1.4,
         <Info />
