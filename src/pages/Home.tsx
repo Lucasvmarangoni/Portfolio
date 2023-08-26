@@ -20,7 +20,18 @@ export const Home = () => {
       >
         <ButtonPort />
       </motion.div>
-      <Info />
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 1.4,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
+        <Info />
+      </motion.div>
+
     </div>
   );
 };
