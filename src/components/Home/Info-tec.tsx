@@ -28,7 +28,7 @@ export const Info = () => {
 
     const buttons = `
     flex itens-center justify-start gap-2 hover:opacity-80
-    text-T1 border-2 border-[#3b27535b] 
+    text-T2 border-2 border-[#070707] 
     rounded-md p-2 pl-4 
     brightness-200 
     setinha text-xl  
@@ -110,7 +110,7 @@ export const Info = () => {
 
                         <div className="flex flex-col gap-4">
                             <h2 className="text-T1 brightness-200 font-semibold text-xl relative top-[-16px]">Prática de algorítimos</h2>
-                            <div className="flex flex-col gap-2">
+                            <div className="flex flex-col gap-3">
                                 <div>
                                     <a href="https://www.codewars.com/users/Ldragk" target="_blank"
                                         className={buttons + `
