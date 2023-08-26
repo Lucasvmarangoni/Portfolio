@@ -35,7 +35,7 @@ export const Info = () => {
 
     return (
         <div className="
-        m-auto bg-BG relatuve
+        m-auto bg-BG 
         grid justify-center items-center 
         border-[#6f4b9b5b] border-y-[3px] rounded-sm p-8 
         n0:w-[1030px] 
@@ -78,38 +78,43 @@ export const Info = () => {
 
 
 
-            {Motion(1.0, 1.7,
-                <p className="text-T2 pt-6">
+            {/* {Motion(1.0, 1.7,
+                <p className="text-T2 pt-6 max-h-0 invisible">
                     Atualmente, estou utilizando Node.js desenvolvendo APIs, e pretendo logo começar a
                     desenvolver projetos com Golang.
                 </p>
-            )}
+            )} */}
+
+            
 
 
             {Motion(1.0, 1.8,
                 <div className=" 
-            flex align-center justify-center  flex-wrap
+            flex align-center justify-center  flex-wrap 
+            n0:gap-20
+            n7:gap-10 n7:mb-12
             
             ">
-                    <div className=" mb-10">
-                        <h2 className="text-T1 brightness-200 font-semibold relative top-14 left-10 text-xl
-                    n2:text-left n2:left-10 
+                    <div className=" mb-10 ">
+                        <h2 className="text-T1 brightness-200 font-semibold relative top-14 text-xl 
+                    n2:text-center n2:w-[600px]
                     n4:top-14
                     n5:top-10
                     n6:top-8
-                    n7:text-center n7:left-0 n7:top-6
+                    n7:text-center n7:top-6
                     ">Linguagens que utilizo</h2>
                         <img
                             src={githubStatsUrl}
-                            className="w-[500px]"
+                            className="w-[530px] m-auto"
                         />
                     </div>
 
                     <div className="m-auto">
 
-                        <div className="flex flex-col gap-4">
-                            <h2 className="text-T1 brightness-200 font-semibold text-xl relative top-[-16px]">Prática de algorítimos</h2>
-                            <div className="flex flex-col gap-3 m-auto">
+                        <div className="flex flex-col mr-10">
+                            <h2 className="text-T1 brightness-200 font-semibold text-xl relative top-[-1.4rem]">Prática de algorítimos</h2>
+                            <div className="flex flex-col gap-8 m-auto                            
+                            ">
                                 <div>
                                     <a href="https://www.codewars.com/users/Ldragk" target="_blank"
                                         className={buttons + `
