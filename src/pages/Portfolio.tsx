@@ -83,14 +83,14 @@ export const Portfolio = () => {
     Motion(1.0, 0.5,
       <div
         className="mt-10 w-[1030px] pb-20 pt-10 bg-BGH m-auto brightness-150 
-       n0: w - [1030px]    
-       n1: w - [830px]
-       n2: w - [781px] n2: mt - 10 
-       n3: w - [576px] n3: mt - 6   
-       n4: w - [530px] n4: mt - 6 
-       n5: w - [430px] n5: mt - 6 
-       n6: w - [350px] n6: mt - 4 
-       n7: w - [300px] n7: mt - 4        
+       n0:w-[1030px]    
+       n1:w-[830px]
+       n2:w-[781px] n2:mt-10 
+       n3:w-[576px] n3:mt-6   
+       n4:w-[530px] n4:mt-6 
+       n5:w-[430px] n5:mt-6 
+       n6:w-[350px] n6:mt-4 
+       n7:w-[300px] n7:mt-4        
     "
       >
         <div
