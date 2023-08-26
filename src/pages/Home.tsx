@@ -1,8 +1,7 @@
 import { ButtonPort } from "../components/Home/ButtonPort";
 import { Capa } from "../components/Home/Capa";
-import { motion } from "framer-motion";
-import { Info } from "../components/Home/Info";
 import { Motion } from "../components/functions/motion";
+import { Info } from "../components/Home/Info";
 
 export const Home = () => {
 
