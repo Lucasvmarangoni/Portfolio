@@ -47,10 +47,14 @@ export const Info = () => {
             {Motion(1.0, 1.5,
                 <div className="relative">
                     <h1 className="
-                 text-T1 font-semibold text-2xl 
-                 absolute top-[-2.2em] left-0 
+                 text-T1 font-semibold 
+                 absolute 
                  bg-BG brightness-200
-                 max-w-[fit-content] ">
+                 max-w-[fit-content] 
+                 n3:text-2xl n3:top-[-2.2em] n3:left-0 
+                 n5:text-xl n5:top-[-2.5em] n5:left-0 
+                 n7:text-sm n7:top-[-3.2em] n7:left-[-1em] 
+                 ">
                         Informações técnicas
                     </h1>
                 </div>
@@ -60,28 +64,12 @@ export const Info = () => {
 
                 <div className="relative">
                     <div className="absolute top-0 right-0 mt-[-2em] 
-                n0:mr-[-7.5em]     
-                n4:mr-[-2em]            
-                n7:mr-[0.2em]                
+                n0:mr-[-7.5em] 
+                n7:mr-[-1.8em]                
                 ">
                         <Now />
                     </div>
                 </div>)}
-
-
-
-
-
-
-            {/* {Motion(1.0, 1.7,
-                <p className="text-T2 pt-6 max-h-0 invisible">
-                    Atualmente, estou utilizando Node.js desenvolvendo APIs, e pretendo logo começar a
-                    desenvolver projetos com Golang.
-                </p>
-            )} */}
-
-
-
 
 
             {Motion(1.0, 1.8,
@@ -101,7 +89,7 @@ export const Info = () => {
                     ">Linguagens que utilizo</h2>
                         <img
                             src={githubStatsUrl}
-                            className="w-[530px] m-auto min-w-[400px]"
+                            className="w-[530px] m-auto"
                         />
                     </div>
 
