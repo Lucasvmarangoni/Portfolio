@@ -53,7 +53,7 @@ export const Info = () => {
                  max-w-[fit-content] 
                  n3:text-2xl n3:top-[-2.2em] n3:left-0 
                  n5:text-xl n5:top-[-2.5em] n5:left-0 
-                 n7:text-sm n7:top-[-3.2em] n7:left-[-1em] 
+                 n7:text-lg n7:top-[-3.2em] n7:left-[-1em] 
                  ">
                         Informações técnicas
                     </h1>
