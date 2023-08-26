@@ -1,7 +1,7 @@
 import "./styles/main.css";
 import { Home } from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
-import { Portfolio } from "./pages/Portfolio";
+import { Projetos } from "./pages/Portfolio";
 import { ErrorNotFound } from "./pages/ErrorNotFound";
 import { Layout } from "./pages/Layout";
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="projetos" element={<Projetos />} />
           <Route path="*" element={<ErrorNotFound />} />
         </Route>
       </Routes>     

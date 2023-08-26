@@ -7,8 +7,8 @@ import { Contato } from "./Contato";
 const pathname = window.location.pathname;
 const link = document.querySelector("link") as HTMLLinkElement;
 const href: any =
-  pathname === "/portfolio"
-    ? link.setAttribute("to", "/portfolio")
+  pathname === "/projetos"
+    ? link.setAttribute("to", "/projetos")
     : link.setAttribute("to", "/");
 
 export const Menu = () => {
@@ -52,7 +52,7 @@ export const Menu = () => {
         >
           <DropdownMenu.Item className="menu">
             <button>
-              <Link to="/portfolio">Portfólio</Link>
+              <Link to="/projetos">Projetos</Link>
             </button>
           </DropdownMenu.Item>
 

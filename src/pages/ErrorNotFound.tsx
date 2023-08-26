@@ -73,7 +73,7 @@ export const ErrorNotFound = () => {
                     className="rounded-sm hover:text-T1 setinha hover:after:right-[-9px] grid items-center"
 
                   >
-                    <Link to="/portfolio">Portfólio</Link>
+                    <Link to="/projetos">Projetos</Link>
                   </div>
                 )}
               </div>

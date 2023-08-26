@@ -20,8 +20,8 @@ export const ButtonPort = () => {
         n7:w-36 n7:h-14 n7:text-2xl n7:hover:after:right-4        
         "
       >
-        <Link to="/portfolio">
-          <h1 className="">Portfólio</h1>
+        <Link to="/projetos">
+          <h1 className="">Projetos</h1>
         </Link>
       </button>
     </div>

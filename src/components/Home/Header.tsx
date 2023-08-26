@@ -67,7 +67,7 @@ export function Header() {
             n6:invisible           
             n7:invisible"
           >
-            <NavLink to="/portfolio">Portfólio</NavLink>
+            <NavLink to="/projetos">Projetos</NavLink>
           </button>
 
           <button

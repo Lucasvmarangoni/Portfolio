@@ -8,7 +8,7 @@ import { projectsDB } from "../components/portfolio/database/projetos"
 import { hiddenDisplay } from "../components/portfolio/functions/hidden-display";
 import { Motion } from "../components/functions/motion";
 
-export const Portfolio = () => {
+export const Projetos = () => {
 
   const personalProjects = projectsDB.filter((project) => {
     return project.type === "pessoal"
