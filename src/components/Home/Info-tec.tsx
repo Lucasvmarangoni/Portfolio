@@ -37,7 +37,7 @@ export const Info = () => {
         <div className="
         m-auto bg-BG relatuve
         grid justify-center items-center 
-        border-[#6f4b9b5b] border-[3px] rounded-sm p-8 
+        border-[#6f4b9b5b] border-y-[3px] rounded-sm p-8 
         n0:w-[1030px] 
         n1:w-[830px]
         n2:w-[781px]
