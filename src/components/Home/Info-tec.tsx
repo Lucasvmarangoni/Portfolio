@@ -29,7 +29,7 @@ export const Info = () => {
     const buttons = `
     flex itens-center justify-start gap-2 hover:opacity-80
     text-T2 border-b-2 border-[#6f4b9b5b] 
-    rounded-md p-2 pl-4     
+    rounded-md p-2 pl-3     
     setinha text-xl  
     `
 
