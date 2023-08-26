@@ -52,7 +52,7 @@ export const Info = () => {
                 <div className="relative">
                     <h1 className="
                  text-T1 font-semibold text-2xl 
-                 absolute top-[-2.1em] left-0 
+                 absolute top-[-2.2em] left-0 
                  bg-BG brightness-200
                  max-w-[fit-content] ">
                         Informações técnicas
