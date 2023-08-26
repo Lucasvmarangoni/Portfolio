@@ -67,7 +67,7 @@ export function Now() {
 
           <div className="grid gap-4">
             {
-              now(1.0, 0.7, "Desenvolvendo o projeto:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (v1.0.0)")
+              now(1.0, 0.7, "Desenvolvendo:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (v1.0.0)")
             }
 
             {
