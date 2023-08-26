@@ -52,8 +52,8 @@ export const Info = () => {
                  bg-BG brightness-200
                  max-w-[fit-content] 
                  n3:text-2xl n3:top-[-2.2em] n3:left-0 
-                 n5:text-xl n5:top-[-2.5em] n5:left-0 
-                 n7:text-lg n7:top-[-2.7em] n7:left-[-1em] 
+                 n6:text-xl n6:top-[-2.5em] n6:left-[-1em]                 
+                 n7:text-lg n7:top-[-2.7em] n7:left-[-1.3em] 
                  ">
                         Informações técnicas
                     </h1>
@@ -86,6 +86,9 @@ export const Info = () => {
                     n5:top-10
                     n6:top-8
                     n7:text-center n7:top-6
+                    n4:text-2xl 
+                    n6:text-lg              
+                    n7:text-lg
                     ">Linguagens que utilizo</h2>
                         <img
                             src={githubStatsUrl}
