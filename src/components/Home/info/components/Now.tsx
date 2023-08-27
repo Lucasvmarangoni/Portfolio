@@ -1,6 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { motion } from "framer-motion";
-import { Motion } from "../../functions/motion";
+import { Motion } from "../../../functions/motion";
 
 
 
