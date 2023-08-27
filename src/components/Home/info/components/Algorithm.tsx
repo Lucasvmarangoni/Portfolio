@@ -20,7 +20,8 @@ export const Algorithm = ({ name }) => {
         n7:w-36 n7:h-14 n7:text-2xl      
         "
             >
-                <Link to="https://www.hackerrank.com/lucasvm_ti" onClick={() => (document.querySelector('#topo') as any).scrollIntoView(0)}>
+                <Link to="https://www.hackerrank.com/lucasvm_ti" onClick={() => (document.querySelector('#topo') as any).scrollIntoView(0)}
+                target="_blank">
                     <h1 className="" id="topo">{name}</h1>
                 </Link>
             </button>
