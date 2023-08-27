@@ -34,7 +34,7 @@ export function First() {
     return (
 
 
-        MotionFirst(1.0, 1.0,
+        MotionFirst(1.0, 1.2,
             <div className=" 
             flex align-center justify-center flex-wrap m-auto py-8
             n2:gap-0 
@@ -64,8 +64,8 @@ export function First() {
                 n6:flex-row
                 n7:flex-col
                 ">
-                    {MotionFirst(1.0, 1.4, <ButtonPort />)}
-                    {MotionFirst(1.0, 1.6, < Algorithm name="HackerRank" />)}
+                    {MotionFirst(1.0, 1.5, <ButtonPort />)}
+                    {MotionFirst(1.0, 1.7, < Algorithm name="HackerRank" />)}
                 </div>
 
             </div>
