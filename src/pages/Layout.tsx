@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import { Header } from "../components/Home/Header";
-import { Motion } from "../components/functions/motion";
+import { Motion } from "../components/functions/Motion";
 
 export const Layout = () => {
   return (

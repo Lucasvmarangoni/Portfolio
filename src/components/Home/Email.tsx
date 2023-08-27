@@ -1,7 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { useState } from "react";
 import { MOver, MOut, SpanTag, SendRequiredButton } from "./capa/functions/Required-itens";
-import { Motion } from "../functions/motion";
+import { Motion } from "../functions/Motion";
 
 export function Email() {
     const [name, setName] = useState("");

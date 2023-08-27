@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 import { listAllProjects } from "../components/portfolio/all";
 import { projectsDB } from "../components/portfolio/database/projetos"
-import { Motion } from "../components/functions/motion";
+import { Motion } from "../components/functions/Motion";
 import { pageWidth } from "./util/page-width";
 
 export const Projetos = () => {

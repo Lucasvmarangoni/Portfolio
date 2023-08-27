@@ -1,4 +1,4 @@
-import { Motion } from "../../functions/motion";
+import { Motion } from "../../functions/Motion";
 import { FigsCapaText } from "./functions/FigsCapaText";
 
 export function TextCapa() {

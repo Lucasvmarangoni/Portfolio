@@ -1,4 +1,4 @@
-import { Motion } from "../functions/motion";
+import { Motion } from "../functions/Motion";
 import { ButtonPort } from "./info/components/ButtonPort";
 import CertificateCarousel from "./info/components/Certificate-carousel";
 import { First } from "./info/First";

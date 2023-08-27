@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Contar } from "./functions/ShowText";
 import { NavLink } from "react-router-dom";
-import { Motion } from "../../functions/motion";
+import { Motion } from "../../functions/Motion";
 
 export function PhotoButtons() {
   const primeiroTexto: string = `Descobriu um easter egg!!`;

@@ -2,7 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { useEffect, useState } from "react";
 import { NavLink, NavLinkProps } from "react-router-dom";
 import { MOver, MOut, SpanTag, SendRequiredButton } from "./capa/functions/Required-itens";
-import { Motion } from "../functions/motion";
+import { Motion } from "../functions/Motion";
 
 
 

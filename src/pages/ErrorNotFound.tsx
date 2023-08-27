@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Motion } from "../components/functions/motion";
+import { Motion } from "../components/functions/Motion";
 
 export const ErrorNotFound = () => {
   return (

@@ -1,5 +1,5 @@
 import { Capa } from "../components/Home/Capa";
-import { Motion } from "../components/functions/motion";
+import { Motion } from "../components/functions/Motion";
 import { Info } from "../components/Home/Info-tec";
 
 export const Home = () => {

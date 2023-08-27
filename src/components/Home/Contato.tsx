@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Email } from "./Email";
 import { Whatsapp } from "./Whatsapp";
 import { Cross2Icon } from "@radix-ui/react-icons";
-import { Motion } from "../functions/motion";
+import { Motion } from "../functions/Motion";
 
 
 
