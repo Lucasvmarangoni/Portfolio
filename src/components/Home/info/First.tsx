@@ -34,13 +34,14 @@ export function First() {
     return (
 
 
-        MotionFirst(1.0, 1.2,
-            <div className=" 
+
+        <div className=" 
             flex align-center justify-center flex-wrap m-auto py-8
             n2:gap-0 
             n7:gap-6 
             
             ">
+            {MotionFirst(1.0, 1.4,
                 <div className="">
                     <h2 className="text-T1 brightness-200 font-semibold relative top-14 text-xl 
                 n2:text-center 
@@ -52,23 +53,24 @@ export function First() {
                 n6:text-lg              
                 n7:text-lg
                 ">Linguagens que utilizo</h2>
-                    <img
-                        src={githubStatsUrl}
-                        className="w-[530px] m-auto"
-                    />
+                    {MotionFirst(1.0, 1.5,
+                        <img
+                            src={githubStatsUrl}
+                            className="w-[530px] m-auto"
+                        />)}
                 </div>
+            )}
 
-
-                <div className=" flex gap-6 align-center justify-center m-auto pt-8
+            <div className=" flex gap-6 align-center justify-center m-auto pt-8
                 n2:flex-col 
                 n6:flex-row
                 n7:flex-col
                 ">
-                    {MotionFirst(1.0, 1.5, <ButtonPort />)}
-                    {MotionFirst(1.0, 1.7, < Algorithm name="HackerRank" />)}
-                </div>
-
+                {MotionFirst(1.0, 1.6, <ButtonPort />)}
+                {MotionFirst(1.0, 1.7, < Algorithm name="HackerRank" />)}
             </div>
-        )
+
+        </div>
+
     )
 }
