@@ -21,13 +21,13 @@ function setPositionFig() {
       figDiv.style.top = "35%";
       figDiv.style.left = "27%";
     } else if (viewportWidth >= 464 && viewportWidth < 564) {
-      figDiv.style.top = "35%";
+      figDiv.style.top = "33%";
       figDiv.style.left = "27%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
       figDiv.style.top = "34%";
       figDiv.style.left = "24%";
     } else {
-      figDiv.style.top = "23%";
+      figDiv.style.top = "22%";
       figDiv.style.left = "20%";
     }
   } else if (randomPosition === 2) {
@@ -47,13 +47,13 @@ function setPositionFig() {
       figDiv.style.top = "61%";
       figDiv.style.left = "78%";
     } else if (viewportWidth >= 464 && viewportWidth < 564) {
-      figDiv.style.top = "58%";
-      figDiv.style.left = "71%";
-    } else if (viewportWidth >= 360 && viewportWidth < 464) {
       figDiv.style.top = "55%";
       figDiv.style.left = "71%";
+    } else if (viewportWidth >= 360 && viewportWidth < 464) {
+      figDiv.style.top = "52%";
+      figDiv.style.left = "71%";
     } else {
-      figDiv.style.top = "43%";
+      figDiv.style.top = "41%";
       figDiv.style.left = "21%";
     }
   } else {
@@ -76,10 +76,10 @@ function setPositionFig() {
       figDiv.style.top = "35%";
       figDiv.style.left = "63%";
     } else if (viewportWidth >= 360 && viewportWidth < 464) {
-      figDiv.style.top = "34%";
+      figDiv.style.top = "32%";
       figDiv.style.left = "67%";
     } else {
-      figDiv.style.top = "23%";
+      figDiv.style.top = "22%";
       figDiv.style.left = "69%";
     }
   }

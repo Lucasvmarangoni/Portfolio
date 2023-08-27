@@ -39,12 +39,12 @@ export function TextCapa() {
         {Motion(0.7, 0.4,
           <p className="mb-1 text-justify 
           ">
-            Sou desenvolvedor backend Node.js. Gosto de programar porque para mim é como se estivesse jogando.
-            Quando preciso criar algo, fico empolgado para construir o código da melhor forma e,
-            quando surgem problemas, sinto-me desafiado.
-            Neste espaço, apresento meus principais projetos, bem como compartilho algumas informações sobre mim.
+            Sou desenvolvedor <span className="text-T1 brightness-200 font-semibold">backend Node.js</span>. Iniciei meu caminho como desenvolvedor em agosto de 2022,
+            logo no inicio já escolhi o backend, pois esse enorme universo e programar me proporcionar grande estimulo mental, 
+            sinto como se estivesse jogando.
+            Neste espaço, apresento meus principais projetos, além de compartilhar algumas informações sobre mim.
           </p>
-          )}
+        )}
       </div>
 
     </div>
