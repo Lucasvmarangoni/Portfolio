@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { RiCornerDownLeftFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { Motion } from "../../../functions/motion";
 
 export function Community() {
 
@@ -38,23 +39,25 @@ export function Community() {
         <div className="grid gap-4 relative">
             <div>
                 {windowWidth >= 800
-                    ? <p className="text-T1 text-2xl font-semibold brightness-200">Certificados </p>
+                    ? Motion(1.0, 2.6, <p className="text-T1 text-2xl font-semibold brightness-200">Certificados </p>)
                     : null
                 }
                 {
                     windowWidth >= 800
-                        ? < RiCornerDownLeftFill className="absolute right-[15rem] top-[1.8rem] text-T2 text-[5rem]" />
+                        ? Motion(1.0, 3.0, < RiCornerDownLeftFill className="absolute right-[15rem] top-[1.8rem] text-T2 text-[5rem]" />)
                         : null
                 }
                 <p className="text-T1 text-2xl font-semibold brightness-200 
-                n2:pl-20"> Sou membro: </p>
+                n2:pl-20"> {
+                        Motion(1.0, 2.8, "Sou membro:")
+                    } </p>
             </div>
 
             <div className="grid gap-4 
             pl-32
             " >
-                {card("pato.png", "https://pato.academy/lp/", "Pato Academy.")}
-                {card("techleads.png", "https://comece.techleads.club", "Tech Leads Club.")}
+                {Motion(1.0, 2.9, card("pato.png", "https://pato.academy/lp/", "Pato Academy."))}
+                {Motion(1.0, 3.0, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club."))}
             </div>
         </div>
     )
