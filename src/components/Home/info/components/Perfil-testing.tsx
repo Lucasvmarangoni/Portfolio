@@ -26,7 +26,7 @@ export function PerfilTesting() {
 
 
             <div className="flex flex-wrap gap-6 brightness-75 items-center justify-center">
-                {Motion(1.0, 3.5, <img src="./perfil.png" alt="gráfico do teste de perfil" className="brightness-75
+                {Motion(1.5, 3.5, <img src="./perfil.png" alt="gráfico do teste de perfil" className="brightness-75
             n2:w-[18rem]
             n3:w-[16rem]                
             n7:w-[14rem]
