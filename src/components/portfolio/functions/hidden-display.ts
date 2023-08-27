@@ -57,8 +57,4 @@ function hiddenDisplay() {
     }
   }
   hidden()
-
-  window.addEventListener("resize", () => {
-    hidden()
-  })
 }
