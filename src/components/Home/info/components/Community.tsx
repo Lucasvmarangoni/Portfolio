@@ -29,7 +29,7 @@ export function Community() {
             <div className="flex gap-1 itens-center">
                 <img src={src} alt="" className="w-6 h-6 brightness-75" />
 
-                <Link to="" className="P hover:underline">{text}</Link>
+                <Link to="to" className="P hover:underline" target="_blank">{text}</Link>
             </div>
         )
     }
