@@ -1,5 +1,5 @@
 import { pageWidth } from "../../../pages/util/page-width";
-import { Motion } from "../../functions/Motion";
+import { MotionFirst } from "../../functions/Motion";
 import { Algorithm } from "./components/Algorithm";
 import { ButtonPort } from "./components/ButtonPort";
 import { Now } from "./components/Now";
@@ -34,7 +34,7 @@ export function First() {
     return (
 
 
-        Motion(1.0, 1.0,
+        MotionFirst(1.0, 1.0,
             <div className=" 
             flex align-center justify-center flex-wrap m-auto py-8
             n2:gap-0 
@@ -64,9 +64,10 @@ export function First() {
                 n6:flex-row
                 n7:flex-col
                 ">
-                    {Motion(1.0, 1.4, <ButtonPort />)}
-                    {Motion(1.0, 1.6, < Algorithm name="HackerRank" />)}
+                    {MotionFirst(1.0, 1.4, <ButtonPort />)}
+                    {MotionFirst(1.0, 1.6, < Algorithm name="HackerRank" />)}
                 </div>
+
             </div>
         )
     )

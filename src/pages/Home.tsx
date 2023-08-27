@@ -1,5 +1,5 @@
 import { Capa } from "../components/Home/Capa";
-import { Motion } from "../components/functions/Motion";
+import { Motion, MotionFirst } from "../components/functions/Motion";
 import { Info } from "../components/Home/Info-tec";
 
 export const Home = () => {
@@ -8,7 +8,7 @@ export const Home = () => {
     <div className="grid gap-10">
       <Capa />          
 
-      {Motion(0.8, 1.4,
+      {MotionFirst(0.8, 1.4,
         <Info />
       )}
 

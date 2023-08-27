@@ -1,4 +1,4 @@
-import { Motion } from "../functions/Motion";
+import { Motion, MotionFirst } from "../functions/Motion";
 import { ButtonPort } from "./info/components/ButtonPort";
 import CertificateCarousel from "./info/components/Certificate-carousel";
 import { First } from "./info/First";
@@ -19,7 +19,7 @@ export const Info = () => {
         border-[#6f4b9b5b] border-y-[3px] rounded-sm p-8  `
             + pageWidth}>
 
-            {Motion(1.0, 1.5,
+            {MotionFirst(1.0, 1.5,
                 <div className="relative">
                     <h1 className="
                  text-T1 font-semibold 
@@ -35,7 +35,7 @@ export const Info = () => {
                 </div>
             )}
 
-            {Motion(1.0, 1.7,
+            {MotionFirst(1.0, 1.7,
                 <div className={"relative " + pageWidth}>
                     <div className="absolute top-0 right-0 mt-[-2em] 
                 n0:mr-[1.9em] 
