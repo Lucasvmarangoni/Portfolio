@@ -4,19 +4,12 @@ import { useInView } from 'react-intersection-observer';
 
 
 export function Motion(duration: number, delay: number, value: any) {
-    const [dynamicThreshold, setDynamicThreshold] = useState(0.07);
+    
 
     const [ref, inView] = useInView({
-        triggerOnce: true, // ativa a detecção apenas uma vez.
-        threshold: dynamicThreshold
+        triggerOnce: true, // ativa a detecção apenas uma vez.        
     });
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setDynamicThreshold(0.2);
-        }, 6000);
-        return () => clearInterval(interval);
-    }, []);
+    
 
     return (
         <motion.div
