@@ -32,21 +32,22 @@ export function PerfilTesting() {
             n7:w-[14rem]
             " />)}
                 <ul className="text-sm grid ">
-                    {Motion(0.7, 1.4, <li className={li}><div className={"bg-[#002427] " + square}></div>Capacidade analítica: 75.53%</li>)}
-                    {Motion(0.7, 1.5, <li className={li}><div className={"bg-[#028C96] " + square}></div>Pensamento conceitual: 80.07%</li>)}
-                    {Motion(0.7, 1.6, <li className={li}><div className={"bg-[#26BCEE] " + square}></div>Pensamento criativo: 82.34%</li>)}
-                    {Motion(0.7, 1.7, <li className={li}><div className={"bg-[#4A70E3] " + square}></div>Planejamento e organização: 66.43%</li>)}
-                    {Motion(0.7, 1.8, <li className={li}><div className={"bg-[#017B52] " + square}></div>Comunicação: 73.25%</li>)}
-                    {Motion(0.7, 1.9, <li className={li}><div className={"bg-[#17A01C] " + square}></div>Consideração pelos outros: 61.88%</li>)}
-                    {Motion(0.7, 2.0, <li className={li}><div className={"bg-[#01CB85] " + square}></div>Influência: 59.62%</li>)}
-                    {Motion(0.7, 2.1, <li className={li}><div className={"bg-[#83DF67] " + square}></div>Sociabilidade: 59.62%</li>)}
-                    {Motion(0.7, 2.2, <li className={li}><div className={"bg-[#4DF190] " + square}></div>Facilitação: 68.70%</li>)}
-                    {Motion(0.7, 2.3, <li className={li}><div className={"bg-[#A7F026] " + square}></div>Flexibilidade: 75.53%</li>)}
-                    {Motion(0.7, 2.4, <li className={li}><div className={"bg-[#A7493F] " + square}></div>Estabilidade emocional: 86.88%</li>)}
-                    {Motion(0.7, 2.5, <li className={li}><div className={"bg-[#BE5B00] " + square}></div>Ambição: 82.34%</li>)}
-                    {Motion(0.7, 2.6, <li className={li}><div className={"bg-[#E7652B] " + square}></div>Iniciativa: 77.80%</li>)}
-                    {Motion(0.7, 2.7, <li className={li}><div className={"bg-[#FF9E00] " + square}></div>Assertividade: 61.88%</li>)}
-                    {Motion(0.7, 2.8, <li className={li}><div className={"bg-[#FEE27E] " + square}></div>Tomada de riscos: 68.70%</li>)}
+                    {Motion(0.7, 1.4, <li className={li}><div className={"bg-[#002427] " + square}></div>Capacidade analítica: 75.53</li>)}
+                    {Motion(0.7, 1.5, <li className={li}><div className={"bg-[#028C96] " + square}></div>Pensamento conceitual: 80.07</li>)}
+                    {Motion(0.7, 1.6, <li className={li}><div className={"bg-[#054976] " + square}></div>Reflexão: 77.90</li>)}
+                    {Motion(0.7, 1.7, <li className={li}><div className={"bg-[#26BCEE] " + square}></div>Pensamento criativo: 82.34</li>)}
+                    {Motion(0.7, 1.8, <li className={li}><div className={"bg-[#4A70E3] " + square}></div>Planejamento e organização: 66.43</li>)}
+                    {Motion(0.7, 1.9, <li className={li}><div className={"bg-[#017B52] " + square}></div>Comunicação: 73.25</li>)}
+                    {Motion(0.7, 2.0, <li className={li}><div className={"bg-[#17A01C] " + square}></div>Consideração pelos outros: 61.88</li>)}
+                    {Motion(0.7, 2.1, <li className={li}><div className={"bg-[#01CB85] " + square}></div>Influência: 59.62</li>)}
+                    {Motion(0.7, 2.2, <li className={li}><div className={"bg-[#83DF67] " + square}></div>Sociabilidade: 59.62</li>)}
+                    {Motion(0.7, 2.3, <li className={li}><div className={"bg-[#4DF190] " + square}></div>Facilitação: 68.70</li>)}
+                    {Motion(0.7, 2.4, <li className={li}><div className={"bg-[#A7F026] " + square}></div>Flexibilidade: 75.53</li>)}
+                    {Motion(0.7, 2.5, <li className={li}><div className={"bg-[#A7493F] " + square}></div>Estabilidade emocional: 86.88</li>)}
+                    {Motion(0.7, 2.6, <li className={li}><div className={"bg-[#BE5B00] " + square}></div>Ambição: 82.34</li>)}
+                    {Motion(0.7, 2.7, <li className={li}><div className={"bg-[#E7652B] " + square}></div>Iniciativa: 77.80</li>)}
+                    {Motion(0.7, 2.8, <li className={li}><div className={"bg-[#FF9E00] " + square}></div>Assertividade: 61.88</li>)}
+                    {Motion(0.7, 2.9, <li className={li}><div className={"bg-[#FEE27E] " + square}></div>Tomada de riscos: 68.70</li>)}
                 </ul>
             </div>
 
