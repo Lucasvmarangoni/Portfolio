@@ -59,7 +59,7 @@ export function First() {
                 </div>
 
 
-                <div className="m-auto flex  gap-12 align-center justify-center
+                <div className=" flex gap-6 align-center justify-center m-auto pt-8
                 n2:flex-col 
                 n6:flex-row
                 n7:flex-col

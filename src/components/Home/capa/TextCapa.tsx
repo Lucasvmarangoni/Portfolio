@@ -36,13 +36,15 @@ export function TextCapa() {
             Lucas Vazzoller Marangoni
           </h1>
         )}
-        <p className="mb-1 text-justify 
-        ">
-          Sou desenvolvedor backend Node.js. Gosto de programar porque para mim é como se estivesse jogando.
-          Quando preciso criar algo, fico empolgado para construir o código da melhor forma e,
-          quando surgem problemas, sinto-me desafiado.
-          Neste espaço, apresento meus principais projetos, bem como compartilho algumas informações sobre mim.
-        </p>
+        {Motion(0.7, 0.4,
+          <p className="mb-1 text-justify 
+          ">
+            Sou desenvolvedor backend Node.js. Gosto de programar porque para mim é como se estivesse jogando.
+            Quando preciso criar algo, fico empolgado para construir o código da melhor forma e,
+            quando surgem problemas, sinto-me desafiado.
+            Neste espaço, apresento meus principais projetos, bem como compartilho algumas informações sobre mim.
+          </p>
+          )}
       </div>
 
     </div>
