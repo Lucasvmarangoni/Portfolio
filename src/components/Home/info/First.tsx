@@ -32,7 +32,7 @@ export function First() {
 
 
     return (
-        
+
 
         Motion(1.0, 1.8,
             <div className=" 
@@ -52,11 +52,11 @@ export function First() {
                 n6:text-lg              
                 n7:text-lg
                 ">Linguagens que utilizo</h2>
-                        <img
-                            src={githubStatsUrl}
-                            className="w-[530px] m-auto"
-                        />
-                    </div>
+                    <img
+                        src={githubStatsUrl}
+                        className="w-[530px] m-auto"
+                    />
+                </div>
 
 
                 <div className="m-auto flex  gap-12 align-center justify-center
@@ -64,8 +64,8 @@ export function First() {
                 n6:flex-row
                 n7:flex-col
                 ">
-                    <ButtonPort />
-                    <Algorithm  name="HackerRank"/>
+                    {Motion(1.0, 1.9, <ButtonPort />)}
+                    {Motion(1.0, 2.2, < Algorithm name="HackerRank" />)}
                 </div>
 
 
