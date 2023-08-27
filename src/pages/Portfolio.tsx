@@ -1,29 +1,25 @@
 import { Hidden } from "../components/portfolio/Hidden";
 import { Search } from "../components/portfolio/functions/Search";
 import { VscChromeClose, VscSearch } from "react-icons/vsc";
-import { SetStateAction, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 import { listAllProjects } from "../components/portfolio/all";
 import { projectsDB } from "../components/portfolio/database/projetos"
-import { hiddenDisplay } from "../components/portfolio/functions/hidden-display";
+// import { hiddenDisplay } from "../components/portfolio/functions/hidden-display";
 import { Motion } from "../components/functions/motion";
+import { pageWidth } from "./util/page-width";
 
 export const Projetos = () => {
 
   const personalProjects = projectsDB.filter((project) => {
-    return project.type === "pessoal"
+    return project.type === "pessoal" || project.type === "equipe"
   }).reverse();
 
   const courseProjects = projectsDB.filter((project) => {
     return project.type === "guiado"
   }).reverse();
 
-  const groupProjects = projectsDB.filter((project) => {
-    return project.type === "equipe"
-  }).reverse();
-
-  const autoraisId: string[] = ["TcurrencyConverter", "TtaskList", "Tport",]
-  const groupId: string[] = ["Tpaiva"]
+  const autoraisId: string[] = ["TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
   const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports",]
 
   const datalist: string[] = [
@@ -60,18 +56,6 @@ export const Projetos = () => {
     }
   }
 
-  let [windowWidth, windowCheck]: SetStateAction<any> = useState();
-  // function hidden() {
-  //   const TCourseHidden = document.querySelector(".TCourseHidden") as HTMLElement | any;
-  //   const TTeamHidden = document.querySelector(".TTeamHidden") as HTMLElement | any;
-  //   const TPersonalHidden = document.querySelector(".TPersonalHidden") as HTMLElement | any;
-  //   windowWidth = window.innerWidth;
-  //   windowCheck(
-  //     windowWidth <= 949
-  //       ? (TCourseHidden.style.display = "none", TTeamHidden.style.display = "none")
-  //       : (TCourseHidden.style.display = "flex", TTeamHidden.style.display = "flex")
-  //   );
-  // }
   useEffect(() => {
     // hidden();
     dynamicDatalist()
@@ -82,28 +66,10 @@ export const Projetos = () => {
 
     Motion(1.0, 0.5,
       <div
-        className="mt-10 w-[1030px] pb-20 pt-10 bg-BGH m-auto brightness-150 
-       n0:w-[1030px]    
-       n1:w-[830px]
-       n2:w-[781px] n2:mt-10 
-       n3:w-[576px] n3:mt-6   
-       n4:w-[530px] n4:mt-6 
-       n5:w-[430px] n5:mt-6 
-       n6:w-[350px] n6:mt-4 
-       n7:w-[300px] n7:mt-4        
-    "
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150 " + pageWidth}
       >
         <div
-          className=" flex justify-center items-center brightness-125
-        n0:w-[1030px]
-        n1:w-[830px]      
-        n2:w-[781px] n2:pb-0
-        n3:w-[576px] n3:pb-4
-        n4:w-[530px] n4:pb-4
-        n5:w-[430px] n5:pb-4
-        n6:w-[350px] n6:pb-4
-        n7:w-[300px] n7:pb-4
-      "
+          className={" flex justify-center items-center brightness-125  " + pageWidth}
         >
           <label
             aria-label="Pesquise o projeto pela tecnologia."
@@ -147,14 +113,16 @@ export const Projetos = () => {
                   filterInput.value = ""
                   setCheck(0)
                   setList([])
-                  document.querySelectorAll('#TcurrencyConverter, #Tpaiva, #TbestSurf, #TtaskList, #TnotServ, #Tport, #Tesports')
+                  document.querySelectorAll('#TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #TnotServ, #Tport, #Tesports')
                     .forEach((element: any) => {
                       if (element) {
                         element.style.display = "flex"
+                      } else {
+                        element.style.display = "none"
                       }
                     })
 
-                  hiddenDisplay()
+                  // hiddenDisplay()
 
                 }}
               />
@@ -183,171 +151,94 @@ export const Projetos = () => {
             }
           </datalist>
         </div>
-        <div className="brightness-125 m-auto flex flex-wrap justify-center 
-          gap-10 ">
-          <div className="">
 
-            {Motion(0.8, 0.4,
+        <div className="grid gap-40 relative">
+
+          <div className="grid gap-10">
+            <div className="brightness-125 m-auto flex flex-wrap justify-center align-center
+              gap-10">
+
+              {Motion(0.8, 0.4,
+                <div
+                  className=" text-center w-[70%] m-auto brightness-200"
+                >
+                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
+                  <p className="text-base text-[#25252588] text-justify" >
+                    Projetos pessoais são de minha autoria, ou seja, planejo e desenvolvo do zero sozinho ou em colaboração com uma equipe.
+                  </p>
+                  <p className="text-base text-[#25252588] text-justify">
+                    Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
+                  </p>
+                </div>
+              )}
+
+
               <div
-                className=" text-center w-[70%] m-auto brightness-200"
+                className={"flex flex-wrap justify-center"}
               >
-                <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
-                <p className="text-base text-[#25252588] text-justify" >
-                  Projetos pessoais são de minha autoria, ou seja, planejo e desenvolvo do zero sozinho.
-                  O objetivo principal desses projetos é praticar e aprender.
-                </p>
-                <p className="text-base text-[#25252588] text-justify">
-                  Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
-                </p>
+                {
+                  personalProjects.map((project, transitionDelay) => {
+                    return (
+                      Motion(0.8, transitionDelay / 2,
+                        <div
+                          className="py-4 px-6"
+                          id={autoraisId[transitionDelay]}
+                          key={transitionDelay}
+                        >
+                          {listAllProjects(project)}
+                        </div>
+                      )
+                    )
+                  })
+                }
               </div>
-            )}
+            </div>
 
-          </div>
-          <div
-            className="m-auto flex flex-wrap justify-center 
-          gap-10       
-      "
-          >
-            {
-              personalProjects.map((project, transitionDelay) => {
-                return (
-                  Motion(0.8, transitionDelay / 2,
-                    <div
-                      id={autoraisId[transitionDelay]}
-                      key={transitionDelay}
-                    >
-                      {listAllProjects(project)}
-                    </div>
-                  )
-                )
-              })
-            }
-            {
-              (personalProjects.length % 2) === 0 ?
-                null
-                :
-                Motion(0.8, 1.0,
-                  <div
-                    className="THiddenPersonal TPersonalHidden"
 
-                  >
-                    <Hidden />
-                  </div>
-                )
-            }
-          </div>
-          <hr className=" border-[#25252588] w-[80%] m-auto
-           n2:mt-10   
-           n3:mt-6      
-           n4:mt-6  
-           n5:mt-6  
-           n6:mt-6  
-           n7:mt-6          
+
+            <hr className=" border-[#25252588] w-[80%] m-auto         
           "/>
-          <div className="m-auto flex flex-wrap justify-center 
-          gap-10 
-      ">
-            {Motion(0.8, 0.4,
+
+            <div className="grid gap-10">
               <div
-                className=" text-center w-[70%] m-auto brightness-200"
-
+                className={"m-auto flex flex-wrap justify-center gap-10 "}
               >
-                <h2 className="text-T4 text-xl brightness-75 font-semi-bold mb-4">Projetos em equipe</h2>
-                <p className="text-base text-[#25252588] text-justify" >
-                  Projetos em equipe são desenvolvidos em conjunto com outras pessoas. Sua criação e desenvolvimento são
-                  realizados pela equipe.
-                </p>
-              </div>
-            )}
-          </div>
-
-          <div
-            className="m-auto flex flex-wrap justify-center 
-          gap-10     
-      "
-          >
-            {
-              groupProjects.map((project, transitionDelay) => {
-                return (
-                  Motion(0.8, transitionDelay + 1 / 2,
-                    <div
-                      id={groupId[transitionDelay]}
-                      key={transitionDelay}
-                    >
-                      {listAllProjects(project)}
-                    </div>
-                  )
-                )
-              })
-            }
-            {
-              groupProjects.length % 2 === 0
-                ? null
-                :
-                Motion(0.8, 1.0,
+                {Motion(0.8, 0.4,
                   <div
-                    className="THiddenGroup TTeamHidden"
-                  >
-                    <Hidden />
-                  </div>
-                )
-            }
-          </div>
-
-          <hr className=" border-[#25252588] w-[80%] m-auto
-           n2:mt-10   
-           n3:mt-6      
-           n4:mt-6  
-           n5:mt-6  
-           n6:mt-6  
-           n7:mt-6          
-          "/>
-          <div
-            className="m-auto flex flex-wrap justify-center 
-          gap-10      
-      "
-          >
-            {Motion(0.8, 0.4,
-              <div
-                className=" text-center w-[70%] m-auto brightness-200"
-
-              >
-                <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
-                <p className="text-base text-[#25252588] text-justify" >
-                  Projetos guiados são aqueles desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, sua criação não é de minha autoria.
-                </p>
-              </div>
-            )}
-            {
-              courseProjects.map((project, transitionDelay) => {
-                return (
-
-                  Motion(0.8, transitionDelay / 2,
-                    <div
-                      id={projetosId[transitionDelay]}
-                      key={transitionDelay}
-                    >
-                      {listAllProjects(project)}
-                    </div>
-                  )
-                )
-              })
-            }
-
-            {
-              courseProjects.length % 2 === 0
-                ? null
-                :
-                Motion(0.8, 1.0,
-                  <div
-
-                    className="THiddenCourse TCourseHidden"
+                    className=" text-center w-[70%] m-auto brightness-200"
 
                   >
-                    <Hidden />
+                    <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
+                    <p className="text-base text-[#25252588] text-justify" >
+                      Projetos guiados são desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, sua criação não é de minha autoria.
+                    </p>
                   </div>
-                )
-            }
+                )}
+
+                <div className={" flex flex-wrap itens-center justify-center "}>
+                  {
+                    courseProjects.map((project, transitionDelay) => {
+                      return (
+
+                        Motion(0.8, transitionDelay / 2,
+                          <div
+                            className="py-4 px-6"
+                            id={projetosId[transitionDelay]}
+                            key={transitionDelay}
+                          >
+                            {listAllProjects(project)}
+                          </div>
+                        )
+                      )
+                    })
+                  }
+
+                </div>
+
+              </div>
+
+            </div>
+
           </div>
 
         </div>

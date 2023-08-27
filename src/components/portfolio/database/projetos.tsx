@@ -97,6 +97,90 @@ export const projectsDB = [
         ]
     },
     {
+        name: 'Paiva Moto Peças',
+        year: 'Mar 2023 - Jun 2023',
+        picture: '/paiva.png',
+        github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
+        version: undefined,
+        type: 'equipe',
+        description: `
+            <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
+
+            <p> --> Desenvolvido por equipe de seis pessoas. </p>
+
+            <p>O projeto se trata de uma aplicação web responsável pela divulgação de produtos
+             e serviços da oficina Paiva Moto Peças.</p>           
+
+            <p>
+            Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
+            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância de entre 
+            setor de produtos ou serviços.
+            </p>
+
+             <strong>Integrantes:</strong>
+             <p>
+             Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.  </p>  
+             
+             <strong>Orientador:</strong>
+             <p>Joyce Carvalho</p>
+            
+        `,
+        technologies: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Github Actions",
+        ]
+    },
+    {
+        name: 'Best Surf',
+        year: '2023',
+        picture: '/bestsurf.png',
+        github: 'https://github.com/Lucasvmarangoni/Best-Surf',
+        version: undefined,
+        type: 'guiado',
+        description: `        
+        <p className="P">
+          --> Projeto guiado <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
+            DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
+        </p>
+
+        <p className="P mt-2">
+        O projeto é uma API REST que calcula as melhores condições de surf para praias, consumindo a API StormGlass, utilizando
+        Node.js com Express e TypeScript e seguindo as melhores práticas de desenvolvimento.
+        </p>        
+
+        <p>  Ao longo do projeto, adquiri experiência sobre generic, tratamento de erros, logging, testes unitários e de ponta a ponta, mocks, 
+            criptografia e graceful shutdown.
+        </p>
+           
+        `,
+        technologies: [
+            "TypeScript",
+            "Node.js",
+            "Express",
+            "OvernightJS",
+            "Lodash",
+            "Pino",
+            "Express pino",
+            "Json Web Token",
+            "Bcrypt",
+            "BodyParser",
+            "Node Config",
+            "MongoDB",
+            "Mongoose",
+            "Jest",
+            "Nock",
+            "Supertest",
+            "Docker",
+            "Docker Compose",
+            "Github Actions",
+            "Heroku",
+            "OpenAPI",
+            "Express rate limit",
+        ]
+    },
+    {
         name: 'TaskList',
         year: 'Jan 2023 - Jul 2023',
         picture: '/tasklist.png',
@@ -149,90 +233,6 @@ export const projectsDB = [
             "Github actions",
             "Node cache",
             "Http status codes",
-        ]
-    },
-    {
-        name: 'Best Surf',
-        year: '2023',
-        picture: '/bestsurf.png',
-        github: 'https://github.com/Lucasvmarangoni/Best-Surf',
-        version: undefined,
-        type: 'guiado',
-        description: `        
-        <p className="P">
-          --> Projeto guiado <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
-            DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
-        </p>
-
-        <p className="P mt-2">
-        O projeto é uma API REST que calcula as melhores condições de surf para praias, consumindo a API StormGlass, utilizando
-        Node.js com Express e TypeScript e seguindo as melhores práticas de desenvolvimento.
-        </p>        
-
-        <p>  Ao longo do projeto, adquiri experiência sobre generic, tratamento de erros, logging, testes unitários e de ponta a ponta, mocks, 
-            criptografia e graceful shutdown.
-        </p>
-           
-        `,
-        technologies: [
-            "TypeScript",
-            "Node.js",
-            "Express",
-            "OvernightJS",
-            "Lodash",
-            "Pino",
-            "Express pino",
-            "Json Web Token",
-            "Bcrypt",
-            "BodyParser",
-            "Node Config",
-            "MongoDB",
-            "Mongoose",
-            "Jest",
-            "Nock",
-            "Supertest",
-            "Docker",
-            "Docker Compose",
-            "Github Actions",
-            "Heroku",
-            "OpenAPI",
-            "Express rate limit",
-        ]
-    },
-    {
-        name: 'Paiva Moto Peças',
-        year: 'Mar 2023 - Jun 2023',
-        picture: '/paiva.png',
-        github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
-        version: undefined,
-        type: 'equipe',
-        description: `
-            <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
-
-            <p> --> Desenvolvido por equipe de seis pessoas. </p>
-
-            <p>O projeto se trata de uma aplicação web responsável pela divulgação de produtos
-             e serviços da oficina Paiva Moto Peças.</p>           
-
-            <p>
-            Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
-            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância de entre 
-            setor de produtos ou serviços.
-            </p>
-
-             <strong>Integrantes:</strong>
-             <p>
-             Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.  </p>  
-             
-             <strong>Orientador:</strong>
-             <p>Joyce Carvalho</p>
-            
-        `,
-        technologies: [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Github Actions",
         ]
     },
     {

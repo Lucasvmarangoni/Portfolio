@@ -7,7 +7,7 @@ import {
   port,
   taskList,
 } from "../database/TecSearch";
-import { hiddenDisplay } from "./hidden-display";
+// import { hiddenDisplay } from "./hidden-display";
 import { Csearch } from "./search-component";
 
 export function Search() {
@@ -37,7 +37,7 @@ export function Search() {
   const ScurrencyConverter = new Csearch(0, currencyConverter, filter, TcurrencyConverter);
   ScurrencyConverter.execute();  
   
-  hiddenDisplay() 
+  // hiddenDisplay() 
 }
 
 

@@ -1,5 +1,7 @@
 import { projectsDB } from "./projetos";
 
+
+
 export const esports = projectsDB[0].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const port: string[] = projectsDB[1].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const notServ: string[] = projectsDB[2].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
@@ -8,7 +10,7 @@ export const bestSurf: string[] = projectsDB[4].technologies.concat(" ", "").joi
 export const paivaMotoPecas: string[] = projectsDB[5].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const currencyConverter: string[] = projectsDB[6].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 
-const fullDatabase = [...esports, ...port, ...notServ, ...taskList, ...bestSurf, ...paivaMotoPecas, ...currencyConverter]
+const fullDatabase = [...esports, ...port, ...notServ, ...paivaMotoPecas, ...bestSurf,...taskList,  ...currencyConverter]
 let tecnologias: string[] = []
 
 const ordenedFullDatabase: string[] = fullDatabase.sort()
