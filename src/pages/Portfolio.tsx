@@ -1,11 +1,9 @@
-import { Hidden } from "../components/portfolio/Hidden";
 import { Search } from "../components/portfolio/functions/Search";
 import { VscChromeClose, VscSearch } from "react-icons/vsc";
 import { useEffect, useState } from "react";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 import { listAllProjects } from "../components/portfolio/all";
 import { projectsDB } from "../components/portfolio/database/projetos"
-// import { hiddenDisplay } from "../components/portfolio/functions/hidden-display";
 import { Motion } from "../components/functions/motion";
 import { pageWidth } from "./util/page-width";
 
@@ -122,7 +120,6 @@ export const Projetos = () => {
                       }
                     })
 
-                  // hiddenDisplay()
 
                 }}
               />
