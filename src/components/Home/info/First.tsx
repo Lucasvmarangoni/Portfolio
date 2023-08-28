@@ -37,7 +37,7 @@ export function First() {
 
         <div className=" 
             flex align-center justify-center flex-wrap m-auto py-8
-            n2:gap-0 
+            n2:gap-8 
             n7:gap-6 
             
             ">
