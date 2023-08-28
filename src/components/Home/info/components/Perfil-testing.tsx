@@ -11,7 +11,7 @@ export function PerfilTesting() {
             <div className="w-[18rem] flex flex-col gap-4 items-center justify-center">
                 {Motion(1.0, 1.0, <h1 className="text-T1 text-2xl text-center font-semibold brightness-200">Perfil</h1>)}
 
-                {Motion(1.0, 1.2, <p className="P">Meu teste de perfil mais recente. </p>)}
+                {Motion(1.0, 1.2, <p className="P">Meu teste de perfil mais recente. Foi utilizando o modelo Big Five. </p>)}
 
                 {Motion(0.7, 1.3, <Link to="/perfil-testing.pdf" target="_blank" className="
                     font-medium text-T1 brightness-200
