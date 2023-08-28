@@ -6,8 +6,8 @@ import { Community } from "./components/Community";
 export function Second() {
     return (
         <div className={"flex flex-wrap justify-center items-center py-8 n2:gap-14 n7:gap-14" + pageWidth}>
-            {Motion(1.0, 1.2, <CertificateCarousel />)}
-            {Motion(1.0, 1.2, <Community />)}
+            {Motion(1.0, 0.8, <CertificateCarousel />)}
+            {Motion(1.0, 1.0, <Community />)}
         </div>
     )
 }
