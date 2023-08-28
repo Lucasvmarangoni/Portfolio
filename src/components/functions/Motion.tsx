@@ -8,7 +8,7 @@ export function Motion(duration: number, delay: number, value: any) {
 
     const [ref, inView] = useInView({
         triggerOnce: true, // ativa a detecção apenas uma vez.
-        threshold: 0.02
+        threshold: 0.4
     });
 
     return (

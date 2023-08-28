@@ -56,8 +56,8 @@ export function Community() {
             <div className="grid gap-4 
             pl-32
             " >
-                {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy."))}
-                {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club."))}
+                {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy"))}
+                {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}
             </div>
         </div>
     )
