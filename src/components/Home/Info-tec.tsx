@@ -26,8 +26,8 @@ export const Info = () => {
                  absolute 
                  bg-BG brightness-200
                  max-w-[fit-content] 
-                 n3:text-2xl n3:top-[-2.2em] n3:left-0 
-                 n6:text-xl n6:top-[-2.5em] n6:left-[-1em]                 
+                 n3:text-2xl n3:top-[-2.2em] n3:left-8 
+                 n6:text-xl n6:top-[-2.5em] n6:left-[1.2em]                 
                  n7:text-lg n7:top-[-2.7em] n7:left-[-1.3em] 
                  ">
                         Informações técnicas
@@ -38,8 +38,8 @@ export const Info = () => {
             {MotionFirst(1.0, 1.7,
                 <div className={"relative " + pageWidth}>
                     <div className="absolute top-0 right-0 mt-[-2em] 
-                n0:mr-[1.9em] 
-                n7:mr-[2em]                
+                n0:mr-[0.1em] 
+                n7:mr-[0.1em]                
                 ">
                         <Now />
                     </div>
