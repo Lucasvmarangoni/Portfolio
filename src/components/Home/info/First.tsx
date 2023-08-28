@@ -10,7 +10,7 @@ export function First() {
         layout: "compact",
         titleColor: "030303",
         textColor: "ffffff85",
-        bgColor: "030303",
+        bgColor: "070707",
         borderColor: "3b2753e5",
         borderRadius: "5",
         hideBorder: "true",
@@ -36,9 +36,9 @@ export function First() {
 
 
         <div className=" 
-            flex align-center justify-center flex-wrap m-auto py-8
-            n2:gap-8 
-            n7:gap-6 
+            flex align-center justify-center flex-wrap m-auto py-8 
+            n2:gap-8 n2:pr-6
+            n7:gap-6 n7:pr-0
             
             ">
             {MotionFirst(1.0, 1.4,
@@ -56,7 +56,7 @@ export function First() {
                     {MotionFirst(1.0, 1.5,
                         <img
                             src={githubStatsUrl}
-                            className="w-[530px] m-auto"
+                            className="w-[500px]"
                         />)}
                 </div>
             )}

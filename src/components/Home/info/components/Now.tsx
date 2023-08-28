@@ -42,7 +42,7 @@ export function Now() {
 
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content
-          className="bg-BG border border-[#ffffff0e] brightness-150 min-w-[20rem]
+          className="bg-BGH border border-[#ffffff0e] brightness-150 min-w-[20rem]
     p-7 
     rounded-md 
     grid 
