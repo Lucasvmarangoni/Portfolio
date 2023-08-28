@@ -38,12 +38,12 @@ export function Community() {
     return (
         <div className="grid gap-4 relative">
             <div>
-                {windowWidth >= 800
+                {windowWidth >= 950
                     ? Motion(1.0, 1.3, <p className="text-T1 text-2xl font-semibold brightness-200">Certificados </p>)
                     : null
                 }
                 {
-                    windowWidth >= 800
+                    windowWidth >= 950
                         ? Motion(1.0, 1.9, < RiCornerDownLeftFill className="absolute right-[15rem] top-[1.8rem] text-T2 text-[5rem]" />)
                         : null
                 }

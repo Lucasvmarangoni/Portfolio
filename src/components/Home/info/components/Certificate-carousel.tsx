@@ -52,9 +52,9 @@ const CertificateCarousel: React.FC = () => {
   const buttons = "absolute top-1/2 transform -translate-y-1/2 text-[2em] font-semibold hover:text-[2.2em]"
 
   return (
-    <div className="relative w-96">
+    <div className="relative max-w-[28rem]">
       {
-        windowWidth >= 800 
+        windowWidth >= 950 
         ? null
         : <p className="text-T1 text-2xl font-semibold brightness-200 text-center mb-4">Certificados </p>
       }
