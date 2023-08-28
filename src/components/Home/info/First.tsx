@@ -41,9 +41,9 @@ export function First() {
             n7:gap-6 n7:pr-0
             
             ">
-            {MotionFirst(1.0, 1.4,
-                <div className="">
-                    <h2 className="text-T1 brightness-200 font-semibold relative top-14 text-xl 
+
+            <div className="">
+                <h2 className="text-T1 brightness-200 font-semibold relative top-14 text-xl 
                 n2:text-center 
                 n4:top-14
                 n5:top-10
@@ -52,14 +52,14 @@ export function First() {
                 n4:text-2xl 
                 n6:text-lg              
                 n7:text-lg
-                ">Linguagens que utilizo</h2>
-                    {MotionFirst(1.0, 1.5,
-                        <img
-                            src={githubStatsUrl}
-                            className="w-[500px]"
-                        />)}
-                </div>
-            )}
+                "> {MotionFirst(1.0, 1.7, "Linguagens que utilizo")}</h2>
+                {MotionFirst(1.0, 1.5,
+                    <img
+                        src={githubStatsUrl}
+                        className="w-[500px]"
+                    />)}
+            </div>
+
 
             <div className=" flex gap-6 align-center justify-center m-auto pt-8
                 n2:flex-col 
