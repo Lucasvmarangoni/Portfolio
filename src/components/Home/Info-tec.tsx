@@ -17,7 +17,7 @@ export const Info = () => {
 
     return (
         <div className={`
-        m-auto bg-BGH
+        m-auto bg-BGH 
         grid justify-center items-center 
         border-[#6f4b9b5b] border-t-[3px] rounded-sm p-8  `
             + pageWidth}>
@@ -36,12 +36,12 @@ export const Info = () => {
                 n7:gap-4        
                 ">
                     <div className="">
-                        {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos: </h2>)}
+                        {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos </h2>)}
                         {Motion(1.0, 1.1, <ButtonPort />)}
                     </div>
 
                     <div className="">
-                        {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática: </h2>)}
+                        {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática </h2>)}
                         {Motion(1.0, 1.2, < Algorithm name="HackerRank" />)}
                     </div>
                 </div>
@@ -52,14 +52,14 @@ export const Info = () => {
 
             </div>
 
-            <div className="grid gap-20   itens-center">
-                {/* <div className="m-auto grid itens-center scroll-item h-[93vh]">
+            <div className="grid    itens-center">
+                {/* <div className="m-auto grid itens-center scroll-item h-full">
                     <First />
                 </div> */}
-                <div className="m-auto grid itens-center scroll-item h-[93vh]">
+                <div className="m-auto grid itens-center scroll-item h-[100vh]">
                     <Second />
                 </div>
-                <div className="m-auto grid itens-center scroll-item h-[93vh]">
+                <div className="m-auto grid itens-center scroll-item h-full">
                     <Third />
                 </div>
             </div>

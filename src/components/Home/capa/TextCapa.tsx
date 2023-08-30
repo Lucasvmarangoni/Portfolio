@@ -39,7 +39,7 @@ export function TextCapa() {
         {Motion(0.7, 0.4,
           <p className="mb-1 text-justify 
           ">
-            Sou desenvolvedor <span className="text-T1 brightness-200 font-semibold">backend Node.js</span>. Iniciei meu caminho como desenvolvedor em agosto de 2022,
+            Sou desenvolvedor <span className="text-T1 brightness-[2.5] font-semibold">backend Node.js</span>. Iniciei meu caminho como desenvolvedor em agosto de 2022,
             logo no inicio já escolhi o backend, pois esse enorme universo e programar me proporcionar grande estimulo mental, e 
             sinto como se estivesse jogando.
             Neste espaço, apresento meus principais projetos, além de compartilhar algumas informações sobre mim.

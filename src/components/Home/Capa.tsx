@@ -7,12 +7,13 @@ export function Capa() {
       <div
         id="vid"
         className="mt-10 flex justify-center items-center  relative 
-      n2:mt-10
-      n3:mt-10
-      n4:mt-8
-      n5:mt-8
-      n6:mt-6
-      n7:mt-6
+      n1:mt-4
+      n2:mt-4
+      n3:mt-4
+      n4:mt-4
+      n5:mt-4
+      n6:mt-2
+      n7:mt-2
       "
 
       >

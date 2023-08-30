@@ -9,7 +9,7 @@ export function Second() {
         <div className="h-full grid items-center m-auto ">
             <hr className=" relative top-[em] border-[3px] border-[#25252588]" />
            
-            <div className={`grid itens-center justify-center  gap-12       
+            <div className={`grid itens-center justify-center  gap-10       
             `}>
                 <div className=" grid 
                 n2:px-20 n2:gap-4
@@ -36,7 +36,7 @@ export function Second() {
                     <Community />
                 </div>
             </div>
-            <hr className=" relative top-[4em] border-[3px] border-[#25252588]" />
+            <hr className=" relative top-[em] border-[3px] border-[#25252588]" />
         </div>
     )
 }

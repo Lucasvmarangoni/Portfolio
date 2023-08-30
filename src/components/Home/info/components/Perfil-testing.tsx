@@ -4,11 +4,11 @@ import { pageWidth } from "../../../../pages/util/page-width"
 
 export function PerfilTesting() {
     const square = "n5:w-6 n5:h-6 n7:w-4 n7:h-4 border-1 border-white rounded-sm brightness-75"
-    const li = "flex gap-2 itens-center PP"
+    const li = "flex gap-2 itens-center PP h-full"
     return (
         <div className="h-full grid items-center relative ">
-            <hr className=" relative top-[1em] border-[3px] border-[#25252588]" />
-            <div className={"grid flex-wrap  m-auto items-center justify-center n3:gap-12 n7:gap-2 pt-6" + pageWidth}>
+            {/* <hr className=" relative top-[-5em] border-[3px] border-[#25252588]" /> */}
+            <div className={"grid flex-wrap m-auto items-center justify-center n3:gap-10 n7:gap-2" + pageWidth}>
 
                 <div className="grid gap-4 items-center justify-center">
                     {Motion(1.0, 1.0, <h1 className="text-T1 text-2xl text-center font-semibold brightness-200
