@@ -3,10 +3,10 @@ import { PhotoButtons } from "./capa/PhotoButtons";
 
 export function Capa() {
   return (
-    MotionFirst(0.8, 0.4, 
+    Motion(0.8, 0.4, 
       <div
         id="vid"
-        className="mt-10 flex justify-center items-center flex-wrap 
+        className="mt-10 flex justify-center items-center  relative 
       n2:mt-10
       n3:mt-10
       n4:mt-8
@@ -32,6 +32,7 @@ export function Capa() {
           preload=""
           src="/video1.mp4"
         ></video>
+
         <PhotoButtons />
 
       </div>

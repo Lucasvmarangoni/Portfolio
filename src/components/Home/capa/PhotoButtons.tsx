@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Contar } from "./functions/ShowText";
 import { NavLink } from "react-router-dom";
 import { Motion } from "../../functions/Motion";
+import { pageWidth } from "../../../pages/util/page-width";
 
 export function PhotoButtons() {
   const primeiroTexto: string = `Descobriu um easter egg!!`;
@@ -24,7 +25,7 @@ export function PhotoButtons() {
   }
 
   return (
-    <div className="grid absolute">
+    <div className={"grid absolute" }>
       <div
         className="m-auto flex justify-center items-center 
         n0:flex n0:gap-0

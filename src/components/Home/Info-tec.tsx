@@ -6,6 +6,9 @@ import { Now } from "./info/components/Now";
 import { Second } from "./info/Second";
 import { Third } from "./info/Third";
 import { pageWidth } from "../../pages/util/page-width";
+import { InfoHeader } from "./info/info-header";
+import BlinkingIcon from "./info/components/BlinkingIcon";
+import { Algorithm } from "./info/components/Algorithm";
 
 export const Info = () => {
 
@@ -14,43 +17,51 @@ export const Info = () => {
 
     return (
         <div className={`
-        m-auto bg-BGH 
+        m-auto bg-BGH
         grid justify-center items-center 
         border-[#6f4b9b5b] border-t-[3px] rounded-sm p-8  `
             + pageWidth}>
 
-            {MotionFirst(1.0, 1.5,
-                <div className="relative">
-                    <h1 className="
-                 text-T1 font-semibold 
-                 absolute 
-                 bg-BG brightness-200
-                 max-w-[fit-content] 
-                 n3:text-2xl n3:top-[-2.2em] n3:left-8 
-                 n6:text-xl n6:top-[-2.5em] n6:left-[1.2em]                 
-                 n7:text-lg n7:top-[-2.7em] n7:left-[-1.3em] 
-                 ">
-                        Informações técnicas
-                    </h1>
-                </div>
-            )}
+            <InfoHeader />
 
-            {MotionFirst(1.0, 1.7,
-                <div className={"relative " + pageWidth}>
-                    <div className="absolute top-0 right-0 mt-[-2em] 
-                n0:mr-[0.1em] 
-                n7:mr-[0.1em]                
+            {/* TODO colocar seta informando mais informações abaixo. */}
+
+            <div className=" m-auto
+            n1:mb-44
+            n7:mb-[16rem]
+            ">
+
+                <div className=" flex flex-wrap  align-center justify-center m-auto        
+                n5:gap-16
+                n7:gap-10        
                 ">
-                        <Now />
+                    <div>
+                        {Motion(1.0, 1.0, <h2 className="P">Acesse meus projetos: </h2>)}
+                        {Motion(1.0, 1.1, <ButtonPort />)}
                     </div>
-                </div>)},
 
-            <div className="grid gap-28">
-                <First />
+                    <div>
+                        {Motion(1.0, 1.1, <h2 className="P">Algoritmos e matemática: </h2>)}
+                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" />)}
+                    </div>
+                </div>
 
-                <Second />
 
-                <Third />
+                <BlinkingIcon />
+
+
+            </div>
+
+            <div className="grid gap-20   itens-center">
+                {/* <div className="m-auto grid itens-center scroll-item h-[93vh]">
+                    <First />
+                </div> */}
+                <div className="m-auto grid itens-center scroll-item h-[93vh]">
+                    <Second />
+                </div>
+                <div className="m-auto grid itens-center scroll-item h-[93vh]">
+                    <Third />
+                </div>
             </div>
 
 

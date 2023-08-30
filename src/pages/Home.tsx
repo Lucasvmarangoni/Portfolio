@@ -5,13 +5,15 @@ import { Info } from "../components/Home/Info-tec";
 export const Home = () => {
 
   return (
-    <div className="grid gap-10">
-      <Capa />          
+    <div className=" h-full">
+      <div className="grid gap-12 ">
+        <Capa />
 
-      {MotionFirst(0.8, 1.4,
-        <Info />
-      )}
+        {MotionFirst(0.8, 1.4,
+          <Info />
+        )}
 
+      </div>
     </div>
   );
 };

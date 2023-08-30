@@ -93,10 +93,20 @@
     gap-3;
   }
   .P {
-    @apply text-T2 
+    @apply text-T2 brightness-75
     text-lg 
     text-justify;
   }
+  
+  .PP{
+    @apply text-T2 text-justify brightness-75
+    n0:text-lg 
+    n1:text-lg 
+    n2:text-lg 
+    n5:text-base       
+    n7:text-sm
+  }
+
   .Proj {
     @apply hover:underline
     text-T2 

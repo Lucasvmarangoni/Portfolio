@@ -10,6 +10,18 @@
   outline: none;
 }
 
+.scroll-container {    
+  flex-direction: column;
+  gap: 48px;    
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.scroll-item {    
+  scroll-snap-align: start;   
+}
+
 /* *::-webkit-scrollbar {
   scroll-behavior: auto;
   width: 0px;

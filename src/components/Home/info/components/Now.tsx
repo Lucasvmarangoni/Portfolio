@@ -1,5 +1,5 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { MotionFirst } from "../../../functions/Motion";
+import { Motion, MotionFirst } from "../../../functions/Motion";
 
 
 
@@ -9,7 +9,7 @@ export function Now() {
 
   const now = (duration: number, delay: number, title: string, href: string, activity: string): any => {
     return (
-      MotionFirst(duration, delay,
+      Motion(duration, delay,
         <div className="flex flex-wrap gap-2" >
           <p className="P">
             {title}
@@ -55,7 +55,7 @@ export function Now() {
     -translate-y-1/2  
     focus:outline-none"
         >
-          {MotionFirst(1.0, 0.5,
+          {Motion(1.0, 0.5,
             (<Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-200" >
               Atualmente estou:
             </Dialog.Title>)

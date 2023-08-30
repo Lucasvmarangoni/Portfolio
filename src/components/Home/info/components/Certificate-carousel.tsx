@@ -52,17 +52,23 @@ const CertificateCarousel: React.FC = () => {
   const buttons = "absolute top-1/2 transform -translate-y-1/2 text-[2em] font-semibold hover:text-[2.2em]"
 
   return (
-    <div className="relative max-w-[28rem]">
+    <div className="relative  m-auto
+    n4:max-w-[35em]
+    n7:max-w-[35em]
+    ">
       {
-        windowWidth >= 950 
-        ? null
-        : <p className="text-T1 text-2xl font-semibold brightness-200 text-center mb-4">Certificados </p>
+        windowWidth >= 1100
+          ? null
+          : <p className="text-T1 font-semibold brightness-200 text-center mb-4
+        n4:text-2xl 
+        n7:text-lg 
+        ">Certificados </p>
       }
       <Link to={images[currentIndex].href} target="_blank">
         <img
           src={images[currentIndex].src}
           alt={`Slide ${currentIndex}`}
-          className="w-full h-auto rounded-3xl brightness-50 hover:opacity-95"
+          className="w-full h-auto rounded-3xl brightness-50 hover:opacity-95 "
         />
       </Link>
       <button
@@ -77,6 +83,10 @@ const CertificateCarousel: React.FC = () => {
       >
         {<SlArrowRight />}
       </button>
+
+      {/* <div>
+        <Link to="">Acesse todos os meus certificados</Link>
+      </div> */}
     </div>
   );
 };

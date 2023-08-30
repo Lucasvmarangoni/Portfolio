@@ -1,5 +1,5 @@
 import { pageWidth } from "../../../pages/util/page-width";
-import { MotionFirst } from "../../functions/Motion";
+import { Motion, MotionFirst } from "../../functions/Motion";
 import { Algorithm } from "./components/Algorithm";
 import { ButtonPort } from "./components/ButtonPort";
 import { Now } from "./components/Now";
@@ -33,43 +33,80 @@ export function First() {
 
     return (
 
+        <div className="h-full grid items-center ">
 
+            <hr className=" relative top-[0em] border-[3px] border-[#25252588]" />
+            <div className={`
+            grid align-center justify-center flex-wrap m-auto
+            n2:gap-16 n2:pr-0
+            n7:gap-6 n7:pr-0` + pageWidth}
 
-        <div className=" 
-            flex align-center justify-center flex-wrap m-auto py-8 
-            n2:gap-8 n2:pr-6
-            n7:gap-6 n7:pr-0
-            
-            ">
+            >
 
-            <div className="">
-                <h2 className="text-T1 brightness-200 font-semibold relative top-14 text-xl 
+                {/* 
+                <div className="grid gap-4 m-auto">
+                    <h2 className="text-T1 text-2xl font-semibold brightness-200">Linha do tempo</h2>
+                    <ul>
+                        <li className="P text-base">Dez - 1995 - Nasci em Castelo-ES.</li>                        
+                        <li className="P text-base">Ago - 2021 - Aprovado em direito tributário no exame da ordem.</li>
+                        <li className="P text-base">Set - 2021 - Estágio no escritório ARS.</li>
+                        <li className="P text-base">Dez - 2021 - Graduado e bacharel em Direito.</li>                        
+                        <li className="P text-base">Ago - 2022 - Inicio dos meus estudos como desenvolvedor.</li>
+                        <li className="P text-base">Presente - Buscando minha primeira vaga como dev.</li>
+                    </ul>
+                </div> */}
+
+                <div className="grid gap-4 justify-center px-20">
+                    {
+                        Motion(1.0, 0.8,
+                            <h2 className="text-T1 text-2xl font-semibold brightness-200">
+                                Meu momento
+                            </h2>
+                        )
+                    }
+                    {
+                        Motion(1.0, 0.9,
+                            <p className="P">
+                                
+                            </p>
+                        )}
+
+                </div>
+
+                <div className=" flex flex-wrap gap-16 align-center justify-center m-auto                
+                ">
+                    <div>
+                        {Motion(1.0, 1.0, <h2 className="P">Acesse meus projetos: </h2>)}
+                        {Motion(1.0, 1.1, <ButtonPort />)}
+                    </div>
+
+                    <div>
+                        {Motion(1.0, 1.1, <h2 className="P">Algoritmos e matemática: </h2>)}
+                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" />)}
+                    </div>
+                </div>
+
+                <div className="m-auto relative top-[-3em]">
+                    <h2 className="text-T1 brightness-200 font-semibold relative top-14 text-xl 
                 n2:text-center 
-                n4:top-14
+                n4:top-16
                 n5:top-10
                 n6:top-8
                 n7:text-center n7:top-6
                 n4:text-2xl 
                 n6:text-lg              
                 n7:text-lg
-                "> {MotionFirst(1.0, 1.7, "Linguagens que utilizo")}</h2>
-                {MotionFirst(1.0, 1.5,
-                    <img
-                        src={githubStatsUrl}
-                        className="w-[500px]"
-                    />)}
+                "> {Motion(1.0, 1.4, "Linguagens que utilizo")}</h2>
+                    {Motion(1.0, 1.5,
+                        <img
+                            src={githubStatsUrl}
+                            className="w-[600px]"
+                        />
+                    )}
+                </div>
+
             </div>
-
-
-            <div className=" flex gap-6 align-center justify-center m-auto pt-8
-                n2:flex-col 
-                n6:flex-row
-                n7:flex-col
-                ">
-                {MotionFirst(1.0, 1.6, <ButtonPort />)}
-                {MotionFirst(1.0, 1.7, < Algorithm name="HackerRank" />)}
-            </div>
-
+            <hr className=" relative top-[em] border-[3px] border-[#25252588]" />
         </div>
 
     )

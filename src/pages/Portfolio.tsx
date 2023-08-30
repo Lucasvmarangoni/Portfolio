@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { fullFilterDatabase } from "../components/portfolio/database/TecSearch";
 import { listAllProjects } from "../components/portfolio/all";
 import { projectsDB } from "../components/portfolio/database/projetos"
-import { Motion } from "../components/functions/Motion";
+import { Motion, MotionFirst } from "../components/functions/Motion";
 import { pageWidth } from "./util/page-width";
 
 export const Projetos = () => {
@@ -62,9 +62,9 @@ export const Projetos = () => {
 
   return (
 
-    Motion(1.0, 0.5,
+    MotionFirst(1.0, 0.5,
       <div
-        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150 " + pageWidth}
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150  " + pageWidth}
       >
         <div
           className={" flex justify-center items-center brightness-125  " + pageWidth}
@@ -151,11 +151,11 @@ export const Projetos = () => {
 
         <div className="grid gap-40 relative">
 
-          <div className="grid gap-10">
+          <div className="grid gap-10 scroll-item">
             <div className="brightness-125 m-auto flex flex-wrap justify-center align-center
               gap-10">
 
-              {Motion(0.8, 0.4,
+              {MotionFirst(0.8, 0.4,
                 <div
                   className=" text-center w-[70%] m-auto brightness-200"
                 >
@@ -171,7 +171,7 @@ export const Projetos = () => {
 
 
               <div
-                className={"flex flex-wrap justify-center"}
+                className={"flex flex-wrap justify-center "}
               >
                 {
                   personalProjects.map((project, transitionDelay) => {
@@ -196,13 +196,15 @@ export const Projetos = () => {
             <hr className=" border-[#25252588] w-[80%] m-auto         
           "/>
 
-            <div className="grid gap-10">
+            <div className="grid gap-10 scroll-item
+            
+            ">
               <div
                 className={"m-auto flex flex-wrap justify-center gap-10 "}
               >
-                {Motion(0.8, 0.4,
+                {MotionFirst(0.8, 0.4,
                   <div
-                    className=" text-center w-[70%] m-auto brightness-200"
+                    className=" text-center w-[70%] m-auto brightness-200 "
 
                   >
                     <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
