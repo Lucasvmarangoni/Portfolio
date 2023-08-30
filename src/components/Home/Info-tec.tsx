@@ -33,15 +33,15 @@ export const Info = () => {
 
                 <div className=" flex flex-wrap  align-center justify-center m-auto        
                 n5:gap-16
-                n7:gap-10        
+                n7:gap-4        
                 ">
                     <div className="">
-                        {Motion(1.0, 1.0, <h2 className="PP">Acesse meus projetos: </h2>)}
+                        {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos: </h2>)}
                         {Motion(1.0, 1.1, <ButtonPort />)}
                     </div>
 
                     <div className="">
-                        {Motion(1.0, 1.1, <h2 className="PP">Algoritmos e matemática: </h2>)}
+                        {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática: </h2>)}
                         {Motion(1.0, 1.2, < Algorithm name="HackerRank" />)}
                     </div>
                 </div>
