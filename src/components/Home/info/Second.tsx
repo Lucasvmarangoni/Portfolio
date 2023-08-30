@@ -18,8 +18,8 @@ export function Second() {
                 >
                     {Motion(1.0, 0.8, <h1 className="text-T1 brightness-200 font-semibold
                     n4:text-2xl 
-                    n7:text-lg 
-                    ">Minhas fontes de conhecimento</h1>)}
+                    n7:text-xl 
+                    ">Educação</h1>)}
                     {Motion(1.0, 0.9,
                         <p className="PP"
                         > Me interesso por todo o universo de tecnologia, por isso, busco sempre aumentar minha compreensão sobre tudo.
