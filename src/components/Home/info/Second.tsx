@@ -36,7 +36,7 @@ export function Second() {
                     <Community />
                 </div>
             </div>
-            <hr className=" relative top-[4em] border-[3px] border-[#25252588]" />
+            <hr className=" relative top-[3em] border-[3px] border-[#25252588]" />
         </div>
     )
 }
