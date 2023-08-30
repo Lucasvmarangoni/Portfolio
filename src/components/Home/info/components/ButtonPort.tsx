@@ -16,8 +16,8 @@ export const ButtonPort = () => {
         n3:w-48 n3:h-16 n3:text-3xl n3:hover:after:right-7
         n4:w-36 n4:h-14 n4:text-2xl n4:hover:after:right-4
         n5:w-36 n5:h-14 n5:text-2xl n5:hover:after:right-4
-        n6:w-36 n6:h-14 n6:text-2xl n6:hover:after:right-4
-        n7:w-36 n7:h-14 n7:text-2xl n7:hover:after:right-4        
+        n6:w-36 n6:h-14 n6:text-xl n6:hover:after:right-4
+        n7:w-36 n7:h-14 n7:text-xl n7:hover:after:right-4        
         "
       >
         <Link to="/projetos" onClick={() => (document.querySelector('#topo') as any ).scrollIntoView(0)}>

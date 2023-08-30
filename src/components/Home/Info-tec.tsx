@@ -35,13 +35,13 @@ export const Info = () => {
                 n5:gap-16
                 n7:gap-10        
                 ">
-                    <div>
-                        {Motion(1.0, 1.0, <h2 className="P">Acesse meus projetos: </h2>)}
+                    <div className="">
+                        {Motion(1.0, 1.0, <h2 className="PP">Acesse meus projetos: </h2>)}
                         {Motion(1.0, 1.1, <ButtonPort />)}
                     </div>
 
-                    <div>
-                        {Motion(1.0, 1.1, <h2 className="P">Algoritmos e matemática: </h2>)}
+                    <div className="">
+                        {Motion(1.0, 1.1, <h2 className="PP">Algoritmos e matemática: </h2>)}
                         {Motion(1.0, 1.2, < Algorithm name="HackerRank" />)}
                     </div>
                 </div>
