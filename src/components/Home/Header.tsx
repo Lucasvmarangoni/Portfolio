@@ -79,7 +79,7 @@ export function Header() {
             n6:invisible           
             n7:invisible"
           >
-            <NavLink to="https://www.hackerrank.com/lucasvm_ti">HackerRank</NavLink>
+            <NavLink to="https://www.hackerrank.com/lucasvm_ti" target="_blank">HackerRank</NavLink>
           </button>
 
           <button
