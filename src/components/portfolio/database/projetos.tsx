@@ -276,10 +276,14 @@ export const projectsDB = [
         github: 'https://github.com/Lucasvmarangoni/go-api',
         type: 'guiado',
         description: `
+        <p>
         --> Projeto guiado, oferecido pelo canal @Arthur404dev.
+        </p>
 
+        <p>
         É uma API para divulgação de oportunidades de emprego, que utiliza uma estrutura moderna de packages.
         Foi feito sistema de log básico e documentação swagger.
+        </p>
         `,
         technologies: ['Golang', 'Go',
             'Gin-gonic',
