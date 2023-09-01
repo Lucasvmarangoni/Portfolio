@@ -14,8 +14,8 @@ const BlinkingIcon: React.FC = () => {
 
   return (
     <div className="relative grid justify-center 
-    n5:top-10            
-    n7:top-6    
+    n5:top-24            
+    n7:top-14   
     ">
       <HiOutlineChevronDoubleDown className={`w-8 h-8 text-T1 brightness-200 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`} />
     </div>

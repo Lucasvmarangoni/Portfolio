@@ -8,9 +8,9 @@ export function PerfilTesting() {
     return (
         <div className="h-full grid items-center relative ">
             {/* <hr className=" relative top-[-5em] border-[3px] border-[#25252588]" /> */}
-            <div className={"grid flex-wrap m-auto items-center justify-center n3:gap-10 n7:gap-2" + pageWidth}>
+            <div className={"grid flex-wrap m-auto items-center justify-center n3:gap-10 n7:gap-2 pb-10" + pageWidth}>
 
-                <div className="grid gap-4 items-center justify-center">
+                <div className="grid gap-4 items-center justify-center pt-3">
                     {Motion(1.0, 1.0, <h1 className="text-T1 text-2xl text-center font-semibold brightness-200
                     n4:text-2xl 
                     n7:text-xl ">Perfil profissional</h1>)}

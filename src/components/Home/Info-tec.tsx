@@ -9,11 +9,26 @@ import { pageWidth } from "../../pages/util/page-width";
 import { InfoHeader } from "./info/info-header";
 import BlinkingIcon from "./info/components/BlinkingIcon";
 import { Algorithm } from "./info/components/Algorithm";
+import { useState, useEffect } from "react";
 
 export const Info = () => {
 
-    // TODO  When there is more content, use the BGH color.
+    const [scrolled, setScrolled] = useState(false);
 
+    useEffect(() => {
+        const handleWheel = () => {
+            if (!scrolled) {
+                setScrolled(true);
+                // Aqui você pode fazer algo quando o scroll for rolado pela primeira vez
+            }
+        };
+
+        window.addEventListener('wheel', handleWheel);
+
+        return () => {
+            window.removeEventListener('wheel', handleWheel);
+        };
+    }, [scrolled]);
 
     return (
         <div className={`
@@ -26,28 +41,39 @@ export const Info = () => {
 
             {/* TODO colocar seta informando mais informações abaixo. */}
 
-            <div className=" m-auto
-            n1:mb-44
-            n7:mb-[16rem]
+            <div className="m-auto  
+             n1:mb-44
+             n7:mb-[16rem]
             ">
-
-                <div className=" flex flex-wrap  align-center justify-center m-auto        
-                n5:gap-16
+                <div className="flex flex-wrap  justify-center      
+                n5:gap-4 
                 n7:gap-4        
                 ">
-                    <div className="">
-                        {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos </h2>)}
-                        {Motion(1.0, 1.1, <ButtonPort />)}
+                    <div className="relative max-h-10">
+                        {Motion(1.0, 1.0, <h2 className="PP ">Acesse meus projetos </h2>)}
+                        {Motion(1.0, 1.1, <Algorithm name="Projetos" hover={'hover:after:right-7'} link='/projetos' />)}
                     </div>
 
-                    <div className="">
-                        {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática </h2>)}
-                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" />)}
+                    <div className="max-h-10">
+                        {Motion(1.0, 1.1, <h2 className="PP ">Desafios de programação </h2>)}
+                        {Motion(1.0, 1.2, < Algorithm name="DevGym" hover={'hover:after:right-7'} link='#' />)}
                     </div>
+
+                    {/* <div className="max-h-10 
+                   
+                    ">
+                        {Motion(1.0, 1.1, <h2 className="PP max-h-fit">Algoritmos e matemática </h2>)}
+                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' />)}
+                    </div> */}
+
+
                 </div>
 
-
+                {/* {!scrolled ? <BlinkingIcon /> : null} */}
                 <BlinkingIcon />
+
+
+                {/* <First /> */}
 
 
             </div>
