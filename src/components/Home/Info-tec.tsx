@@ -46,7 +46,7 @@ export const Info = () => {
              n7:mb-[16rem]
             ">
                 <div className="flex flex-wrap  justify-center      
-                n5:gap-4 
+                n5:gap-10 
                 n7:gap-4        
                 ">
                     <div className="relative max-h-10">
