@@ -54,7 +54,7 @@ export const Menu = () => {
         >
           <DropdownMenu.Item className="menu">
             <button>
-              <Link to="/projetos">Projetos</Link>
+              <Link to="/projetos" target="_blank">Projetos</Link>
             </button>
           </DropdownMenu.Item>
 
