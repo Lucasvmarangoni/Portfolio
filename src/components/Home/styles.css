@@ -136,12 +136,15 @@
   }
   .menu {
     @apply text-xl
-    text-T1
-    rounded-md
+    text-T1 
     flex    
-    h-6    
-    relative
+    h-8
+    pb-2       
+    relative    
+    border-b-2
+    border-[#3b27535b]
     brightness-150;
+    
     /* 
 .DropdownMenuItem,
 .DropdownMenuCheckboxItem,

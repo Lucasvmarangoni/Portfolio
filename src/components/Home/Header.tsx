@@ -71,6 +71,18 @@ export function Header() {
           </button>
 
           <button
+            className=" h-8 w-20 text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
+            n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible
+            n3:invisible
+            n4:invisible
+            n5:invisible
+            n6:invisible           
+            n7:invisible"
+          >
+            <NavLink to="https://www.hackerrank.com/lucasvm_ti">HackerRank</NavLink>
+          </button>
+
+          <button
           id="contato"
             className="h-8 w-20 text-lg hover:opacity-100 brightness-150 hover:text-[1.05rem] 
           n2:h-8 n2:w-20 n2:py-0 n2:static n2:bg-transparent n2:visible          
