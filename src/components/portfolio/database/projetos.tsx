@@ -113,7 +113,7 @@ export const projectsDB = [
 
             <p>
             Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
-            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância de entre 
+            banco de dados e o deploy. Criei um filtro integrado com a barra de busca, e a alternância entre 
             setor de produtos ou serviços.
             </p>
 

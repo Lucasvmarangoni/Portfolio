@@ -159,9 +159,9 @@ export const Projetos = () => {
                 <div
                   className=" text-center w-[70%] m-auto brightness-200"
                 >
-                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos pessoais</h2>
+                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos autorais</h2>
                   <p className="text-base text-[#25252588] text-justify" >
-                    Projetos pessoais são de minha autoria, ou seja, planejo e desenvolvo do zero sozinho ou em colaboração com uma equipe.
+                    Projetos autorais são planejados e desenvolvidos por mim sozinho (pessoais) ou em colaboração com uma equipe (equipe).
                   </p>
                   <p className="text-base text-[#25252588] text-justify">
                     Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
