@@ -54,13 +54,13 @@ export const Menu = () => {
         >
           <DropdownMenu.Item className="menu">
             <button>
-              <Link to="/projetos" target="_blank">Projetos</Link>
+              <Link to="/projetos">Projetos</Link>
             </button>
           </DropdownMenu.Item>
 
           <DropdownMenu.Item className="menu">
             <button>
-              <Link to="https://www.hackerrank.com/lucasvm_ti">HackerRank</Link>
+              <Link to="https://www.hackerrank.com/lucasvm_ti" target="_blank">HackerRank</Link>
             </button>
           </DropdownMenu.Item>
 
