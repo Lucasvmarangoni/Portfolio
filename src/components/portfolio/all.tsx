@@ -1,6 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Cross2Icon } from "@radix-ui/react-icons";
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 interface Props {
     name: string,
@@ -18,7 +19,7 @@ interface Props {
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies } = props;
+    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies,} = props;
     const htmlDescription = {
         __html: description
     };
@@ -55,15 +56,29 @@ export const listAllProjects = (props: Props) => {
 
                             <div className="Icon">
                                 <img className="h-5" src="/github-proj.png" alt="" />
-                                <a
+                                <Link
                                     target={"_blank"}
                                     rel={"noreferrer"}
                                     className="hover:underline"
-                                    href={github}
+                                    to={github}
                                 >
                                     Github
-                                </a>
+                                </Link>
                             </div>
+                            {
+                                demo
+                                    ? <div className="Icon">
+                                        <Link
+                                            target={"_blank"}
+                                            rel={"noreferrer"}
+                                            className="hover:underline"
+                                            to={demo}
+                                        >
+                                            Demo
+                                        </Link>
+                                    </div>
+                                    : null
+                            },
                             {version ? <img src={`https://img.shields.io/badge/version-${version}-black`} alt={`Version ${version}`}></img> : null}
                             <img src={`https://img.shields.io/badge/Projeto ${type}-black`} alt={`projeto ${type}`}></img>
                         </div>

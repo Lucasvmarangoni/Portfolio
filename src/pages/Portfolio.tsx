@@ -18,7 +18,7 @@ export const Projetos = () => {
   }).reverse();
 
   const autoraisId: string[] = ["TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
-  const projetosId: string[] = ["TbestSurf", "TnotServ", "Tesports",]
+  const projetosId: string[] = ["Tgopportunities", "TbestSurf", "TnotServ", "Tesports"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -111,7 +111,7 @@ export const Projetos = () => {
                   filterInput.value = ""
                   setCheck(0)
                   setList([])
-                  document.querySelectorAll('#TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #TnotServ, #Tport, #Tesports')
+                  document.querySelectorAll('#Tgopportunities, #TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #TnotServ, #Tport, #Tesports')
                     .forEach((element: any) => {
                       if (element) {
                         element.style.display = "flex"
@@ -176,7 +176,7 @@ export const Projetos = () => {
                 {
                   personalProjects.map((project, transitionDelay) => {
                     return (
-                      Motion(0.8, transitionDelay / 2,
+                      Motion(0.8, transitionDelay / 4,
                         <div
                           className="py-4 px-6"
                           id={autoraisId[transitionDelay]}
@@ -219,7 +219,7 @@ export const Projetos = () => {
                     courseProjects.map((project, transitionDelay) => {
                       return (
 
-                        Motion(0.8, transitionDelay / 2,
+                        Motion(0.8, transitionDelay / 4,
                           <div
                             className="py-4 px-6"
                             id={projetosId[transitionDelay]}

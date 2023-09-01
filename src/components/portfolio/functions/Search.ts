@@ -6,6 +6,7 @@ import {
   paivaMotoPecas,
   port,
   taskList,
+  gopportunities
 } from "../database/TecSearch";
 import { Csearch } from "./search-component";
 
@@ -17,6 +18,7 @@ export function Search() {
   const TbestSurf: any = document.querySelector("#TbestSurf");
   const TpaivaMotoPecas: any = document.querySelector("#Tpaiva");
   const TcurrencyConverter: any = document.querySelector("#TcurrencyConverter");
+  const Tgopportunities: any = document.querySelector("#Tgopportunities");
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");  
@@ -35,6 +37,8 @@ export function Search() {
   SpaivaMotoPecas.execute();
   const ScurrencyConverter = new Csearch(0, currencyConverter, filter, TcurrencyConverter);
   ScurrencyConverter.execute();  
+  const Sgopportunities = new Csearch(0, gopportunities, filter, Tgopportunities);
+  Sgopportunities.execute(); 
   
 }
 

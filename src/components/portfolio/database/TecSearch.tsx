@@ -9,8 +9,9 @@ export const taskList: string[] = projectsDB[3].technologies.concat(" ", "").joi
 export const bestSurf: string[] = projectsDB[4].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const paivaMotoPecas: string[] = projectsDB[5].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const currencyConverter: string[] = projectsDB[6].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const gopportunities: string[] = projectsDB[7].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 
-const fullDatabase = [...esports, ...port, ...notServ, ...paivaMotoPecas, ...bestSurf,...taskList,  ...currencyConverter]
+const fullDatabase = [...esports, ...port, ...notServ, ...paivaMotoPecas, ...bestSurf,...taskList,  ...currencyConverter, ...gopportunities]
 let tecnologias: string[] = []
 
 const ordenedFullDatabase: string[] = fullDatabase.sort()

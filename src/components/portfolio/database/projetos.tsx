@@ -130,7 +130,8 @@ export const projectsDB = [
             "CSS",
             "JavaScript",
             "Github Actions",
-        ]
+        ],
+        demo: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas/home/index.html'
     },
     {
         name: 'Best Surf',
@@ -268,5 +269,26 @@ export const projectsDB = [
             "OpenAPI",
         ]
     },
+    {
+        name: 'Gopportunities',
+        year: 'Ago 2023',
+        picture: '/gopportunities.png',
+        github: 'https://github.com/Lucasvmarangoni/go-api',
+        type: 'guiado',
+        description: `
+        --> Projeto guiado, oferecido pelo canal @Arthur404dev.
+
+        É uma API para divulgação de oportunidades de emprego, que utiliza uma estrutura moderna de packages.
+        Foi feito sistema de log básico e documentação swagger.
+        `,
+        technologies: ['Golang', 'Go',
+            'Gin-gonic',
+            'Gorm',
+            'SQLite',
+            'Swaggo',
+            'swag'
+        ]
+
+    }
 ]
 
