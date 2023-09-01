@@ -51,7 +51,7 @@ export const Info = () => {
                 ">
                     <div className="relative max-h-10">
                         {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos </h2>)}
-                        {Motion(1.0, 1.1, <Algorithm name="Projetos" hover={'hover:after:right-7'} link='/projetos' />)}
+                        {Motion(1.0, 1.1, <Algorithm name="Projetos" hover={'hover:after:right-7'} link='/projetos' target={""} />)}
                     </div>
 
                     {/* <div className="max-h-10">
@@ -63,7 +63,7 @@ export const Info = () => {
                    
                     ">
                         {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática </h2>)}
-                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' />)}
+                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank"/>)}
                     </div>
 
 

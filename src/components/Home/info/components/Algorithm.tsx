@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Algorithm = ({ name, hover, link }) => {
+export const Algorithm = ({ name, hover, link, target }) => {
     return (
         <div
             className="flex justify-center  brightness-150     
@@ -21,7 +21,7 @@ export const Algorithm = ({ name, hover, link }) => {
         ` }
             >
                 <Link to={link} onClick={() => (document.querySelector('#topo') as any).scrollIntoView(0)}
-                    target="_blank">
+                    target={target}>
                     <h1 className="" id="topo">{name}</h1>
                 </Link>
             </button>
