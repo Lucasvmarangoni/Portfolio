@@ -277,7 +277,7 @@ export const projectsDB = [
         type: 'guiado',
         description: `
         <p>
-        --> Projeto guiado, oferecido pelo canal @Arthur404dev.
+        --> Projeto oferecido pelo canal @Arthur404dev.
         </p>
 
         <p>
