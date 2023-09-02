@@ -59,8 +59,8 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 max-w-fit text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
-            n2:h-8 n2:max-w-fit n2:py-0 n2:static n2:bg-transparent n2:visible
+            className=" h-8 w-24  text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
+            n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
             n4:invisible
             n5:invisible
@@ -71,8 +71,8 @@ export function Header() {
           </button>
 
           <button
-            className=" h-8 max-w-fit text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
-            n2:h-8 n2:max-w-fit n2:py-0 n2:static n2:bg-transparent n2:visible
+            className=" h-8 w-24 text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
+            n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
             n4:invisible
             n5:invisible
@@ -84,8 +84,8 @@ export function Header() {
 
           <button
           id="contato"
-            className="h-8 max-w-fit text-lg hover:opacity-100 brightness-150 hover:text-[1.05rem] 
-          n2:h-8 n2:max-w-fit n2:py-0 n2:static n2:bg-transparent n2:visible          
+            className="h-8 w-24 text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] 
+          n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible          
           n3:invisible 
           n4:invisible
           n5:invisible
