@@ -39,9 +39,9 @@ export const Info = () => {
 
             <InfoHeader />
 
-            {/* TODO colocar seta informando mais informações abaixo. */}
+          
 
-            <div className="m-auto  
+            <div className="m-auto  scroll-item-first
              n1:mb-44
              n7:mb-[16rem]
             ">
@@ -50,7 +50,7 @@ export const Info = () => {
                 n7:gap-4        
                 ">
                     <div className="relative max-h-10">
-                        {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos </h2>)}
+                        {Motion(1.0, 1.0, <h2 className="PP relative top-2">Acesse meus projetos</h2>)}
                         {Motion(1.0, 1.1, <Algorithm name="Projetos" hover={'hover:after:right-7'} link='/projetos' target={""} />)}
                     </div>
 
@@ -62,7 +62,7 @@ export const Info = () => {
                     <div className="max-h-10 
                    
                     ">
-                        {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática </h2>)}
+                        {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática</h2>)}
                         {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank"/>)}
                     </div>
 

@@ -22,6 +22,11 @@
   scroll-snap-align: start;   
 }
 
+.scroll-item-first {    
+  scroll-snap-align: end;   
+  height: 30vh;
+}
+
 /* *::-webkit-scrollbar {
   scroll-behavior: auto;
   width: 0px;
