@@ -273,7 +273,7 @@ export const projectsDB = [
         name: 'Gopportunities',
         year: 'Ago 2023',
         picture: '/gopportunities.png',
-        github: 'https://github.com/Lucasvmarangoni/go-api',
+        github: 'https://github.com/Lucasvmarangoni/Gopportunities',
         type: 'guiado',
         description: `
         <p>
