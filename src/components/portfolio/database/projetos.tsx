@@ -195,7 +195,7 @@ export const projectsDB = [
         </p>      
         
         <p className="P mb-8 mt-4">
-        Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github, assim como o código.      
+        Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github.      
         </p>
 
         <p className="P mt-4">
