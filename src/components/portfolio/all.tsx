@@ -8,6 +8,7 @@ interface Props {
     year: string,
     picture: string,
     demo?: string,
+    video?: string,
     github: string,
     version?: string,
     type: string,
@@ -19,7 +20,7 @@ interface Props {
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies,} = props;
+    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video} = props;
     const htmlDescription = {
         __html: description
     };
@@ -45,8 +46,8 @@ export const listAllProjects = (props: Props) => {
 
                     <Dialog.Description className="Dgrid">
                         <div id="img" className="banner">
-                            {demo ? (
-                                <video controls autoPlay src={demo}></video>
+                            {video ? (
+                                <video controls autoPlay src={video}></video>
                             ) : (
                                 <img src={picture} alt="Project Image" />
                             )}

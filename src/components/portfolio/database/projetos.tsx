@@ -185,7 +185,7 @@ export const projectsDB = [
         name: 'TaskList',
         year: 'Jan 2023 - Jul 2023',
         picture: '/tasklist.png',
-        demo: "/tasklist-demo.mp4",
+        video: "/tasklist-demo.mp4",
         github: 'https://github.com/Lucasvmarangoni/TaskList',
         version: '2.1.0',
         type: 'pessoal',
