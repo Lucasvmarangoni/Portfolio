@@ -191,8 +191,12 @@ export const projectsDB = [
         type: 'pessoal',
         description: `
         <p className="P mb-8 mt-4">
-        --> O vídeo é uma demonstração das requests e responses no insomnia.      
-        </p>       
+        O vídeo é uma demonstração das requests e responses no insomnia.      
+        </p>      
+        
+        <p className="P mb-8 mt-4">
+        Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github, assim como o código.      
+        </p>
 
         <p className="P mt-4">
         O projeto é uma API REST para servir aplicação de lista de tarefas, possui as funções criar, consultar (de várias formas), alterar e deletar as tarefas, também conta com sistema de notificação e lixeira. 
