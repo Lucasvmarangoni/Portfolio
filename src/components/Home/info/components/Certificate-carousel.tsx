@@ -11,6 +11,10 @@ const images = [
     src: '/gcp.png',
     href: 'https://www.cloudskillsboost.google/public_profiles/c3acdda3-a1c2-4841-b9c5-0cec83f7a31b',
   },
+  {
+    src: '/paiva-certificate.png',
+    href: 'https://youtu.be/vE4thVxtfiE?t=1283',
+  },
 ];
 
 const CertificateCarousel: React.FC = () => {
@@ -68,7 +72,7 @@ const CertificateCarousel: React.FC = () => {
         <img
           src={images[currentIndex].src}
           alt={`Slide ${currentIndex}`}
-          className="w-full h-auto rounded-3xl brightness-50 hover:opacity-95 "
+          className="w-full rounded-3xl brightness-50 hover:opacity-95 "
         />
       </Link>
       <button
