@@ -205,7 +205,7 @@ export const projectsDB = [
 
         <p className="P mt-4">
         O projeto é uma API REST para servir aplicação de lista de tarefas, possui as funções criar, consultar (de várias formas), alterar e deletar as tarefas, também conta com sistema de notificação e lixeira. 
-        Foi desenvolvido com <strong>Node.js</strong>, <strong>Express </strong> e <strong>Typescript</strong>, de banco de dados a ORM <strong>Prisma Studio</strong> com  
+        Foi desenvolvido com <strong>Node.js</strong>, <strong>Express </strong> e <strong>Typescript</strong>, de banco de dados o ORM <strong>Prisma Studio</strong> com  
         <strong>mongoDB</strong> (Atlas) e nos testes o framework  <strong>Vitest</strong>.             
         </p>        
 
