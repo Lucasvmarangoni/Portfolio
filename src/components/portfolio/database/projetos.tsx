@@ -104,12 +104,17 @@ export const projectsDB = [
         version: undefined,
         type: 'equipe',
         description: `
-            <p> --> Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>
+            <p>Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>  
 
-            <p> --> Desenvolvido por equipe de seis pessoas. </p>
+            <p> --> &#x1F3C6; Projeto destaque, escolhido para mostra de projetos. 
+            (<a href="https://drive.google.com/file/d/1u7hjS-7rjUqSV7P5de0BMzox_XZPA2SJ/view?usp=sharing" target="_blank"> <u>Certificado</u> </a> -
+            <a href="https://youtu.be/vE4thVxtfiE?t=1283" target="_blank"><u>Vídeo</u></a> ) 
+            </p>                
 
-            <p>O projeto se trata de uma aplicação web responsável pela divulgação de produtos
-             e serviços da oficina Paiva Moto Peças.</p>           
+            <p>
+            O projeto foi desenvolvido por uma equipe de 6 pessoas. Se trata de uma aplicação web responsável pela divulgação de produtos
+             e serviços da oficina Paiva Moto Peças.
+            </p>           
 
             <p>
             Foi minha responsabilidade pessoal a página "Itens da loja", a estrutura do
