@@ -1,8 +1,21 @@
 import { PortDica } from "../components/port-components/PortDica";
 import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
 
+interface ProjectProps {
+    name: string;
+    year: string;
+    picture: string,
+    github: string,
+    version?: string,
+    type: string,
+    description: string
+    technologies: string[]
+    extra?: JSX.Element
+    video?: string
+    demo?: string
+}
 
-export const projectsDB = [
+export const projectsDB: ProjectProps[] = [
     {
         name: 'ESports',
         year: '2022',
@@ -247,21 +260,20 @@ export const projectsDB = [
     },
     {
         name: 'Currency converter',
-        year: 'Jul 2023 - ',
+        year: 'Jul 2023 - Set 2023',
         picture: '/currency-converter.png',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
         type: 'pessoal',
-        situation: 'EM DESENVOLVIMENTO!',
         description: `           
-            <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com Node.js Typescript e 
-            Nest.js utilizando DDD, TDD. Possui testes unitários e e2e, exceções, logs, cache, doc. OpenAPI, autenticação.
+            <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com 
+            Nest.js, utilizando arquitetura de monólito modular. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
             </p>           
 
             <p>
-            Teve o objetivo de consolidar minhas habilidades com Nest.js.             
-            </p>    
-            
+            Importante!! Não testei o sistema de autenticação do google, uma vez que é necessário configurar no Google Cloud e não quero ativar meus créditos gratuitos nesse momento, 
+            pois perco eles em 90 dias e não está nos meus planos praticar GCP agora.             
+            </p>            
             
         `,
         technologies: [
@@ -277,7 +289,7 @@ export const projectsDB = [
             "Github Actions",
             "OpenAPI",
             "Json Web Token",
-            "Bcrypt",            
+            "Bcrypt",
             "Passport",
             "Pino",
 
