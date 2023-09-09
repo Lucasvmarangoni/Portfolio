@@ -276,6 +276,11 @@ export const projectsDB = [
             "Docker Compose",
             "Github Actions",
             "OpenAPI",
+            "Json Web Token",
+            "Bcrypt",            
+            "Passport",
+            "Pino",
+
         ]
     },
     {
