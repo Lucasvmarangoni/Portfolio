@@ -267,12 +267,12 @@ export const projectsDB: ProjectProps[] = [
         type: 'pessoal',
         description: `           
             <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com 
-            Nest.js, utilizando arquitetura de monólito modular. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
+            <strong>Nest.js</strong>, utilizando arquitetura de <strong>monólito modular</strong>. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
             </p>           
 
             <p>
-            Importante!! Não testei o sistema de autenticação do google, uma vez que é necessário configurar no Google Cloud e não quero ativar meus créditos gratuitos nesse momento, 
-            pois perco eles em 90 dias e não está nos meus planos praticar GCP agora.             
+            <strong>Importante!</strong>! <u>Não testei o sistema de autenticação do google, por ser necessário configurar no Google Cloud e portanto precisar ativar os créditos gratuitos, 
+            que expiram em 90 dias, e não vou praticar GCP agora, mas em um futuro próximo sim</u>            
             </p>            
             
         `,
