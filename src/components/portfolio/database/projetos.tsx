@@ -271,7 +271,7 @@ export const projectsDB: ProjectProps[] = [
             </p>           
 
             <p>
-            <strong>Importante!</strong>! <u>Não testei o sistema de autenticação do google, por ser necessário configurar no Google Cloud e portanto precisar ativar os créditos gratuitos, 
+            <strong>Importante!</strong>! <u>Não testei o sistema de autenticação do google, por ser necessário configurar no Google Cloud e, portanto, ativar os créditos gratuitos, 
             que expiram em 90 dias, e não vou praticar GCP agora, mas em um futuro próximo sim</u>            
             </p>            
             
