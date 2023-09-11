@@ -282,6 +282,8 @@ export const projectsDB: ProjectProps[] = [
             "Nest",
             "MongoDB",
             "Mongoose",
+            "Redis",
+            "Redis Cloud",
             "Jest",
             "Supertest",
             "Docker",
