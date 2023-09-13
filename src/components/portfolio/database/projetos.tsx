@@ -256,6 +256,7 @@ export const projectsDB: ProjectProps[] = [
             "Github actions",
             "Node cache",
             "Http status codes",
+            "Regex",
         ]
     },
     {
