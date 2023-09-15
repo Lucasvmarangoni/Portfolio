@@ -25,12 +25,7 @@ export const cc: ImagesProps[] = [
         src: '/currency-converter-images/cc-cache.png',
         title: 'CacheModule',
         description: 'Modulo responsável pela configuração do cache, utilizando redis com redis cloud.',
-    },
-    {
-        src: '/currency-converter-images/cc-swagger.png',
-        title: 'Swagger',
-        description: 'Function responsável pela configuração do swagger.',
-    },
+    },    
     {
         src: '/currency-converter-images/cc-update-service.png',
         title: 'Service - update user',
@@ -42,10 +37,20 @@ export const cc: ImagesProps[] = [
         description: 'Middleware responsável por permitir a authenticação utilizando username ou email, pela mesma rota.',
     },
     {
+        src: '/currency-converter-images/cc-login-validation.png',
+        title: 'Middleware - LoginValidationMiddleware',
+        description: 'Middleware responsável por validar os dados do usuário, na autenticação, antes da consulta ao banco de dados.',
+    },
+    {
+        src: '/currency-converter-images/cc-swagger.png',
+        title: 'Swagger',
+        description: 'Function responsável pela configuração do swagger.',
+    },
+    {
         src: '/currency-converter-images/cc-folders.png',
         title: 'Estrutura de pastas',
         description: 'Um exemplo da estrutura de organização das pastas, no caso, do domínio do modulo user.',
-    },
+    },     
 ];
 
 export const tl: ImagesProps[] = [
