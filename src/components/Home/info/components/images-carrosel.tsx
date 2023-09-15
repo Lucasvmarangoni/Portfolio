@@ -13,7 +13,7 @@ export const ProjectImagesCarousel: React.FC<{ images: ImagesProps[] }> = ({ ima
     const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const scrollAmount = 200;
+    const scrollAmount = 150;
 
     const goToNextSlide = () => {
         if (carouselRef.current) {
@@ -68,14 +68,14 @@ export const ProjectImagesCarousel: React.FC<{ images: ImagesProps[] }> = ({ ima
 
     return (
         <div className="relative m-auto max-w-3xl pr-0">
-            <div ref={carouselRef} className="w-[85%] m-auto pl-44 flex items-center justify-center max-h-fit overflow-x-hidden scrollbar-hide">
+            <div ref={carouselRef} className="w-[85%] m-auto  flex items-center justify-start max-h-fit overflow-x-hidden scrollbar-hide">
                 {images.map((image: ImagesProps, index: number) => (
                     <div key={index} className="flex-none m-1 w-1/6 transition-transform transform scale-100 hover:scale-105 cursor-pointer"
                         onClick={() => openModal(index)}>
                         <img
                             src={image.src}
                             alt={`${image.description}`}
-                            className="w-full h-10 object-cover rounded-lg"
+                            className="w-20 h-10 object-cover rounded-lg"
                         />
                     </div>
                 ))}
