@@ -53,7 +53,7 @@ export const listAllProjects = (props: Props) => {
                                 <img src={picture} alt="Project Image" />
                             )}
                         </div>
-                        <div className="h-12">
+                        <div className="h-12 ">
                             {
                                 carousel 
                                 ? carousel

@@ -52,7 +52,7 @@ export const ProjectImagesCarousel: React.FC<{ images: ImagesProps[] }> = ({ ima
         <div className="relative m-auto max-w-3xl pr-8">
             <div ref={carouselRef} className="w-[85%] m-auto flex items-center justify-center max-h-fit overflow-x-hidden scrollbar-hide">
                 {images.map((image: ImagesProps, index: number) => (
-                    <div key={index} className="flex-none m-1 w-20 transition-transform transform scale-100 hover:scale-105 cursor-pointer"
+                    <div key={index} className="flex-none m-1 max-w-20 transition-transform transform scale-100 hover:scale-105 cursor-pointer"
                         onClick={() => openModal(index)}>
                         <img
                             src={image.src}
