@@ -153,7 +153,7 @@ export const projectsDB: ProjectProps[] = [
             "Github Actions",
         ],
         demo: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas/home/index.html',
-        carousel: <ProjectImagesCarousel images={pmp} />        
+        carousel: <ProjectImagesCarousel images={pmp} />
     },
     {
         name: 'Best Surf',
@@ -215,26 +215,24 @@ export const projectsDB: ProjectProps[] = [
         <p className="P mb-8 mt-4">
         O vídeo é uma demonstração das requests e responses no insomnia e da documentação.      
         </p>      
-        
+        <p className="P mb-8 mt-4">
+            As imagens são prints de partes relevantes do código. (Não dispensa à análise completa do projeto).      
+        </p>
         <p className="P mb-8 mt-4">
         Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github.      
         </p>
-
         <p className="P mt-4">
         O projeto é uma API REST para servir aplicação de lista de tarefas, possui as funções criar, consultar (de várias formas), alterar e deletar as tarefas, também conta com sistema de notificação e lixeira. 
         Foi desenvolvido com <strong>Node.js</strong>, <strong>Express </strong> e <strong>Typescript</strong>, de banco de dados o ORM <strong>Prisma Studio</strong> com  
         <strong>mongoDB</strong> (Atlas) e nos testes o framework  <strong>Vitest</strong>.             
-        </p>        
-
+        </p> 
         <p className="P mt-4">
          - A lixeira foi feita criando uma nova collection para armazenar as tarefas deletadas.        
         </p>
-
         <p className="P mt-4">
         Foi desenvolvida seguindo DDD e TDD, possui testes unitários e e2e, além de validações. Também foi realizado o tratamento de exceções, 
         status code, logging, rate limit, caching, graceful shutdown, documentação openAPI, workflow e autenticação (local).      
         </p>
-
         <p className="P mt-4">
          Utilizei padrões de projeto in memory database, factory pattern, singleton, inversão de dependência e princípios SOLID.  
         </p>
@@ -271,10 +269,29 @@ export const projectsDB: ProjectProps[] = [
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
         type: 'pessoal',
-        description: `           
+        description: `   
+            <p className="P mb-8 mt-4">
+            (Em breve!) O vídeo é uma demonstração das requests e responses no insomnia e da documentação.      
+            </p>     
+            <p className="P mb-8 mt-4">
+            As imagens são prints de partes relevantes do código. (Não dispensa à análise completa do projeto).      
+            </p>                 
+            <p className="P mb-8 mt-4">
+            Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github.      
+            </p>        
             <p>API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com 
             <strong>Nest.js</strong>, utilizando arquitetura de <strong>monólito modular</strong>. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
-            </p>           
+            </p>              
+            <p>
+            A API Exchangerates permite a request apenas utilizando o EUR como base, contudo, na API do Currency converter, a request pode ser feita utilizando qualquer moeda válida
+            como base (from)
+            </p>              
+            <p>
+            Em uma mesma request, é possível solicitar a conversão para quantas moedas desejar. 
+            </p>   
+            <p>
+            O usuário pode se autenticar (local), pela mesma rota (url), utilizando username ou email.  
+            </p>  
 
             <p>
             <strong>Importante!</strong>! <u>Não testei o sistema de autenticação do google, por ser necessário configurar no Google Cloud e, portanto, ativar os créditos gratuitos, 
