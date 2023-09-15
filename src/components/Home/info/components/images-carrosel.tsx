@@ -74,9 +74,9 @@ export const ProjectImagesCarousel: React.FC<{ images: ImagesProps[] }> = ({ ima
             {isModalOpen && selectedImageIndex !== null && (
                 <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50" onClick={closeModal}>
                     <div className="bg-BG p-4 rounded-lg relative max-h-[150vh] overflow-y-hidden top-20 " onClick={e => e.stopPropagation()}>
-                        <div className="grid justify-center mt-2">
-                            <h1 className="m-auto n4:text-2xl n7:text-xl">{images[selectedImageIndex].title}</h1>
-                            <p className="PP">{images[selectedImageIndex].description}</p>
+                        <div className="grid justify-center my-2 brightness-200">
+                            <h1 className="m-auto text-T1 brightness-150 n4:text-2xl n7:text-xl">{images[selectedImageIndex].title}</h1>
+                            <p className="PP brightness-75">{images[selectedImageIndex].description}</p>
                         </div>
                         <img src={images[selectedImageIndex].src} alt="Selected" className="w-full h-auto" />
 
