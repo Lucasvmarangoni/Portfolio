@@ -48,7 +48,7 @@ export const listAllProjects = (props: Props) => {
                     <Dialog.Description className="Dgrid">
                         <div id="img" className="banner">
                             {video ? (
-                                <video controls autoPlay src={video}></video>
+                                <video controls src={video}></video>
                             ) : (
                                 <img src={picture} alt="Project Image" />
                             )}
