@@ -269,7 +269,7 @@ export const projectsDB: ProjectProps[] = [
         type: 'pessoal',
         description: `   
             <p className="P mb-8 mt-4">
-            - (Em breve!) O vídeo é uma demonstração das requests e responses no insomnia e da documentação. <br>
+            - (Em breve!) O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
 
             - As imagens são prints de partes relevantes do código. (Não dispensa à análise completa do projeto).  <br>
 
