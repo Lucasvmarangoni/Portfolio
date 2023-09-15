@@ -80,7 +80,7 @@ export const tl: ImagesProps[] = [
         description: 'Configuração central da documentação com swagger.',
     },
     {
-        src: '/currency-converter-images/cc-controller.png',
+        src: '/currency-converter-images/tl-controller.png',
         title: 'Controller - Manage Tasks',
         description: 'Controller responsável pelas rotas de criação e update das tasks.',
     },
