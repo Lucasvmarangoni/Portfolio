@@ -124,7 +124,7 @@ export const projectsDB: ProjectProps[] = [
 
             <p> --> &#x1F3C6; Projeto destaque, escolhido para mostra de projetos. 
             (<a href="https://drive.google.com/file/d/1u7hjS-7rjUqSV7P5de0BMzox_XZPA2SJ/view?usp=sharing" target="_blank"> <u>Certificado</u> </a> -
-            <a href="https://youtu.be/vE4thVxtfiE?t=1283" target="_blank"><u>Vídeo</u></a> ) 
+            <a href="https://youtu.be/vE4thVxtfiE?t=1283" target="_blank"><u>Mostra</u></a> ) 
             </p>                
 
             <p>
