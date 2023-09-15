@@ -1,5 +1,7 @@
+import { ProjectImagesCarousel } from "../../Home/info/components/images-carrosel";
 import { PortDica } from "../components/port-components/PortDica";
 import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
+import { cc, pmp, tl } from "./image-folder";
 
 interface ProjectProps {
     name: string;
@@ -13,6 +15,7 @@ interface ProjectProps {
     extra?: JSX.Element
     video?: string
     demo?: string
+    carousel?: JSX.Element
 }
 
 export const projectsDB: ProjectProps[] = [
@@ -149,7 +152,8 @@ export const projectsDB: ProjectProps[] = [
             "JavaScript",
             "Github Actions",
         ],
-        demo: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas/home/index.html'
+        demo: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas/home/index.html',
+        carousel: <ProjectImagesCarousel images={pmp} />        
     },
     {
         name: 'Best Surf',
@@ -257,7 +261,8 @@ export const projectsDB: ProjectProps[] = [
             "Node cache",
             "Http status codes",
             "Regex",
-        ]
+        ],
+        carousel: <ProjectImagesCarousel images={tl} />
     },
     {
         name: 'Currency converter',
@@ -296,7 +301,8 @@ export const projectsDB: ProjectProps[] = [
             "Passport",
             "Pino",
 
-        ]
+        ],
+        carousel: <ProjectImagesCarousel images={cc} />
     },
     {
         name: 'Gopportunities',

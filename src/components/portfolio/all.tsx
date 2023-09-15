@@ -1,5 +1,5 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { Cross2Icon } from "@radix-ui/react-icons";
+import { MdClose } from "react-icons/md";
 import "./styles.css";
 import { Link } from "react-router-dom";
 
@@ -16,11 +16,12 @@ interface Props {
     description: string,
     extra?: JSX.Element
     technologies: string[],
+    carousel?: JSX.Element,
 }
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video} = props;
+    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel} = props;
     const htmlDescription = {
         __html: description
     };
@@ -51,6 +52,13 @@ export const listAllProjects = (props: Props) => {
                             ) : (
                                 <img src={picture} alt="Project Image" />
                             )}
+                        </div>
+                        <div className="h-12">
+                            {
+                                carousel 
+                                ? carousel
+                                : null
+                            }
                         </div>
                         <h2 className={`${situation ? 'hTec  mb-3 text-center' : null}`}>{situation}</h2>
                         <div className="flex gap-2">
@@ -104,8 +112,8 @@ export const listAllProjects = (props: Props) => {
                     </Dialog.Description>
 
                     <Dialog.Close asChild>
-                        <button className="IconButton">
-                            <Cross2Icon color="#ffffff85" />
+                        <button className="IconButton text-2xl">
+                            <MdClose color="#ffffff85" />
                         </button>
                     </Dialog.Close>
                 </Dialog.Content>
