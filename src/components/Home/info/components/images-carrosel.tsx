@@ -104,7 +104,7 @@ export const ProjectImagesCarousel: React.FC<{ images: ImagesProps[] }> = ({ ima
                         <button onClick={goToNextImage} className="text-T2 absolute top-1/2 right-5 text-2xl">
                             <SlArrowRight color="#ffffff85" />
                         </button>
-                        <button onClick={closeModal} className="text-T2 absolute top-5 right-5 text-2xl">
+                        <button onClick={closeModal} className="text-T2 absolute top-8  right-5 text-2xl">
                             <MdClose color="#ffffff85" />
                         </button>
                     </div>
