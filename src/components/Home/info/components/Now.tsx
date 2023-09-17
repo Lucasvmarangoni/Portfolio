@@ -63,15 +63,8 @@ export function Now() {
 
           <div className="grid gap-4">
             {
-              now(1.0, 0.7, "Desenvolvendo:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (v1.0.0)")
-            }
-
-            {/* {
-              now(1.0, 0.8, "Bootcamp:", "https://www.xpeducacao.com.br/bootcamp/arquiteto-de-solucoes", "Arquiteto de Soluções (XPe)")
-            }
-            {
-              now(1.0, 0.9, "Bootcamp:", "https://www.xpeducacao.com.br/pos-graduacao/pos-seguranca-cibernetica", "Analista em Defesa Cibernética (XPe)")
-            } */}
+              now(1.0, 0.7, "Curso:", "#", "Sistemas operacionais (UNIVESP - Youtube)")
+            }          
             {
               now(1.0, 1.0, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
             }            
