@@ -63,7 +63,7 @@ export function Now() {
 
           <div className="grid gap-4">
             {
-              now(1.0, 0.7, "Curso:", "#", "Sistemas operacionais (UNIVESP - Youtube)")
+              now(1.0, 0.7, "Curso:", "!", "Sistemas operacionais (UNIVESP - Youtube)")
             }          
             {
               now(1.0, 1.0, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
