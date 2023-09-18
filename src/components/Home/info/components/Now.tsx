@@ -66,7 +66,10 @@ export function Now() {
               now(1.0, 0.7, "Curso:", "!", "Sistemas operacionais (UNIVESP - Youtube)")
             }          
             {
-              now(1.0, 1.0, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
+              now(1.0, 0.9, "Livro:", "!", "Sistemas Operacionais Modernos (Tanenbaum)")
+            }          
+            {
+              now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
             }            
           </div>
 
