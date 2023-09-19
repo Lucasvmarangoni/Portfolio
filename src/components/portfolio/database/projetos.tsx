@@ -264,12 +264,13 @@ export const projectsDB: ProjectProps[] = [
         name: 'Currency converter',
         year: 'Jul 2023 - Set 2023',
         picture: '/currency-converter.png',
+        video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
         type: 'pessoal',
         description: `   
             <p className="P mb-8 mt-4">
-            - (Em breve!) O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
+            - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
 
             - As imagens são prints de partes relevantes do código. (Não dispensa à análise completa do projeto).  <br>
 
