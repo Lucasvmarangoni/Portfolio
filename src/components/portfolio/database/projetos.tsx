@@ -281,8 +281,7 @@ export const projectsDB: ProjectProps[] = [
             <strong>Nest.js</strong>, utilizando arquitetura de <strong>monólito modular</strong>. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
             </p>              
             <p>
-            - A API Exchangerates permite a request apenas utilizando o EUR como base, contudo, na API do Currency converter, a request pode ser feita utilizando qualquer moeda válida
-            como base (from). <br>
+            - A request pode ser feita utilizando qualquer moeda válida como base (from). <br>
             - Em uma mesma request, é possível solicitar a conversão para quantas moedas desejar. <br>
             - O usuário pode se autenticar (local), pela mesma rota (url), utilizando username ou email.  <br>
             </p>          
@@ -290,6 +289,9 @@ export const projectsDB: ProjectProps[] = [
             <p>
             <strong>Importante!</strong>! <u>Não testei o sistema de autenticação do google, por ser necessário configurar no Google Cloud e, portanto, ativar os créditos gratuitos, 
             que expiram em 90 dias, e não vou praticar GCP agora, mas em um futuro próximo sim</u>            
+            </p>   
+            <p>
+            - Em breve farei uma versão desse projeto com arquitetura de microservices, utilizando RabbitMQ.          
             </p>            
             
         `,
@@ -338,7 +340,6 @@ export const projectsDB: ProjectProps[] = [
             'Swaggo',
             'swag'
         ]
-
-    }
+    },
 ]
 
