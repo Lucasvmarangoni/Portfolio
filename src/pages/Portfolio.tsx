@@ -81,7 +81,7 @@ export const Projetos = () => {
             type="search"
             placeholder="Pesquise pelas tecnologias."
             list="datalist"
-            className="px-3 bg-BG text-T1 text-sm placeholder:text-[#302f2f] 
+            className="px-3 bg-BG text-[#25252588] brightness-200 text-sm placeholder:text-[#302f2f] 
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
           n2:w-80 n2:h-10 
@@ -96,7 +96,7 @@ export const Projetos = () => {
             check === 1
               ? <VscChromeClose
                 color="#3b275367"
-                className="bg-BG  pr-2
+                className="bg-BG  pr-2 
               n0:w-8 n0:h-10
               n1:w-8 n1:h-10
               n2:w-8 n2:h-10
