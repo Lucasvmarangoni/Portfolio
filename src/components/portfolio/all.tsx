@@ -26,6 +26,8 @@ export const listAllProjects = (props: Props) => {
         __html: description
     };
 
+    let check
+
     return (
         <Dialog.Root>
             <Dialog.Trigger asChild className="">
@@ -53,8 +55,8 @@ export const listAllProjects = (props: Props) => {
                                 <img src={picture} alt="Project Image" />
                             )}
                         </div>
-                        <div className="h-12 ">
-                            {
+                        <div className={carousel ? 'h-12' : 'h-0'}>
+                            {                                
                                 carousel 
                                 ? carousel
                                 : null
