@@ -18,7 +18,7 @@ export const Projetos = () => {
   }).reverse();
 
   const autoraisId: string[] = ["TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
-  // const projetosId: string[] = ["Tgopportunities", "TbestSurf", "TnotServ", "Tesports"]
+  const projetosId: string[] = ["Tordering", "Tgopportunities", "TbestSurf"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -156,26 +156,26 @@ export const Projetos = () => {
               gap-10">
 
               {MotionFirst(0.8, 0.4,
-                // <div
-                //   className=" text-center w-[70%] m-auto brightness-200"
-                // >
-                //   <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos autorais</h2>
-                //   <p className="text-base text-[#25252588] text-justify" >
-                //     Projetos autorais são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
-                //   </p>
-                //   <p className="text-base text-[#25252588] text-justify">
-                //     Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
-                //   </p>
-                // </div>
                 <div
-                className=" text-center w-[70%] m-auto brightness-200"
-              >
-                <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
-                <p className="text-base text-[#25252588] text-justify" >
-                  Apresento nesse portfólio apenas meus projetos autorais, ou seja, que desenvolvo sozinho (pessoal) ou em 
-                  colaboração com uma equipe (equipe).
-                </p>               
-              </div>
+                  className=" text-center w-[70%] m-auto brightness-200"
+                >
+                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos autorais</h2>
+                  <p className="text-base text-[#25252588] text-justify" >
+                    Projetos autorais são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
+                  </p>
+                  <p className="text-base text-[#25252588] text-justify">
+                    Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
+                  </p>
+                </div>
+
+              // <div className=" text-center w-[70%] m-auto brightness-200">
+              // <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
+              // <p className="text-base text-[#25252588] text-justify" >
+              //   Apresento nesse portfólio apenas meus projetos autorais, ou seja, que desenvolvo sozinho (pessoal) ou em
+              //   colaboração com uma equipe (equipe).
+              // </p>
+              // </div>
+
               )}
 
 
@@ -202,9 +202,9 @@ export const Projetos = () => {
 
 
 
-            {/* <hr className=" border-[#25252588] w-[80%] m-auto"/> */}
+            <hr className=" border-[#25252588] w-[80%] m-auto"/>
 
-            {/* <div className="grid gap-10 scroll-item
+            <div className="grid gap-10 scroll-item
             
             ">
               <div
@@ -217,7 +217,10 @@ export const Projetos = () => {
                   >
                     <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
                     <p className="text-base text-[#25252588] text-justify" >
-                      Projetos guiados são desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, sua criação não é de minha autoria.
+                      Projetos guiados são desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, 
+                      sua criação não é de minha autoria. 
+                      <br></br>
+                      - Listo aqui somente os projetos mais recentes e relevantes.
                     </p>
                   </div>
                 )}
@@ -244,7 +247,7 @@ export const Projetos = () => {
 
               </div>
 
-            </div> */}
+            </div>
 
           </div>
 

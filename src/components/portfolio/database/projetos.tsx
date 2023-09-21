@@ -25,7 +25,7 @@ export const projectsDB: ProjectProps[] = [
         picture: '/Hnlw.jpg',
         github: 'https://github.com/Lucasvmarangoni/NLW-Ignite-2022',
         version: undefined,
-        type: 'guiado',
+        type: 'inativo',
         description: `
         <p className="P">
             O projeto tem a finalidade de ajudar jogadores de jogos online a
@@ -88,7 +88,7 @@ export const projectsDB: ProjectProps[] = [
         picture: '/igniteLab04.png',
         github: 'https://github.com/Lucasvmarangoni/notifications-service',
         version: undefined,
-        type: 'guiado',
+        type: 'inativo',
         description: `
         <p className="P mt-2">
             --> Desenvolvido durante o evento Ignite Lab 04 da
@@ -339,6 +339,33 @@ export const projectsDB: ProjectProps[] = [
             'SQLite',
             'Swaggo',
             'swag'
+        ]
+    },
+    {
+        name: 'Ordering',
+        year: 'Set 2023',
+        picture: '/ordering.png',
+        github: 'https://github.com/Lucasvmarangoni/ordering-app',
+        type: 'guiado',
+        description: `
+        <p>
+        --> Projeto oferecido pelo canal @Michael Guay.
+        </p>
+
+        <p>
+        É uma aplicação baseada em arquitetura de microservices com RabbitMQ. Utilizando 2 
+        bancos de dados (primary  and secondary) e um arbiter. 
+
+        Cada um dos microservices é empacotado dentro de um container docker.
+        </p>
+        `,
+        technologies: ['Nest', 'Mongoose',
+            'Docker',
+            'DockerFile',
+            'Docker Compose',
+            'RabbitMQ',
+            'TypeScript',
+            'Node'
         ]
     },
 ]

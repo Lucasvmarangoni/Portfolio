@@ -6,7 +6,8 @@ import {
   paivaMotoPecas,
   port,
   taskList,
-  gopportunities
+  gopportunities,
+  ordering
 } from "../database/TecSearch";
 import { Csearch } from "./search-component";
 
@@ -19,26 +20,25 @@ export function Search() {
   const TpaivaMotoPecas: any = document.querySelector("#Tpaiva");
   const TcurrencyConverter: any = document.querySelector("#TcurrencyConverter");
   const Tgopportunities: any = document.querySelector("#Tgopportunities");
+  const Tordering: any = document.querySelector("#Tordering");
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");  
 
-  // const Sesports = new Csearch(0, esports, filter, Tesports);
-  // Sesports.execute();
   const Sport = new Csearch(0, port, filter, Tport);
   Sport.execute();
-  // const SnotServ = new Csearch(0, notServ, filter, TnotServ);
-  // SnotServ.execute();
   const StaskList = new Csearch(0, taskList, filter, TtaskList);
   StaskList.execute();
-  // const SbestSurf = new Csearch(0, bestSurf, filter, TbestSurf);
-  // SbestSurf.execute();
+  const SbestSurf = new Csearch(0, bestSurf, filter, TbestSurf);
+  SbestSurf.execute();
   const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
   SpaivaMotoPecas.execute();
   const ScurrencyConverter = new Csearch(0, currencyConverter, filter, TcurrencyConverter);
   ScurrencyConverter.execute();  
-  // const Sgopportunities = new Csearch(0, gopportunities, filter, Tgopportunities);
-  // Sgopportunities.execute(); 
+  const Sgopportunities = new Csearch(0, gopportunities, filter, Tgopportunities);
+  Sgopportunities.execute(); 
+  const Sordering = new Csearch(0, ordering, filter, Tordering)
+  Sordering.execute()
   
 }
 
