@@ -7,7 +7,8 @@ import {
   port,
   taskList,
   gopportunities,
-  ordering
+  ordering,
+  encoder
 } from "../database/TecSearch";
 import { Csearch } from "./search-component";
 
@@ -21,6 +22,7 @@ export function Search() {
   const TcurrencyConverter: any = document.querySelector("#TcurrencyConverter");
   const Tgopportunities: any = document.querySelector("#Tgopportunities");
   const Tordering: any = document.querySelector("#Tordering");
+  const Tencoder: any = document.querySelector("#Tencoder");
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");  
@@ -39,6 +41,8 @@ export function Search() {
   Sgopportunities.execute(); 
   const Sordering = new Csearch(0, ordering, filter, Tordering)
   Sordering.execute()
+  const Sencoder = new Csearch(0, encoder, filter, Tencoder)
+  Sencoder.execute()
   
 }
 

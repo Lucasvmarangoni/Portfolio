@@ -11,8 +11,9 @@ export const paivaMotoPecas: string[] = projectsDB[5].technologies.concat(" ", "
 export const currencyConverter: string[] = projectsDB[6].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const gopportunities: string[] = projectsDB[7].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 export const ordering: string[] = projectsDB[8].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
+export const encoder: string[] = projectsDB[9].technologies.concat(" ", "").join(" ").toLowerCase().split(" ");
 
-const fullDatabase = [...port, ...paivaMotoPecas, ...bestSurf,...taskList,  ...currencyConverter, ...gopportunities, ...ordering]
+const fullDatabase = [...port, ...paivaMotoPecas, ...bestSurf, ...taskList, ...currencyConverter, ...gopportunities, ...ordering, ...encoder]
 let tecnologias: string[] = []
 
 const ordenedFullDatabase: string[] = fullDatabase.sort()

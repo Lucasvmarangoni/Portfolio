@@ -18,7 +18,7 @@ export const Projetos = () => {
   }).reverse();
 
   const autoraisId: string[] = ["TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
-  const projetosId: string[] = ["Tordering", "Tgopportunities", "TbestSurf"]
+  const projetosId: string[] = ["Tencoder", "Tordering", "Tgopportunities", "TbestSurf"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -81,7 +81,7 @@ export const Projetos = () => {
             type="search"
             placeholder="Pesquise pelas tecnologias."
             list="datalist"
-            className="px-3 bg-BG text-[#25252588] brightness-200 text-sm placeholder:text-[#302f2f] 
+            className="px-3 bg-BG text-T1 brightness-[1.6] text-sm placeholder:text-[#25252588] 
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
           n2:w-80 n2:h-10 
@@ -111,7 +111,7 @@ export const Projetos = () => {
                   filterInput.value = ""
                   setCheck(0)
                   setList([])
-                  document.querySelectorAll('#Tgopportunities, #TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #TnotServ, #Tport, #Tesports')
+                  document.querySelectorAll('#Tencoder, #Tordering, #Tgopportunities, #TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #Tport')
                     .forEach((element: any) => {
                       if (element) {
                         element.style.display = "flex"

@@ -10,6 +10,7 @@ interface ProjectProps {
     github: string,
     version?: string,
     type: string,
+    situation?: string,
     description: string
     technologies: string[]
     extra?: JSX.Element
@@ -366,6 +367,30 @@ export const projectsDB: ProjectProps[] = [
             'RabbitMQ',
             'TypeScript',
             'Node'
+        ]
+    },
+    {
+        name: 'Video Encoder',
+        year: 'Set 2023',
+        picture: '/encoder.png',
+        github: 'https://github.com/Lucasvmarangoni/video-encoder',
+        type: 'guiado',
+        situation: 'EM DESENVOLVIMENTO',
+        description: `
+        <p>
+        --> Projeto do curso full cycle.
+        </p>
+
+        <p>
+        Microservice de encoder de vídeo com Golang, utilizando arquitetura hexagonal. 
+        </p>
+        `,
+        technologies: ['Go', 'Golang',
+            'Docker',
+            'DockerFile',
+            'Docker Compose',
+            'Google Cloud',
+            'GCP',            
         ]
     },
 ]
