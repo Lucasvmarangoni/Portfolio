@@ -7,7 +7,7 @@ export const Layout = () => {
     <div>
       <Header />
       <Outlet />
-      {Motion(0.8, 1.5,
+      {Motion(0.8, 1.0,
         <div
           className="text-T1 text-sm text-end flex justify-center items-end brightness-200 my-2 scroll-item relative bottom-0
         
