@@ -70,6 +70,9 @@ export function Now() {
             }          
             {
               now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
+            }   
+              {
+              now(1.0, 1.3, "Construindo:", "https://github.com/Lucasvmarangoni/video-encoder", "Video encoder")
             }            
           </div>
 
