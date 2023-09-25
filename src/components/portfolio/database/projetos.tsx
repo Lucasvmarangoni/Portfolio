@@ -285,12 +285,8 @@ export const projectsDB: ProjectProps[] = [
             - A request pode ser feita utilizando qualquer moeda válida como base (from). <br>
             - Em uma mesma request, é possível solicitar a conversão para quantas moedas desejar. <br>
             - O usuário pode se autenticar (local), pela mesma rota (url), utilizando username ou email.  <br>
-            </p>          
-           
-            <p>
-            <strong>Importante!</strong>! <u>Não testei o sistema de autenticação do google, por ser necessário configurar no Google Cloud e, portanto, ativar os créditos gratuitos, 
-            que expiram em 90 dias, e não vou praticar GCP agora, mas em um futuro próximo sim</u>            
-            </p>   
+            </p>                     
+            
             <p>
             - Em breve farei uma versão desse projeto com arquitetura de microservices, utilizando RabbitMQ.          
             </p>            
