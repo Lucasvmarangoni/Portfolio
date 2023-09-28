@@ -39,7 +39,7 @@ export function TextCapa() {
         {Motion(0.7, 0.4,
           <p className="mb-1 text-justify 
           ">
-            Sou desenvolvedor  <span className="text-T1 brightness-[2.3] font-semibold">backend</span>, Typescript e Golang. 
+            Sou desenvolvedor  <span className="text-T1 brightness-[2.3] font-semibold">backend</span>, TypeScript e Golang. 
             Profissionalmente, anseio por me envolver e contribuir em projetos complexos e de grande importância para o mundo, me 
             desafiando e possibilitando aproveitar ao máximo meu potencial. Neste espaço, apresento meus principais projetos, além de 
             compartilhar algumas informações sobre mim.
