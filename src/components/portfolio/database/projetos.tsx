@@ -216,7 +216,7 @@ export const projectsDB: ProjectProps[] = [
         <p className="P mb-8 mt-4">
         - O vídeo é uma demonstração das requests e responses no insomnia e da documentação. <br> 
         
-        - As imagens são prints de partes relevantes do código. (Não dispensa à análise completa do projeto). <br>
+        - As imagens são prints de partes relevantes do código. <br>
 
         - Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github.       
         </p>      
@@ -273,7 +273,7 @@ export const projectsDB: ProjectProps[] = [
             <p className="P mb-8 mt-4">
             - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
 
-            - As imagens são prints de partes relevantes do código. (Não dispensa à análise completa do projeto).  <br>
+            - As imagens são prints de partes relevantes do código. <br>
 
             - Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github. <br>       
             </p>                        
