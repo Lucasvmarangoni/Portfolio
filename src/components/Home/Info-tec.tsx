@@ -85,9 +85,9 @@ export const Info = () => {
                 <div className="m-auto grid itens-center scroll-item h-[100vh]">
                     <Second />
                 </div>
-                <div className="m-auto grid itens-center scroll-item h-full">
+                {/* <div className="m-auto grid itens-center scroll-item h-full">
                     <Third />
-                </div>
+                </div> */}
             </div>
 
 
