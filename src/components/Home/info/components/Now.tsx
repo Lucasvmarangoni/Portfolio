@@ -34,7 +34,7 @@ export function Now() {
       <Dialog.Trigger asChild className="text-T1 cursor-pointer border-b-[2px] 
       brightness-200 border-[#3b27535b] max-w-fit p-1 px-3 rounded-lg hover:opacity-100 hover:text-[0.97rem]
       ">
-        <p >Atualmente</p>
+        <p >Acompanhe</p>
       </Dialog.Trigger>
 
 
