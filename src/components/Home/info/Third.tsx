@@ -29,7 +29,7 @@ export function Third() {
                     ">Estatísticas Github</h1>
                 <div className="flex flex-wrap items-center justify-center w-full">
                     <img src={link} className="brightness-100 h-48" alt="Lucasvmarangoni's Github Activity Graph" />
-                    <p className="text-T2 max-w-[28em] PP">TypeScript foi minha primeira escolha pela baixa curva de aprendizado. Go por sua aplicação em projetos criticos,
+                    <p className="text-T2 max-w-[28em] PP">TypeScript (Node) foi minha primeira escolha pela baixa curva de aprendizado. Go por sua aplicação em projetos criticos,
                         mas o diferencial foi sua forma única de fazer as coisas, com a qual me identifiquei. Além disso, se complementam,
                         em operações de E/S e em processamento de CPU. </p>
                 </div>
