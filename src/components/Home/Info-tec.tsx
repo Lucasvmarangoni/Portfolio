@@ -86,7 +86,7 @@ export const Info = () => {
                     <Second />
                 </div>
                 <div className="m-auto grid itens-center scroll-item h-full">                    
-                    <Third />
+                    {/* <Third /> */}
                 </div>
             </div>
 
