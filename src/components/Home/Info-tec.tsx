@@ -39,7 +39,7 @@ export const Info = () => {
 
             <InfoHeader />
 
-          
+
 
             <div className="m-auto  scroll-item-first
              n1:mb-44
@@ -63,7 +63,7 @@ export const Info = () => {
                    
                     ">
                         {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática</h2>)}
-                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank"/>)}
+                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank" />)}
                     </div>
 
 
@@ -85,9 +85,9 @@ export const Info = () => {
                 <div className="m-auto grid itens-center scroll-item h-[100vh]">
                     <Second />
                 </div>
-                {/* <div className="m-auto grid itens-center scroll-item h-full">
+                <div className="m-auto grid itens-center scroll-item h-full">                    
                     <Third />
-                </div> */}
+                </div>
             </div>
 
 
