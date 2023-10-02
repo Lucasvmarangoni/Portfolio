@@ -81,7 +81,7 @@ export const Projetos = () => {
 
     MotionFirst(1.0, 0.5,
       <div
-        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto   " + pageWidth}
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150  " + pageWidth}
       >
         <div
           className={" flex justify-center items-center brightness-150  " + pageWidth}
@@ -176,7 +176,7 @@ export const Projetos = () => {
 
         <div className="grid gap-40 relative">
 
-          <div className="grid gap-10 scroll-item brightness-150">
+          <div className="grid gap-10 scroll-item ">
             <div className="brightness-125 m-auto flex flex-wrap justify-center align-center
               gap-10">
 
