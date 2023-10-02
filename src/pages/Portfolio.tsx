@@ -166,13 +166,13 @@ export const Projetos = () => {
           </datalist>
         </div>
 
-        <div className="w-full">
+        {/* <div className="w-full">
           <img src={link} className="relative right-4 m-auto   
           n5:w-[23rem]  
           n6:w-[18rem]  
           n7:w-52  
           " alt="Lucasvmarangoni's Github Activity Graph" />
-        </div>
+        </div> */}
 
         <div className="grid gap-40 relative">
 
@@ -276,11 +276,7 @@ export const Projetos = () => {
 
           </div>
 
-        </div>
-        <hr className=" border-[#25252588] w-[80%] m-auto mt-10" />
-        <div className="flex flex-wrap items-center justify-center w-full  relative top-14">
-          <img src={linkGraph} className="brightness-200 w-[92%]" alt="Lucasvmarangoni's Github Activity Graph" />
-        </div>
+        </div>        
       </div >
     )
   );
