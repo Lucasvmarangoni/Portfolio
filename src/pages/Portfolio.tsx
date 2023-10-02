@@ -9,6 +9,23 @@ import { pageWidth } from "./util/page-width";
 
 export const Projetos = () => {
 
+  const username = "Lucasvmarangoni";
+  const customTitle = "GitHub Activity Graph";
+  const bgColor = "070707";
+  const color = "3b27535b";
+  const line = "3b27535b";
+  const point = "ffffff85";
+  const areaColor = "030303";
+  const titleColor = "3b27535b";
+  const hideBorder = true
+  const hideTitle = true
+  const area = true;
+
+  const linkGraph =
+    `https://github-readme-activity-graph.vercel.app/graph?username=${username}&custom_title=${customTitle}&bg_color=${areaColor}&color=${color}&line=${line}&point=${point}&area_color=${areaColor}&title_color=${titleColor}&area=${area}&hide_border=${hideBorder}&hide_title=${hideTitle}`
+  const link =
+    `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&langs_count=2&hide_title=${hideTitle}&bg_color=${bgColor}&hide_border=${hideBorder}`
+
   const personalProjects = projectsDB.filter((project) => {
     return project.type === "pessoal" || project.type === "equipe"
   }).reverse();
@@ -64,10 +81,10 @@ export const Projetos = () => {
 
     MotionFirst(1.0, 0.5,
       <div
-        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150  " + pageWidth}
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto   " + pageWidth}
       >
         <div
-          className={" flex justify-center items-center brightness-125  " + pageWidth}
+          className={" flex justify-center items-center brightness-150  " + pageWidth}
         >
           <label
             aria-label="Pesquise o projeto pela tecnologia."
@@ -81,7 +98,7 @@ export const Projetos = () => {
             type="search"
             placeholder="Pesquise pelas tecnologias."
             list="datalist"
-            className="px-3 bg-BG text-T1 brightness-[1.6] text-sm placeholder:text-[#25252588] 
+            className="px-3 bg-BG text-T1 text-sm placeholder:text-[#25252588] placeholder:brightness-150 
           n0:w-80 n0:h-10
           n1:w-80 n1:h-10
           n2:w-80 n2:h-10 
@@ -125,13 +142,13 @@ export const Projetos = () => {
               />
               : <VscSearch
                 color="#3b275367"
-                className="bg-BG  pr-2
-              n0:w-8 n0:h-10
-              n1:w-8 n1:h-10
-              n2:w-8 n2:h-10
-              n3:w-8 n3:h-10
-              n4:w-8 n4:h-10
-              n5:w-8 n5:h-10 
+                className="bg-BG pr-2 relative right-10
+              n0:w-8 n0:h-8
+              n1:w-8 n1:h-8
+              n2:w-8 n2:h-8
+              n3:w-8 n3:h-8
+              n4:w-8 n4:h-8
+              n5:w-8 n5:h-8 
               n6:w-8 n6:h-8
               n7:w-8 n7:h-8"
               />
@@ -149,9 +166,17 @@ export const Projetos = () => {
           </datalist>
         </div>
 
+        <div className="w-full">
+          <img src={link} className="relative right-4 m-auto   
+          n5:w-[23rem]  
+          n6:w-[18rem]  
+          n7:w-52  
+          " alt="Lucasvmarangoni's Github Activity Graph" />
+        </div>
+
         <div className="grid gap-40 relative">
 
-          <div className="grid gap-10 scroll-item">
+          <div className="grid gap-10 scroll-item brightness-150">
             <div className="brightness-125 m-auto flex flex-wrap justify-center align-center
               gap-10">
 
@@ -168,13 +193,13 @@ export const Projetos = () => {
                   </p>
                 </div>
 
-              // <div className=" text-center w-[70%] m-auto brightness-200">
-              // <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
-              // <p className="text-base text-[#25252588] text-justify" >
-              //   Apresento nesse portfólio apenas meus projetos autorais, ou seja, que desenvolvo sozinho (pessoal) ou em
-              //   colaboração com uma equipe (equipe).
-              // </p>
-              // </div>
+                // <div className=" text-center w-[70%] m-auto brightness-200">
+                // <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
+                // <p className="text-base text-[#25252588] text-justify" >
+                //   Apresento nesse portfólio apenas meus projetos autorais, ou seja, que desenvolvo sozinho (pessoal) ou em
+                //   colaboração com uma equipe (equipe).
+                // </p>
+                // </div>
 
               )}
 
@@ -202,7 +227,7 @@ export const Projetos = () => {
 
 
 
-            <hr className=" border-[#25252588] w-[80%] m-auto"/>
+            <hr className=" border-[#25252588] w-[80%] m-auto" />
 
             <div className="grid gap-10 scroll-item
             
@@ -217,8 +242,8 @@ export const Projetos = () => {
                   >
                     <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
                     <p className="text-base text-[#25252588] text-justify" >
-                      Projetos guiados são desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja, 
-                      sua criação não é de minha autoria. 
+                      Projetos guiados são desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja,
+                      sua criação não é de minha autoria.
                       <br></br>
                       - Listo aqui somente os projetos mais recentes e relevantes.
                     </p>
@@ -251,6 +276,10 @@ export const Projetos = () => {
 
           </div>
 
+        </div>
+        <hr className=" border-[#25252588] w-[80%] m-auto mt-10" />
+        <div className="flex flex-wrap items-center justify-center w-full  relative top-14">
+          <img src={linkGraph} className="brightness-200 w-[92%]" alt="Lucasvmarangoni's Github Activity Graph" />
         </div>
       </div >
     )
