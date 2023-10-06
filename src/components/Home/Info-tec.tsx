@@ -59,12 +59,12 @@ export const Info = () => {
                         {Motion(1.0, 1.2, < Algorithm name="Devgym" hover={'hover:after:right-7'} link='#' />)}
                     </div> */}
 
-                    <div className="max-h-10 
+                    {/* <div className="max-h-10 
                    
                     ">
                         {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática</h2>)}
-                        {/* {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank" />)} */}
-                    </div>
+                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank" />)}
+                    </div> */}
 
 
                 </div>
