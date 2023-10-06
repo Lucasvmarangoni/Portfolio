@@ -63,7 +63,7 @@ export const Info = () => {
                    
                     ">
                         {Motion(1.0, 1.1, <h2 className="PP relative top-2">Algoritmos e matemática</h2>)}
-                        {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank" />)}
+                        {/* {Motion(1.0, 1.2, < Algorithm name="HackerRank" hover={'hover:after:right-1'} link='https://www.hackerrank.com/lucasvm_ti' target="_blank" />)} */}
                     </div>
 
 

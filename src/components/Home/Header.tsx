@@ -70,7 +70,7 @@ export function Header() {
             <NavLink to="/projetos">Projetos</NavLink>
           </button>
 
-          <button
+          {/* <button
             className=" h-8 w-24 text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
             n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
@@ -80,7 +80,7 @@ export function Header() {
             n7:invisible"
           >
             <NavLink to="https://www.hackerrank.com/lucasvm_ti" target="_blank">HackerRank</NavLink>
-          </button>
+          </button> */}
 
           <button
           id="contato"
