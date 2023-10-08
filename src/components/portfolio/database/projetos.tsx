@@ -288,7 +288,8 @@ export const projectsDB: ProjectProps[] = [
             </p>                     
             
             <p>
-            - Em breve farei uma versão desse projeto com arquitetura de microservices, utilizando RabbitMQ.          
+            - Em breve farei a comunicação entre módulos por mensageria, utilizando RabbitMQ.
+            Também farei uma versão desse projeto com arquitetura de microservices, com RabbitMQ.          
             </p>            
             
         `,
