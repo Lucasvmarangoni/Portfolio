@@ -15,14 +15,14 @@ export function Now() {
             {title}
           </p>
 
-          {href !== "!" 
-          ?
+          {href !== "!"
+            ?
             <a href={href} target="_blank" rel="noreferrer"
-            className={link}
-          >{activity}
-          </a> 
-          :
-          <p className={link}>{activity}</p>
+              className={link}
+            >{activity}
+            </a>
+            :
+            <p className={link}>{activity}</p>
           }
         </div >
       )
@@ -61,19 +61,16 @@ export function Now() {
             </Dialog.Title>)
           )}
 
-          <div className="grid gap-4">
-            {/* {
-              now(1.0, 0.7, "Curso:", "!", "Sistemas operacionais (UNIVESP - Youtube)")
-            }          
-            {
-              now(1.0, 0.9, "Livro:", "!", "Sistemas Operacionais Modernos (Tanenbaum)")
-            }           */}
+          <div className="grid gap-4">          
             {
               now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
-            }   
-              {
-              now(1.0, 1.3, "Construindo:", "https://github.com/Lucasvmarangoni/video-encoder", "Video encoder")
-            }            
+            }
+            {
+              now(1.0, 1.3, "Aprimorando:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (Comunicação por messageria)")
+            }
+            {
+              now(1.0, 1.5, "Curso:", "https://www.youtube.com/@univesptv/playlists?view=50&sort=dd&shelf_id=3", "Engenharia de software - UNIVESP (Youtube)")
+            }
           </div>
 
 

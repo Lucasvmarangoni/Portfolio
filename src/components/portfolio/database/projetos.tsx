@@ -371,8 +371,7 @@ export const projectsDB: ProjectProps[] = [
         year: 'Set 2023',
         picture: '/encoder.png',
         github: 'https://github.com/Lucasvmarangoni/video-encoder',
-        type: 'guiado',
-        situation: 'EM CONSTRUÇÃO',
+        type: 'guiado',        
         description: `
         <p>
         --> Projeto do curso full cycle.
@@ -382,12 +381,13 @@ export const projectsDB: ProjectProps[] = [
         Microservice de encoder de vídeo com Golang, utilizando arquitetura hexagonal. 
         </p>
         `,
-        technologies: ['Go', 'Golang', 'Gorm',
+        technologies: ['Go', 'Golang', 'Gorm', 'RabbitMQ',
             'Docker',
             'DockerFile',
             'Docker Compose',
-            'Google Cloud',
-            'GCP',            
+            'Google Cloud',            
+            'GCP',         
+            'Postgres'   
         ]
     },
 ]
