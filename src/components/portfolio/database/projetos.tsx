@@ -268,7 +268,7 @@ export const projectsDB: ProjectProps[] = [
         video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
-        situation: 'MANUTENÇÃO: CRIAÇÃO DE USUÁRIOS POR MENSAGERIA E +',
+        situation: 'MANUTENÇÃO: COMUNICAÇÃO ENTRE MODULOS POR MENSAGERIA E +',
         type: 'pessoal',
         description: `   
             <p className="P mb-8 mt-4">
