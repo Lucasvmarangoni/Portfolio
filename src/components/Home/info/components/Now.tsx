@@ -66,7 +66,7 @@ export function Now() {
               now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
             }
             {
-              now(1.0, 1.3, "Aprimorando:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (Comunicação por messageria)")
+              now(1.0, 1.3, "Manutenção:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (Comunicação por messageria)")
             }
             {
               now(1.0, 1.5, "Curso:", "https://www.youtube.com/@univesptv/playlists?view=50&sort=dd&shelf_id=3", "Engenharia de software - UNIVESP (Youtube)")
