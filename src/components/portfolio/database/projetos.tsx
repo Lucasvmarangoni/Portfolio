@@ -278,7 +278,7 @@ export const projectsDB: ProjectProps[] = [
 
         <u>Atual</u><br>
         
-        Fazendo a comunicação dos módulos com filas, utilizando a biblioteca Bull com a abstração do @nestjs/bull.
+        Fazendo a comunicação dos módulos com filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
         Também realizando outras melhorias, como, por exemplo, mongodb com a imagem bitnami 
         utilizando um secondary e arbiter para melhorar a disponibilidade. <br><br>
         
@@ -288,8 +288,8 @@ export const projectsDB: ProjectProps[] = [
 
         Projetos que demandem tal arquitetura, fazem por necessitarem principalmente de alta disponibilidade, mas também 
         alta escalabilidade e desempenho. <br>
-        Por isso decidi utilizar RabbitMQ, em vez de bull, para lidar com filas.<br>        
-        Além disso, dessa forma, consigo diversificar mais meu portfólio.
+        Por isso decidi utilizar RabbitMQ no lugar do Bull, para lidar com filas.<br>        
+        Também para diversificar mais meu portfólio.
        
         "
     />,
