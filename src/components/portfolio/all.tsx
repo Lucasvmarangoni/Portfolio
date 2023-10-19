@@ -15,13 +15,14 @@ interface Props {
     situation?: string,
     description: string,
     extra?: JSX.Element
+    maintenance?: JSX.Element
     technologies: string[],
     carousel?: JSX.Element,
 }
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel} = props;
+    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel, maintenance} = props;
     const htmlDescription = {
         __html: description
     };
@@ -99,6 +100,7 @@ export const listAllProjects = (props: Props) => {
 
                             </div>
                             <div className="">
+                                {maintenance}
                                 {extra}
                             </div>
                             <div className="divTec">

@@ -2,6 +2,7 @@ import { ProjectImagesCarousel } from "../../Home/info/components/images-carrose
 import { PortDica } from "../components/port-components/PortDica";
 import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
 import { cc, pmp, tl } from "./image-folder";
+import Maintenance from "./util/Maintenance";
 
 interface ProjectProps {
     name: string;
@@ -14,6 +15,7 @@ interface ProjectProps {
     description: string
     technologies: string[]
     extra?: JSX.Element
+    maintenance?: JSX.Element
     video?: string
     demo?: string
     carousel?: JSX.Element
@@ -268,8 +270,29 @@ export const projectsDB: ProjectProps[] = [
         video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
-        situation: 'MANUTENÇÃO: COMUNICAÇÃO ENTRE MODULOS POR MENSAGERIA E +',
+        situation: 'PROJETO EM MANUTENÇÃO',
         type: 'pessoal',
+        maintenance: <Maintenance title="Informações sobre a manutenção" content="    
+        
+        <strong>Manutenção</strong> <br><br>
+
+        <u>Atual</u><br>
+        
+        Fazendo a comunicação dos módulos com filas, utilizando a biblioteca Bull com a abstração do @nestjs/bull.
+        Também realizando outras melhorias, como, por exemplo, mongodb com a imagem bitnami 
+        utilizando um secondary e arbiter para melhorar a disponibilidade. <br><br>
+        
+        <u>Próxima</u>     <br>  
+
+        A seguir farei a versão desse projeto com arquitetura de microservices.   <br>          
+
+        Projetos que demandem tal arquitetura, fazem por necessitarem principalmente de alta disponibilidade, mas também 
+        alta escalabilidade e desempenho. <br>
+        Por isso decidi utilizar RabbitMQ, em vez de bull, para lidar com filas.<br>        
+        Além disso, dessa forma, consigo diversificar mais meu portfólio.
+       
+        "
+    />,
         description: `   
             <p className="P mb-8 mt-4">
             - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
@@ -277,7 +300,7 @@ export const projectsDB: ProjectProps[] = [
             - As imagens são prints de partes relevantes do código. <br>
 
             - Os testes podem ser verificados pelo workflow, no repositório do projeto no meu github. <br>       
-            </p>                        
+            </p>  
                  
             <p>O projeto é uma API Rest para conversão de moedas consumindo a API Exchangerates desenvolvida com 
             <strong>Nest.js</strong>, utilizando arquitetura de <strong>monólito modular</strong>. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
@@ -286,13 +309,7 @@ export const projectsDB: ProjectProps[] = [
             - A request pode ser feita utilizando qualquer moeda válida como base (from). <br>
             - Em uma mesma request, é possível solicitar a conversão para quantas moedas desejar. <br>
             - O usuário pode se autenticar (local), pela mesma rota (url), utilizando username ou email.  <br>
-            </p>                     
-            
-            <p>
-            - Em breve farei a comunicação entre módulos por mensageria, utilizando RabbitMQ.
-            Também farei uma versão desse projeto com arquitetura de microservices, com RabbitMQ.          
-            </p>            
-            
+            </p>      
         `,
         technologies: [
             "Node",
@@ -372,7 +389,7 @@ export const projectsDB: ProjectProps[] = [
         year: 'Set 2023',
         picture: '/encoder.png',
         github: 'https://github.com/Lucasvmarangoni/video-encoder',
-        type: 'guiado',        
+        type: 'guiado',
         description: `
         <p>
         --> Projeto do curso full cycle.
@@ -386,9 +403,9 @@ export const projectsDB: ProjectProps[] = [
             'Docker',
             'DockerFile',
             'Docker Compose',
-            'Google Cloud',            
-            'GCP',         
-            'Postgres'   
+            'Google Cloud',
+            'GCP',
+            'Postgres'
         ]
     },
 ]
