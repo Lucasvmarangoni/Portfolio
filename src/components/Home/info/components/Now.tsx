@@ -1,5 +1,6 @@
 import * as Dialog from "@radix-ui/react-dialog";
 import { Motion, MotionFirst } from "../../../functions/Motion";
+import { Link } from "react-router-dom";
 
 
 
@@ -7,7 +8,7 @@ export function Now() {
 
   const link = "underline text-T1 brightness-200 hover:opacity-80 P text-left"
 
-  const now = (duration: number, delay: number, title: string, href: string, activity: string): any => {
+  const now = (duration: number, delay: number, title: string, href: string, activity: string, more?: string | string[]): any => {
     return (
       Motion(duration, delay,
         <div className="flex flex-wrap gap-2" >
@@ -17,13 +18,23 @@ export function Now() {
 
           {href !== "!"
             ?
-            <a href={href} target="_blank" rel="noreferrer"
+            <Link to={href} target="_blank" rel="noreferrer"
               className={link}
             >{activity}
-            </a>
+            </Link>
             :
             <p className={link}>{activity}</p>
           }
+
+          {
+            more 
+            ?
+              <Link to={more[0]} className={link} target="_blank" rel="noreferrer">
+                {more[1]}
+              </Link>
+              : null
+          }
+
         </div >
       )
     )
@@ -61,7 +72,7 @@ export function Now() {
             </Dialog.Title>)
           )}
 
-          <div className="grid gap-4">          
+          <div className="grid gap-4">
             {
               now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
             }
@@ -69,7 +80,8 @@ export function Now() {
               now(1.0, 1.3, "Manutenção:", "https://github.com/Lucasvmarangoni/currency-converter", "Currency Converter (Comunicação por mensageria)")
             }
             {
-              now(1.0, 1.5, "Curso:", "https://www.youtube.com/@univesptv/playlists?view=50&sort=dd&shelf_id=3", "Engenharia de software - UNIVESP (Youtube)")
+              now(1.0, 1.5, "Curso:", "https://univesp.br/sites/58f6506869226e9479d38201/assets/5947e3fa69226ee825baf576/MatrizCurricular_EngenhariaCOMPUTA__O.pdf",
+                "Engenharia de software - UNIVESP", [`https://www.youtube.com/@univesptv/playlists?view=50&sort=dd&shelf_id=3`, "(Youtube)"])
             }
           </div>
 
