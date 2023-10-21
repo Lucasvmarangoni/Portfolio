@@ -329,6 +329,7 @@ export const projectsDB: ProjectProps[] = [
             "Bcrypt",
             "Passport",
             "Pino",
+            "Bull"
 
         ],
         carousel: <ProjectImagesCarousel images={cc} />
