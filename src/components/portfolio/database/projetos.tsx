@@ -11,11 +11,10 @@ interface ProjectProps {
     github: string,
     version?: string,
     type: string,
-    situation?: string,
+    situation?: string | JSX.Element,
     description: string
     technologies: string[]
-    extra?: JSX.Element
-    maintenance?: JSX.Element
+    extra?: JSX.Element    
     video?: string
     demo?: string
     carousel?: JSX.Element
@@ -270,9 +269,9 @@ export const projectsDB: ProjectProps[] = [
         video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.0.0',
-        situation: 'PROJETO EM MANUTENÇÃO',
+        // situation: 'PROJETO EM MANUTENÇÃO',
         type: 'pessoal',
-        maintenance: <Maintenance title="Informações sobre a manutenção" content="    
+        situation: <Maintenance title="PROJETO EM MANUTENÇÃO" content="    
         
         <strong>Manutenção</strong> <br><br>
 

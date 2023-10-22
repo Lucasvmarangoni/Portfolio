@@ -11,18 +11,18 @@ const Maintenance: React.FC<MaintenanceProps> = ({ title, content }) => {
 
   return (
     <Collapsible.Root
-      className="CollapsibleRoot"
+      className="w-full"
       open={open}
       onOpenChange={setOpen}
     >
       <div>
-        <Collapsible.Trigger className="CollapsibleTrigger">
-          <button className="hTec cursor-pointer">
-            <h2 className="mb-3 text-center">{title}</h2>
+        <Collapsible.Trigger className="w-full">
+          <button className="hTec w-full cursor-pointer">
+            <h2 className="text-center w-full">{title}</h2>
           </button>
         </Collapsible.Trigger>
 
-        <Collapsible.Content className="CollapsibleContent">
+        <Collapsible.Content className="CollapsibleContent text-T2  border-b-2 border-[#3b27535b] pb-4">
         <p className="P" dangerouslySetInnerHTML={{ __html: content }}></p>
 
         </Collapsible.Content>

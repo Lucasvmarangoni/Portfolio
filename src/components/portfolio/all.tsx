@@ -4,25 +4,24 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 interface Props {
-    name: string,
-    year: string,
-    picture: string,
-    demo?: string,
-    video?: string,
-    github: string,
-    version?: string,
-    type: string,
-    situation?: string,
-    description: string,
-    extra?: JSX.Element
-    maintenance?: JSX.Element
-    technologies: string[],
-    carousel?: JSX.Element,
+    name: string
+    year: string
+    picture: string
+    demo?: string
+    video?: string
+    github: string
+    version?: string
+    type: string
+    situation?: string | JSX.Element
+    description: string
+    extra?: JSX.Element    
+    technologies: string[]
+    carousel?: JSX.Element
 }
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel, maintenance} = props;
+    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel} = props;
     const htmlDescription = {
         __html: description
     };
@@ -62,8 +61,7 @@ export const listAllProjects = (props: Props) => {
                                 ? carousel
                                 : null
                             }
-                        </div>
-                        <h2 className={`${situation ? 'hTec  mb-3 text-center' : null}`}>{situation}</h2>
+                        </div>                        
                         <div className="flex gap-2">
 
                             <div className="Icon">
@@ -94,13 +92,15 @@ export const listAllProjects = (props: Props) => {
                             {version ? <img src={`https://img.shields.io/badge/version-${version}-black`} alt={`Version ${version}`}></img> : null}
                             <img src={`https://img.shields.io/badge/Projeto ${type}-black`} alt={`projeto ${type}`}></img>
                         </div>
+                        
+                        <h2 className={`${situation ? 'w-full' : null}`}>{situation ? situation : null}</h2>
+
                         <div className="grid gap-3">
                             <div className="P grid gap-3" dangerouslySetInnerHTML={htmlDescription}>
 
 
                             </div>
-                            <div className="">
-                                {maintenance}
+                            <div className="">                               
                                 {extra}
                             </div>
                             <div className="divTec">
