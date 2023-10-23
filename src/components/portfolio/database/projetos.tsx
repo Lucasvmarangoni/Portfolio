@@ -278,8 +278,8 @@ export const projectsDB: ProjectProps[] = [
         <u>Atual</u><br>
         
         Fazendo a comunicação dos módulos com filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
-        Também realizando outras melhorias, como, por exemplo, mongodb com a imagem bitnami 
-        utilizando um secondary e arbiter para melhorar a disponibilidade. <br><br>
+        Também realizando outras melhorias, como, por exemplo, criar um conjunto de replicar com arbiter para ter redundância dos dados,
+        e melhor a disponibilidade. <br><br>
         
         <u>Próxima</u>     <br>  
 
