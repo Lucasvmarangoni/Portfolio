@@ -305,6 +305,7 @@ export const projectsDB: ProjectProps[] = [
             <strong>Nest.js</strong>, utilizando arquitetura de <strong>monólito modular</strong>. Possui testes unitários, de integração e e2e, tratamento de exceções, logs, caching, doc. OpenAPI, sistema de autenticação local e OAuth (google).
             </p>              
             <p>
+            - A comunicação entre módulos e a persistência dos dados é por filas de mesageria com Bull. <br>
             - A request pode ser feita utilizando qualquer moeda válida como base (from). <br>
             - Em uma mesma request, é possível solicitar a conversão para quantas moedas desejar. <br>
             - O usuário pode se autenticar (local), pela mesma rota (url), utilizando username ou email.  <br>
