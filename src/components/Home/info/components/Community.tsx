@@ -24,8 +24,7 @@ export function Community() {
         return (
             <div className="flex gap-1 itens-center">
                 <img src={src} alt="" className="w-6 h-6 brightness-75" />
-
-                <Link to="to" className="PP hover:underline" target="_blank">{text}</Link>
+                <Link to={to} className="PP hover:underline" target="_blank">{text}</Link>
             </div>
         )
     }
