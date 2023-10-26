@@ -1,4 +1,5 @@
 import { ProjectImagesCarousel } from "../../Home/info/components/images-carrosel";
+import { ProblemasSuperados } from "../components/currency-converter-components/Problens";
 import { PortDica } from "../components/port-components/PortDica";
 import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
 import { cc, pmp, tl } from "./image-folder";
@@ -14,7 +15,7 @@ interface ProjectProps {
     situation?: string | JSX.Element,
     description: string
     technologies: string[]
-    extra?: JSX.Element    
+    extra?: JSX.Element | JSX.Element[]
     video?: string
     demo?: string
     carousel?: JSX.Element
@@ -291,7 +292,8 @@ export const projectsDB: ProjectProps[] = [
         Também para diversificar mais meu portfólio.
        
         "
-    />,
+        />,
+        extra: <ProblemasSuperados />,
         description: `   
             <p className="P mb-8 mt-4">
             - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
@@ -306,6 +308,7 @@ export const projectsDB: ProjectProps[] = [
             </p>              
             <p>
             - A comunicação entre módulos e a persistência dos dados é por filas de mesageria com Bull. <br>
+            - Para o banco de dados foi feito um cluster de replicas, nó primário, com uma cópia secundária e um arbiter. <br>
             - A request pode ser feita utilizando qualquer moeda válida como base (from). <br>
             - Em uma mesma request, é possível solicitar a conversão para quantas moedas desejar. <br>
             - O usuário pode se autenticar (local), pela mesma rota (url), utilizando username ou email.  <br>
