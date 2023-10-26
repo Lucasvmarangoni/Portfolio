@@ -40,10 +40,10 @@ export const listAllProjects = (props: Props) => {
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className="DialogOverlay" />
-                <Dialog.Content className="DialogContent focus:outline-none">
+                <Dialog.Content className="DialogContent focus:outline-none brightness-125">
                     <Dialog.Title className="DialogTitle">
-                        <h1 className="projTitle">
-                            {name} - <span className="projYear">{year}</span>
+                        <h1 className="projTitle brightness-[3]">
+                            {name} - <span className="projYear brightness-75">{year}</span>
                         </h1>
                     </Dialog.Title>
 

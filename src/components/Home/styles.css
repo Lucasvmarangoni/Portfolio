@@ -60,7 +60,7 @@
     bottom-0;
   }
   .DialogContent {
-    @apply bg-BG 
+    @apply bg-[#070707ea]
     p-7     
     rounded-md 
     grid 
