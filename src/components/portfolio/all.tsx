@@ -14,7 +14,7 @@ interface Props {
     type: string
     situation?: string | JSX.Element
     description: string
-    extra?: JSX.Element    
+    extra?: JSX.Element | JSX.Element[]    
     technologies: string[]
     carousel?: JSX.Element
 }

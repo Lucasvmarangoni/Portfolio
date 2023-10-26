@@ -81,7 +81,7 @@ export const Projetos = () => {
 
     MotionFirst(1.0, 0.5,
       <div
-        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150  " + pageWidth}
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-200  " + pageWidth}
       >
         <div
           className={" flex justify-center items-center brightness-150  " + pageWidth}
