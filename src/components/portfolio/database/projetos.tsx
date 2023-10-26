@@ -280,20 +280,10 @@ export const projectsDB: ProjectProps[] = [
         
         Fazendo a comunicação dos módulos com filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
         Também realizando outras melhorias, como, por exemplo, criar um conjunto de replicar com arbiter para ter redundância dos dados,
-        e melhor a disponibilidade. <br><br>
-        
-        <u>Próxima</u>     <br>  
-
-        A seguir farei a versão desse projeto com arquitetura de microservices.   <br>          
-
-        Projetos que demandem tal arquitetura, fazem por necessitarem principalmente de alta disponibilidade, mas também 
-        alta escalabilidade e desempenho. <br>
-        Por isso decidi utilizar RabbitMQ no lugar do Bull, para lidar com filas.<br>        
-        Também para diversificar mais meu portfólio.
-       
+        e melhor a disponibilidade. 
         "
         />,
-        extra: <ProblemasSuperados />,
+        // extra: <ProblemasSuperados />,
         description: `   
             <p className="P mb-8 mt-4">
             - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
