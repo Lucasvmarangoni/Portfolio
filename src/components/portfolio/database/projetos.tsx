@@ -66,14 +66,15 @@ export const projectsDB: ProjectProps[] = [
         description: `
         <p className="P">
         Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como desenvolvedor de software.         
-        </p>
+        </p>        
 
-        <p> É minha fonte de aprendizado de React.js, pois aprendi e aprendo enquanto 
-        desenvolvi e ainda desenvolvo funcionalidades para esse projeto. </p>
-
-        <p>  Busquei por meio desse meu website pessoal transmitir o máximo
+        <p>  Busquei por meio desse meu website pessoal transmitir o um pouco
         da minha personalidade, pois entendo que isso compõem parte de
         sua finalidade. </p>
+
+        <p> Estou aos poucos reformando o código, pois quando criei o projeto não tinha muito conhecimento e hoje estou tendo dificuldade
+        quando quero fazer alterações nas cores por exemplo, principalmente por conta do brilho, que altera o tom original de roxo
+        que idealizei. </p>
         `,
         extra: <PortDica />,
         technologies: [
