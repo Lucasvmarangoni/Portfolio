@@ -70,11 +70,7 @@ export const projectsDB: ProjectProps[] = [
 
         <p>  Busquei por meio desse meu website pessoal transmitir o um pouco
         da minha personalidade, pois entendo que isso compõem parte de
-        sua finalidade. </p>
-
-        <p> Estou aos poucos reformando o código, pois quando criei o projeto não tinha muito conhecimento e hoje estou tendo dificuldade
-        quando quero fazer alterações nas cores por exemplo, principalmente por conta do brilho, que altera o tom original de roxo
-        que idealizei. </p>
+        sua finalidade. </p>        
         `,
         extra: <PortDica />,
         technologies: [
@@ -323,7 +319,8 @@ export const projectsDB: ProjectProps[] = [
             "Bcrypt",
             "Passport",
             "Pino",
-            "Bull"
+            "Bull",
+            "GCP",
 
         ],
         carousel: <ProjectImagesCarousel images={cc} />
