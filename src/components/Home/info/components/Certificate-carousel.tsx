@@ -15,6 +15,14 @@ const images = [
     src: '/paiva-certificate.png',
     href: 'https://youtu.be/vE4thVxtfiE?t=1283',
   },
+  {
+    src: '/cyber.png',
+    href: '#',
+  },
+  {
+    src: '/solucoes.png',
+    href: '#',
+  },
 ];
 
 const CertificateCarousel: React.FC = () => {
