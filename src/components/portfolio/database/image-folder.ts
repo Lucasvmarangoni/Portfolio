@@ -51,6 +51,16 @@ export const cc: ImagesProps[] = [
         title: 'Estrutura de pastas',
         description: 'Um exemplo da estrutura de organização das pastas, no caso, do domínio do modulo user.',
     },     
+    {
+        src: '/currency-converter-images/cc-tsconfig.png',
+        title: 'Tsconfig',
+        description: 'Configurações do TypeScript no projeto.',
+    },
+    {
+        src: '/currency-converter-images/cc-script.png',
+        title: 'Script de config do banco de dados',
+        description: 'Esse script configura o cluster de replicas e cria as regras de usuário e o usuário para acesso ao banco de forma autenticada.',
+    },
 ];
 
 export const tl: ImagesProps[] = [
