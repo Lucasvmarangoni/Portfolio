@@ -277,8 +277,8 @@ export const projectsDB: ProjectProps[] = [
         Também realizar outras melhorias, como, por exemplo, criar um cluster de replicar para ter redundância dos dados,
         e melhor a disponibilidade.     
         <br><br>    
-        <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter'>
-        --> <u target='_blank'>Changelog</u></a>
+        <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
+        --> <u >Changelog</u></a>
         "
         />,
         // extra: <ProblemasSuperados />,
