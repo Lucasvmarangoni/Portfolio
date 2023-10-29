@@ -278,7 +278,7 @@ export const projectsDB: ProjectProps[] = [
         e melhor a disponibilidade.     
         <br><br>    
         <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter'>
-        --> <u>Changelog</u></a>
+        --> <u target='_blank'>Changelog</u></a>
         "
         />,
         // extra: <ProblemasSuperados />,
