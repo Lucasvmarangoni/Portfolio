@@ -273,7 +273,7 @@ export const projectsDB: ProjectProps[] = [
         
         <strong>Manutenção</strong> <br><br>        
         
-        O objetivo principal é fazer a comunicação dos módulos com filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
+        O objetivo principal é fazer a criação de usuário com filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
         Também realizar outras melhorias, como, por exemplo, criar um cluster de replicar para ter redundância dos dados,
         e melhor a disponibilidade.     
         <br><br>    
