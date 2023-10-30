@@ -275,7 +275,7 @@ export const projectsDB: ProjectProps[] = [
         
         O objetivo principal: implementar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
         <u>Outras:</u> <br>
-         - Cluster de replicar para ter redundância dos dados e melhorar a disponibilidade; <br>  
+         - Cluster de replicas para redundância dos dados e disponibilidade; <br>  
          - Conteinerização da aplicação; <br>
          - Reorganização seguindo princípios do DDD e clean architecture; <br>
          - Config estrita do typescript; <br>
