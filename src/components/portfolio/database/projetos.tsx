@@ -273,13 +273,13 @@ export const projectsDB: ProjectProps[] = [
         
         <strong>Manutenção</strong> <br><br>        
         
-        O objetivo principal é realizar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
-        <u>Também realizar outras melhorias:</u> <br>
-         - Criar um cluster de replicar para ter redundância dos dados e melhorar a disponibilidade; <br>  
+        O objetivo principal: implementar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
+        <u>Outras:</u> <br>
+         - Cluster de replicar para ter redundância dos dados e melhorar a disponibilidade; <br>  
          - Conteinerização da aplicação; <br>
          - Reorganização seguindo princípios do DDD e clean architecture; <br>
          - Config estrita do typescript; <br>
-         - Refatoração para adequar a configuração estrita com as práticas utilizadas pelo mercado. 
+         - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
         <br><br>    
         <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
         --> <u >Changelog</u></a>
