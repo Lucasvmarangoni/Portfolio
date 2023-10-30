@@ -273,9 +273,9 @@ export const projectsDB: ProjectProps[] = [
         
         <strong>Manutenção</strong> <br><br>        
         
-        O objetivo principal é fazer a criação de usuário com filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
+        O objetivo principal persistência dos dados de usuário por filas, utilizando a biblioteca Bull, com a abstração do @nestjs/bull.
         Também realizar outras melhorias, como, por exemplo, criar um cluster de replicar para ter redundância dos dados,
-        e melhor a disponibilidade.     
+        e melhorar a disponibilidade.     
         <br><br>    
         <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
         --> <u >Changelog</u></a>
