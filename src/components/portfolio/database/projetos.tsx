@@ -281,8 +281,8 @@ export const projectsDB: ProjectProps[] = [
          - Config estrita do typescript; <br>
          - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
         <br><br>    
-        <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
-        --> <u >Changelog</u></a>
+        Acompanhe no trello: <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
+         <u >Changelog</u></a>
         "
         />,
         // extra: <ProblemasSuperados />,
