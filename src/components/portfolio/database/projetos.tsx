@@ -277,7 +277,7 @@ export const projectsDB: ProjectProps[] = [
         <u>Outras:</u> <br>
          - Cluster de replicas mongodb para redundância dos dados e disponibilidade; <br>  
          - Conteinerização da aplicação; <br>
-         - Reorganização seguindo princípios do DDD e clean architecture; <br>
+         - Reorganizar arquitetura seguindo alguns princípios do DDD <br>
          - Config estrita do typescript; <br>
          - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
         <br><br>    
