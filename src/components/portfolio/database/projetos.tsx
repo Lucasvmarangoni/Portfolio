@@ -1,4 +1,5 @@
 import { ProjectImagesCarousel } from "../../Home/info/components/images-carrosel";
+import { NotaCurrency } from "../components/currency-converter-components/NotaCurrency";
 import { ProblemasSuperados } from "../components/currency-converter-components/Problens";
 import { PortDica } from "../components/port-components/PortDica";
 import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
@@ -262,11 +263,11 @@ export const projectsDB: ProjectProps[] = [
     },
     {
         name: 'Currency converter',
-        year: 'Jul 2023 - Set 2023',
+        year: 'Jul 2023 - Nov 2023',
         picture: '/currency-converter.png',
         video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
-        version: '1.0.0',
+        version: '1.1.0',
         // situation: 'PROJETO EM MANUTENÇÃO',
         type: 'pessoal',
         situation: <Maintenance title="PROJETO EM MANUTENÇÃO" content="    
@@ -277,7 +278,7 @@ export const projectsDB: ProjectProps[] = [
         <u>Outras:</u> <br>
          - Cluster de replicas mongodb para redundância dos dados e disponibilidade; <br>  
          - Conteinerização da aplicação; <br>
-         - Reorganizar arquitetura seguindo alguns princípios do DDD <br>
+         - Reestruturação da arquitetura com enfase em DDD <br>
          - Config estrita do typescript; <br>
          - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
         <br><br>    
@@ -285,7 +286,7 @@ export const projectsDB: ProjectProps[] = [
          <u >Changelog</u></a>
         "
         />,
-        // extra: <ProblemasSuperados />,
+        extra: <NotaCurrency />,
         description: `   
             <p className="P mb-8 mt-4">
             - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
