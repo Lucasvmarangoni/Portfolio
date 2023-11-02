@@ -22,7 +22,9 @@ export const NotaCurrency = () => {
           <p className="P mt-2">
             <img src="https://img.shields.io/badge/version-1.1.0-white" alt="Versão 1.1.0"></img>
             <span className="text-[#3b2753] brightness-150">Out 2023 - Nov 2023 | </span>Filas na persistência dos dados de usuário, cluster de replicas mongodb, 
-            conteinerização da aplicação, reestruturação da arquitetura dos módulos com ênfase em DDD, config estrita do typescript e refatoração
+            conteinerização da aplicação, reestruturação da arquitetura dos módulos com ênfase em DDD, config estrita do typescript e refatoração.
+            <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
+         <u >Changelog</u></a>
           </p>
 
           <p className="P mt-5">

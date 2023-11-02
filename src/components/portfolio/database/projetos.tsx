@@ -270,22 +270,22 @@ export const projectsDB: ProjectProps[] = [
         version: '1.1.0',
         // situation: 'PROJETO EM MANUTENÇÃO',
         type: 'pessoal',
-        situation: <Maintenance title="PROJETO EM MANUTENÇÃO" content="    
+        // situation: <Maintenance title="PROJETO EM MANUTENÇÃO" content="    
         
-        <strong>Manutenção</strong> <br><br>        
+        // <strong>Manutenção</strong> <br><br>        
         
-        O objetivo principal: implementar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
-        <u>Outras:</u> <br>
-         - Cluster de replicas mongodb para redundância dos dados e disponibilidade; <br>  
-         - Conteinerização da aplicação; <br>
-         - Reestruturação da arquitetura com enfase em DDD; <br>
-         - Config estrita do typescript; <br>
-         - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
-        <br><br>    
-        Acompanhe no trello: <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
-         <u >Changelog</u></a>
-        "
-        />,
+        // O objetivo principal: implementar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
+        // <u>Outras:</u> <br>
+        //  - Cluster de replicas mongodb para redundância dos dados e disponibilidade; <br>  
+        //  - Conteinerização da aplicação; <br>
+        //  - Reestruturação da arquitetura com enfase em DDD; <br>
+        //  - Config estrita do typescript; <br>
+        //  - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
+        // <br><br>    
+        // Acompanhe no trello: <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
+        //  <u >Changelog</u></a>
+        // "
+        // />,
         extra: <NotaCurrency />,
         description: `   
             <p className="P mb-8 mt-4">
