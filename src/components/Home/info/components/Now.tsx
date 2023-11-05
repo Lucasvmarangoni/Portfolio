@@ -76,10 +76,10 @@ export function Now() {
             {
               now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
             }           
-            {
+            {/* {
               now(1.0, 1.5, "Curso:", "https://univesp.br/sites/58f6506869226e9479d38201/assets/5947e3fa69226ee825baf576/MatrizCurricular_EngenhariaCOMPUTA__O.pdf",
                 "Engenharia da Computação - UNIVESP", [`https://www.youtube.com/@univesptv/playlists?view=50&sort=dd&shelf_id=3`, "(Youtube)"])
-            }
+            } */}
           </div>
 
 
