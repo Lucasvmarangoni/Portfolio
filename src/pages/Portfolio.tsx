@@ -34,7 +34,7 @@ export const Projetos = () => {
     return project.type === "guiado"
   }).reverse();
 
-  const autoraisId: string[] = ["TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
+  const autoraisId: string[] = ["TFFManager", "TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
   const projetosId: string[] = ["Tencoder", "Tordering", "Tgopportunities", "TbestSurf"]
 
   const datalist: string[] = [
@@ -128,7 +128,7 @@ export const Projetos = () => {
                   filterInput.value = ""
                   setCheck(0)
                   setList([])
-                  document.querySelectorAll('#Tencoder, #Tordering, #Tgopportunities, #TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #Tport')
+                  document.querySelectorAll('#TFFManager, #Tencoder, #Tordering, #Tgopportunities, #TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #Tport')
                     .forEach((element: any) => {
                       if (element) {
                         element.style.display = "flex"
