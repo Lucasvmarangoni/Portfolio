@@ -23,6 +23,7 @@ export function Search() {
   const Tgopportunities: any = document.querySelector("#Tgopportunities");
   const Tordering: any = document.querySelector("#Tordering");
   const Tencoder: any = document.querySelector("#Tencoder");
+  const TFFManager: any = document.querySelector("#TFFManager");
 
   const filterInput: any = document.querySelector("#input");
   let filter = filterInput.value.toLowerCase().split(" ");  
@@ -43,6 +44,8 @@ export function Search() {
   Sordering.execute()
   const Sencoder = new Csearch(0, encoder, filter, Tencoder)
   Sencoder.execute()
+  const SFFManager = new Csearch(0, encoder, filter, TFFManager)
+  SFFManager.execute()
   
 }
 
