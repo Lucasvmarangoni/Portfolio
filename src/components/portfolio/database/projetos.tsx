@@ -211,7 +211,7 @@ export const projectsDB: ProjectProps[] = [
         version: '2.1.0',
         type: 'pessoal',
         description: `
-        <p className="P mb-8 mt-4">
+        <p style="font-size:16px">
         - O vídeo é uma demonstração das requests e responses no insomnia e da documentação. <br> 
         
         - As imagens são prints de partes relevantes do código. <br>
@@ -286,7 +286,7 @@ export const projectsDB: ProjectProps[] = [
         // />,
         extra: <NotaCurrency />,
         description: `   
-            <p className="P mb-8 mt-4">
+            <p style="font-size:16px">
             - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
 
             - As imagens são prints de partes relevantes do código. <br>
@@ -403,6 +403,68 @@ export const projectsDB: ProjectProps[] = [
             'GCP',
             'Postgres'
         ]
+    },
+    {
+        name: 'Financial file manager',
+        year: 'Nov 2023 - ...',
+        picture: '/doc-financeiros.png',
+        // video: 'currency-converter-demo.mp4',
+        github: 'https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros',
+        version: '1.0.0',        
+        type: 'pessoal',
+        situation: <Maintenance title="PROJETO EM PLANEJAMENTO" content="    
+        
+        <strong>Fase de planejamento</strong> <br><br>        
+        
+        O projeto encontra-se em fase inicial de planejamento e especificação de requisitos.
+
+        <br><br>  
+        <strong>Acompanhe:</strong> 
+        <br>  
+        ⇝ <a href='https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros/tree/main/docs' target='_blank'>
+         <u >Documentação de gerenciamento</u>.</a>       
+
+        <br>
+        ⇝ <a href='#' target='_blank'>
+         <u >Quadro (em breve!)</u></a>
+        "
+        />,        
+        description: `                                
+            <p>
+            Este projeto tem como objetivo desenvolver um sistema robusto para o armazenamento e controle de 
+            documentos financeiros. Ele oferece aos clientes e administradores de instituições financeiras a 
+            capacidade de fazer upload, gerenciar e recuperar documentos financeiros de forma eficiente.
+            </p>           
+            <br>     
+            <strong>PRINCIPAIS RECURSOS:</strong> 
+            <p>             
+             
+                <strong> Armazenamento Eficiente: </strong> Os documentos são inicialmente armazenados localmente no servidor e, 
+                posteriormente transferidos para um serviço de armazenamento em nuvem.
+                <br> 
+                <strong> Metadados Inteligentes: </strong> Cada documento é acompanhado de metadados, incluindo nome, data, 
+                tipo de documento e informações relacionadas a transações financeiras.
+                <br>   
+                <strong> Recuperação Personalizada: </strong> Os usuários podem buscar documentos com base em critérios como 
+                tipo de documento, período de datas e outras informações relevantes.
+                <br> 
+                <strong> Segurança e Controle: </strong> O sistema mantém nível de segurança e controle de acesso rigoroso, 
+                garantindo que as informações sejam protegidas e apenas os documentos autorizados sejam acessados.
+                <br>
+                <strong> Conformidade Regulatória: </strong> A aplicação atende as normas estabelecidas na LGPD.
+            </p>      
+        `,
+        technologies: [
+            "Go",        
+            "Docker",
+            "Docker Compose",
+            "Github Actions",
+            "OpenAPI",
+            "Json Web Token",
+            "Bcrypt",          
+            "GCP",
+        ],
+        // carousel: <ProjectImagesCarousel images={cc} />
     },
 ]
 
