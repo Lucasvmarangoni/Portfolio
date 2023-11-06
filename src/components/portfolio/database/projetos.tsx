@@ -69,9 +69,7 @@ export const projectsDB: ProjectProps[] = [
         Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como desenvolvedor de software.         
         </p>        
 
-        <p>  Busquei por meio desse meu website pessoal transmitir o um pouco
-        da minha personalidade, pois entendo que isso compõem parte de
-        sua finalidade. </p>        
+        <p> Estou planejando e me organizando para desenvolver um tema claro, contudo essa não é minha prioridade no momento. </p>   
         `,
         extra: <PortDica />,
         technologies: [
