@@ -409,19 +409,19 @@ export const projectsDB: ProjectProps[] = [
         year: 'Nov 2023 - ...',
         picture: '/doc-financeiros.png',
         // video: 'currency-converter-demo.mp4',
-        github: 'https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros',
+        github: 'https://github.com/Lucasvmarangoni/financial-file-manager',
         version: '1.0.0',        
         type: 'pessoal',
         situation: <Maintenance title="PROJETO EM PLANEJAMENTO" content="    
         
         <strong>Fase de planejamento</strong> <br><br>        
         
-        O projeto encontra-se em fase inicial de planejamento e especificação de requisitos.
+        O projeto em fase inicial de planejamento e especificação de requisitos.
 
         <br><br>  
         <strong>Acompanhe:</strong> 
         <br>  
-        ⇝ <a href='https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros/tree/main/docs' target='_blank'>
+        ⇝ <a href='https://github.com/Lucasvmarangoni/financial-file-manager/tree/main/docs' target='_blank'>
          <u >Documentação de gerenciamento</u>.</a>       
 
         <br>
