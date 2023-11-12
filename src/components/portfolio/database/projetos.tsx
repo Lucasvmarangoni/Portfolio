@@ -416,7 +416,9 @@ export const projectsDB: ProjectProps[] = [
         
         <strong>Fase de planejamento</strong> <br><br>        
         
-        O projeto em fase inicial de planejamento e especificação de requisitos.
+        O projeto em fase inicial de planejamento e especificação de requisitos. Essa etapa também inclui o estudo necessário para 
+        conseguir desenvolver esse projeto com a qualidade que quero. 
+
 
         <br><br>  
         <strong>Acompanhe:</strong> 
