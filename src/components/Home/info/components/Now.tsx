@@ -78,7 +78,7 @@ export function Now() {
             }           
              {
               now(1.0, 1.1, "Projeto:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros", 
-              "Financial file manager (Planejamento)")
+              "Financial file manager (Desenvolvendo)")
             }    
             {/* {
               now(1.0, 1.5, "Curso:", "https://univesp.br/sites/58f6506869226e9479d38201/assets/5947e3fa69226ee825baf576/MatrizCurricular_EngenhariaCOMPUTA__O.pdf",

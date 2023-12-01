@@ -412,12 +412,11 @@ export const projectsDB: ProjectProps[] = [
         github: 'https://github.com/Lucasvmarangoni/financial-file-manager',
         version: '1.0.0',        
         type: 'pessoal',
-        situation: <Maintenance title="PROJETO EM PLANEJAMENTO" content="    
+        situation: <Maintenance title="PROJETO EM DESENVOLVIMENTO" content="    
         
-        <strong>Fase de planejamento</strong> <br><br>        
+        <strong>Fase de desenvolvimento</strong> <br><br>        
         
-        O projeto em fase inicial de planejamento e especificação de requisitos. Essa etapa também inclui o estudo necessário para 
-        conseguir desenvolver esse projeto com a qualidade que quero. 
+        Atualmente estou desenvolvendo o projeto, sendo este o meu primeiro projeto com go. 
 
 
         <br><br>  
@@ -426,9 +425,7 @@ export const projectsDB: ProjectProps[] = [
         ⇝ <a href='https://github.com/Lucasvmarangoni/financial-file-manager/tree/main/docs' target='_blank'>
          <u >Documentação de gerenciamento</u>.</a>       
 
-        <br>
-        ⇝ <a href='#' target='_blank'>
-         <u >Quadro (em breve!)</u></a>
+        
         "
         />,        
         description: `                                
@@ -465,6 +462,17 @@ export const projectsDB: ProjectProps[] = [
             "Json Web Token",
             "Bcrypt",          
             "GCP",
+            "Google Cloud Storage",
+            "Zerolog",
+            "Prometheus",
+            "AES",
+            "gRPC",
+            "99designs/gqlgen",
+            "GraphQL",
+            "RabbitMQ",
+            "CockroachDB",
+            "Pgx",
+            "Memchached",
         ],
         // carousel: <ProjectImagesCarousel images={cc} />
     },
