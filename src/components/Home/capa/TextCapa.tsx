@@ -33,7 +33,7 @@ export function TextCapa() {
         n6:text-sm 
         n7:text-sm"
           >
-            Lucas Vazzoller Marangoni
+            Lucas V. Marangoni
           </h1>
         )}
         {Motion(0.7, 0.4,
