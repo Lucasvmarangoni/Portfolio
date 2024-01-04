@@ -473,7 +473,7 @@ export const projectsDB: ProjectProps[] = [
             "RabbitMQ",
             "CockroachDB",
             "Pgx",
-            "Memchached",
+            "Memcached",
         ],
         // carousel: <ProjectImagesCarousel images={cc} />
     },
