@@ -32,18 +32,22 @@ export function Search() {
   Sport.execute();
   const StaskList = new Csearch(0, taskList, filter, TtaskList);
   StaskList.execute();
-  const SbestSurf = new Csearch(0, bestSurf, filter, TbestSurf);
-  SbestSurf.execute();
+  // const SbestSurf = new Csearch(0, bestSurf, filter, TbestSurf);
+  // SbestSurf.execute();
   const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
   SpaivaMotoPecas.execute();
   const ScurrencyConverter = new Csearch(0, currencyConverter, filter, TcurrencyConverter);
   ScurrencyConverter.execute();  
-  const Sgopportunities = new Csearch(0, gopportunities, filter, Tgopportunities);
-  Sgopportunities.execute(); 
-  const Sordering = new Csearch(0, ordering, filter, Tordering)
-  Sordering.execute()
-  const Sencoder = new Csearch(0, encoder, filter, Tencoder)
-  Sencoder.execute()
+
+  // const Sgopportunities = new Csearch(0, gopportunities, filter, Tgopportunities);
+  // Sgopportunities.execute(); 
+
+  // const Sordering = new Csearch(0, ordering, filter, Tordering)
+  // Sordering.execute()
+
+  // const Sencoder = new Csearch(0, encoder, filter, Tencoder)
+  // Sencoder.execute()
+
   const SFFManager = new Csearch(0, encoder, filter, TFFManager)
   SFFManager.execute()
   

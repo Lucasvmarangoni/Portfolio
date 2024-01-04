@@ -269,9 +269,9 @@ export const projectsDB: ProjectProps[] = [
         // situation: 'PROJETO EM MANUTENÇÃO',
         type: 'pessoal',
         // situation: <Maintenance title="PROJETO EM MANUTENÇÃO" content="    
-        
+
         // <strong>Manutenção</strong> <br><br>        
-        
+
         // O objetivo principal: implementar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
         // <u>Outras:</u> <br>
         //  - Cluster de replicas mongodb para redundância dos dados e disponibilidade; <br>  
@@ -410,24 +410,22 @@ export const projectsDB: ProjectProps[] = [
         picture: '/doc-financeiros.png',
         // video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/financial-file-manager',
-        version: '1.0.0',        
+        version: '1.0.0',
         type: 'pessoal',
         situation: <Maintenance title="PROJETO EM DESENVOLVIMENTO" content="    
         
         <strong>Fase de desenvolvimento</strong> <br><br>        
         
-        Atualmente estou desenvolvendo o projeto, sendo este o meu primeiro projeto com go. 
+        Estou trabalhando nesse projeto atualmente. Sendo possível acompanhar seu desenvolvimento desde o inicio pelo repositório. 
 
 
         <br><br>  
-        <strong>Acompanhe:</strong> 
-        <br>  
-        ⇝ <a href='https://github.com/Lucasvmarangoni/financial-file-manager/tree/main/docs' target='_blank'>
-         <u >Documentação de gerenciamento</u>.</a>       
+        
+        
 
         
         "
-        />,        
+        />,
         description: `                                
             <p>
             Este projeto tem como objetivo desenvolver um sistema robusto para o armazenamento e controle de 
@@ -438,29 +436,32 @@ export const projectsDB: ProjectProps[] = [
             <strong>PRINCIPAIS RECURSOS:</strong> 
             <p>             
              
-                <strong> Armazenamento Eficiente: </strong> Os documentos são inicialmente armazenados localmente no servidor e, 
-                posteriormente transferidos para um serviço de armazenamento em nuvem.
-                <br> 
-                <strong> Metadados Inteligentes: </strong> Cada documento é acompanhado de metadados, incluindo nome, data, 
-                tipo de documento e informações relacionadas a transações financeiras.
+              
+
+                <strong>- Documentos</strong>: Os documentos são inicialmente armazenados localmente no servidor e, 
+                posteriormente transferidos para um serviço de armazenamento em nuvem. Sendo requisito manter versões do documento para visualizar seu histórico.
+                <br>  
+                <strong>- Consultas</strong>: Cada documento é acompanhado de metadados, incluindo nome, data, tipo 
+                de documento e informações relacionadas a transações financeiras.
+                <br>  
+                <strong>- Segurança</strong>: O sistema mantém nível de segurança e controle de acesso rigoroso, 
+                além de observabilidade e registro de atividades para fins de auditoria.
                 <br>   
-                <strong> Recuperação Personalizada: </strong> Os usuários podem buscar documentos com base em critérios como 
-                tipo de documento, período de datas e outras informações relevantes.
-                <br> 
-                <strong> Segurança e Controle: </strong> O sistema mantém nível de segurança e controle de acesso rigoroso, 
-                garantindo que as informações sejam protegidas e apenas os documentos autorizados sejam acessados.
-                <br>
-                <strong> Conformidade Regulatória: </strong> A aplicação atende as normas estabelecidas na LGPD.
-            </p>      
+                <strong>- Resiliência</strong>: O sistema deve ser projetado para minimizar o impacto de falhas e garantir 
+                que as operações possam ser retomadas o mais rápido possível após uma falha.  
+            </p>                 
+            
+             <a href='https://github.com/Lucasvmarangoni/financial-file-manager/tree/main/docs' target='_blank'>
+            <u > ⇝ Documentação de completa</u>.</a>       
         `,
         technologies: [
-            "Go",        
+            "Go",
             "Docker",
             "Docker Compose",
             "Github Actions",
             "OpenAPI",
             "Json Web Token",
-            "Bcrypt",          
+            "Bcrypt",
             "GCP",
             "Google Cloud Storage",
             "Zerolog",

@@ -73,9 +73,7 @@ export function Now() {
           )}
 
           <div className="grid gap-4">
-            {
-              now(1.0, 1.1, "Livro:", "!", "Entendendo algoritmos (Aditya Y. Bhargava)")
-            }           
+               
              {
               now(1.0, 1.1, "Projeto:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros", 
               "Financial file manager (Desenvolvendo)")

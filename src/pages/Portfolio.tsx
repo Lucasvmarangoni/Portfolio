@@ -184,13 +184,10 @@ export const Projetos = () => {
                 <div
                   className=" text-center w-[70%] m-auto brightness-200"
                 >
-                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos autorais</h2>
+                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
                   <p className="text-base text-[#25252588] text-justify" >
-                    Projetos autorais são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
-                  </p>
-                  <p className="text-base text-[#25252588] text-justify">
-                    Aplico melhoria contínua nos meus projetos pessoais, por isso realizo aprimoramentos e manutenção após a data de conclusão.
-                  </p>
+                    Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
+                  </p>                  
                 </div>
 
                 // <div className=" text-center w-[70%] m-auto brightness-200">
@@ -229,7 +226,7 @@ export const Projetos = () => {
 
             <hr className=" border-[#25252588] w-[80%] m-auto" />
 
-            <div className="grid gap-10 scroll-item
+            {/* <div className="grid gap-10 scroll-item
             
             ">
               <div
@@ -272,7 +269,7 @@ export const Projetos = () => {
 
               </div>
 
-            </div>
+            </div> */}
 
           </div>
 
