@@ -287,7 +287,7 @@ export const projectsDB: ProjectProps[] = [
         extra: <NotaCurrency />,
         description: `   
             <p style="font-size:16px">
-            - O vídeo é uma demonstração das requests e responses no postman e da documentação. <br>
+            - O vídeo é uma demonstração das requests e responses no postman e da documentação. (vídeo da versão 1.0.0) <br>
 
             - As imagens são prints de partes relevantes do código. <br>
 
