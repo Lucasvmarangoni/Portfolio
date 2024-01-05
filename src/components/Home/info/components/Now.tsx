@@ -74,9 +74,14 @@ export function Now() {
 
           <div className="grid gap-4">
 
-            <p className="PP">
-              Nessa seção, listo o que estou fazendo atualmente.
-            </p>
+            {Motion(1.0, 0.7,
+              (<Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-[2.5]" >
+                <p className="PP">
+                  Nessa seção, listo o que estou fazendo atualmente.
+                </p>
+              </Dialog.Title>)
+            )}
+
 
             {
               now(1.0, 1.1, "Projeto:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros",
