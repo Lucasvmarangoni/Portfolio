@@ -84,8 +84,8 @@ export function Now() {
 
 
             {
-              now(1.0, 1.0, "Projeto:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros",
-                "Financial file manager (Desenvolvendo)")
+              now(1.0, 1.0, "Desenvolvendo:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros",
+                "Financial file manager (Projeto)")
             }
 
           </div>
