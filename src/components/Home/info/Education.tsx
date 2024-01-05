@@ -30,7 +30,7 @@ export function Education() {
                     {Motion(1.0, 1.0,
                         <p className="PP"
                         >
-                            Sou bacharel em direito, aprovado na exame da ordem XXXII em direito tributário, estagiei por 4 messes em direito empresarial.
+                            Sou bacharel em direito, aprovado na exame da ordem XXXII em direito tributário, estagiei por 4 meses em um escritório com foco em direito empresarial.
                         </p>
                     )}
 
