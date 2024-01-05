@@ -423,7 +423,7 @@ export const projectsDB: ProjectProps[] = [
 
         <br><br>          
         
-         <a href='https://github.com/users/Lucasvmarangoni/projects/11/views/1' target='_blank'> ⇝<u > Project Board</u>.</a>   
+         <a href='https://github.com/users/Lucasvmarangoni/projects/11/views/1' target='_blank'> ⇝ <u>Project Board</u>.</a>   
         <br>
         
         "
@@ -451,7 +451,7 @@ export const projectsDB: ProjectProps[] = [
             </p>                 
             
              <a href='https://github.com/Lucasvmarangoni/financial-file-manager/tree/main/docs' target='_blank'>
-            <u > ⇝ Documentação de completa</u>.</a>       
+             ⇝ <u >Documentação de completa</u>.</a>       
         `,
         technologies: [
             "Go",
