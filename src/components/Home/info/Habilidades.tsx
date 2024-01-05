@@ -36,34 +36,33 @@ export function Conhecimentos() {
                     {Motion(1.0, 0.9,
                         <p className=" grid gap-4"
                         >
-                            <p className="PP">
+                            {Motion(1.0, 1.3, <p className="PP">
                                 Tenho conhecimentos em arquitetura e design de software SOLID, DDD, performance (latência e Throughput), escalabilidade,
                                 disponibilidade, segurança, monitoramento, auditoria, croos-cutting, resiliência e sistemas distribuídos. Estou sempre buscando me
                                 aperfeiçoar para contribuir em projetos complexos.
 
-                            </p>
+                            </p>)}
 
-                            <p className="PP ">
+                            {Motion(1.0, 1.6, <p className="PP ">
                                 Tenho conhecimento e me mantenho atualizado também sobre as vulnerabilidades em aplicações web. Sou membro Founder da Pato Academy.
 
                                 <div className="flex gap-2">
-                                    {Motion(1.0, 1.9, < RiCornerDownRightFill className=" text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy"))}
+                                    {Motion(1.0, 2.2, < RiCornerDownRightFill className=" text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy"))}
                                 </div>
-                                <p className="PP ">Escola e comunidade de Bug Bounty, aprendo principalmente sobre vulnerabilidades e como explorá-las.</p>
-                            </p>
+                                {Motion(1.0, 2.4, <p className="PP ">Escola e comunidade de Bug Bounty, aprendo principalmente sobre vulnerabilidades e como explorá-las.</p>)}
+                            </p>)}
 
-                            <p className="PP ">
+                            {Motion(1.0, 1.8, <p className="PP ">
                                 Busco me manter capacitado sobre o mercado de tecnologia, boas práticas de desenvolvimento e conduta profissional. Faço parte da comunidade Tech Leads Club.
                                 <div className="flex gap-2">
-                                    {Motion(1.0, 1.9, < RiCornerDownRightFill className="text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}
+                                    {Motion(1.0, 2.2, < RiCornerDownRightFill className="text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}
                                 </div>
-                                <p className="PP ">Comunidade sobre desenvolvimento e arquitetura de software, liderança técnica, gerenciamento e estratégia, carreira e tendências.</p>
-                            </p>
+                                {Motion(1.0, 2.4, <p className="PP ">Comunidade sobre desenvolvimento e arquitetura de software, liderança técnica, gerenciamento e estratégia, carreira e tendências.</p>)}
+                            </p>)}
                         </p>
-
-                    )}                    
+                    )}
                 </div>
-               
+
                 <div className={"flex flex-wrap justify-center items-center n2:gap-10 n7:gap-6" + pageWidth}>
 
 
