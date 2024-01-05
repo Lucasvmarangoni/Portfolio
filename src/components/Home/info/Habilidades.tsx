@@ -53,7 +53,7 @@ export function Conhecimentos() {
                             </p>
 
                             <p className="PP ">
-                                Busco me manter capacitado sobre o mercado de tecnologia e boas práticas de desenvolvimento e conduta. Faço parte da comunidade Tech Leads Club.
+                                Busco me manter capacitado sobre o mercado de tecnologia, boas práticas de desenvolvimento e conduta no trabalho. Faço parte da comunidade Tech Leads Club.
                                 <div className="flex gap-2">
                                     {Motion(1.0, 1.9, < RiCornerDownRightFill className="text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}
                                 </div>
