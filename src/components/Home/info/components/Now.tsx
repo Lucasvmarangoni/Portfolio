@@ -27,8 +27,8 @@ export function Now() {
           }
 
           {
-            more 
-            ?
+            more
+              ?
               <Link to={more[0]} className={link} target="_blank" rel="noreferrer">
                 {more[1]}
               </Link>
@@ -67,21 +67,22 @@ export function Now() {
     focus:outline-none"
         >
           {Motion(1.0, 0.5,
-            (<Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-200" >
+            (<Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-[2.5]" >
               Atualmente estou:
             </Dialog.Title>)
           )}
 
           <div className="grid gap-4">
-               
-             {
-              now(1.0, 1.1, "Projeto:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros", 
-              "Financial file manager (Desenvolvendo)")
-            }    
-            {/* {
-              now(1.0, 1.5, "Curso:", "https://univesp.br/sites/58f6506869226e9479d38201/assets/5947e3fa69226ee825baf576/MatrizCurricular_EngenhariaCOMPUTA__O.pdf",
-                "Engenharia da Computação - UNIVESP", [`https://www.youtube.com/@univesptv/playlists?view=50&sort=dd&shelf_id=3`, "(Youtube)"])
-            } */}
+
+            <p className="PP">
+              Por aqui é possível acompanhar o que estou fazendo atualmente:
+            </p>
+
+            {
+              now(1.0, 1.1, "Projeto:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros",
+                "Financial file manager (Desenvolvendo)")
+            }
+
           </div>
 
 
