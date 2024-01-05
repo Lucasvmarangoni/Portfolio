@@ -68,14 +68,14 @@ export function Now() {
         >
           {Motion(1.0, 0.5,
             (<Dialog.Title className="text-2xl flex gap-2 text-T1 font-semibold brightness-[2.5]" >
-              Atualmente estou:
+              Acompanhe
             </Dialog.Title>)
           )}
 
           <div className="grid gap-4">
 
             <p className="PP">
-              Por aqui é possível acompanhar o que estou fazendo atualmente:
+              Nessa seção, listo o que estou fazendo atualmente.
             </p>
 
             {
