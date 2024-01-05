@@ -71,7 +71,8 @@ export const projectsDB: ProjectProps[] = [
 
         <p> O design do projeto é inspirado na obra de solo levelling, que me motivou e me inspirou no momento em que decidi mudar de profissão e começar na área de TI. </p>   
 
-        <p> Eu gostaria de criar o tema claro, utilizando branco como cor principal e verde para os detalhes (substituindo o roxo), contudo não posso dedicar tempo para isso agora.</p>   
+        <p> Eu gostaria de criar o tema claro, utilizando branco como cor principal e verde para os detalhes (substituindo o roxo), também demonstrando outro aspecto da minha personalidade. 
+        Contudo não posso dedicar tempo para isso agora.</p>   
         `,
         extra: <PortDica />,
         technologies: [
