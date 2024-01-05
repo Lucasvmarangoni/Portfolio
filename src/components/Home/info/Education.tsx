@@ -22,8 +22,7 @@ export function Education() {
 
                     {Motion(1.0, 0.9,
                         <p className="PP"
-                        > Me interesso por todo o universo de tecnologia, por isso, busco sempre aumentar minha compreensão sobre tudo. A maior parte da minha educação vem de conteúdos gratuitos, mas
-                            abaixo apresento algumas das minhas fontes de conhecimento.
+                        > Me interesso por todo o universo de tecnologia, por isso, busco sempre aumentar minha compreensão sobre tudo. Abaixo apresento algumas das minhas fontes de conhecimento.
                         </p>
                     )}
 
@@ -37,7 +36,7 @@ export function Education() {
                     {Motion(1.0, 1.3,
                         <p className="PP"
                         >
-                            Iniciei uma graduação de Analise e desenvolvimento de sistemas na PUC Minas, onde pude ampliar minhas habilidades interpessoais desenvolvendo
+                           Durante o primeiro período da graduação de Analise e desenvolvimento de sistemas na PUC Minas, pude ampliar minhas habilidades interpessoais desenvolvendo
                             e planejando projeto em equipe. Nosso projeto foi destaque do Eixo I, sendo selecionado para mostra de projetos.
                         </p>
                     )}
@@ -52,6 +51,8 @@ export function Education() {
 
 
                 </div>
+
+                
             </div>
         </div>
     )
