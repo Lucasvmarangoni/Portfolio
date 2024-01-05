@@ -59,7 +59,7 @@ function setPositionFig() {
   } else {
     if (viewportWidth >= 1100) {
       figDiv.style.top = "6%";
-      figDiv.style.left = "67%";
+      figDiv.style.left = "60%";
     } else if (viewportWidth >= 950 && viewportWidth < 1100) {
       figDiv.style.top = "-1%";
       figDiv.style.left = "74%";
