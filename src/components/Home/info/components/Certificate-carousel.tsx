@@ -21,12 +21,12 @@ const images = [
   },
   {
     src: '/cyber.png',
-    href: '#',
+    href: 'https://drive.google.com/drive/u/0/folders/1qsKGQ-pVSax_dOSbI2bR2uyUbnmC3LMl',
     text: `<strong>XP Educação - Analista de Defesa Cibernética (Jul, 2023 - Set, 2023):</strong> Defesa em profundidade, legislação de cibersegurança e privacidade, redes de computadores, segurança de infra. cloud.`,
   },
   {
     src: '/solucoes.png',
-    href: '#',
+    href: 'https://drive.google.com/drive/u/0/folders/1qsKGQ-pVSax_dOSbI2bR2uyUbnmC3LMl',
     text: `<strong>XP Educação - Arquiteto de soluções (Jul, 2023 - Set, 2023):</strong> Computação em Nuvem, soluções de rede e cibersegurança, IoT, blockchain, banco de dados, IA e machine learning.`,
   },
 ];
@@ -99,15 +99,15 @@ const CertificateCarousel: React.FC = () => {
             <img
               src={images[currentIndex].src}
               alt={`Slide ${currentIndex}`}
-              className="w-full rounded-3xl brightness-50 hover:opacity-95 object-cover"
+              className="w-full rounded-3xl brightness-[0.35] hover:opacity-95 object-cover"
             />
           </Link>
 
         </div>
 
         <p className="PP m-auto text-T1 brightness-[2.5] grid 
-        n4:max-w-[30em] 
-        n7:max-w-[30em] 
+        n4:max-w-[23em] 
+        n7:max-w-[23em] 
       " dangerouslySetInnerHTML={htmlDescription}>
 
         </p>
