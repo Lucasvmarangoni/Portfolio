@@ -34,25 +34,25 @@ export function Conhecimentos() {
                     n7:text-xl 
                     ">Habilidades</h1>)}
                     {Motion(1.0, 0.9,
-                        <p className="PP grid gap-4"
+                        <p className=" grid gap-4"
                         >
-                            <p>
+                            <p className="PP">
                                 Tenho conhecimentos em arquitetura e design de software SOLID, DDD, performance (latência e Throughput), escalabilidade,
                                 disponibilidade, segurança, monitoramento, auditoria, croos-cutting, resiliência e sistemas distribuídos. Estou sempre buscando me
                                 aperfeiçoar para contribuir em projetos complexos.
 
                             </p>
 
-                            <p>
+                            <p className="PP ">
                                 Tenho conhecimento e me mantenho atualizado também sobre as vulnerabilidades em aplicações web. Sou membro Founder da Pato Academy.
 
                                 <div className="flex gap-2">
                                     {Motion(1.0, 1.9, < RiCornerDownRightFill className=" text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy"))}
                                 </div>
-                                <p className="PP ">Escola e comunidade de Bug Bounty, aprendo principalmente sobre as vulnerabilidades e como explorá-las.</p>
+                                <p className="PP ">Escola e comunidade de Bug Bounty, aprendo principalmente sobre vulnerabilidades e como explorá-las.</p>
                             </p>
 
-                            <p>
+                            <p className="PP ">
                                 Busco me manter capacitado sobre liderança técnica, gerenciamento, estratégia e tendências. Faço parte da comunidade Tech Leads Club.
                                 <div className="flex gap-2">
                                     {Motion(1.0, 1.9, < RiCornerDownRightFill className="text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}

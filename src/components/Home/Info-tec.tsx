@@ -33,7 +33,7 @@ export const Info = () => {
 
     return (
         <div className={`
-        m-auto bg-BGH
+        m-auto bg-BGH brightness-150
         grid justify-center items-center 
         border-[#6f4b9b5b] border-t-[3px] rounded-sm pt-8 pb-0 mb-0  `
             + pageWidth}>

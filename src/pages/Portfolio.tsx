@@ -84,7 +84,7 @@ export const Projetos = () => {
         className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-200  " + pageWidth}
       >
         <div
-          className={" flex justify-center items-center brightness-150  " + pageWidth}
+          className={" flex justify-center items-center brightness-[2] " + pageWidth}
         >
           <label
             aria-label="Pesquise o projeto pela tecnologia."
@@ -177,15 +177,15 @@ export const Projetos = () => {
         <div className="grid gap-40 relative">
 
           <div className="grid gap-10 scroll-item ">
-            <div className="brightness-125 m-auto flex flex-wrap justify-center align-center
+            <div className=" m-auto flex flex-wrap justify-center align-center
               gap-10">
 
               {MotionFirst(0.8, 0.4,
                 <div
-                  className=" text-center w-[70%] m-auto brightness-200"
+                  className=" text-center w-[70%] m-auto brightness-75"
                 >
-                  <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
-                  <p className="text-base text-[#25252588] text-justify" >
+                  <h2 className="text-T1 text-xl mt-10 brightness-200 font-semi-bold mb-4">Projetos</h2>
+                  <p className="PP" >
                     Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
                   </p>                  
                 </div>
