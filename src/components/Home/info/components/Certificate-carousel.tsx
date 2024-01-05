@@ -7,27 +7,32 @@ const images = [
   {
     src: '/fiapcloud.png',
     href: 'https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/79662/b2ad726dfb744ad7385137cfd0d8bb62/certificado.png',
-    text: `<strong>FIAP - Cloud Fundamentals, Administration and Solution Architect (Mar, 2023):</strong> Funcionamento da web, vulnerabilidades e como explorá-las, além de praticar nos laboratórios e comunidade.`,
+    title: `<strong>FIAP - Cloud Fundamentals, Administration and Solution Architect (Mar, 2023):</strong>`,
+    text: `Funcionamento da web, vulnerabilidades e como explorá-las, além de praticar nos laboratórios e comunidade.`,
   },
   {
     src: '/gcp.png',
     href: 'https://www.cloudskillsboost.google/public_profiles/c3acdda3-a1c2-4841-b9c5-0cec83f7a31b',
-    text: `<strong>Google Cloud Skills Boost - Google Cloud Foundations Academy (Mar, 2023):</strong> Infraestrutura, interfaces e recursos do GCP. Conquistei as 4 skill badges dos laboratórios práticos.`,
+    title: `<strong>Google Cloud Skills Boost - Google Cloud Foundations Academy (Mar, 2023):</strong>`,
+    text: ` Infraestrutura, interfaces e recursos do GCP. Conquistei as 4 skill badges dos laboratórios práticos.`,
   },
   {
     src: '/paiva-certificate.png',
     href: 'https://youtu.be/vE4thVxtfiE?t=1283',
-    text: `<strong>PUC Minas - Destaque do Eixo I (Mar, 2023 - Jun 2023):</strong> Habilidades interpessoais desenvolvendo e planejando projeto em equipe. Nosso projeto foi destaque do Eixo I`,
+    title: `<strong>PUC Minas - Destaque do Eixo I (Mar, 2023 - Jun 2023):</strong>`,
+    text: `Habilidades interpessoais desenvolvendo e planejando projeto em equipe. Nosso projeto foi destaque do Eixo I`,
   },
   {
     src: '/cyber.png',
     href: 'https://drive.google.com/drive/u/0/folders/1qsKGQ-pVSax_dOSbI2bR2uyUbnmC3LMl',
-    text: `<strong>XP Educação - Analista de Defesa Cibernética (Jul, 2023 - Set, 2023):</strong> Defesa em profundidade, legislação de cibersegurança e privacidade, redes de computadores, segurança de infra. cloud.`,
+    title: `<strong>XP Educação - Analista de Defesa Cibernética (Jul, 2023 - Set, 2023):</strong>`,
+    text: `Defesa em profundidade, legislação de cibersegurança e privacidade, redes de computadores, segurança de infra. cloud.`,
   },
   {
     src: '/solucoes.png',
     href: 'https://drive.google.com/drive/u/0/folders/1qsKGQ-pVSax_dOSbI2bR2uyUbnmC3LMl',
-    text: `<strong>XP Educação - Arquiteto de soluções (Jul, 2023 - Set, 2023):</strong> Computação em Nuvem, soluções de rede e cibersegurança, IoT, blockchain, banco de dados, IA e machine learning.`,
+    title: `<strong>XP Educação - Arquiteto de soluções (Jul, 2023 - Set, 2023):</strong>`,
+    text: `Computação em Nuvem, soluções de rede e cibersegurança, IoT, blockchain, banco de dados, IA e machine learning.`,
   },
 ];
 
@@ -72,6 +77,9 @@ const CertificateCarousel: React.FC = () => {
   const htmlDescription = {
     __html: images[currentIndex].text
   }
+  const htmlTitle = {
+    __html: images[currentIndex].title
+  }
 
   return (
     <div className=" relative 
@@ -105,12 +113,21 @@ const CertificateCarousel: React.FC = () => {
 
         </div>
 
-        <p className="PP m-auto text-T1 brightness-[2.5] grid 
+        <div className="m-auto">
+          <p className="PP m-auto text-T1 brightness-[2.5] grid 
+        n4:max-w-[23em] 
+        n7:max-w-[23em] 
+      " dangerouslySetInnerHTML={htmlTitle}>
+
+          </p>
+
+          <p className="PP m-auto text-T2 brightness-[2.5] grid 
         n4:max-w-[23em] 
         n7:max-w-[23em] 
       " dangerouslySetInnerHTML={htmlDescription}>
 
-        </p>
+          </p>
+        </div>
       </div>
       {Motion(2.0, 1.3,
         <button
