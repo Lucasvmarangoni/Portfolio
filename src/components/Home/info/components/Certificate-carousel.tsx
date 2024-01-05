@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import { Link } from "react-router-dom";
+import { Motion } from "../../../functions/Motion";
 
 const images = [
   {
@@ -66,30 +67,33 @@ const CertificateCarousel: React.FC = () => {
   }, []);
 
 
-  const buttons = "absolute top-1/2 transform -translate-y-1/2 text-[5em] font-semibold hover:text-[5.2em] text-T1 brightness-[2.5] n2:pb-0 n7:pb-20"
+  const buttons = "absolute top-1/2 transform -translate-y-1/2 text-[5em] font-semibold hover:text-[5.2em] text-T1 brightness-[2.5] n2:pb-0 n7:pb-28"
 
   const htmlDescription = {
     __html: images[currentIndex].text
-}
+  }
 
   return (
     <div className=" relative 
     
     ">
-      <button
-        onClick={goToPreviousSlide}
-        className={buttons + " n2:left-[-1em] n7:left-[-0.4em]"}
-      >
-        {<SlArrowLeft />}
-      </button>
+
+      {Motion(2.0, 1.3,
+        <button
+          onClick={goToPreviousSlide}
+          className={buttons + " n2:left-[-1em] n7:left-[-0.6em]"}
+        >
+          {<SlArrowLeft />}
+        </button>
+      )}
 
       <div className=" gap-5
       n2:flex
       n7:grid
       ">
         <div className="m-auto 
-    n4:max-w-[12em] 
-    n7:max-w-[12em]
+    n4:max-w-[20em] 
+    n7:max-w-[14em]
     ">
           <Link to={images[currentIndex].href} target="_blank">
             <img
@@ -105,16 +109,17 @@ const CertificateCarousel: React.FC = () => {
         n4:max-w-[30em] 
         n7:max-w-[30em] 
       " dangerouslySetInnerHTML={htmlDescription}>
-         
+
         </p>
       </div>
-
-      <button
-        onClick={goToNextSlide}
-        className={buttons + " n2:right-[-1em] n7:right-[-0.4em]"}
-      >
-        {<SlArrowRight />}
-      </button>
+      {Motion(2.0, 1.3,
+        <button
+          onClick={goToNextSlide}
+          className={buttons + " n2:right-[-1em] n7:right-[-0.6em]"}
+        >
+          {<SlArrowRight />}
+        </button>
+      )}
     </div>
   );
 };
