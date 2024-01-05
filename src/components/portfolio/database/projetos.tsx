@@ -421,11 +421,10 @@ export const projectsDB: ProjectProps[] = [
         
         Estou trabalhando nesse projeto atualmente. Sendo possível acompanhar seu desenvolvimento desde o inicio pelo repositório. 
 
-
-        <br><br>  
+        <br><br>          
         
-        
-
+        <strong>Board</strong>: <a href='https://github.com/users/Lucasvmarangoni/projects/11' target='_blank'>
+        <br>
         
         "
         />,
@@ -437,10 +436,7 @@ export const projectsDB: ProjectProps[] = [
             </p>           
             <br>     
             <strong>PRINCIPAIS RECURSOS:</strong> 
-            <p>             
-             
-              
-
+            <p>
                 <strong>- Documentos</strong>: Os documentos são inicialmente armazenados localmente no servidor e, 
                 posteriormente transferidos para um serviço de armazenamento em nuvem. Sendo requisito manter versões do documento para visualizar seu histórico.
                 <br>  
