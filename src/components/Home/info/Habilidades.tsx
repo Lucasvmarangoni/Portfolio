@@ -57,7 +57,7 @@ export function Conhecimentos() {
                                 <div className="flex gap-2">
                                     {Motion(1.0, 1.9, < RiCornerDownRightFill className="text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}
                                 </div>
-                                <p className="PP ">Comunidade sobre desenvolvimento e arquitetura de software, liderança técnica, gerenciamento e estratégia, carreira, tendências.</p>
+                                <p className="PP ">Comunidade sobre desenvolvimento e arquitetura de software, liderança técnica, gerenciamento e estratégia, carreira e tendências.</p>
                             </p>
                         </p>
 
