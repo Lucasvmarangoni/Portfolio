@@ -69,7 +69,9 @@ export const projectsDB: ProjectProps[] = [
         Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como desenvolvedor de software.         
         </p>        
 
-        <p> Estou planejando e me organizando para desenvolver um tema claro, contudo essa não é minha prioridade no momento. </p>   
+        <p> O design do projeto é inspirado na obra de solo levelling, que me motivou e me inspirou no momento em que decidi mudar de profissão e começar na área de TI. </p>   
+
+        <p> Eu gostaria de criar o tema claro, utilizando branco como cor principal e verde para os detalhes (substituindo o roxo), contudo não posso dedicar tempo para isso agora.</p>   
         `,
         extra: <PortDica />,
         technologies: [
