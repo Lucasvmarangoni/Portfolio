@@ -11,7 +11,7 @@ export function Now() {
   const now = (duration: number, delay: number, title: string, href: string, activity: string, more?: string | string[]): any => {
     return (
       Motion(duration, delay,
-        <div className="flex flex-wrap gap-2" >
+        <div className="flex flex-wrap gap-2 brightness-150" >
           <p className="P">
             {title}
           </p>
