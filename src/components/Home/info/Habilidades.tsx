@@ -44,17 +44,16 @@ export function Conhecimentos() {
                             </p>)}
 
                             {Motion(1.0, 1.6, <p className="PP ">
-                                Tenho conhecimento e me mantenho atualizado também sobre as vulnerabilidades em aplicações web. Sou membro Founder da Pato Academy.
+                                Tenho conhecimento e me mantenho atualizado também sobre as vulnerabilidades em aplicações web. Sou membro Founder da Pato Academy, no curso Do Bug ao Bounty.
 
                                 <div className="flex gap-2">
                                     {Motion(1.0, 2.2, < RiCornerDownRightFill className=" text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy"))}
                                 </div>
-                                {Motion(1.0, 2.4, <p className="PP ">Escola e comunidade de Bug Bounty.</p>)}
+                                {Motion(1.0, 2.4, <p className="PP ">Plataforma de cursos e comunidade de tecnologia voltada para área tecnologia na área de segurança e hacker ético.</p>)}
                             </p>)}
 
                             {Motion(1.0, 1.8, <p className="PP ">
-                                Busco me manter capacitado sobre o mercado de tecnologia, boas práticas de desenvolvimento e conduta profissional. Busco estar próximo de profissionais experientes
-                                participando da comunidade Tech Leads Club.
+                                Busco me manter capacitado sobre o mercado de tecnologia, boas práticas de desenvolvimento e conduta profissional. Participo da comunidade Tech Leads Club.
                                 <div className="flex gap-2">
                                     {Motion(1.0, 2.2, < RiCornerDownRightFill className="text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.7, card("techleads.png", "https://comece.techleads.club", "Tech Leads Club"))}
                                 </div>
