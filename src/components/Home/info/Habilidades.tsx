@@ -49,7 +49,7 @@ export function Conhecimentos() {
                                 <div className="flex gap-2">
                                     {Motion(1.0, 2.2, < RiCornerDownRightFill className=" text-T1 text-[3rem] brightness-200" />)} {Motion(1.0, 1.6, card("pato.png", "https://pato.academy/lp/", "Pato Academy"))}
                                 </div>
-                                {Motion(1.0, 2.4, <p className="PP ">Escola e comunidade de Bug Bounty, aprendo principalmente sobre vulnerabilidades e como explorá-las.</p>)}
+                                {Motion(1.0, 2.4, <p className="PP ">Escola e comunidade de Bug Bounty.</p>)}
                             </p>)}
 
                             {Motion(1.0, 1.8, <p className="PP ">
