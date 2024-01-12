@@ -3,16 +3,13 @@ import { FigsBackText } from "./functions/FigsBackText";
 
 export function BackText() {
   return (
-    <div>
+    <div className="brightness-[1.8]">
       {<FigsBackText />}
       {
         Motion(0.7, 0.2,
-          <p className="text-justify flex ">
-            Por ter encontrado essa seção, vou contar um pouco mais sobre mim. Sou Bacharel em direito. 
-            Meu principal hobby é anime, o segundo games, principalmente MMO RPG.
-            Também gosto de musculação e calistenia, e faço coleção de conchas que encontro.
-            Busco sempre estar rodeado de pessoas que fazem eu sentir que não sei de nada,
-            assim mantenho a motivação para evoluir constantemente.
+          <p className="text-justify flex">
+            Profissionalmente, tenho o objetivo de participar e contribuir em projetos complexos, que me permitam estar próximo de grandes pessoas e, assim, 
+            manter-me em constante evolução profissional e pessoal. Para alcançar esse objetivo, estou sempre buscando novos conhecimentos e habilidades.
           </p>)
       }
     </div>

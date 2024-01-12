@@ -139,15 +139,15 @@ export function PhotoButtons() {
         {Motion(0.6, 1.0,
           <div
             id="texto"
-            className="text-T2 text-xl font-medium text-justify pb-10 brightness-[2.2]
+            className="text-T2 text-xl font-medium text-justify pb-10
         n0:w-[540px] n0:text-xl
         n1:w-[450px] n1:text-xl
         n2:w-[400px] n2:text-base n2:pt-0
-        n3:w-[460px] n3:text-sm n3:m-auto 
-        n4:w-[430px] n4:text-xs n4:m-auto 
-        n5:w-[350px] n5:text-xs n5:m-auto 
-        n6:w-[300px] n6:text-xs n6:m-auto
-        n7:w-[200px] n7:text-xs n7:m-auto"
+        n3:w-[460px] n3:text-base n3:m-auto 
+        n4:w-[430px] n4:text-base n4:m-auto 
+        n5:w-[350px] n5:text-base n5:m-auto 
+        n6:w-[300px] n6:text-base n6:m-auto
+        n7:w-[200px] n7:text-sm n7:m-auto"
           >
             {textArray[texts]}
             {/* <TextCapa /> */}
@@ -156,7 +156,7 @@ export function PhotoButtons() {
       </div >
       <p
         id="sicret"
-        className="text-T1 font-medium absolute top-[90%] brightness-[2.7]
+        className="text-T1 font-medium absolute top-[90%] brightness-[3.1]
       n0:text-xl
       n1:text-xl
       n2:text-base
