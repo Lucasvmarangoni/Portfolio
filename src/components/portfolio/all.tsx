@@ -30,7 +30,7 @@ export const listAllProjects = (props: Props) => {
 
     return (
         <Dialog.Root>
-            <Dialog.Trigger asChild className="brightness-150">
+            <Dialog.Trigger asChild className="brightness-200">
                 <div className="divCapa">
                     <button>
                         <img className="projCapa brightness-75" src={picture} alt="" />
@@ -40,7 +40,7 @@ export const listAllProjects = (props: Props) => {
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className="DialogOverlay" />
-                <Dialog.Content className="DialogContent focus:outline-none brightness-125">
+                <Dialog.Content className="DialogContent focus:outline-none brightness-150">
                     <Dialog.Title className="DialogTitle">
                         <h1 className="projTitle brightness-[3]">
                             {name} - <span className="projYear brightness-75">{year}</span>
@@ -64,7 +64,7 @@ export const listAllProjects = (props: Props) => {
                         </div>                        
                         <div className="flex gap-2">
 
-                            <div className="Icon">
+                            <div className="Icon brightness-[2.5]">
                                 <img className="h-5" src="/github-proj.png" alt="" />
                                 <Link
                                     target={"_blank"}
@@ -93,20 +93,20 @@ export const listAllProjects = (props: Props) => {
                             <img src={`https://img.shields.io/badge/Projeto ${type}-black`} alt={`projeto ${type}`}></img>
                         </div>
                         
-                        <h2 className={`${situation ? 'w-full' : null}`}>{situation ? situation : null}</h2>
+                        <h2 className={`${situation ? 'w-full brightness-125' : null}`}>{situation ? situation : null}</h2>
 
                         <div className="grid gap-3">
-                            <div className="P grid gap-3" dangerouslySetInnerHTML={htmlDescription}>
+                            <div className="P grid gap-3 brightness-200" dangerouslySetInnerHTML={htmlDescription}>
 
 
                             </div>
-                            <div className="">                               
+                            <div className="brightness-125">                               
                                 {extra}
                             </div>
-                            <div className="divTec">
-                                <h2 className="hTec">Tecnologias </h2>
+                            <div className="divTec ">
+                                <h2 className="hTec brightness-[2.3]">Tecnologias </h2>
 
-                                <p className="P">{
+                                <p className="PP brightness-200">{
                                     technologies.map((tecnologia) => {
                                         return tecnologia
                                     }).join(", ")

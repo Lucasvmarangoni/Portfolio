@@ -139,7 +139,7 @@ export function PhotoButtons() {
         {Motion(0.6, 1.0,
           <div
             id="texto"
-            className="text-T2 text-xl font-medium text-justify pb-10 
+            className="text-T2 text-xl font-medium text-justify pb-10 brightness-200
         n0:w-[540px] n0:text-xl
         n1:w-[450px] n1:text-xl
         n2:w-[400px] n2:text-base n2:pt-0

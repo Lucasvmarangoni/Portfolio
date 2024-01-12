@@ -184,7 +184,7 @@ export const Projetos = () => {
                 <div
                   className=" text-center w-[70%] m-auto brightness-75"
                 >
-                  <h2 className="text-T1 text-2xl mt-10 brightness-200 font-semi-bold mb-4">Projetos</h2>
+                  <h2 className="text-T1 text-2xl mt-10 brightness-[2.5] font-semi-bold mb-4">Projetos</h2>
                   <p className="PP" >
                     Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
                   </p>                  
