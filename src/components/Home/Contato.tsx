@@ -29,7 +29,7 @@ export function Contato() {
 
   return (
     <Dialog.Root >
-      <Dialog.Trigger asChild className="DialogTrigger ">
+      <Dialog.Trigger asChild className="DialogTrigger">
         <p>Contato</p>
       </Dialog.Trigger>
 
@@ -38,7 +38,7 @@ export function Contato() {
 
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content
-          className="bg-BG border border-[#ffffff0e] brightness-150
+          className="bg-BG border border-[#ffffff0e] brightness-[2.3]
     p-7 
     rounded-md 
     grid 
