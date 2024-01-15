@@ -29,15 +29,15 @@ export function Education() {
                     {Motion(1.0, 1.0,
                         <p className="PP"
                         >
-                            Sou bacharel em direito, aprovado na exame da ordem XXXII em direito tributário, estagiei por 4 meses em um escritório com foco em direito empresarial.
+                            Sou bacharel em direito, graduado em 2022. Fui aprovado na exame da ordem XXXII em direito tributário com a nota de 8.45 e 56 acertos na primeira fase.
                         </p>
                     )}
 
                     {Motion(1.0, 1.3,
                         <p className="PP"
                         >
-                           Durante o primeiro período da graduação de Analise e desenvolvimento de sistemas na PUC Minas, pude ampliar minhas habilidades interpessoais desenvolvendo
-                            e planejando projeto em equipe. Nosso projeto foi destaque do Eixo I, sendo selecionado para mostra de projetos.
+                           Cursei o primeiro período da graduação de Analise e desenvolvimento de sistemas na PUC Minas. Nesse tempo, pude ampliar minhas habilidades interpessoais desenvolvendo
+                            e planejando projeto em equipe. <strong>Nosso projeto foi destaque do Eixo I</strong>, sendo selecionado para mostra de projetos.
                         </p>
                     )}
 

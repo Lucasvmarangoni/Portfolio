@@ -34,6 +34,13 @@ const images = [
     title: `<strong>XP Educação - Arquiteto de soluções (Jul, 2023 - Set, 2023):</strong>`,
     text: `Computação em Nuvem, soluções de rede e cibersegurança, IoT, blockchain, banco de dados, IA e machine learning.`,
   },
+  {
+    src: '/direito.png',
+    href: '#',
+    title: `<strong>Estácio de Sá - Direito (Fev, 2016 - Jul, 2022):</strong>`,
+    text: `O normal de curso superior, só serviu para atrapalhar. Contudo pude desenvolver minhas habilidades de estudo 
+    enquanto me preparava para OAB durante a pandemia do COVID.`,
+  },
 ];
 
 const CertificateCarousel: React.FC = () => {
