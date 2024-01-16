@@ -43,7 +43,7 @@ export function Now() {
   return (
     <Dialog.Root >
       <Dialog.Trigger asChild className="text-T1 cursor-pointer border-b-[2px] 
-      brightness-200 border-[#3b27535b] max-w-fit p-1 px-3 rounded-lg hover:opacity-100 hover:text-[0.97rem]
+      brightness-[2.3] border-[#3b27535b] max-w-fit p-1 px-3 rounded-lg hover:opacity-100 hover:text-[0.97rem]
       ">
         <p >Acompanhe</p>
       </Dialog.Trigger>
