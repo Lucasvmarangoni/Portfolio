@@ -8,7 +8,7 @@ const images = [
     src: '/fiapcloud.png',
     href: 'https://on.fiap.com.br/pluginfile.php/1/local_nanocourses/certificado_nanocourse/79662/b2ad726dfb744ad7385137cfd0d8bb62/certificado.png',
     title: `<strong>FIAP - Cloud Fundamentals, Administration and Solution Architect (Mar, 2023):</strong>`,
-    text: `Funcionamento da web, vulnerabilidades e como explorá-las, além de praticar nos laboratórios e comunidade.`,
+    text: `Fundamentos da cloud, como nuvem pública, privada e híbrida, hypervisor, clusters, IaaS, PaaS e SaaS.`,
   },
   {
     src: '/gcp.png',
