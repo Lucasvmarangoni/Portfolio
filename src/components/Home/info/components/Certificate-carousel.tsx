@@ -39,7 +39,7 @@ const images = [
     href: '#',
     title: `<strong>Estácio de Sá - Direito (Fev, 2016 - Jul, 2022):</strong>`,
     text: `O normal de curso superior, só me atrapalhou. Contudo, pude desenvolver minhas habilidades de estudo 
-    enquanto me preparava para o exame XXXII da OAB.`,
+    enquanto me preparava para o exame XXXII da OAB em 2021.`,
   },
 ];
 
