@@ -88,6 +88,12 @@ export function Now() {
                 "Financial file manager (Projeto)")
             }
 
+            {
+              now(1.0, 1.2, "Pós Graduação:", "https://legale.com.br/curso/pos-em-direito-digital-2023/",
+                "Legale - Direito Digital")
+            }
+
+
           </div>
 
 
