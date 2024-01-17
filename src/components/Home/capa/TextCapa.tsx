@@ -41,7 +41,7 @@ export function TextCapa() {
           ">
             Sou desenvolvedor backend, atualmente com TypeScript e Golang.
             Neste espaço, apresento meus principais projetos e informações profissionais. Além de
-            algumas outras coisas sobre mim.
+            algumas outras informações sobre mim.
           </p>
         )}
       </div>
