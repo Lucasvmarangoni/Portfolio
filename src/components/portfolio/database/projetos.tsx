@@ -24,40 +24,6 @@ interface ProjectProps {
 
 export const projectsDB: ProjectProps[] = [
     {
-        name: 'ESports',
-        year: '2022',
-        picture: '/Hnlw.jpg',
-        github: 'https://github.com/Lucasvmarangoni/NLW-Ignite-2022',
-        version: undefined,
-        type: 'inativo',
-        description: `
-        <p className="P">
-            O projeto tem a finalidade de ajudar jogadores de jogos online a
-            encontrarem uma dupla, assim possibilita que criem anúncios para
-            que outros jogadores possam entrar em contato.
-        </p>
-        <p className="P">
-         Nos anúncios é possível informar várias características sobre o
-         jogador e suas preferências de jogabilidade.
-        </p>
-        <p className="P mt-2">
-            --> Desenvolvido durante o evento NLW Esports Ignite da
-            Rocketseat.
-        </p>
-        `,
-        technologies: [
-            "Typescript",
-            "Node",
-            "Express",
-            "SQLite",
-            "Prisma Studio",
-            "React",
-            "Vite",
-            "Axios",
-            "Tailwind",
-        ]
-    },
-    {
         name: ' Website Portfolio',
         year: '2022',
         picture: '/portfolio.png',
@@ -82,36 +48,6 @@ export const projectsDB: ProjectProps[] = [
             "TailWind",
             "Radix ui",
             "Framer Motion"
-        ]
-    },
-    {
-        name: 'Notifications Service',
-        year: '2022',
-        picture: '/igniteLab04.png',
-        github: 'https://github.com/Lucasvmarangoni/notifications-service',
-        version: undefined,
-        type: 'inativo',
-        description: `
-        <p className="P mt-2">
-            --> Desenvolvido durante o evento Ignite Lab 04 da
-            RocketSeat.
-        </p>
-
-        <p className="P">
-        Sistema microsserviço de notificações utilizando Node.js com Nest.js e Typescript. 
-        </p>        
-
-        <p> Aprendi sobre arquitetura de
-        microservices, utilizei DDD, TDD, testes unitários, validações, factory pattern, in memory database e inversão de dependência.
-        </p>
-        `,
-        technologies: [
-            "TypeScript",
-            "Node",
-            "Nest",
-            "Jest",
-            "Prisma Studio",
-            "SQLite"
         ]
     },
     {
@@ -156,54 +92,6 @@ export const projectsDB: ProjectProps[] = [
         ],
         demo: 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas/home/index.html',
         carousel: <ProjectImagesCarousel images={pmp} />
-    },
-    {
-        name: 'Best Surf',
-        year: '2023',
-        picture: '/bestsurf.png',
-        github: 'https://github.com/Lucasvmarangoni/Best-Surf',
-        version: undefined,
-        type: 'guiado',
-        description: `        
-        <p className="P">
-          --> Projeto guiado <a href="https://www.nodejs-typescript-api.com/curso-gratis/">
-            DO ZERO A PRODUÇÃO</a> disponibilizado pelo Engenheiro de software Waldemar Neto.
-        </p>
-
-        <p className="P mt-2">
-        O projeto é uma API REST que calcula as melhores condições de surf para praias, consumindo a API StormGlass, utilizando
-        Node.js com Express e TypeScript e seguindo as melhores práticas de desenvolvimento.
-        </p>        
-
-        <p>  Ao longo do projeto, adquiri experiência sobre generic, tratamento de erros, logging, testes unitários e de ponta a ponta, mocks, 
-            criptografia e graceful shutdown.
-        </p>
-           
-        `,
-        technologies: [
-            "TypeScript",
-            "Node.js",
-            "Express",
-            "OvernightJS",
-            "Lodash",
-            "Pino",
-            "Express pino",
-            "Json Web Token",
-            "Bcrypt",
-            "BodyParser",
-            "Node Config",
-            "MongoDB",
-            "Mongoose",
-            "Jest",
-            "Nock",
-            "Supertest",
-            "Docker",
-            "Docker Compose",
-            "Github Actions",
-            "Heroku",
-            "OpenAPI",
-            "Express rate limit",
-        ]
     },
     {
         name: 'TaskList',
@@ -333,81 +221,6 @@ export const projectsDB: ProjectProps[] = [
         carousel: <ProjectImagesCarousel images={cc} />
     },
     {
-        name: 'Gopportunities',
-        year: 'Ago 2023',
-        picture: '/gopportunities.png',
-        github: 'https://github.com/Lucasvmarangoni/Gopportunities',
-        type: 'guiado',
-        description: `
-        <p>
-        --> Projeto oferecido pelo canal @Arthur404dev.
-        </p>
-
-        <p>
-        É uma API para divulgação de oportunidades de emprego, que utiliza uma estrutura moderna de packages.
-        Foi feito sistema de log básico e documentação swagger.
-        </p>
-        `,
-        technologies: ['Golang', 'Go',
-            'Gin-gonic',
-            'Gorm',
-            'SQLite',
-            'Swaggo',
-            'swag'
-        ]
-    },
-    {
-        name: 'Ordering',
-        year: 'Set 2023',
-        picture: '/ordering.png',
-        github: 'https://github.com/Lucasvmarangoni/ordering-app',
-        type: 'guiado',
-        description: `
-        <p>
-        --> Projeto oferecido pelo canal @Michael Guay.
-        </p>
-
-        <p>
-        É uma aplicação baseada em arquitetura de microservices com RabbitMQ. Utilizando 2 
-        bancos de dados (primary  and secondary) e um arbiter. 
-
-        Cada um dos microservices é empacotado dentro de um container docker.
-        </p>
-        `,
-        technologies: ['Nest', 'Mongoose',
-            'Docker',
-            'DockerFile',
-            'Docker Compose',
-            'RabbitMQ',
-            'TypeScript',
-            'Node'
-        ]
-    },
-    {
-        name: 'Video Encoder',
-        year: 'Set 2023',
-        picture: '/encoder.png',
-        github: 'https://github.com/Lucasvmarangoni/video-encoder',
-        type: 'guiado',
-        description: `
-        <p>
-        --> Projeto do curso full cycle.
-        </p>
-
-        <p>
-        Microservice de encoder de vídeo com Golang, utilizando arquitetura hexagonal. 
-        </p>
-        `,
-        technologies: ['Go', 'Golang', 'Gorm', 'RabbitMQ',
-            'Docker',
-            'DockerFile',
-            'Docker Compose',
-            'Google Cloud',
-            'GCP',
-            'Postgres'
-        ]
-    },
-    {
         name: 'Financial file manager',
         year: 'Nov 2023 - ...',
         picture: '/doc-financeiros.png',
@@ -448,10 +261,34 @@ export const projectsDB: ProjectProps[] = [
                 <br>   
                 <strong>- Resiliência</strong>: O sistema deve ser projetado para minimizar o impacto de falhas e garantir 
                 que as operações possam ser retomadas o mais rápido possível após uma falha.  
-            </p>                 
-            
-             <a href='https://github.com/Lucasvmarangoni/financial-file-manager/tree/main/docs' target='_blank'>
-             ⇝ <u >Documentação de completa</u>.</a>       
+                
+                <br> <br>  
+                ⇝ <a href="./docs/doc-funcional.md"> <u>Documentação detalhada</u>.</a>
+                <br>  
+                ⇝ <a href="./docs/registros-de-engenharia-de-software.md"> <u>Resgistros de engenharia de softare</u>.</a>
+                
+                <br>  <br>  
+                Se você é um recrutador e deseja propor que eu realize alguma alteração ou implementação, por favor, envie por email para <u>lucasvm.ti@gmail.com</u>.
+    
+                <br>  <br>  
+                <strong>Artigos e conteúdo</strong>
+                <br>   
+                Tenho o hábito de criar meu próprio material durante o estudo. A partir deste projeto, decidi publicá-los.
+                <br>   <br> 
+                ⇝ <a href="https://medium.com/@lucasvm.ti/desenvolvimento-voltado-para-a-auditoria-em-software-0d15c56bf99c"> <u>Desenvolvimento voltado para a auditoria em Software</u>.</a>
+                <br>  
+                ⇝ <a href="https://medium.com/@lucasvm.ti/erros-e-logs-4e1fcd79a937"> <u>Como configurar erros e logs corretamente</u>.</a>
+    
+                <br>  <br>  
+                <strong>Bibliotecas </strong>
+                <br>  
+    
+                Bibliotecas e pacotes que criei em razão desse projeto.
+                <br>   <br> 
+                ⇝ <a href="https://github.com/Lucasvmarangoni/logella"> <u>Logella</u>.</a>
+    
+                <br>      <br> 
+            </p>         
         `,
         technologies: [
             "Go",
@@ -475,6 +312,34 @@ export const projectsDB: ProjectProps[] = [
             "Memcached",
         ],
         // carousel: <ProjectImagesCarousel images={cc} />
+    },
+    {
+        name: 'Logella',
+        year: '2024',
+        picture: 'logella.png',
+        github: 'https://github.com/Lucasvmarangoni/logella',
+        version: "1.0.0",
+        type: 'lib',
+        description: `
+        <p className="P">
+            Uma biblioteca de loggers e erros criada por mim e desenvolvida em Golang. 
+            <br>
+            Ainda estou aprimorando e acrescentando novos packages e funcionalidades. Até o momento ela possui:
+            <br><br>
+            <strong>Errors package</strong> <br>
+            O pacote Errors é uma package/lib de tratamento de erros personalizada. Sua característica principal é anexar informações de contexto aos erros, permitindo que sejam propagados pela pilha de chamadas. <br>
+            Além disso, também possui erros customizados e prontos, como por exemplo 'IsRequiredError' e 'IsInvalidError'.
+            <br><br>
+            <strong>Router Package</strong> <br>
+            O pacote Router é uma package de logs para inicializar rotas que utiliza go-chi.
+        </p>        
+        `,
+        technologies: [
+            "Go",
+            "Golang",
+            "Go-chi",
+            "Zerolog",
+        ]
     },
 ]
 

@@ -30,12 +30,12 @@ export const Projetos = () => {
     return project.type === "pessoal" || project.type === "equipe"
   }).reverse();
 
-  const courseProjects = projectsDB.filter((project) => {
-    return project.type === "guiado"
+  const librariesProjects = projectsDB.filter((project) => {
+    return project.type === "lib"
   }).reverse();
 
   const autoraisId: string[] = ["TFFManager", "TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
-  const projetosId: string[] = ["Tencoder", "Tordering", "Tgopportunities", "TbestSurf"]
+  const libraries: string[] = ["TLogella"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -128,7 +128,7 @@ export const Projetos = () => {
                   filterInput.value = ""
                   setCheck(0)
                   setList([])
-                  document.querySelectorAll('#TFFManager, #Tencoder, #Tordering, #Tgopportunities, #TcurrencyConverter, #TtaskList, #TbestSurf, #Tpaiva, #Tport')
+                  document.querySelectorAll('#TLogella, #TFFManager, #TcurrencyConverter, #TtaskList, #Tpaiva, #Tport')
                     .forEach((element: any) => {
                       if (element) {
                         element.style.display = "flex"
@@ -187,7 +187,7 @@ export const Projetos = () => {
                   <h2 className="text-T1 text-2xl mt-10 brightness-[2.5] font-semi-bold mb-4">Projetos</h2>
                   <p className="PP" >
                     Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
-                  </p>                  
+                  </p>
                 </div>
 
                 // <div className=" text-center w-[70%] m-auto brightness-200">
@@ -226,54 +226,48 @@ export const Projetos = () => {
 
             <hr className=" border-[#25252588] w-[80%] m-auto" />
 
-            {/* <div className="grid gap-10 scroll-item
-            
-            ">
+            <div className=" m-auto grid flex-wrap justify-center align-center 
+              gap-10">
+
+              {MotionFirst(0.8, 0.4,
+                <div
+                  className=" text-center m-auto brightness-75"
+                >
+                  <h2 className="text-T1 text-2xl mt-10 brightness-[2.5] font-semi-bold mb-4">Bibliotecas</h2>
+                  <p className="PP text-center" >
+                    Essas são as bibliotecas desenvolvidas por mim.
+                  </p>
+                </div>               
+
+              )}
+
+
               <div
-                className={"m-auto flex flex-wrap justify-center gap-10 "}
+                className={"flex flex-wrap justify-center "}
               >
-                {MotionFirst(0.8, 0.4,
-                  <div
-                    className=" text-center w-[70%] m-auto brightness-200 "
-
-                  >
-                    <h2 className="text-T4 brightness-75 text-xl font-semi-bold mb-4 ">Projetos guiados</h2>
-                    <p className="text-base text-[#25252588] text-justify" >
-                      Projetos guiados são desenvolvidos seguindo a criação de outro desenvolvedor professor, ou seja,
-                      sua criação não é de minha autoria.
-                      <br></br>
-                      - Listo aqui somente os projetos mais recentes e relevantes.
-                    </p>
-                  </div>
-                )}
-
-                <div className={" flex flex-wrap itens-center justify-center "}>
-                  {
-                    courseProjects.map((project, transitionDelay) => {
-                      return (
-
-                        Motion(0.8, transitionDelay / 4,
-                          <div
-                            className="py-4 px-6"
-                            id={projetosId[transitionDelay]}
-                            key={transitionDelay}
-                          >
-                            {listAllProjects(project)}
-                          </div>
-                        )
+                {
+                  librariesProjects.map((project, transitionDelay) => {
+                    return (
+                      Motion(0.8, transitionDelay / 4,
+                        <div
+                          className="py-4 px-6"
+                          id={libraries[transitionDelay]}
+                          key={transitionDelay}
+                        >
+                          {listAllProjects(project)}
+                        </div>
                       )
-                    })
-                  }
-
-                </div>
-
+                    )
+                  })
+                }
               </div>
+            </div>
 
-            </div> */}
+           
 
           </div>
 
-        </div>        
+        </div>
       </div >
     )
   );
