@@ -326,7 +326,7 @@ export const projectsDB: ProjectProps[] = [
             <br>
             Ainda estou aprimorando e acrescentando novos packages e funcionalidades. 
             <br><br>
-            <strong>Packages <strong> 
+            <strong>Packages </strong> 
             <br><br>
             <strong>Errors package</strong> <br>
             O pacote Errors é uma package/lib de tratamento de erros personalizada. Sua característica principal é anexar informações de contexto aos erros, permitindo que sejam propagados pela pilha de chamadas. <br>
