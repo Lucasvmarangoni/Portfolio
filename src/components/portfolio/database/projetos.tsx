@@ -324,7 +324,9 @@ export const projectsDB: ProjectProps[] = [
         <p className="P">
             Uma biblioteca de loggers e erros criada por mim e desenvolvida em Golang. 
             <br>
-            Ainda estou aprimorando e acrescentando novos packages e funcionalidades. Até o momento ela possui:
+            Ainda estou aprimorando e acrescentando novos packages e funcionalidades. 
+            <br><br>
+            <strong>Packages <strong> 
             <br><br>
             <strong>Errors package</strong> <br>
             O pacote Errors é uma package/lib de tratamento de erros personalizada. Sua característica principal é anexar informações de contexto aos erros, permitindo que sejam propagados pela pilha de chamadas. <br>
