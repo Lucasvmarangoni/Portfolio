@@ -238,6 +238,10 @@ export const projectsDB: ProjectProps[] = [
         
          <a href='https://github.com/users/Lucasvmarangoni/projects/11/views/1' target='_blank'> ⇝ <u>Project Board</u>.</a>   
         <br>
+
+        Se você é um recrutador e deseja propor que eu realize alguma alteração ou implementação, por favor, envie por email para <u>lucasvm.ti@gmail.com</u>.
+
+        <br>
         
         "
         />,
@@ -265,10 +269,7 @@ export const projectsDB: ProjectProps[] = [
                 <br> <br>  
                 ⇝ <a href="./docs/doc-funcional.md"> <u>Documentação detalhada</u>.</a>
                 <br>  
-                ⇝ <a href="./docs/registros-de-engenharia-de-software.md"> <u>Resgistros de engenharia de softare</u>.</a>
-                
-                <br>  <br>  
-                Se você é um recrutador e deseja propor que eu realize alguma alteração ou implementação, por favor, envie por email para <u>lucasvm.ti@gmail.com</u>.
+                ⇝ <a href="./docs/registros-de-engenharia-de-software.md"> <u>Resgistros de engenharia de softare</u>.</a>      
     
                 <br>  <br>  
                 <strong>Artigos e conteúdo</strong>
