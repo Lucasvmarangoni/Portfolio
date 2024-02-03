@@ -62,7 +62,7 @@ interface YourComponentProps {
 
             {commits !== null ? (
                 <>
-                <img src={`https://img.shields.io/badge/${String(commits)} commits-black`} alt={``}></img>
+                <img src={`https://img.shields.io/badge/${String(commits)} Commits-black`} alt={``}></img>
                    
 
                 </>
