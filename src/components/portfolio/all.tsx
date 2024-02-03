@@ -2,6 +2,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { MdClose } from "react-icons/md";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import Commits from "./components/Get-commits";
 
 interface Props {
     name: string
@@ -14,14 +15,14 @@ interface Props {
     type: string
     situation?: string | JSX.Element
     description: string
-    extra?: JSX.Element | JSX.Element[]    
+    extra?: JSX.Element | JSX.Element[]
     technologies: string[]
     carousel?: JSX.Element
 }
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel} = props;
+    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel } = props;
     const htmlDescription = {
         __html: description
     };
@@ -56,12 +57,12 @@ export const listAllProjects = (props: Props) => {
                             )}
                         </div>
                         <div className={carousel ? 'h-12' : 'h-0'}>
-                            {                                
-                                carousel 
-                                ? carousel
-                                : null
+                            {
+                                carousel
+                                    ? carousel
+                                    : null
                             }
-                        </div>                        
+                        </div>
                         <div className="flex gap-2">
 
                             <div className="Icon brightness-[2.5]">
@@ -91,8 +92,15 @@ export const listAllProjects = (props: Props) => {
                             },
                             {version ? <img src={`https://img.shields.io/badge/version-${version}-black`} alt={`Version ${version}`}></img> : null}
                             <img src={`https://img.shields.io/badge/Projeto ${type}-black`} alt={`projeto ${type}`}></img>
+
+
+
+
+                            <Commits repoName={name}/>
+
+
                         </div>
-                        
+
                         <h2 className={`${situation ? 'w-full brightness-125' : null}`}>{situation ? situation : null}</h2>
 
                         <div className="grid gap-3">
@@ -100,7 +108,7 @@ export const listAllProjects = (props: Props) => {
 
 
                             </div>
-                            <div className="brightness-125">                               
+                            <div className="brightness-125">
                                 {extra}
                             </div>
                             <div className="divTec ">
@@ -122,6 +130,6 @@ export const listAllProjects = (props: Props) => {
                     </Dialog.Close>
                 </Dialog.Content>
             </Dialog.Portal>
-        </Dialog.Root>
+        </Dialog.Root >
     );
 };

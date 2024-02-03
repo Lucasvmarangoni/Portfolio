@@ -24,7 +24,7 @@ interface ProjectProps {
 
 export const projectsDB: ProjectProps[] = [
     {
-        name: ' Website Portfolio',
+        name: 'Portfolio',
         year: '2022',
         picture: '/portfolio.png',
         github: 'https://github.com/Lucasvmarangoni/Portfolio',
