@@ -7,7 +7,13 @@ interface Commits {
 }
 
 export async function GetCommitsCount(repoName: string): Promise<string> {
-    const url = `https://api.github.com/repos/Lucasvmarangoni/${repoName}/commits`;
+    let url = `https://api.github.com/repos/Lucasvmarangoni/${repoName}/commits`;
+    const urlPuc = `https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas`;
+
+    if (repoName == "paiva-moto-peças") {
+        url = urlPuc
+    }
+
     let response: any
     try {
         let commits: any[] = [];
@@ -37,9 +43,9 @@ export async function GetCommitsCount(repoName: string): Promise<string> {
 
 interface YourComponentProps {
     repoName: string;
-  }
-  
-  const Commits: React.FC<YourComponentProps> = ({ repoName }) => {
+}
+
+const Commits: React.FC<YourComponentProps> = ({ repoName }) => {
     const [commits, setCommits] = useState<string | null>(null);
 
     const formattedName = repoName.toLowerCase().replace(/\s+/g, '-');
@@ -62,8 +68,8 @@ interface YourComponentProps {
 
             {commits !== null ? (
                 <>
-                <img src={`https://img.shields.io/badge/${String(commits)} Commits-black`} alt={``}></img>
-                   
+                    <img src={`https://img.shields.io/badge/${String(commits)} Commits-black`} alt={``}></img>
+
 
                 </>
             ) : (
