@@ -8,7 +8,7 @@ interface Commits {
 
 export async function GetCommitsCount(repoName: string): Promise<string> {
     let url = `https://api.github.com/repos/Lucasvmarangoni/${repoName}/commits`;
-    const urlPuc = `https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas`;
+    const urlPuc = `https://api.github.com/repos/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas`;
 
     if (repoName == "paiva-moto-peças") {
         url = urlPuc
