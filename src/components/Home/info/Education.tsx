@@ -36,7 +36,7 @@ export function Education() {
                     {Motion(1.0, 1.3,
                         <p className="PP"
                         >
-                           Cursei o primeiro período da graduação de Analise e desenvolvimento de sistemas na PUC Minas. Nesse tempo, pude ampliar minhas habilidades interpessoais desenvolvendo
+                            Cursei o primeiro período da graduação de Analise e desenvolvimento de sistemas na PUC Minas. Nesse tempo, pude ampliar minhas habilidades interpessoais desenvolvendo
                             e planejando projeto em equipe. <strong>Nosso projeto foi destaque do Eixo I</strong>, sendo selecionado para mostra de projetos.
                         </p>
                     )}
@@ -52,7 +52,7 @@ export function Education() {
 
                 </div>
 
-                
+
             </div>
         </div>
     )

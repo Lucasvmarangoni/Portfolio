@@ -38,8 +38,8 @@ export function Conhecimentos() {
                         >
                             {Motion(1.0, 1.3, <p className="PP">
                                 Tenho conhecimentos em arquitetura e design de software SOLID, DDD, performance (latência e Throughput), escalabilidade,
-                                disponibilidade, segurança, monitoramento, auditoria, croos-cutting, resiliência e sistemas distribuídos. Estou sempre buscando me
-                                aperfeiçoar para contribuir em projetos complexos.
+                                disponibilidade, segurança, monitoramento, auditoria, croos-cutting, resiliência e sistemas distribuídos. Além de algorítimos e estrutura de dados.
+                                Estou sempre buscando me aperfeiçoar para contribuir em projetos complexos.
 
                             </p>)}
 
