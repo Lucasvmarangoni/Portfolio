@@ -267,20 +267,20 @@ export const projectsDB: ProjectProps[] = [
                 que as operações possam ser retomadas o mais rápido possível após uma falha.  
                 
                 <br> <br>  
-                ⇝ <a href="./docs/doc-funcional.md"> <u>Documentação detalhada</u>.</a>
+                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/doc-funcional.md" target='_blank'> <u>Documentação detalhada</u>.</a>
                 <br>  
-                ⇝ <a href="./docs/registros-de-engenharia-de-software.md"> <u>Resgistros de engenharia de softare</u>.</a>      
+                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Resgistros de engenharia de softare</u>.</a>      
                 <br> 
-                ⇝ <a href="./docs/bug-log.md"> <u>Bug Log</u>.</a> Registro de bugs/problemas e suas soluções.
+                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/bug-log.md" target='_blank'> <u>Bug Log</u>.</a> Registro de bugs/problemas e suas soluções.
     
                 <br>  <br>  
                 <strong>Artigos e conteúdo</strong>
                 <br>   
                 Tenho o hábito de criar meu próprio material durante o estudo. A partir deste projeto, decidi publicá-los.
                 <br>   <br> 
-                ⇝ <a href="https://medium.com/@lucasvm.ti/desenvolvimento-voltado-para-a-auditoria-em-software-0d15c56bf99c"> <u>Desenvolvimento voltado para a auditoria em Software</u>.</a>
+                ⇝ <a href="https://medium.com/@lucasvm.ti/desenvolvimento-voltado-para-a-auditoria-em-software-0d15c56bf99c" target='_blank'> <u>Desenvolvimento voltado para a auditoria em Software</u>.</a>
                 <br>  
-                ⇝ <a href="https://medium.com/@lucasvm.ti/erros-e-logs-4e1fcd79a937"> <u>Como configurar erros e logs corretamente</u>.</a>
+                ⇝ <a href="https://medium.com/@lucasvm.ti/erros-e-logs-4e1fcd79a937" target='_blank'> <u>Como configurar erros e logs corretamente</u>.</a>
     
                 <br>  <br>  
                 <strong>Bibliotecas </strong>
@@ -288,7 +288,7 @@ export const projectsDB: ProjectProps[] = [
     
                 Bibliotecas e pacotes que criei em razão desse projeto.
                 <br>   <br> 
-                ⇝ <a href="https://github.com/Lucasvmarangoni/logella"> <u>Logella</u>.</a>
+                ⇝ <a href="https://github.com/Lucasvmarangoni/logella" target='_blank'> <u>Logella</u>.</a>
     
                 <br>      <br> 
             </p>         
