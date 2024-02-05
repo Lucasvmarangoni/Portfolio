@@ -271,7 +271,7 @@ export const projectsDB: ProjectProps[] = [
                 <br>  
                 ⇝ <a href="./docs/registros-de-engenharia-de-software.md"> <u>Resgistros de engenharia de softare</u>.</a>      
                 <br> 
-                ⇝ *<a href="./docs/bug-log.md"> <u>Bug Log</u>.</a>* Registro de bugs/problemas e suas soluções.
+                ⇝ <a href="./docs/bug-log.md"> <u>Bug Log</u>.</a> Registro de bugs/problemas e suas soluções.
     
                 <br>  <br>  
                 <strong>Artigos e conteúdo</strong>
