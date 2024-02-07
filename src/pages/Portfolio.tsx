@@ -27,15 +27,15 @@ export const Projetos = () => {
     `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&langs_count=2&hide_title=${hideTitle}&bg_color=${bgColor}&hide_border=${hideBorder}`
 
   const personalProjects = projectsDB.filter((project) => {
-    return project.type === "pessoal" || project.type === "equipe"
+    return project.type === "pessoal" || project.type === "equipe" || project.type === "lib"
   }).reverse();
 
   const librariesProjects = projectsDB.filter((project) => {
     return project.type === "lib"
   }).reverse();
 
-  const autoraisId: string[] = ["TFFManager", "TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
-  const libraries: string[] = ["TLogella"]
+  const autoraisId: string[] = ["TLogella", "TFFManager", "TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
+  // const libraries: string[] = ["TLogella"]
 
   const datalist: string[] = [
     'Node Vitest',
@@ -186,7 +186,7 @@ export const Projetos = () => {
                 >
                   <h2 className="text-T1 text-2xl mt-10 brightness-[2.5] font-semi-bold mb-4">Projetos</h2>
                   <p className="PP" >
-                    Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho (pessoal) ou em colaboração com uma equipe (equipe).
+                    Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho ou em colaboração com uma equipe.
                   </p>
                 </div>
 
@@ -226,7 +226,7 @@ export const Projetos = () => {
 
             <hr className=" border-[#25252588] w-[80%] m-auto" />
 
-            <div className=" m-auto grid flex-wrap justify-center align-center 
+            {/* <div className=" m-auto grid flex-wrap justify-center align-center 
               gap-10">
 
               {MotionFirst(0.8, 0.4,
@@ -261,9 +261,9 @@ export const Projetos = () => {
                   })
                 }
               </div>
-            </div>
+            </div> */}
 
-           
+
 
           </div>
 
