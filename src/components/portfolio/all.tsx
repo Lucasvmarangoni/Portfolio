@@ -14,6 +14,7 @@ interface Props {
     version?: string
     type: string
     situation?: string | JSX.Element
+    resume?: string | JSX.Element
     description: string
     extra?: JSX.Element | JSX.Element[]
     technologies: string[]
@@ -22,7 +23,7 @@ interface Props {
 
 
 export const listAllProjects = (props: Props) => {
-    const { name, year, picture, demo, github, version, type, situation, description, extra, technologies, video, carousel } = props;
+    const { name, year, picture, demo, github, version, type, situation, resume, description, extra, technologies, video, carousel } = props;
     const htmlDescription = {
         __html: description
     };
@@ -102,6 +103,8 @@ export const listAllProjects = (props: Props) => {
                         </div>
 
                         <h2 className={`${situation ? 'w-full brightness-125' : null}`}>{situation ? situation : null}</h2>
+
+                        <h2 className={`${situation ? 'w-full brightness-125' : null}`}>{resume ? resume : null}</h2>
 
                         <div className="grid gap-3">
                             <div className="P grid gap-3 brightness-200" dangerouslySetInnerHTML={htmlDescription}>

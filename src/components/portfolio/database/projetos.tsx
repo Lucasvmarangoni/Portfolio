@@ -5,6 +5,7 @@ import { PortDica } from "../components/port-components/PortDica";
 import { NotaTaskList } from "../components/task-list-components/Nota-TaskList";
 import { cc, pmp, tl } from "./image-folder";
 import Maintenance from "./util/Maintenance";
+import Resume from "./util/resume";
 
 interface ProjectProps {
     name: string;
@@ -14,6 +15,7 @@ interface ProjectProps {
     version?: string,
     type: string,
     situation?: string | JSX.Element,
+    resume?: string | JSX.Element,
     description: string
     technologies: string[]
     extra?: JSX.Element | JSX.Element[]
@@ -57,12 +59,22 @@ export const projectsDB: ProjectProps[] = [
         github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-equipe-2-paiva-moto-pecas',
         version: undefined,
         type: 'equipe',
+        resume: <Resume content="
+        <ul style=list-style-type:square>
+        <li style=margin-bottom:5px>Aplicação web para e-comerce de oficina. Desenvolvido em equipe de seis pessoas com Javascript, HTML e CSS.</li>       
+        <li>Foi minha responsabilidade a página 'Itens da loja', a estrutura do banco de dados e o deploy com Github Actions no Github Pages.</li>
+        </ul> 
+
+
+
+        <br>
+        " />,
         description: `
             <p>Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>  
 
-            <p> --> &#x1F3C6; Projeto destaque, escolhido para mostra de projetos. 
-            (<a href="https://drive.google.com/file/d/1u7hjS-7rjUqSV7P5de0BMzox_XZPA2SJ/view?usp=sharing" target="_blank"> <u>Certificado</u> </a> -
-            <a href="https://youtu.be/vE4thVxtfiE?t=1283" target="_blank"><u>Mostra</u></a> ) 
+            <p> --> Projeto destaque, escolhido para mostra de projetos. 
+            (<a href="https://drive.google.com/file/d/1u7hjS-7rjUqSV7P5de0BMzox_XZPA2SJ/view?usp=sharing" target="_blank"><u>Certificado</u> </a> -
+            <a href="https://youtu.be/vE4thVxtfiE?t=1283" target="_blank"><u>Mostra</u></a>) 
             </p>                
 
             <p>
@@ -101,6 +113,17 @@ export const projectsDB: ProjectProps[] = [
         github: 'https://github.com/Lucasvmarangoni/TaskList',
         version: '2.1.0',
         type: 'pessoal',
+        resume: <Resume content="
+        <ul style=list-style-type:square>
+        <li style=margin-bottom:5px>API Rest para aplicação de lista de tarefas, desenvolvida com Express, Typescript e Prisma, aplicando TDD e princípios de DDD.</li>
+        <li style=margin-bottom:5px>Utilizei a lib Overnight.js nos controllers com authn JWT com Bcrypt e Express rate limit. Possui doc.OpenAPI com swagger.</li>
+        <li style=margin-bottom:5px>Para persistência MongoDB e Node cache. Apliquei validações, tratei exceções e logs com Pino. Implementei Graceful shutdown.</li>
+        <li>Testes automatizados com Vitest e Supertest utilizando in memory database e mocks. Utilizei para workflow o Github Actions.</li>
+        </ul> 
+
+
+        <br>
+        " />,
         description: `
         <p style="font-size:16px">
         - O vídeo é uma demonstração das requests e responses no insomnia e da documentação. <br> 
@@ -157,24 +180,18 @@ export const projectsDB: ProjectProps[] = [
         video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.1.0',
-        // situation: 'PROJETO EM MANUTENÇÃO',
         type: 'pessoal',
-        // situation: <Maintenance title="PROJETO EM MANUTENÇÃO" content="    
+        resume: <Resume content="
+        <ul style=list-style-type:square>
+        <li style=margin-bottom:5px> API para cambio consumindo API Exchangerates. Desenvolvido com Nest, Mongoose, Docker e arquitetura modular.</li>
+        <li style=margin-bottom:5px>Utilizei config estrita do typescript e gestão com Nest ConfigModule. Swagger para doc.OpenAPI e testes com Jest e Supertest.</li>
+        <li style=margin-bottom:5px>Utilizei Bull para filas na criação de usuários e authn local e OAuth com Passport. Criei um cluster de replicas e arbiter mongodb.</li>
+        <li>Implementei Logs com Pino além exceções e rate limit dos módulos Nest. Para o sistema de cache utilizei Redis e Redis Cloud.</li>
+        </ul> 
 
-        // <strong>Manutenção</strong> <br><br>        
-
-        // O objetivo principal: implementar a persistência dos dados de usuário por filas, utilizando a biblioteca Bull.<br>
-        // <u>Outras:</u> <br>
-        //  - Cluster de replicas mongodb para redundância dos dados e disponibilidade; <br>  
-        //  - Conteinerização da aplicação; <br>
-        //  - Reestruturação da arquitetura com enfase em DDD; <br>
-        //  - Config estrita do typescript; <br>
-        //  - Refatorar para adequar configuração estrita com práticas utilizadas pelo mercado. 
-        // <br><br>    
-        // Acompanhe no trello: <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
-        //  <u >Changelog</u></a>
-        // "
-        // />,
+        <br>
+        "
+        />,
         extra: <NotaCurrency />,
         description: `   
             <p style="font-size:16px">
@@ -245,14 +262,37 @@ export const projectsDB: ProjectProps[] = [
         
         "
         />,
-        description: `                                
+        resume: <Resume content="    
+
+        <ul style=list-style-type:square>
+        <li style=margin-bottom:5px >Sistema robusto para controle de documentos financeiros, desenvolvido com Go, CockRoachDB, GCP Storage, Docker e DDD.</li>
+        
+        <li style=margin-bottom:5px >API Rest com Go-chi para authn JWT e Casbin no controle de acesso. API gRPC para arquivos e GraphQL para consultas.</li>
+        
+        <li style=margin-bottom:2px >Utilizei RabbitMQ para criação de usuário, arquivos, metadados e comunicação. Goroutine para executar workers em paralelo.</li>
+        
+        <li style=margin-bottom:5px >Para cache utilizei Memcached. Implementei ampla cobertura a testes automatizados e workflow com Github Actions.</li>
+        
+        <li style=margin-bottom:5px >Utilizei na segurança de dados sensíveis Bcrypt para password e AES nos demais dados, com SHA-256 para criar hash de consultas.</li>
+        
+        <li>Para observabilidade utilizei Prometheus, ElasticSearch, Zerolog e Logella. Para gestão das configurações utilizei Viper.</li>
+        
+        </ul>  
+      
+        <br>
+        
+        
+        "
+        />,
+        description: `     
+                                   
             <p>
             Este projeto tem como objetivo desenvolver um sistema robusto para o armazenamento e controle de 
             documentos financeiros. Ele oferece aos clientes e administradores de instituições financeiras a 
             capacidade de fazer upload, gerenciar e recuperar documentos financeiros de forma eficiente.
             </p>           
             <br>     
-            <strong>PRINCIPAIS RECURSOS:</strong> 
+            <strong>Principais recursos:</strong> 
             <p>
                 <strong>- Documentos</strong>: Os documentos são inicialmente armazenados localmente no servidor e, 
                 posteriormente transferidos para um serviço de armazenamento em nuvem. Sendo requisito manter versões do documento para visualizar seu histórico.
@@ -267,7 +307,7 @@ export const projectsDB: ProjectProps[] = [
                 que as operações possam ser retomadas o mais rápido possível após uma falha.  
                 
                 <br> <br>  
-                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/doc-funcional.md" target='_blank'> <u>Documentação detalhada</u>.</a>
+                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/doc-funcional.md" target='_blank'> <u>Documentação funcional</u>.</a>
                 <br>  
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Resgistros de engenharia de softare</u>.</a>      
                 <br> 
