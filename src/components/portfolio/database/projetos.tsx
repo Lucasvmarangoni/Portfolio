@@ -61,13 +61,10 @@ export const projectsDB: ProjectProps[] = [
         type: 'equipe',
         resume: <Resume content="
         <ul style=list-style-type:square>
-        <li style=margin-bottom:5px>Aplicação web para e-comerce de oficina. Desenvolvido em equipe de seis pessoas com Javascript, HTML e CSS.</li>       
-        <li>Foi minha responsabilidade a página 'Itens da loja', a estrutura do banco de dados e o deploy com Github Actions no Github Pages.</li>
+        <li style=margin-bottom:5px>Aplicação web para e-comerce de oficina. Desenvolvido em <strong>equipe de seis pessoas</strong> com Javascript, HTML e CSS.</li>       
+        <li style=margin-bottom:5px>Foi minha responsabilidade a página 'Itens da loja', a estrutura do banco de dados e o deploy com Github Actions no Github Pages.</li>
         </ul> 
 
-
-
-        <br>
         " />,
         description: `
             <p>Desenvolvido em função da graduação de analise e desenvolvimento de sistemas na PUC Minas. </p>  
@@ -115,14 +112,12 @@ export const projectsDB: ProjectProps[] = [
         type: 'pessoal',
         resume: <Resume content="
         <ul style=list-style-type:square>
-        <li style=margin-bottom:5px>API Rest para aplicação de lista de tarefas, desenvolvida com Express, Typescript e Prisma, aplicando TDD e princípios de DDD.</li>
-        <li style=margin-bottom:5px>Utilizei a lib Overnight.js nos controllers com authn JWT com Bcrypt e Express rate limit. Possui doc.OpenAPI com swagger.</li>
-        <li style=margin-bottom:5px>Para persistência MongoDB e Node cache. Apliquei validações, tratei exceções e logs com Pino. Implementei Graceful shutdown.</li>
-        <li>Testes automatizados com Vitest e Supertest utilizando in memory database e mocks. Utilizei para workflow o Github Actions.</li>
+        <li style=margin-bottom:5px>API Rest para aplicação de lista de tarefas, desenvolvida com <strong>Express</strong>, <strong>Typescript</strong> e <strong>Prisma</strong>, aplicando <strong>TDD</strong> e princípios de <strong>DDD</strong>.</li>
+        <li style=margin-bottom:5px>Utilizei a lib <strong>Overnight.js</strong> nos controllers com authn <strong>JWT</strong> com <strong>Bcrypt</strong> e <strong>Express rate limit</strong>. Possui doc.<strong>OpenAPI</strong> com swagger.</li>
+        <li style=margin-bottom:5px>Para persistência <strong>MongoDB</strong> e <strong>Node cache</strong>. Apliquei validações, tratei exceções e logs com <strong>Pino</strong>. Implementei <strong>Graceful shutdown</strong>.</li>
+        <li style=margin-bottom:5px>Testes automatizados com <strong>Vitest</strong> e <strong>Supertest</strong> utilizando <strong>in memory database</strong> e <strong>mocks</strong>. Utilizei para workflow o <strong>Github Actions</strong>. </li>
         </ul> 
 
-
-        <br>
         " />,
         description: `
         <p style="font-size:16px">
@@ -183,13 +178,12 @@ export const projectsDB: ProjectProps[] = [
         type: 'pessoal',
         resume: <Resume content="
         <ul style=list-style-type:square>
-        <li style=margin-bottom:5px> API para cambio consumindo API Exchangerates. Desenvolvido com Nest, Mongoose, Docker e arquitetura modular.</li>
-        <li style=margin-bottom:5px>Utilizei config estrita do typescript e gestão com Nest ConfigModule. Swagger para doc.OpenAPI e testes com Jest e Supertest.</li>
-        <li style=margin-bottom:5px>Utilizei Bull para filas na criação de usuários e authn local e OAuth com Passport. Criei um cluster de replicas e arbiter mongodb.</li>
-        <li>Implementei Logs com Pino além exceções e rate limit dos módulos Nest. Para o sistema de cache utilizei Redis e Redis Cloud.</li>
+        <li style=margin-bottom:5px> API para cambio consumindo <strong>API Exchangerates</strong>. Desenvolvido com <strong>Nest</strong>, <strong>Mongoose</strong>, <strong>Docker</strong> e <strong>arquitetura modular</strong>.</li>
+        <li style=margin-bottom:5px>Utilizei config estrita do typescript e gestão com Nest ConfigModule. Swagger para <strong>doc.OpenAPI</strong> e testes com <strong>Jest</strong> e <strong>Supertest</strong>.</li>
+        <li style=margin-bottom:5px> Utilizei <strong>Bull</strong> para filas na criação de usuários e authn local e <strong>OAuth</strong> com <strong>Passport</strong>. Criei um <strong>cluster de replicas e arbiter mongodb</strong>.</li>
+        <li style=margin-bottom:5px>Implementei  Logs com <strong>Pino</strong> além exceções e rate limit dos módulos Nest. Para o sistema de cache utilizei <strong>Redis</strong> e <strong>Redis Cloud</strong>.</li>
         </ul> 
 
-        <br>
         "
         />,
         extra: <NotaCurrency />,
@@ -265,23 +259,20 @@ export const projectsDB: ProjectProps[] = [
         resume: <Resume content="    
 
         <ul style=list-style-type:square>
-        <li style=margin-bottom:5px >Sistema robusto para controle de documentos financeiros, desenvolvido com Go, CockRoachDB, GCP Storage, Docker e DDD.</li>
+        <li style=margin-bottom:5px >Sistema robusto para controle de documentos financeiros, desenvolvido com <strong>Go</strong>, <strong>CockRoachDB</strong>, <strong>GCP Storage</strong>, <strong>Docker</strong> e <strong>DDD</strong>. </li>
         
-        <li style=margin-bottom:5px >API Rest com Go-chi para authn JWT e Casbin no controle de acesso. API gRPC para arquivos e GraphQL para consultas.</li>
+        <li style=margin-bottom:5px >API Rest com <strong>Go-chi</strong> para authn JWT e <strong>Casbin</strong> no controle de acesso. API <strong>gRPC</strong> para arquivos e <strong>GraphQL</strong> para consultas.</li>
         
-        <li style=margin-bottom:2px >Utilizei RabbitMQ para criação de usuário, arquivos, metadados e comunicação. Goroutine para executar workers em paralelo.</li>
+        <li style=margin-bottom:2px >Utilizei <strong>RabbitMQ</strong> para criação de usuário, arquivos, metadados e comunicação. <strong>Goroutine</strong> para executar workers em paralelo. </li>
         
-        <li style=margin-bottom:5px >Para cache utilizei Memcached. Implementei ampla cobertura a testes automatizados e workflow com Github Actions.</li>
+        <li style=margin-bottom:5px >Para cache utilizei <strong>Memcached</strong>. Implementei ampla cobertura a testes automatizados e workflow com Github Actions.</li>
         
-        <li style=margin-bottom:5px >Utilizei na segurança de dados sensíveis Bcrypt para password e AES nos demais dados, com SHA-256 para criar hash de consultas.</li>
+        <li style=margin-bottom:5px >Utilizei na segurança de dados sensíveis Bcrypt para password e <strong>AES</strong> nos demais dados, com <strong>SHA-256</strong> para criar hash de consultas.</li>
         
-        <li>Para observabilidade utilizei Prometheus, ElasticSearch, Zerolog e Logella. Para gestão das configurações utilizei Viper.</li>
+        <li style=margin-bottom:5px>Para observabilidade utilizei <strong>Prometheus</strong>, <strong>ElasticSearch</strong>, Zerolog e <strong>Logella</strong>. Para gestão das configurações utilizei <strong>Viper</strong>.</li>
         
         </ul>  
       
-        <br>
-        
-        
         "
         />,
         description: `     
