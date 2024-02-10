@@ -259,17 +259,32 @@ export const projectsDB: ProjectProps[] = [
         resume: <Resume content="    
 
         <ul style=list-style-type:square>
-        <li style=margin-bottom:5px >Sistema robusto para controle de documentos financeiros, desenvolvido com <strong>Go</strong>, <strong>CockRoachDB</strong>, <strong>GCP Storage</strong>, <strong>Docker</strong> e <strong>DDD</strong>. </li>
-        
-        <li style=margin-bottom:5px >API Rest com <strong>Go-chi</strong> para authn JWT e <strong>Casbin</strong> no controle de acesso. API <strong>gRPC</strong> para arquivos e <strong>GraphQL</strong> para consultas.</li>
-        
-        <li style=margin-bottom:2px >Utilizei <strong>RabbitMQ</strong> para criação de usuário, arquivos, metadados e comunicação. <strong>Goroutine</strong> para executar workers em paralelo. </li>
-        
-        <li style=margin-bottom:5px >Para cache utilizei <strong>Memcached</strong>. Implementei ampla cobertura a testes automatizados e workflow com Github Actions.</li>
-        
-        <li style=margin-bottom:5px >Utilizei na segurança de dados sensíveis Bcrypt para password e <strong>AES</strong> nos demais dados, com <strong>SHA-256</strong> para criar hash de consultas.</li>
-        
-        <li style=margin-bottom:5px>Para observabilidade utilizei <strong>Prometheus</strong>, <strong>ElasticSearch</strong>, Zerolog e <strong>Logella</strong>. Para gestão das configurações utilizei <strong>Viper</strong>.</li>
+
+            <li style=margin-bottom:5px>
+            Sistema robusto para controle de documentos financeiros, desenvolvido com <strong>Go</strong>, <strong>CockRoachDB</strong>, <strong>GCP Storage</strong>, <strong>Docker</strong> e <strong>DDD</strong>. 
+            </li>     
+
+            <li style=margin-bottom:5px>            
+            API Rest com <strong>Go-chi</strong> para authn JWT e <strong>Casbin</strong> no controle de acesso. API <strong>gRPC</strong> para arquivos e <strong>GraphQL</strong> para consultas.
+            </li>
+           
+            <li style=margin-bottom:5px> 
+            Utilizei <strong>RabbitMQ</strong> para criação de usuário, arquivos, metadados e comunicação. <strong>Goroutine</strong> para executar workers em paralelo. 
+            
+            </li>
+            
+            <li style=margin-bottom:5px> 
+            Para solução de cache utilizei <strong>Memcached</strong>. Implementei testes com stretchr e <strong>postman/newman</strong> e  Github Actions para workflow.  
+            </li>   
+            
+            <li style=margin-bottom:5px> 
+            Utilizei na segurança de dados sensíveis Bcrypt para password e <strong>AES</strong> nos demais dados, com <strong>SHA-256</strong> para criar hash de consultas.
+            </li>   
+            
+            <li style=margin-bottom:5px> 
+            Para observabilidade utilizei <strong>Prometheus</strong>, <strong>ElasticSearch</strong>, Zerolog e <strong>Logella</strong>. Para gestão das configurações utilizei <strong>Viper</strong>.
+            </li>  
+       
         
         </ul>  
       
