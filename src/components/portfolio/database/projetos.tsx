@@ -274,7 +274,7 @@ export const projectsDB: ProjectProps[] = [
             </li>
             
             <li style=margin-bottom:5px> 
-            Para solução de cache utilizei <strong>Memcached</strong>. Implementei testes com stretchr e <strong>postman/newman</strong> e  Github Actions para workflow.  
+            Para solução de cache utilizei <strong>Memcached</strong>. Implementei testes com stretchr e <strong>postman/newman</strong> e Github Actions para workflow.  
             </li>   
             
             <li style=margin-bottom:5px> 
