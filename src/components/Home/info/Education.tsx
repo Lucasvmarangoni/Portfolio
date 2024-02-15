@@ -33,7 +33,7 @@ export function Education() {
                     {Motion(1.0, 1.0,
                         <p className="PP"
                         >
-                            Sou Graduado em <strong>Direito</strong> em 2022 e aprovado na exame da ordem XXXII em direito tributário com a nota de 8.45 e 56 acertos na primeira fase.
+                            Em 2022, obtive minha graduação em Direito e fui aprovado no Exame da Ordem XXXII em 2021, alcançando 56 acertos na 1ª fase e obtendo a nota de 8,45 em Direito Tributário na 2ª fase.
                         </p>
                     )}
 
