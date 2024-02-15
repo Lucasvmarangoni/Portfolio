@@ -63,6 +63,7 @@ export const projectsDB: ProjectProps[] = [
         <ul style=list-style-type:square>
         <li style=margin-bottom:5px>Aplicação web para e-comerce de oficina. Desenvolvido em <strong>equipe de seis pessoas</strong> com Javascript, HTML e CSS.</li>       
         <li style=margin-bottom:5px>Foi minha responsabilidade a página 'Itens da loja', a estrutura do banco de dados e o deploy com Github Actions no Github Pages.</li>
+        <li style=margin-bottom:5px>Foi utilizado metodologias ágeis, sendo escolhido o Scrum como base para definição do processo de desenvolvimento.</li>
         </ul> 
 
         " />,
