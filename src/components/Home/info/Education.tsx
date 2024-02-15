@@ -4,7 +4,16 @@ import CertificateCarousel from "./components/Certificate-carousel";
 import { Community } from "./components/Community";
 import { Now } from "./components/Now";
 
+
 export function Education() {
+
+
+
+
+
+
+
+
     return (
         <div className="h-full grid items-center m-auto">
 
@@ -20,24 +29,33 @@ export function Education() {
                     n7:text-xl 
                     ">Educação</h1>)}
 
-                    {Motion(1.0, 0.9,
-                        <p className="PP"
-                        > Me interesso por todo o universo de tecnologia, por isso, busco sempre aumentar minha compreensão sobre tudo. Abaixo apresento algumas das minhas fontes de conhecimento.
-                        </p>
-                    )}
 
                     {Motion(1.0, 1.0,
                         <p className="PP"
                         >
-                            Sou bacharel em direito, graduado em 2022. Fui aprovado na exame da ordem XXXII em direito tributário com a nota de 8.45 e 56 acertos na primeira fase.
+                            Sou Graduado em <strong>Direito</strong> em 2022 e aprovado na exame da ordem XXXII em direito tributário com a nota de 8.45 e 56 acertos na primeira fase.
                         </p>
                     )}
 
                     {Motion(1.0, 1.3,
                         <p className="PP"
                         >
-                            Cursei o primeiro período da graduação de Analise e desenvolvimento de sistemas na PUC Minas. Nesse tempo, pude ampliar minhas habilidades interpessoais desenvolvendo
+                            Cursei o primeiro período da graduação de <strong>Analise e desenvolvimento de sistemas na PUC Minas</strong>. Nesse tempo, pude ampliar minhas habilidades interpessoais desenvolvendo
                             e planejando projeto em equipe. <strong>Nosso projeto foi destaque do Eixo I</strong>, sendo selecionado para mostra de projetos.
+                        </p>
+                    )}
+
+                    {Motion(1.0, 1.5,
+                        <p className="PP"
+                        >
+                            Atualmente, estou matriculado na pós-graduação em <strong>Direito Digital pela Legale Educacional</strong> e, simultaneamente, estou iniciando uma nova graduação em <strong>Cyber Security na Saint Leo University</strong>.
+                        </p>
+                    )}
+
+                    {Motion(1.0, 1.5,
+                        <p className="PP"
+                        >
+                            Em cursos livres, busco conhecimento teórico para ampliar minha compreensão sobre o universo de tecnologias, adquirir novos conhecimentos e aprimorar minhas habilidades práticas.
                         </p>
                     )}
 
