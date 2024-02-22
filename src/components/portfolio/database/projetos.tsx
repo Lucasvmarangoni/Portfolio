@@ -372,7 +372,7 @@ export const projectsDB: ProjectProps[] = [
         type: 'lib',
         description: `
         <p className="P">
-            Uma biblioteca de loggers e erros criada por mim e desenvolvida em Golang. 
+            Uma biblioteca desenvolvida em Golang para loggers para rotas com Go-Chi e erros customizados. 
             <br>
             Ainda estou aprimorando e acrescentando novos packages e funcionalidades. 
             <br><br>
