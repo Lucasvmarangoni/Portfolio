@@ -43,9 +43,9 @@ const images = [
   {
     src: '/estrutura-de-dados-e-algoritimos.png',
     href: 'https://www.udemy.com/certificate/UC-923351e1-3128-443b-9d39-b9b8da0337e5/',
-    title: `<strong>Udemy (IA Expert Academy) - Estrutura de Dados e Algoritmos em Python: O Guia Completo</strong>`,
+    title: `<strong>Udemy - Estrutura de Dados e Algoritmos em Python</strong>`,
     text: `Big-O, vetores, busca binária, pilha, filas, deques, listas encadeadas, recursão, 
-    algoritmos de ordenação, arvore binária e grafos.`,
+    algoritmos de ordenação, arvore binária e grafos. Também lí: Aditya Y. - Entendendo algorítimos`,
   },
 ];
 
