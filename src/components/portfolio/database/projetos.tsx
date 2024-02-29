@@ -268,7 +268,9 @@ export const projectsDB: ProjectProps[] = [
             <li style=margin-bottom:5px>            
             API Rest com <strong>Go-chi</strong> para authn JWT e <strong>Casbin</strong> no controle de acesso. API <strong>gRPC</strong> para arquivos e <strong>GraphQL</strong> para consultas.
             </li>
-           
+            <li style=margin-bottom:5px>            
+            Implementei rate-limiter por IP (middleware) e usuário (proxy). Utilizei <strong>nginx</strong> para proxy reverso e balanceamento de carga.
+            </li>
             <li style=margin-bottom:5px> 
             Utilizei <strong>RabbitMQ</strong> para criação de usuário, arquivos, metadados e comunicação. <strong>Goroutine</strong> para executar workers em paralelo. 
             
