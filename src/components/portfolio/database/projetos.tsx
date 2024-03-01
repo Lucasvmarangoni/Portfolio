@@ -318,7 +318,7 @@ export const projectsDB: ProjectProps[] = [
                 <br> <br>  
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/doc-funcional.md" target='_blank'> <u>Documentação funcional</u>.</a>
                 <br>  
-                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Resgistros de engenharia de softare</u>.</a>      
+                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Registros de engenharia de software</u>.</a>      
                 <br> 
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/bug-log.md" target='_blank'> <u>Bug Log</u>.</a> Registro de bugs/problemas e suas soluções.
     
