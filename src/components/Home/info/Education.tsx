@@ -33,31 +33,44 @@ export function Education() {
                     {Motion(1.0, 1.0,
                         <p className="PP"
                         >
-                            Em 2022, obtive minha graduação em Direito e fui aprovado no Exame da Ordem XXXII em 2021, alcançando 56 acertos na 1ª fase e obtendo a nota de 8,45 em Direito Tributário na 2ª fase.
+                            <div className="flex justify-between">
+                                <strong>Bacharelado em Direito</strong> <span>Estácio de Sá</span> <span>Fev, 2014 - Mar, 2022</span>
+                            </div>
+                            <p>
+                                Exame da Ordem XXXII em 2021, 56 acertos na 1ª fase e 8,45 em Direito Tributário na 2ª fase.
+                            </p>
                         </p>
+
                     )}
 
                     {Motion(1.0, 1.3,
                         <p className="PP"
                         >
-                            Cursei o primeiro período da graduação de <strong>Analise e desenvolvimento de sistemas na PUC Minas</strong>. Nesse tempo, pude ampliar minhas habilidades interpessoais desenvolvendo
-                            e planejando projeto em equipe. <strong>Nosso projeto foi destaque do Eixo I</strong>, sendo selecionado para mostra de projetos.
+                            <div className="flex justify-between">
+                                <strong>Analise e desenvolvimento de sistemas (Eixo I)</strong> <span>PUC Minas</span> <span>Fev, 2023 - Jun, 2023</span>
+                            </div>
+
+                            <p>
+                              Desenvolvi e planejei projeto em equipe. <u>Nosso projeto foi destaque do Eixo I</u>.
+                            </p>
                         </p>
                     )}
 
                     {Motion(1.0, 1.5,
-                        <p className="PP"
+                        <p className="PP flex justify-between"
                         >
-                            Atualmente, estou matriculado na pós-graduação em <strong>Direito Digital pela Legale Educacional</strong> e, simultaneamente, estou iniciando uma nova graduação em <strong>Cyber Security na Saint Leo University</strong>.
+                            <strong>Pós Graduação Direito Digital (cursando)</strong> <span>Legale Educacional</span> <span>Jan, 2024 - Set, 2024</span>
                         </p>
                     )}
 
-                    {Motion(1.0, 1.5,
-                        <p className="PP"
+                    {Motion(1.0, 1.7,
+                        <p className="PP flex justify-between"
                         >
-                            Em cursos livres, busco conhecimento teórico para ampliar minha compreensão sobre o universo de tecnologias, adquirir novos conhecimentos e aprimorar minhas habilidades práticas.
+                            <strong>Graduação em Cyber Security (cursando) </strong> <span>Saint Leo University</span> <span>Mar, 2024 - Dez, 2027</span>
                         </p>
                     )}
+
+
 
 
                 </div>
