@@ -51,7 +51,7 @@ export function Education() {
                             </div>
 
                             <p>
-                              Desenvolvi e planejei projeto em equipe. <u>Nosso projeto foi destaque do Eixo I</u>.
+                              Desenvolvi e planejei projeto em equipe. Nosso projeto foi destaque do Eixo I.
                             </p>
                         </p>
                     )}
