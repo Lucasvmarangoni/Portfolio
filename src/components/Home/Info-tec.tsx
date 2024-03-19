@@ -77,11 +77,11 @@ export const Info = () => {
                 {/* <div className="m-auto grid itens-center scroll-item h-full">
                     <First />
                 </div> */}
-                <div className="m-auto grid itens-center scroll-item h-[100vh]">
+                {/* <div className="m-auto grid itens-center scroll-item h-[100vh]">
 
                     <Conhecimentos />
                   
-                </div>
+                </div> */}
                 <div className="m-auto grid itens-center scroll-item h-[100vh]">
                     <Education />
                     {/* <Third /> */}
