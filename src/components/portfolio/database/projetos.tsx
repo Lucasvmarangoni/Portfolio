@@ -379,6 +379,9 @@ export const projectsDB: ProjectProps[] = [
             <br><br>
             <strong>Packages </strong> 
             <br><br>
+            <strong>Logger package</strong> <br>
+            Este pacote define as configurações de log (zerolog). Permite usar configuração de cores padrões ou personalizada. 
+            <br><br>
             <strong>Errors package</strong> <br>
             O pacote Errors é uma package/lib de tratamento de erros personalizada. Sua característica principal é anexar informações de contexto aos erros, permitindo que sejam propagados pela pilha de chamadas. <br>
             Além disso, também possui erros customizados e prontos, como por exemplo 'IsRequiredError' e 'IsInvalidError'.
