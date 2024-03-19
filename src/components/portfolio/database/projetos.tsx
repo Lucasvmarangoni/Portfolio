@@ -264,12 +264,11 @@ export const projectsDB: ProjectProps[] = [
             <li style=margin-bottom:5px>
             Sistema robusto para controle de documentos financeiros, desenvolvido com <strong>Go</strong>, <strong>CockRoachDB</strong>, <strong>GCP Storage</strong>, <strong>Docker</strong> e <strong>DDD</strong>. 
             </li>     
-
             <li style=margin-bottom:5px>            
             API Rest com <strong>Go-chi</strong> para authn JWT e <strong>Casbin</strong> no controle de acesso. API <strong>gRPC</strong> para arquivos e <strong>GraphQL</strong> para consultas.
             </li>
             <li style=margin-bottom:5px>            
-            Implementei rate-limiter por IP (middleware) e usuário (proxy). Utilizei <strong>nginx</strong> para proxy reverso e balanceamento de carga.
+            Implementei rate-limiter por IP (middleware) e usuário (proxy). Utilizei <strong>nginx</strong> para proxy reverso e balanceamento de carga e Coraza para <strong>WAF</strong>.
             </li>
             <li style=margin-bottom:5px> 
             Utilizei <strong>RabbitMQ</strong> para criação de usuário, arquivos, metadados e comunicação. <strong>Goroutine</strong> para executar workers em paralelo. 
@@ -318,7 +317,7 @@ export const projectsDB: ProjectProps[] = [
                 <br> <br>  
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/doc-funcional.md" target='_blank'> <u>Documentação funcional</u>.</a>
                 <br>  
-                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Registros de engenharia de software</u>.</a>      
+                ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Documentação de engenharia de software</u>.</a>      
                 <br> 
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/bug-log.md" target='_blank'> <u>Bug Log</u>.</a> Registro de bugs/problemas e suas soluções.
     
