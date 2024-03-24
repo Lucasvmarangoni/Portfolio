@@ -30,7 +30,7 @@ export function Education() {
                     ">Educação</h1>)}
 
 
-                    {Motion(1.0, 1.7,
+                    {Motion(1.0, 1.0,
                         <p className="PP flex justify-between"
                         >
                             <strong>Graduação em Cyber Security (cursando) </strong> <span>Saint Leo University</span> <span>Mar, 2024 - Dez, 2027</span>
@@ -38,7 +38,7 @@ export function Education() {
                     )}
 
 
-                    {Motion(1.0, 1.5,
+                    {Motion(1.0, 1.3,
                         <p className="PP flex justify-between"
                         >
                             <strong>Pós Graduação Direito Digital (cursando)</strong> <span>Legale Educacional</span> <span>Jan, 2024 - Set, 2024</span>
@@ -46,7 +46,7 @@ export function Education() {
                     )}
 
 
-                    {Motion(1.0, 1.3,
+                    {Motion(1.0, 1.5,
                         <p className="PP"
                         >
                             <div className="flex justify-between">
@@ -59,7 +59,7 @@ export function Education() {
                         </p>
                     )}
 
-                    {Motion(1.0, 1.0,
+                    {Motion(1.0, 1.7,
                         <p className="PP"
                         >
                             <div className="flex justify-between">
