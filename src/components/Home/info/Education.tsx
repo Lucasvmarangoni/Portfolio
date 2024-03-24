@@ -30,6 +30,35 @@ export function Education() {
                     ">Educação</h1>)}
 
 
+                    {Motion(1.0, 1.7,
+                        <p className="PP flex justify-between"
+                        >
+                            <strong>Graduação em Cyber Security (cursando) </strong> <span>Saint Leo University</span> <span>Mar, 2024 - Dez, 2027</span>
+                        </p>
+                    )}
+
+
+                    {Motion(1.0, 1.5,
+                        <p className="PP flex justify-between"
+                        >
+                            <strong>Pós Graduação Direito Digital (cursando)</strong> <span>Legale Educacional</span> <span>Jan, 2024 - Set, 2024</span>
+                        </p>
+                    )}
+
+
+                    {Motion(1.0, 1.3,
+                        <p className="PP"
+                        >
+                            <div className="flex justify-between">
+                                <strong>Analise e desenvolvimento de sistemas (Eixo I)</strong> <span>PUC Minas</span> <span>Fev, 2023 - Jun, 2023</span>
+                            </div>
+
+                            <p>
+                                Desenvolvi e planejei projeto em equipe. Nosso projeto foi destaque do Eixo I.
+                            </p>
+                        </p>
+                    )}
+
                     {Motion(1.0, 1.0,
                         <p className="PP"
                         >
@@ -42,35 +71,6 @@ export function Education() {
                         </p>
 
                     )}
-
-                    {Motion(1.0, 1.3,
-                        <p className="PP"
-                        >
-                            <div className="flex justify-between">
-                                <strong>Analise e desenvolvimento de sistemas (Eixo I)</strong> <span>PUC Minas</span> <span>Fev, 2023 - Jun, 2023</span>
-                            </div>
-
-                            <p>
-                              Desenvolvi e planejei projeto em equipe. Nosso projeto foi destaque do Eixo I.
-                            </p>
-                        </p>
-                    )}
-
-                    {Motion(1.0, 1.5,
-                        <p className="PP flex justify-between"
-                        >
-                            <strong>Pós Graduação Direito Digital (cursando)</strong> <span>Legale Educacional</span> <span>Jan, 2024 - Set, 2024</span>
-                        </p>
-                    )}
-
-                    {Motion(1.0, 1.7,
-                        <p className="PP flex justify-between"
-                        >
-                            <strong>Graduação em Cyber Security (cursando) </strong> <span>Saint Leo University</span> <span>Mar, 2024 - Dez, 2027</span>
-                        </p>
-                    )}
-
-
 
 
                 </div>
