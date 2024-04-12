@@ -18,7 +18,7 @@ export function TextCapa() {
         n7:text-base"
           >
             {<FigsCapaText />}
-            Ola, meu nome é
+            Olá, meu nome é
           </h1>
         )}
         {Motion(0.7, 0.3,
