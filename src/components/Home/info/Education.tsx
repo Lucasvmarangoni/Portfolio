@@ -29,14 +29,7 @@ export function Education() {
                     n7:text-xl 
                     ">Educação</h1>)}
 
-
-                    {Motion(1.0, 1.0,
-                        <p className="PP flex justify-between"
-                        >
-                            <strong>Graduação em Cyber Security (cursando) </strong> <span>Saint Leo University</span> <span>Mar, 2024 - Dez, 2027</span>
-                        </p>
-                    )}
-
+                
 
                     {Motion(1.0, 1.3,
                         <p className="PP flex justify-between"
