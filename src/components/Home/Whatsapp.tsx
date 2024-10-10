@@ -33,7 +33,9 @@ export function Whatsapp() {
     }
   }
 
-  const link = `https://api.whatsapp.com/send?phone=5527999880848&text=${meuNome}${name}${pontoName}${daEmpresa}${company}${pontoCompany} ${message}`
+  const number: string = ""
+
+  const link = `https://api.whatsapp.com/send?phone=${number}&text=${meuNome}${name}${pontoName}${daEmpresa}${company}${pontoCompany} ${message}`
 
   function CustomNavLink({ ...rest }: NavLinkProps) {
 
@@ -45,7 +47,7 @@ export function Whatsapp() {
   }
 
   return (
-
+    
     <Dialog.Description className="mt-0">
       <div className="grid gap-4 justify-center">
         <div className="grid row-span-3 gap-3">

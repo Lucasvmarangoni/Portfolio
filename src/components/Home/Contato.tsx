@@ -23,8 +23,8 @@ export function Contato() {
   function whatsapp() {
     setContact(contact = 1);
     setEmailopacity(Emailopacity = "opacity-100")
-    setWhatsappopacity(whatsappopacity = "opacity-75")
-
+    setWhatsappopacity(whatsappopacity = "opacity-75")    
+    alert("Desabilitado")    
   }
 
   return (
@@ -63,8 +63,9 @@ export function Contato() {
             {Motion(1.0, 0.4,
               <button id="whatsappButton" className={`text-black px-3 bg-BGB flex justify-center rounded-md w-32 ${whatsappopacity} hover:opacity-75 brightness-150`}
                 onClick={whatsapp}
-              >
-                Whatsapp
+              >               
+                Whatsapp 
+                
               </button>
             )}
           </Dialog.Title>
