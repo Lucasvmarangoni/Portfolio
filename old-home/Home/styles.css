@@ -167,17 +167,3 @@
 
 
 
-@keyframes blink {
-  0%, 90% {
-    opacity: 1;
-    filter: brightness(1);
-  }
-  95% {
-    opacity: 0.9;
-    filter: brightness(1.5);
-  }
-  100% {
-    opacity: 1;
-    filter: brightness(1);
-  }
-}

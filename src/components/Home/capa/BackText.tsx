@@ -4,14 +4,16 @@ import { FigsBackText } from "./functions/FigsBackText";
 export function BackText() {
   return (
     <div className="brightness-[1.8]">
-      {<FigsBackText />}
+      {/* {<FigsBackText />} */}
       {
         Motion(0.7, 0.2,
           <p className="text-justify flex">
-            Profissionalmente, tenho o objetivo de participar e contribuir em projetos complexos, que me permitam estar próximo de grandes pessoas e, assim, 
-            manter-me em constante evolução profissional e pessoal. Para alcançar esse objetivo, estou sempre buscando novos conhecimentos e habilidades.
+            Meu portfólio esta em replanejamento. Estou avaliando o
+            atual valor de investir tempo nele atualmente. Caso seja um recrutador e esteja o acessando, por favor contribua com seu feedback. 
+            Eu possuindo linkedin e github bem estruturados, faz sentido ter um portfólio?
           </p>)
       }
     </div>
   );
 }
+

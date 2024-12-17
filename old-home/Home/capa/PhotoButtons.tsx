@@ -8,20 +8,24 @@ import { Motion } from "../../functions/Motion";
 import { pageWidth } from "../../../pages/util/page-width";
 
 export function PhotoButtons() {
-  // const primeiroTexto: string = `A definir`;
-  // const segundoTexto: string = `a definir`;
+  const primeiroTexto: string = `Descobriu um easter egg!!`;
+  const segundoTexto: string = `As figurinhas são personagens de Solo Leveling`;
 
   let [texts, setText] = useState(0);
   const textArray = [<TextCapa />, <BackText />];
   function click() {
     setText(texts == 0 ? (texts = 1) : (texts = 0));
 
-    // Contar(primeiroTexto, segundoTexto);
+    Contar(primeiroTexto, segundoTexto);
 
+    // const text: any = document.querySelector("#texto");
+    // text.innerHTML == ReactDOMServer.renderToString(<TextCapa />)
+    //   ? (text.innerHTML = ReactDOMServer.renderToString(<BackText />))
+    //   : (text.innerHTML = ReactDOMServer.renderToString(<TextCapa />));
   }
 
   return (
-    <div className={"grid absolute"}>
+    <div className={"grid absolute" }>
       <div
         className="m-auto flex justify-center items-center 
         n0:flex n0:gap-0
@@ -48,16 +52,15 @@ export function PhotoButtons() {
         ">
             <img
               onClick={click}
-              className="bg-[#6d6d6d1f] opacity-100 rounded-[60px] m-auto cursor-pointer brightness-100
-              n0:w-[211px]   
-              n1:w-[180px]    
-              n2:w-[160px]
-              n3:w-[160px] 
-              n4:w-[120px]
-              n5:w-[120px]
-              n6:w-[120px]
-              n7:w-[80px]
-              animate-[blink_10s_linear_infinite]"
+              className="bg-[#6d6d6d1f] opacity-100  rounded-[60px]  hover:bg-Bhover m-auto cursor-pointer brightness-100
+            n0:w-[211px]   
+            n1:w-[180px]    
+            n2:w-[160px]
+            n3:w-[160px] 
+            n4:w-[120px]
+            n5:w-[120px]
+            n6:w-[120px]
+            n7:w-[80px]"
               src="/foto-perfil.png"
               alt="Foto do perfil"
             />

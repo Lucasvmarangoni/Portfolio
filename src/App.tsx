@@ -10,7 +10,8 @@ function App() {
     <div className="mx-auto w-full h-[100%] fixed left-[0.1vw] brightness-150 scroll-container">     
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
+          <Route index element={<Projetos />} />
           <Route path="projetos" element={<Projetos />} />
           <Route path="*" element={<ErrorNotFound />} />
         </Route>

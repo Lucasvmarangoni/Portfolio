@@ -17,7 +17,7 @@ export function TextCapa() {
         n6:text-base 
         n7:text-base"
           >
-            {/* {<FigsCapaText />} */}
+            {<FigsCapaText />}
             Olá, meu nome é
           </h1>
         )}
@@ -39,8 +39,9 @@ export function TextCapa() {
         {Motion(0.7, 0.4,
           <p className="mb-1 text-justify           
           ">
-            Sou desenvolvedor backend e Advogado especializado em proteção e privacidade de dados. Atualmente me dedicando 
-            a segurança da informação, mais especificamente em segurança cibernética ofensiva, Pentest e Red Team. 
+            Sou desenvolvedor backend, atualmente com TypeScript e Golang.
+            Neste espaço, apresento meus principais projetos e informações profissionais. Além de
+            algumas outras informações sobre mim.
           </p>
         )}
       </div>
