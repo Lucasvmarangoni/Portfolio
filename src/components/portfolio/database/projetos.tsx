@@ -240,7 +240,7 @@ export const projectsDB: ProjectProps[] = [
         github: 'https://github.com/Lucasvmarangoni/financial-file-manager',
         version: '1.0.0',
         type: 'pessoal',
-        situation: <Maintenance title="PROJETO EM DESENVOLVIMENTO" content="    
+        situation: <Maintenance title="PROJETO INTERROMPIDO" content="    
         
         <strong>Fase de desenvolvimento</strong> <br><br>        
         
