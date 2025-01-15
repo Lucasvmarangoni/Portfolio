@@ -242,16 +242,12 @@ export const projectsDB: ProjectProps[] = [
         type: 'pessoal',
         situation: <Maintenance title="PROJETO INTERROMPIDO" content="    
         
-        <strong>Fase de desenvolvimento</strong> <br><br>        
+        <strong>Interrompido</strong> <br><br>        
         
-        Estou trabalhando nesse projeto atualmente. Sendo possível acompanhar seu desenvolvimento desde o inicio pelo repositório. 
-
-        <br><br>          
-        
-         <a href='https://github.com/users/Lucasvmarangoni/projects/11/views/1' target='_blank'> ⇝ <u>Project Board</u>.</a>   
-        <br>
-
-        Se você é um recrutador e deseja propor que eu realize alguma alteração ou implementação, por favor, envie por email para <u>lucasvm.ti@gmail.com</u>.
+        O desenvolvimento do projeto foi interrompido, pois estou me dedicando a outro projeto, 
+        desenvolvido com código fechado. Nesse momento, não tenho intenção aplicar alterações no código desse 
+        projeto, contudo posso fazer atualizações nos Registros de engenharia de software, 
+        apontando correções e alterações a decisções que tive na engenharia do projeto.
 
         <br>
         
