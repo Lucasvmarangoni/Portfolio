@@ -316,16 +316,7 @@ export const projectsDB: ProjectProps[] = [
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/registros-de-engenharia-de-software.md" target='_blank'> <u>Documentação de engenharia de software</u>.</a>      
                 <br> 
                 ⇝ <a href="https://github.com/Lucasvmarangoni/financial-file-manager/blob/main/docs/bug-log.md" target='_blank'> <u>Bug Log</u>.</a> Registro de bugs/problemas e suas soluções.
-    
-                <br>  <br>  
-                <strong>Artigos e conteúdo</strong>
-                <br>   
-                Tenho o hábito de criar meu próprio material durante o estudo. A partir deste projeto, decidi publicá-los.
-                <br>   <br> 
-                ⇝ <a href="https://medium.com/@lucasvm.ti/desenvolvimento-voltado-para-a-auditoria-em-software-0d15c56bf99c" target='_blank'> <u>Desenvolvimento voltado para a auditoria em Software</u>.</a>
-                <br>  
-                ⇝ <a href="https://medium.com/@lucasvm.ti/erros-e-logs-4e1fcd79a937" target='_blank'> <u>Como configurar erros e logs corretamente</u>.</a>
-    
+        
                 <br>  <br>  
                 <strong>Bibliotecas </strong>
                 <br>  
