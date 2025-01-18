@@ -99,12 +99,11 @@ export const Projetos = () => {
             placeholder="Pesquise pelas tecnologias."
             list="datalist"
             className="px-3 bg-BG text-T1 text-sm placeholder:text-[#25252588] placeholder:brightness-150 
-          n0:w-80 n0:h-10
-          n1:w-80 n1:h-10
-          n2:w-80 n2:h-10 
-          n3:w-80 n3:h-10 
-          n4:w-80 n4:h-10
-          n5:w-80 n5:h-10 n5:text-sm
+          n0:w-[40rem] n0:h-10
+          n1:w-[40rem] n1:h-10
+          n2:w-[33rem] n3:h-10 
+          n4:w-[25rem] n4:h-10
+          n5:w-[20rem] n5:h-10 n5:text-sm
           n6:w-64 n6:h-8 n6:text-xs 
           n7:w-52 n7:h-8 n7:text-xs
           "
