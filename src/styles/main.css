@@ -76,24 +76,28 @@
     justify-center;
   }
   .buttons {
-    @apply w-24
-    h-8
+    @apply w-[6.3rem]
+    h-[1.6rem]
     py-1 
-    bg-[#6d6d6d18] 
+    bg-BG
     hover:bg-Bhover
-    rounded-[5px] 
-    text-[#ffffff46]
-    text-xs
+    rounded-[2rem] 
+    text-T1
+    text-sm
     font-semibold
     hover:underline
     flex 
     items-center 
     justify-center
     gap-[6px]
-    brightness-125;
+    brightness-[2]
+    border-[1.5px] 
+    border-[#1616164d];
     
   }
 }
+
+
 
 .img {
   background-size: 1px;
