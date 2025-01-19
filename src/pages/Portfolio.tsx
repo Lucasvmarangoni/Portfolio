@@ -83,15 +83,15 @@ export const Projetos = () => {
       <div
         className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-200  " + pageWidth}
       >
-        <div className="flex justify-center items-center m-auto pb-4 gap-4
+        <div className="flex justify-center items-center m-auto pb-4 gap-4 
           n0:w-[800px]
-          n1:w-[450px]
-          n2:w-[400px]
-          n3:w-[460px]
-          n4:w-[430px]
-          n5:w-[350px]
-          n6:w-[300px]
-          n7:w-[200px]
+          n1:w-[500px]
+          n2:w-[500px]
+          n3:w-[460px] n3:flex
+          n4:w-[430px] 
+          n5:w-[350px] 
+          n6:w-[300px] 
+          n7:w-[200px] n7:flex-wrap 
           ">
 
           <img
@@ -116,9 +116,9 @@ export const Projetos = () => {
               n0:text-2xl n0:text-left
               n1:text-2xl n1:text-left
               n2:text-2xl n2:text-left
-              n3:text-base
-              n4:text-base 
-              n5:text-base 
+              n3:text-2xl n3:text-left
+              n4:text-2xl 
+              n5:text-2xl 
               n6:text-base 
               n7:text-base"
               >
@@ -131,18 +131,18 @@ export const Projetos = () => {
                 className="text-T4 font-semibold brightness-[2]
         n0:text-3xl n0:text-left
         n1:text-3xl n1:text-left
-        n2:text-2xl n2:text-left
-        n3:text-lg 
-        n4:text-base 
-        n5:text-base 
-        n6:text-base 
+        n2:text-3xl n2:text-left
+        n3:text-3xl n3:text-left
+        n4:text-2xl 
+        n5:text-2xl 
+        n6:text-lg 
         n7:text-base"
               >
                 Lucas V. Marangoni
               </h1>
             )}
             {Motion(0.7, 0.4,
-              <p className="mb-1 text-justify  text-T2        
+              <p className="mb-1 text-justify  text-T2  n3:text-left n7:text-center     
           ">
                 Desenvolvedor Backend
               </p>
