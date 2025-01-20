@@ -144,7 +144,7 @@ export const Projetos = () => {
             {Motion(0.7, 0.4,
               <p className="mb-1 text-justify  text-T2  n3:text-left n7:text-center     
           ">
-                Desenvolvedor Backend
+                Sou Desenvolvedor Backend
               </p>
             )}
 
