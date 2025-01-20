@@ -27,7 +27,7 @@ export function InfoHeader() {
                 n0:mr-[0.1em] 
                 n7:mr-[0.1em]                
                 ">
-                        <Now />
+                        {/* <Now /> */}
                     </div>
                 </div>)},
         </div>

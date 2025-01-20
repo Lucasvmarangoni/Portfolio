@@ -82,10 +82,10 @@ export const Info = () => {
                     <Conhecimentos />
                   
                 </div> */}
-                <div className="m-auto grid itens-center scroll-item h-[100vh]">
-                    <Education />
+                {/* <div className="m-auto grid itens-center scroll-item h-[100vh]"> */}
+                    {/* <Education /> */}
                     {/* <Third /> */}
-                </div>
+                {/* </div> */}
             </div>
         </div >
     )

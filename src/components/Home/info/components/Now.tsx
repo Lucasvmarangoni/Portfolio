@@ -83,11 +83,7 @@ export function Now() {
             )}
 
 
-            {
-              now(1.0, 1.0, "Desenvolvendo:", "https://github.com/Lucasvmarangoni/sistema-de-documentos-financeiros",
-                "Financial file manager (Projeto)")
-            }
-
+     
             {/* {
               now(1.0, 1.2, "Pós Graduação:", "https://legale.com.br/curso/pos-em-direito-digital-2023/",
                 "Legale - Direito Digital")
