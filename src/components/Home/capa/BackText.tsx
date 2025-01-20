@@ -8,9 +8,7 @@ export function BackText() {
       {
         Motion(0.7, 0.2,
           <p className="text-justify flex">
-            Meu portfólio esta em replanejamento. Estou avaliando o
-            atual valor de investir tempo nele atualmente. Caso seja um recrutador e esteja o acessando, por favor contribua com seu feedback. 
-            Eu possuindo linkedin e github bem estruturados, faz sentido ter um portfólio?
+            NEM UM TEXTO AQUI POR ENQUANTO
           </p>)
       }
     </div>

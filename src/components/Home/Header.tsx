@@ -31,7 +31,7 @@ export function Header() {
           "
         >
           <img id="img" className="w-5 opacity-60" src="/logo.svg" alt="" />
-          <Link to="/" className="">
+          <Link to="/home" className=""> {/*alterar o to= devolta para / quando voltar a ter uma pagina inicial home utilizável. */}
             <h1 className="brightness-150">Lucas V Marangoni</h1>
           </Link>
         </button>
