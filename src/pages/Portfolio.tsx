@@ -39,10 +39,9 @@ export const Projetos = () => {
   // const libraries: string[] = ["TLogella"]
 
   const datalist: string[] = [
-    'Node Vitest',
-    'Nest Jest',
+    'Golang',   
     'Node Typescript',
-    'Node Typescript express'
+    'Node Typescript Nest'
   ]
 
   const [list, setList] = useState<string[]>([])
