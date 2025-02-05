@@ -91,8 +91,7 @@ export const projectsDB: ProjectProps[] = [
              Alessandra Santos, Enzo Moura, Ingrid Barros, Karina Barbosa, Lucas Vazzoller Marangoni, Paloma Rizzon.  </p>  
              
              <strong>Orientador:</strong>
-             <p>Joyce Carvalho</p>
-            
+             <p>Joyce Carvalho</p>            
         `,
         technologies: [
             "HTML",
@@ -356,7 +355,7 @@ export const projectsDB: ProjectProps[] = [
         year: '2024',
         picture: 'logella.png',
         github: 'https://github.com/Lucasvmarangoni/logella',
-        version: "1.0.0",
+        version: "1.3.7",
         type: 'lib',
         description: `
         <p className="P">
