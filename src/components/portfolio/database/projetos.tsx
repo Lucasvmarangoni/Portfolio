@@ -355,7 +355,7 @@ export const projectsDB: ProjectProps[] = [
         year: '2024',
         picture: 'logella.png',
         github: 'https://github.com/Lucasvmarangoni/logella',
-        version: "1.3.7",
+        version: "1.3.8",
         type: 'lib',
         description: `
         <p className="P">
