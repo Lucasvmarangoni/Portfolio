@@ -355,13 +355,12 @@ export const projectsDB: ProjectProps[] = [
         year: '2024',
         picture: 'logella.png',
         github: 'https://github.com/Lucasvmarangoni/logella',
-        version: "1.3.8",
+        version: "1.4.0",
         type: 'lib',
         description: `
         <p className="P">
-            Uma biblioteca desenvolvida em Golang para loggers para rotas com Go-Chi e erros customizados. 
-            <br>
-            Ainda estou aprimorando e acrescentando novos packages e funcionalidades. 
+            Uma biblioteca desenvolvida em Golang com objetivo principal de loggers para rotas com Go-Chi e tratamento de erros. 
+            
             <br><br>
             <strong>Packages </strong> 
             <br><br>
@@ -369,8 +368,8 @@ export const projectsDB: ProjectProps[] = [
             Este pacote define as configurações de log (zerolog). Permite usar configuração de cores padrões ou personalizada. 
             <br><br>
             <strong>Errors package</strong> <br>
-            O pacote Errors é uma package/lib de tratamento de erros personalizada. Sua característica principal é anexar informações de contexto aos erros, permitindo que sejam propagados pela pilha de chamadas. <br>
-            Além disso, também possui erros customizados e prontos, como por exemplo 'IsRequiredError' e 'IsInvalidError'.
+            O pacote Errs é uma package/lib de tratamento de erros. Sua característica principal é anexar informações de rastreio aos erros, permitindo que sejam propagados pela pilha de chamadas. <br>
+            Além disso, também possui erros customizados prontos, como por exemplo 'IsRequiredError' e 'IsInvalidError'.
             <br><br>
             <strong>Router Package</strong> <br>
             O pacote Router é uma package de logs para inicializar rotas que utiliza go-chi.
