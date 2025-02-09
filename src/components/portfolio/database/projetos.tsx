@@ -357,6 +357,20 @@ export const projectsDB: ProjectProps[] = [
         github: 'https://github.com/Lucasvmarangoni/logella',
         version: "1.4.0",
         type: 'lib',
+        resume: <Resume content=" 
+        <p>
+                Uma biblioteca para logs e errors. Desenvolvida em <strong>Golang</strong>, com finalidade de segurança, observabilidade e auditoria.
+            </p>        
+
+            <li>
+                Alguns de seus pkg são: <strong>Logger</strong>, configurações dos logs, utilizando <strong>Zerolog</strong>; <strong>Router</strong>, logs com a inicialização das rotas com <strong>Go-chi</strong>. 
+            </li>   
+            
+            <li>
+            <strong>Error</strong>, permite adicionar contexto a pilha e separa-lo da exceção. Também disponibiliza um conjunto de exceções prontas.
+            </li> 
+        "
+        />,
         description: `
         <p className="P">
             Uma biblioteca desenvolvida em Golang com objetivo principal de loggers para rotas com Go-Chi e tratamento de erros. 
