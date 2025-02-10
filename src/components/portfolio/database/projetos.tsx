@@ -329,6 +329,7 @@ export const projectsDB: ProjectProps[] = [
         `,
         technologies: [
             "Go",
+            "Golang",
             "Docker",
             "Docker Compose",
             "Github Actions",
@@ -340,8 +341,7 @@ export const projectsDB: ProjectProps[] = [
             "Zerolog",
             "Prometheus",
             "AES",
-            "gRPC",
-            "99designs/gqlgen",
+            "gRPC",            
             "GraphQL",
             "RabbitMQ",
             "CockroachDB",
