@@ -249,7 +249,7 @@ export const projectsDB: ProjectProps[] = [
         resume: <Resume content="    
 
          <p style=margin-bottom:5px>
-            Sistema para controle de documentos financeiros, desenvolvido com <strong>Golang</strong>, <strong>CockRoachDB</strong>, <strong>Docker</strong>. Antes da interrupção:
+            Sistema para controle de documentos financeiros, desenvolvido com <strong>Golang</strong>, <strong>CockRoachDB</strong>, <strong>Docker</strong>. Antes de interromper:
         </p>     
            
             <li style=margin-bottom:5px>            
