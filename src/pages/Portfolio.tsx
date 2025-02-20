@@ -259,8 +259,8 @@ export const Projetos = () => {
               n3:w-8 n3:h-8
               n4:w-8 n4:h-8
               n5:w-8 n5:h-8 
-              n6:w-8 n6:h-8
-              n7:w-8 n7:h-8"
+              n6:w-7 n6:h-7
+              n7:w-7 n7:h-7"
                 style={{ cursor: "pointer" }}
                 onClick={() => {
                   const filterInput: any = document.querySelector("#input");
@@ -288,8 +288,8 @@ export const Projetos = () => {
               n3:w-8 n3:h-8
               n4:w-8 n4:h-8
               n5:w-8 n5:h-8 
-              n6:w-8 n6:h-8
-              n7:w-8 n7:h-8"
+              n6:w-7 n6:h-7
+              n7:w-6 n7:h-6"
               />
           }
           <datalist id="datalist">
