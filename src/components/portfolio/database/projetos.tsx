@@ -55,11 +55,11 @@ export const projectsDB: ProjectProps[] = [
         version: undefined,
         type: 'equipe',
         resume: <Resume content="
-        <ul style=list-style-type:square>
-        <li style=margin-bottom:5px>Aplicação web para e-comerce de oficina. Desenvolvido em <strong>equipe de seis pessoas</strong> com Javascript, HTML e CSS.</li>       
+       
+        <p style=margin-bottom:5px>Aplicação web para e-comerce de oficina. Desenvolvido em <strong>equipe de seis pessoas</strong> com Javascript, HTML e CSS.</p>       
         <li style=margin-bottom:5px>Foi minha responsabilidade a página 'Itens da loja', a estrutura do banco de dados e o deploy com Github Actions no Github Pages.</li>
         <li style=margin-bottom:5px>Foi utilizado metodologias ágeis, sendo escolhido o Scrum como base para definição do processo de desenvolvimento.</li>
-        </ul> 
+       
 
         " />,
         description: `
@@ -106,12 +106,12 @@ export const projectsDB: ProjectProps[] = [
         version: '2.1.0',
         type: 'pessoal',
         resume: <Resume content="
-        <ul style=list-style-type:square>
-        <li style=margin-bottom:5px>API Rest para aplicação de lista de tarefas, desenvolvida com <strong>Express</strong>, <strong>Typescript</strong> e <strong>Prisma</strong>, aplicando <strong>TDD</strong> e princípios de <strong>DDD</strong>.</li>
+       
+        <p style=margin-bottom:5px>API Rest para aplicação de lista de tarefas, desenvolvida com <strong>Express</strong>, <strong>Typescript</strong> e <strong>Prisma</strong>, aplicando <strong>TDD</strong> e princípios de <strong>DDD</strong>.</p>
         <li style=margin-bottom:5px>Utilizei a lib <strong>Overnight.js</strong> nos controllers com authn <strong>JWT</strong> com <strong>Bcrypt</strong> e <strong>Express rate limit</strong>. Possui doc.<strong>OpenAPI</strong> com swagger.</li>
         <li style=margin-bottom:5px>Para persistência <strong>MongoDB</strong> e <strong>Node cache</strong>. Apliquei validações, tratei exceções e logs com <strong>Pino</strong>. Implementei <strong>Graceful shutdown</strong>.</li>
         <li style=margin-bottom:5px>Testes automatizados com <strong>Vitest</strong> e <strong>Supertest</strong> utilizando <strong>in memory database</strong> e <strong>mocks</strong>. Utilizei para workflow o <strong>Github Actions</strong>. </li>
-        </ul> 
+       
 
         " />,
         description: `
@@ -172,13 +172,12 @@ export const projectsDB: ProjectProps[] = [
         version: '1.1.0',
         type: 'pessoal',
         resume: <Resume content="
-        <ul style=list-style-type:square>
-        <li style=margin-bottom:5px> API para cambio consumindo <strong>API Exchangerates</strong>. Desenvolvido com <strong>Nest</strong>, <strong>Mongoose</strong>, <strong>Docker</strong> e <strong>arquitetura modular</strong>.</li>
+       
+        <p style=margin-bottom:5px> API para cambio consumindo <strong>API Exchangerates</strong>. Desenvolvido com <strong>Nest</strong>, <strong>Mongoose</strong>, <strong>Docker</strong> e <strong>arquitetura modular</strong>.</p>
         <li style=margin-bottom:5px>Utilizei config estrita do typescript e gestão com Nest ConfigModule. Swagger para <strong>doc.OpenAPI</strong> e testes com <strong>Jest</strong> e <strong>Supertest</strong>.</li>
         <li style=margin-bottom:5px> Utilizei <strong>Bull</strong> para filas na criação de usuários e authn local e <strong>OAuth</strong> com <strong>Passport</strong>. Criei um <strong>cluster de replicas e arbiter mongodb</strong>.</li>
         <li style=margin-bottom:5px>Implementei  Logs com <strong>Pino</strong> além exceções e rate limit dos módulos Nest. Para o sistema de cache utilizei <strong>Redis</strong> e <strong>Redis Cloud</strong>.</li>
-        </ul> 
-
+       
         "
         />,
         extra: <NotaCurrency />,
@@ -249,37 +248,28 @@ export const projectsDB: ProjectProps[] = [
         />,
         resume: <Resume content="    
 
-        <ul style=list-style-type:square>
-
-            <li style=margin-bottom:5px>
-            Sistema robusto para controle de documentos financeiros, desenvolvido com <strong>Go</strong>, <strong>CockRoachDB</strong>, <strong>GCP Storage</strong>, <strong>Docker</strong> e <strong>DDD</strong>. 
-            </li>     
+         <p style=margin-bottom:5px>
+            Sistema para controle de documentos financeiros, desenvolvido com <strong>Golang</strong>, <strong>CockRoachDB</strong>, <strong>Docker</strong>. Antes da interrupção:
+        </p>     
+           
             <li style=margin-bottom:5px>            
-            API Rest com <strong>Go-chi</strong> para authn JWT e <strong>Casbin</strong> no controle de acesso. API <strong>gRPC</strong> para arquivos e <strong>GraphQL</strong> para consultas.
+               Elaborei documentação de requisitos, de engenharia de software, bug log e project board, e <strong>atualmente ainda os atualizo</strong>. 
             </li>
             <li style=margin-bottom:5px>            
-            Implementei rate-limiter por IP (middleware) e usuário (proxy). Utilizei <strong>nginx</strong> para proxy reverso e balanceamento de carga e Coraza para <strong>WAF</strong>.
+                API Rest com <strong>Go-chi</strong> para authn JWT, com <strong>2FA</strong> e no controle de acesso <strong>Casbin</strong> e gestão das configurações com <strong>Viper</strong>.
             </li>
             <li style=margin-bottom:5px> 
-            Utilizei <strong>RabbitMQ</strong> para criação de usuário, arquivos, metadados e comunicação. <strong>Goroutine</strong> para executar workers em paralelo. 
+                Implementei <strong>rate-limiter</strong> por IP e usuário. Utilizei <strong>nginx</strong> para <strong>proxy reverso</strong> e <strong>balanceamento de carga</strong> e Coraza como <strong>WAF</strong>.
             
             </li>
             
             <li style=margin-bottom:5px> 
-            Para solução de cache utilizei <strong>Memcached</strong>. Implementei testes com stretchr e <strong>postman/newman</strong> e Github Actions para workflow.  
+                <strong>RabbitMQ</strong> como fila na criação de usuário com multiplas <strong>Goroutines</strong>. Para observabilidade <strong>Prometheus</strong>, Zerolog e <strong>Logella</strong>. 
             </li>   
             
             <li style=margin-bottom:5px> 
-            Utilizei na segurança de dados sensíveis Bcrypt para password e <strong>AES</strong> nos demais dados, com <strong>SHA-256</strong> para criar hash de consultas.
-            </li>   
-            
-            <li style=margin-bottom:5px> 
-            Para observabilidade utilizei <strong>Prometheus</strong>, <strong>ElasticSearch</strong>, Zerolog e <strong>Logella</strong>. Para gestão das configurações utilizei <strong>Viper</strong>.
-            </li>  
-       
-        
-        </ul>  
-      
+                Para solução de cache utilizei <strong>Memcached</strong>. Implementei testes unitários com stretchr e e2e com <strong>postman/newman</strong>.  
+            </li>         
         "
         />,
         description: `     
@@ -336,7 +326,7 @@ export const projectsDB: ProjectProps[] = [
             "Zerolog",
             "Prometheus",
             "AES",
-            "gRPC",            
+            "gRPC",
             "GraphQL",
             "RabbitMQ",
             "CockroachDB",
@@ -350,19 +340,19 @@ export const projectsDB: ProjectProps[] = [
         year: '2024',
         picture: 'logella.png',
         github: 'https://github.com/Lucasvmarangoni/logella',
-        version: "1.4.0",
+        version: "1.4.1",
         type: 'lib',
         resume: <Resume content=" 
         <p>
-                Uma biblioteca para logs e errors. Desenvolvida em <strong>Golang</strong>, com finalidade de segurança, observabilidade e auditoria.
+                Uma biblioteca <strong>Golang</strong> simples e minimalista para observabilidade e segurança com logs e tratamento de exceções. 
             </p>        
 
             <li>
-                Alguns de seus pkg são: <strong>Logger</strong>, configurações dos logs, utilizando <strong>Zerolog</strong>; <strong>Router</strong>, logs com a inicialização das rotas com <strong>Go-chi</strong>. 
+                <strong>Logger</strong>, configurações dos logs, utilizando <strong>Zerolog</strong>; <strong>Router</strong>, logs com a inicialização das rotas com <strong>Go-chi</strong>. 
             </li>   
             
             <li>
-            <strong>Error</strong>, permite adicionar contexto a pilha e separa-lo da exceção. Também disponibiliza um conjunto de exceções prontas.
+            <strong>Errs</strong>, rastro de chamadas separado do erro, propaga o status http, funcionalidades de resposta ao client e outras.
             </li> 
         "
         />,
