@@ -22,10 +22,8 @@ module.exports = {
       "icons": "1px"
     },
     textColor: {
-      'T1': '#3b27535b',
-      'T2': '#ffffff85',
-      'T3': '#030303',
-      'T4': '#3b27535b',
+      'T1': '#ffffff85', //3b27535b
+      'T2': '#3b27535b', //ffffff85
     },
     animation: {
       'contentShow': '150ms cubic-bezier(0.16, 1, 0.3, 1)',
@@ -33,8 +31,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         "BG": "#030303",
-        'BH': '#3b275367',
-        'BGH': '#0d0d0eaf', // 0d0d0eaf
+        'BGH': '#1b1f23', // 0d0d0eaf
         'BGC': '#09090aea',
         'BGB': '#3b27535b',
         'Bhover': '#22212185'

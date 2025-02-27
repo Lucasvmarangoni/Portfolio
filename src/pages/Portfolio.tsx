@@ -80,7 +80,7 @@ export const Projetos = () => {
   return (
     MotionFirst(1.0, 0.5,
       <div
-        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150  " + pageWidth}
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto " + pageWidth}
       >
         <div className="flex justify-center items-center m-auto pb-4 gap-4 
           n0:max-w-[800px]
@@ -94,7 +94,7 @@ export const Projetos = () => {
           ">
 
           <img
-            className="bg-[#6d6d6d0e] opacity-100 rounded-[3em] brightness-[0.3]
+            className="bg-[#6d6d6d0e] rounded-[3em] brightness-[0.9]
               n0:w-40 
               n1:w-32    
               n2:w-32
@@ -109,25 +109,10 @@ export const Projetos = () => {
           />
 
           <div className={"text-center flex flex-col "} >
-            {Motion(0.7, 0.2,
-              <h1
-                className="text-T2 font-medium brightness-[0.5]  
-              n0:text-2xl n0:text-left
-              n1:text-2xl n1:text-left
-              n2:text-2xl n2:text-left
-              n3:text-2xl n3:text-left
-              n4:text-2xl 
-              n5:text-2xl 
-              n6:text-2xl 
-              n7:text-2xl"
-              >
-                {/* {<FigsCapaText />} */}
-                Olá, meu nome é
-              </h1>
-            )}
+
             {Motion(0.7, 0.3,
               <h1
-                className="text-T4 font-semibold 
+                className="text-T2 font-semibold brightness-[2.4]
         n0:text-3xl n0:text-left
         n1:text-3xl n1:text-left
         n2:text-3xl n2:text-left
@@ -141,9 +126,9 @@ export const Projetos = () => {
               </h1>
             )}
             {Motion(0.7, 0.4,
-              <p className="mb-1 text-justify  text-T2  n3:text-left n7:text-center brightness-[0.5]    
+              <p className="mb-1 text-justify text-lg text-T1  n3:text-left n7:text-center 
           ">
-                Sou Desenvolvedor Backend
+                Desenvolvedor Backend
               </p>
             )}
 
@@ -169,10 +154,10 @@ export const Projetos = () => {
                 >
 
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="18" height="18" rx="2" fill="#3b27535b" />
-                    <path d="M16.5604 0H1.53803C0.717186 0 0 0.590625 0 1.40183V16.4575C0 17.2732 0.717186 18 1.53803 18H16.556C17.3812 18 18 17.2683 18 16.4575V1.40183C18.0048 0.590625 17.3812 0 16.5604 0ZM5.57959 15.0039H3.00093V6.98625H5.57959V15.0039ZM4.37946 5.76723H4.36097C3.53571 5.76723 3.00133 5.1529 3.00133 4.38388C3.00133 3.6008 3.54977 3.00094 4.39352 3.00094C5.23727 3.00094 5.75356 3.59638 5.77204 4.38388C5.77164 5.1529 5.23727 5.76723 4.37946 5.76723ZM15.0039 15.0039H12.4252V10.62C12.4252 9.56973 12.0499 8.85214 11.117 8.85214C10.4042 8.85214 9.98235 9.33429 9.79472 9.80397C9.7244 9.97272 9.70552 10.2025 9.70552 10.4372V15.0039H7.12686V6.98625H9.70552V8.10201C10.0808 7.56763 10.667 6.79862 12.0311 6.79862C13.7238 6.79862 15.0043 7.91438 15.0043 10.3199L15.0039 15.0039Z" fill="black" />
+                    <path d="M3.00133 4.38388C3.00133 5.1529 3.53571 5.76723 4.36097 5.76723H4.37946C5.23727 5.76723 5.77204 5.1529 5.77204 4.38388C5.75356 3.59638 5.23727 3.00094 4.39352 3.00094C3.54977 3.00094 3.00133 3.6008 3.00133 4.38388ZM5.57959 6.98625H3.00093V15.0039H5.57959V6.98625ZM9.70552 6.98625V8.10201C10.0808 7.56763 10.667 6.79862 12.0311 6.79862C13.7238 6.79862 15.0043 7.91438 15.0043 10.3199C15.0043 11.5094 14.3459 12.2797 13.4021 12.2797C12.4726 12.2797 12.0847 11.8037 11.9773 11.2529C11.9527 10.9665 11.948 10.6793 11.948 10.4372V9.80397C11.9801 9.33429 12.4042 8.85214 13.117 8.85214C14.0499 8.85214 14.4252 9.56973 14.4252 10.62V15.0039H12.0039V10.4372C12.0039 9.33429 11.5844 8.85214 10.6705 8.85214C9.80661 8.85214 9.33195 9.56973 9.33195 10.62V15.0039H7.12686V6.98625H9.70552Z" fill="#ffffff85" />
                   </svg>
-                  <p>Linkedin</p>
+
+                  <p className="brightness-[1.7]">Linkedin</p>
                 </NavLink>
               )}
 
@@ -185,12 +170,12 @@ export const Projetos = () => {
                   rel="noopener noreferrer"
                 >
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="18" height="18" rx="2" fill="black" />
-                    <path d="M9.05044 2.00043C5.15551 2.00043 2 5.10682 2 8.93529C2 12.0009 4.01995 14.5993 6.81942 15.516C7.17326 15.5815 7.30105 15.3669 7.30105 15.1814C7.30105 15.0167 7.29708 14.5811 7.29444 14.0029C5.33221 14.4208 4.91888 13.0706 4.91888 13.0706C4.59765 12.2714 4.13408 12.0568 4.13408 12.0568C3.49602 11.6282 4.18476 11.6373 4.18476 11.6373C4.89156 11.6845 5.26347 12.3503 5.26347 12.3503C5.89228 13.4113 6.91328 13.1044 7.31735 12.9259C7.37905 12.479 7.5628 12.1717 7.76285 12.0005C6.19766 11.8267 4.55182 11.2307 4.55182 8.57338C4.55182 7.81445 4.82502 7.19638 5.27669 6.71094C5.1987 6.53713 4.95986 5.83064 5.33882 4.87537C5.33882 4.87537 5.92886 4.69029 7.2777 5.58662C7.84217 5.43276 8.44146 5.35604 9.04031 5.35214C9.63959 5.35604 10.2384 5.43319 10.8029 5.58662C12.1438 4.69029 12.7334 4.87537 12.7334 4.87537C13.1119 5.83064 12.8731 6.5367 12.8044 6.71094C13.2516 7.19638 13.5248 7.81488 13.5248 8.57338C13.5248 11.2368 11.8768 11.8241 10.3098 11.9936C10.5548 12.2012 10.7844 12.6281 10.7844 13.2761C10.7844 14.2036 10.7756 14.9508 10.7756 15.1767C10.7756 15.357 10.899 15.5737 11.2621 15.5039C14.0823 14.5967 16.1 11.9962 16.1 8.93486C16.1 5.10638 12.9445 2 9.04956 2L9.05044 2.00043Z" fill="#3b2753f1" fillOpacity="0.4" />
+                    <rect width="18" height="18" rx="2" fill="none" />
+                    <path d="M9.05044 2.00043C5.15551 2.00043 2 5.10682 2 8.93529C2 12.0009 4.01995 14.5993 6.81942 15.516C7.17326 15.5815 7.30105 15.3669 7.30105 15.1814C7.30105 15.0167 7.29708 14.5811 7.29444 14.0029C5.33221 14.4208 4.91888 13.0706 4.91888 13.0706C4.59765 12.2714 4.13408 12.0568 4.13408 12.0568C3.49602 11.6282 4.18476 11.6373 4.18476 11.6373C4.89156 11.6845 5.26347 12.3503 5.26347 12.3503C5.89228 13.4113 6.91328 13.1044 7.31735 12.9259C7.37905 12.479 7.5628 12.1717 7.76285 12.0005C6.19766 11.8267 4.55182 11.2307 4.55182 8.57338C4.55182 7.81445 4.82502 7.19638 5.27669 6.71094C5.1987 6.53713 4.95986 5.83064 5.33882 4.87537C5.33882 4.87537 5.92886 4.69029 7.2777 5.58662C7.84217 5.43276 8.44146 5.35604 9.04031 5.35214C9.63959 5.35604 10.2384 5.43319 10.8029 5.58662C12.1438 4.69029 12.7334 4.87537 12.7334 4.87537C13.1119 5.83064 12.8731 6.5367 12.8044 6.71094C13.2516 7.19638 13.5248 7.81488 13.5248 8.57338C13.5248 11.2368 11.8768 11.8241 10.3098 11.9936C10.5548 12.2012 10.7844 12.6281 10.7844 13.2761C10.7844 14.2036 10.7756 14.9508 10.7756 15.1767C10.7756 15.357 10.899 15.5737 11.2621 15.5039C14.0823 14.5967 16.1 11.9962 16.1 8.93486C16.1 5.10638 12.9445 2 9.04956 2L9.05044 2.00043Z" fill="#ffffff85" fillOpacity="1.4" />
                   </svg>
 
 
-                  <p>Github</p>
+                  <p className="brightness-[1.7]">Github</p>
                 </NavLink>
               )}
 
@@ -204,14 +189,13 @@ export const Projetos = () => {
                   rel="noopener noreferrer"
                 >
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="18" height="18" rx="2" fill="black" />
-                    <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#3b2753f1" fillOpacity="0.4" />
-                    <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#3b2753f1" fillOpacity="0.4" />
+                    <rect width="18" height="18" rx="2" fill="none" />
+                    <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffff85" fillOpacity="1.4" />
+                    <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffff85" fillOpacity="1.4" />
                   </svg>
 
 
-
-                  <p>Currículo</p>
+                  <p className="brightness-[1.7]">Currículo</p>
                 </NavLink>
               )}
             </div>
@@ -223,7 +207,7 @@ export const Projetos = () => {
 
 
         <div
-          className={" flex justify-center items-center brightness-[2]" + pageWidth}
+          className={" flex justify-center items-center" + pageWidth}
         >
 
           <label
@@ -236,9 +220,9 @@ export const Projetos = () => {
             onInput={dynamicDatalist}
             autoComplete="on"
             type="search"
-            placeholder="Pesquise pelas tecnologias."        
+            placeholder="Pesquise pelas tecnologias."
             list="datalist"
-            className="px-5 bg-BG text-T1 text-sm placeholder:text-T1 placeholder:brightness-[0.6] border-[1.5px] border-[#16161656] rounded-3xl ml-8 
+            className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 
           n0:w-[30rem] n0:h-10
           n1:w-[35rem] n1:h-10
           n2:w-[33rem] n3:h-10 
@@ -251,8 +235,8 @@ export const Projetos = () => {
           {
             check === 1
               ? <VscChromeClose
-                color="#3b275367"
-                className="pr-2 relative right-10 brightness-[0.6] 
+                color="#ffffff85"
+                className="pr-2 relative right-10 
               n0:w-8 n0:h-8
               n1:w-8 n1:h-8
               n2:w-8 n2:h-8
@@ -280,8 +264,8 @@ export const Projetos = () => {
                 }}
               />
               : <VscSearch
-                color="#3b275367"
-                className="pr-2 relative right-10 brightness-[0.6]
+                color="#ffffff85"
+                className="pr-2 relative right-10 
               n0:w-8 n0:h-8
               n1:w-8 n1:h-8
               n2:w-8 n2:h-8
@@ -313,15 +297,15 @@ export const Projetos = () => {
           " alt="Lucasvmarangoni's Github Activity Graph" />
         </div> */}
 
-        <div className="grid gap-40 relative brightness-[1]">
+        <div className="grid gap-40 relative">
 
           <div className="grid gap-10 scroll-item ">
             <div className=" m-auto flex flex-wrap justify-center align-center
               gap-10">
 
-                <div></div>
+              <div></div>
 
-                     <div
+              <div
                 className={"flex flex-wrap justify-center "}
               >
                 {

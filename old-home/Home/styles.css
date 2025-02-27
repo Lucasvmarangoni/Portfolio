@@ -52,7 +52,7 @@
     @apply w-8 opacity-50 hover:opacity-30;
   } */
   .DialogOverlay {
-    @apply bg-[#0000007e] 
+    @apply bg-BG
     fixed 
     top-0 
     left-0 
@@ -60,7 +60,7 @@
     bottom-0;
   }
   .DialogContent {
-    @apply bg-[#070707ea]
+    @apply bg-BG
     p-7     
     rounded-md 
     grid 
@@ -92,24 +92,11 @@
     flex 
     gap-3;
   }
-  .P {
-    @apply text-T2 brightness-75
-    text-lg 
-    text-justify;
-  }
-  
-  .PP{
-    @apply text-T2 text-justify brightness-75
-    n0:text-lg 
-    n1:text-lg 
-    n2:text-lg 
-    n5:text-base       
-    n7:text-sm
-  }
+ 
 
   .Proj {
     @apply hover:underline
-    text-T2 
+    text-T1 
     text-lg 
     text-justify;
   }
@@ -123,10 +110,10 @@
     text-xl 
     font-bold;
   }
-  .IconButton {
+  .iconButton {
     @apply p-2
-    absolute
-    top-1    
+    relative
+    top-0    
     right-0;
   }
   .Ferramentas {
@@ -159,8 +146,7 @@
 
 .active {  
   border-bottom: 2px solid #3b27535b;
-  padding: 1px;
-  
+  padding: 1px;  
 
 }
 

@@ -158,9 +158,9 @@
 }
 
 .active {  
-  border-bottom: 2px solid #3b27535b;
+  border-bottom: 4px solid #3b27535b;
   padding: 1px;
-  
+  filter: brightness(200%); 
 
 }
 

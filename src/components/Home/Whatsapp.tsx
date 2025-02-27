@@ -53,7 +53,7 @@ export function Whatsapp() {
         <div className="grid gap-3 ">
 
           {Motion(1.0, 0.5,
-            <div className="text-T2 grid gap-2  
+            <div className="text-T1 grid gap-2  
             
             ">
               <label htmlFor="inputName">Nome:</label>
@@ -72,7 +72,7 @@ export function Whatsapp() {
           )}
 
           {Motion(1.0, 0.6,
-            <div className="text-T2 grid gap-2       
+            <div className="text-T1 grid gap-2       
             ">
               <label className="" htmlFor="inputCompany">
                 Empresa:
@@ -92,9 +92,9 @@ export function Whatsapp() {
           )}
 
           {Motion(1.0, 0.7,
-            <div className="text-T2 grid gap-2         
+            <div className="text-T1 grid gap-2         
             ">
-              <label className="text-T2" htmlFor="inputMessage">
+              <label className="text-T1" htmlFor="inputMessage">
                 Mensagem:
               </label>
               <textarea

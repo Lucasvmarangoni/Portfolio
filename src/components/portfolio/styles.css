@@ -21,23 +21,23 @@
     n7:w-[16rem] n7:h-[9rem];
   }
   .imgTitle {
-    @apply text-T4 
+    @apply text-T2 
     font-semibold
     text-lg 
     m-auto;
   }
   .projTitle {
-    @apply text-T1
+    @apply text-T2
     text-3xl
-    brightness-200;
+    brightness-[2.3];
   }
   .projYear {
-    @apply text-T3
+    @apply text-T1
     text-2xl
     font-semibold
     bg-BGB
     px-2    
-    rounded-md
+    rounded-md    
     ;
   }
   .banner {
@@ -46,14 +46,13 @@
   }
   .Icon {
     @apply w-[83px] 
-    bg-BGB
+    bg-BGH
     rounded-md 
     hover:opacity-70 
     flex 
     gap-1 
     items-center 
     justify-center
-    brightness-200
     cursor-pointer;
   }
   .divTec {
@@ -71,5 +70,19 @@
     hover:opacity-70 
     cursor-default
     brightness-200;
+  }
+  .p {
+    @apply text-T1 
+    text-lg 
+    text-justify;
+  }
+
+  .pP{
+    @apply text-T1 text-justify 
+    n0:text-lg 
+    n1:text-lg 
+    n2:text-lg 
+    n5:text-base       
+    n7:text-sm
   }
 }

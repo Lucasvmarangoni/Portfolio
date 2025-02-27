@@ -65,9 +65,15 @@
   }
 
   .buttons {
-    @apply w-[6.3rem] h-[1.6rem] py-1 bg-BGH hover:brightness-150 rounded-[2rem] text-T1 text-sm font-semibold hover:underline flex items-center justify-center gap-[6px]
-    /* brightness-[1] */
-    border-[1.5px] border-[#1616164d];
+    @apply w-[6.4rem] 
+    h-[1.8rem] 
+    py-2  
+    brightness-150
+    hover:brightness-200 
+    rounded-[2rem]
+     text-T2 text-sm font-semibold hover:underline flex items-center justify-center gap-[4px]
+    
+    border-[2.7px] border-[#3b27535b];
 
   }
 }

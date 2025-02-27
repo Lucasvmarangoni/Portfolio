@@ -32,20 +32,20 @@ export const listAllProjects = (props: Props) => {
 
     return (
         <Dialog.Root>
-            <Dialog.Trigger asChild className="brightness-[1.4]">
+            <Dialog.Trigger asChild className="brightness-[3]">
                 <div className="divCapa">
                     <button>
-                        <img className="projCapa brightness-75" src={picture} alt="" />
+                        <img className="projCapa " src={picture} alt="" />
                     </button>
                     <h2 className="imgTitle">{name.toUpperCase()}</h2>
                 </div>
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className="DialogOverlay" />
-                <Dialog.Content className="DialogContent focus:outline-none brightness-150">
+                <Dialog.Content className="DialogContent focus:outline-none ">
                     <Dialog.Title className="DialogTitle">
-                        <h1 className="projTitle brightness-[3]">
-                            {name} - <span className="projYear brightness-75">{year}</span>
+                        <h1 className="projTitle ">
+                            {name} - <span className="projYear ">{year}</span>
                         </h1>
                     </Dialog.Title>
 
@@ -66,7 +66,7 @@ export const listAllProjects = (props: Props) => {
                         </div>
                         <div className="flex gap-2">
 
-                            <div className="Icon brightness-[2.5]">
+                            <div className="Icon brightness-150">
                                 <img className="h-5" src="/github-proj.png" alt="" />
                                 <Link
                                     target={"_blank"}
@@ -97,27 +97,27 @@ export const listAllProjects = (props: Props) => {
 
 
 
-                            <Commits repoName={name}/>
+                            <Commits repoName={name} />
 
 
                         </div>
 
-                        <h2 className={`${situation ? 'w-full brightness-125' : null}`}>{situation ? situation : null}</h2>
+                        <h2 className={`${situation ? 'w-full ' : null}`}>{situation ? situation : null}</h2>
 
-                        <h2 className={`${situation ? 'w-full brightness-125' : null}`}>{resume ? resume : null}</h2>
+                        <h2 className={`${resume ? 'w-full ' : null}`}>{resume ? resume : null}</h2>
 
                         <div className="grid gap-3">
-                            <div className="P grid gap-3 brightness-200" dangerouslySetInnerHTML={htmlDescription}>
+                            <div className="p grid gap-3" dangerouslySetInnerHTML={htmlDescription}>
 
 
                             </div>
-                            <div className="brightness-125">
+                            <div className="">
                                 {extra}
                             </div>
                             <div className="divTec ">
-                                <h2 className="hTec brightness-[2.3]">Tecnologias </h2>
+                                <h2 className="hTec ">Tecnologias </h2>
 
-                                <p className="PP brightness-200">{
+                                <p className="pP">{
                                     technologies.map((tecnologia) => {
                                         return tecnologia
                                     }).join(", ")
@@ -127,7 +127,10 @@ export const listAllProjects = (props: Props) => {
                     </Dialog.Description>
 
                     <Dialog.Close asChild>
-                        <button className="IconButton text-2xl">
+                        <button className=" p-2
+                                absolute
+                                top-0    
+                                right-0 text-2xl">
                             <MdClose color="#ffffff85" />
                         </button>
                     </Dialog.Close>

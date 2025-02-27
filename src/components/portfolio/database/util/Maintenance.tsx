@@ -22,8 +22,8 @@ const Maintenance: React.FC<MaintenanceProps> = ({ title, content }) => {
           </button>
         </Collapsible.Trigger>
 
-        <Collapsible.Content className="CollapsibleContent text-T2  border-b-2 border-[#3b27535b] pb-4">
-        <p className="P" dangerouslySetInnerHTML={{ __html: content }}></p>
+        <Collapsible.Content className="CollapsibleContent text-T1  border-b-2 border-[#3b27535b] pb-4">
+        <p className="p" dangerouslySetInnerHTML={{ __html: content }}></p>
 
         </Collapsible.Content>
       </div>

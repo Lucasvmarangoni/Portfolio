@@ -21,8 +21,8 @@ const Resume: React.FC<ResumeProps> = ({ content }) => {
           </button>
         </Collapsible.Trigger>
 
-        <Collapsible.Content className="CollapsibleContent text-T2  border-b-2 border-[#3b27535b] pb-4">
-        <p className="PP" dangerouslySetInnerHTML={{ __html: content }}>
+        <Collapsible.Content className="CollapsibleContent text-T1  border-b-4   border-[#3b27535b] pb-4">
+        <p className="pP" dangerouslySetInnerHTML={{ __html: content }}>
 
         </p>
        

@@ -37,7 +37,7 @@ export const projectsDB: ProjectProps[] = [
         Projeto Web desenvolvido para minha apresentação pessoal e exposição de meus projetos pessoais como desenvolvedor de software.         
         </p>        
         `,
-        extra: <PortDica />,
+        // extra: <PortDica />,
         technologies: [
             "TypeScript",
             "Vite",
