@@ -94,7 +94,7 @@ export const Projetos = () => {
           ">
 
           <img
-            className="bg-[#6d6d6d0e] rounded-[3em] brightness-[0.9]
+            className="bg-BGH rounded-[3em] brightness-[0.8]
               n0:w-40 
               n1:w-32    
               n2:w-32
@@ -157,7 +157,7 @@ export const Projetos = () => {
                     <path d="M3.00133 4.38388C3.00133 5.1529 3.53571 5.76723 4.36097 5.76723H4.37946C5.23727 5.76723 5.77204 5.1529 5.77204 4.38388C5.75356 3.59638 5.23727 3.00094 4.39352 3.00094C3.54977 3.00094 3.00133 3.6008 3.00133 4.38388ZM5.57959 6.98625H3.00093V15.0039H5.57959V6.98625ZM9.70552 6.98625V8.10201C10.0808 7.56763 10.667 6.79862 12.0311 6.79862C13.7238 6.79862 15.0043 7.91438 15.0043 10.3199C15.0043 11.5094 14.3459 12.2797 13.4021 12.2797C12.4726 12.2797 12.0847 11.8037 11.9773 11.2529C11.9527 10.9665 11.948 10.6793 11.948 10.4372V9.80397C11.9801 9.33429 12.4042 8.85214 13.117 8.85214C14.0499 8.85214 14.4252 9.56973 14.4252 10.62V15.0039H12.0039V10.4372C12.0039 9.33429 11.5844 8.85214 10.6705 8.85214C9.80661 8.85214 9.33195 9.56973 9.33195 10.62V15.0039H7.12686V6.98625H9.70552Z" fill="#ffffff85" />
                   </svg>
 
-                  <p className="brightness-[1.7]">Linkedin</p>
+                  <p className="brightness-[1.5]">Linkedin</p>
                 </NavLink>
               )}
 
@@ -175,7 +175,7 @@ export const Projetos = () => {
                   </svg>
 
 
-                  <p className="brightness-[1.7]">Github</p>
+                  <p className="brightness-[1.5]">Github</p>
                 </NavLink>
               )}
 
@@ -195,7 +195,7 @@ export const Projetos = () => {
                   </svg>
 
 
-                  <p className="brightness-[1.7]">Currículo</p>
+                  <p className="brightness-[1.5]">Currículo</p>
                 </NavLink>
               )}
             </div>
@@ -306,7 +306,7 @@ export const Projetos = () => {
               <div></div>
 
               <div
-                className={"flex flex-wrap justify-center "}
+                className={"flex flex-wrap justify-center"}
               >
                 {
                   personalProjects.map((project, transitionDelay) => {

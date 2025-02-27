@@ -68,7 +68,7 @@
     @apply w-[6.4rem] 
     h-[1.8rem] 
     py-2  
-    brightness-150
+    brightness-[2.2]
     hover:brightness-200 
     rounded-[2rem]
      text-T2 text-sm font-semibold hover:underline flex items-center justify-center gap-[4px]
