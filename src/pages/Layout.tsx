@@ -9,7 +9,7 @@ export const Layout = () => {
       <Outlet />
       {Motion(0.8, 1.0,
         <div
-          className="text-T1 text-sm text-end flex justify-center items-end brightness-200 my-2 scroll-item relative bottom-0
+          className="text-T1 text-sm text-end flex justify-center items-end brightness-[1.6] my-2 scroll-item relative bottom-0
         
         "
         >

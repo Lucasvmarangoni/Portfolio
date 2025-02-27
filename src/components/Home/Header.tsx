@@ -8,7 +8,7 @@ export function Header() {
   OnOver;
   OnOut;
   return (
-    <header className="h-11 w-full bg-[#070707] brightness-200 flex items-center justify-center scroll-item">
+    <header className="h-11 w-full bg-BGH brightness-[1.7] flex items-center justify-center scroll-item">
       <div
         className="flex justify-between items-center absolute
        n0:w-[1030px]   
@@ -23,16 +23,16 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-[#3b27535b] font-medium text-xl flex gap-1 items-center hover:opacity-70 brightness-110
+          className="text-[#3b27535b] font-medium text-xl flex gap-1 items-center hover:brightness-150 
           n4:text-xl
           n5:text-base
           n6:text-base
           n7:text-base
           "
         >
-          <img id="img" className="w-5 opacity-60" src="/logo.svg" alt="" />
+          <img id="img" className="w-5 brightness-[0.4] " src="/logo.svg" alt="" />
           <Link to="/home" className=""> {/*alterar o to= devolta para / quando voltar a ter uma pagina inicial home utilizável. */}
-            <h1 className="brightness-150">Lucas V Marangoni</h1>
+            <h1 className="brightness-[1] ">Lucas V Marangoni</h1>
           </Link>
         </button>
 
@@ -59,7 +59,7 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 w-24  text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] block  
+            className=" h-8 w-24  text-lg rounded-md hover:opacity-100 hover:brightness-150 hover:text-[1.05rem] block  
             n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
             n4:invisible
@@ -84,8 +84,8 @@ export function Header() {
 
           <button
           id="contato"
-            className="h-8 w-24 text-lg rounded-md hover:opacity-100 brightness-150 hover:text-[1.05rem] 
-          n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible          
+            className="h-8 w-24 text-lg rounded-md  hover:brightness-150 hover:text-[1.05rem] 
+          n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible      
           n3:invisible 
           n4:invisible
           n5:invisible

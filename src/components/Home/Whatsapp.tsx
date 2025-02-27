@@ -48,12 +48,14 @@ export function Whatsapp() {
 
   return (
     
-    <Dialog.Description className="mt-0">
+    <Dialog.Description className="mt-0 ">
       <div className="grid gap-4 justify-center">
-        <div className="grid row-span-3 gap-3">
+        <div className="grid gap-3 ">
 
           {Motion(1.0, 0.5,
-            <div className="text-T2 grid gap-2 w-5 ">
+            <div className="text-T2 grid gap-2 
+            
+            ">
               <label htmlFor="inputName">Nome:</label>
               <input
                 className="bg-BGH border-[#ffffff0e] border-[0.5px]"
@@ -70,7 +72,8 @@ export function Whatsapp() {
           )}
 
           {Motion(1.0, 0.6,
-            <div className="text-T2 grid gap-2 w-5 ">
+            <div className="text-T2 grid gap-2            
+            ">
               <label className="" htmlFor="inputCompany">
                 Empresa:
               </label>
@@ -89,12 +92,13 @@ export function Whatsapp() {
           )}
 
           {Motion(1.0, 0.7,
-            <div className="text-T2 grid gap-2 w-64">
+            <div className="text-T2 grid gap-2         
+            ">
               <label className="text-T2" htmlFor="inputMessage">
                 Mensagem:
               </label>
               <textarea
-                className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                className="bg-BGH border-[#ffffff0e] border-[0.5px] h-40"
                 id="inputMessage"
                 name="message"
                 required
@@ -117,7 +121,9 @@ export function Whatsapp() {
               MOut(message);
             }}
             type="submit"
-            className="w-64 brightness-150 grid justify-center items-center"
+            className="grid justify-center items-center 
+            
+            "
           >
             <CustomNavLink to={link} target="_blank"
             >Enviar

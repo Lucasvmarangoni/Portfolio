@@ -99,7 +99,7 @@
   }
   
   .PP{
-    @apply text-T2 text-justify brightness-75
+    @apply text-T2 text-justify brightness-[0.5]
     n0:text-lg 
     n1:text-lg 
     n2:text-lg 
@@ -181,3 +181,6 @@
     filter: brightness(1);
   }
 }
+
+
+

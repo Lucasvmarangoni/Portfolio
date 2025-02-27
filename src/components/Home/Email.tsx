@@ -9,19 +9,21 @@ export function Email() {
     const [message, setMessage] = useState("");
 
     return (
-        <Dialog.Description className="mt-0 grid gap-4 justify-center">
+        <Dialog.Description className="mt-0 grid gap-4 justify-center    
+        " >
             <form
                 id="form"
                 method="POST"
                 action="https://formsubmit.co/lucasvm.ti@gmail.com"
                 target="_blank"
-                className="grid row-span-3 gap-3"
+                className="grid row-span-3 gap-3
+                "
             >
                 {Motion(1.0, 0.5,
-                    <div className="text-T2 grid gap-2 w-5 ">
+                    <div className="text-T2 grid gap-2">
                         <label htmlFor="inputName">Nome:</label>
                         <input
-                            className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                            className="bg-BGH border-[#ffffff0e] border-[0.5px] "
                             id="inputName"
                             name="name"
                             type="text"
@@ -35,7 +37,7 @@ export function Email() {
                 )}
 
                 {Motion(1.0, 0.6,
-                    <div className="text-T2 grid gap-2 w-5 ">
+                    <div className="text-T2 grid gap-2 ">
                         <label className="" htmlFor="inputEmail">
                             Email:
                         </label>
@@ -55,12 +57,12 @@ export function Email() {
 
 
                 {Motion(1.0, 0.7,
-                    <div className="text-T2 grid gap-2 w-64">
+                    <div className="text-T2 grid gap-2">
                         <label className="text-T2" htmlFor="inputMessage">
                             Mensagem:
                         </label>
                         <textarea
-                            className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                            className="bg-BGH border-[#ffffff0e] border-[0.5px] h-40"
                             id="inputMessage"
                             name="message"
                             required
@@ -83,7 +85,7 @@ export function Email() {
                     }}
                     form="form"
                     type="submit"
-                    className="w-64 brightness-150 grid justify-center items-center"
+                    className=" grid justify-center items-center"
                     disabled={!email || !message}
                 >
                     <span className={`${SendRequiredButton}`}>Enviar</span>

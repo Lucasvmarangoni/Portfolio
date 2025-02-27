@@ -10,20 +10,21 @@
   outline: none;
 }
 
-.scroll-container {    
+.scroll-container {
   flex-direction: column;
-  gap: 48px;    
+  gap: 48px;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100vh;
 }
-.scroll-item {    
-  scroll-snap-align: start;   
+
+.scroll-item {
+  scroll-snap-align: start;
 }
 
-.scroll-item-first {    
-  scroll-snap-align: end;   
+.scroll-item-first {
+  scroll-snap-align: end;
   height: 30vh;
 }
 
@@ -33,7 +34,7 @@
 } */
 
 *::-webkit-scrollbar {
-  width: 8px; 
+  width: 8px;
 }
 
 *::-webkit-scrollbar-track {
@@ -41,10 +42,11 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #3b27537a; 
-  scrollbar-color: #888 #f1f1f1; 
+  background-color: #3b27537a;
+  scrollbar-color: #888 #f1f1f1;
   border-radius: 5px;
 }
+
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -59,44 +61,16 @@
 
 @layer components {
   .setinha {
-    @apply cursor-pointer 
-    relative 
-    transition-[0.5s] 
-    flex 
-    items-center 
-    after:right-[-20px]
-    after:content-["\00bb"] 
-    after:absolute 
-    after:opacity-0 
-    after:transition-[0.5s] 
-    hover:after:opacity-[1]     
-    hover:pr-6    
-    rounded-md    
-    w-28 
-    justify-center;
+    @apply cursor-pointer relative transition-[0.5s] flex items-center after:right-[-20px] after:content-["\00bb"] after:absolute after:opacity-0 after:transition-[0.5s] hover:after:opacity-[1] hover:pr-6 rounded-md w-28 justify-center;
   }
+
   .buttons {
-    @apply w-[6.3rem]
-    h-[1.6rem]
-    py-1 
-    bg-BG
-    hover:bg-Bhover
-    rounded-[2rem] 
-    text-T1
-    text-sm
-    font-semibold
-    hover:underline
-    flex 
-    items-center 
-    justify-center
-    gap-[6px]
-    brightness-[2]
-    border-[1.5px] 
-    border-[#1616164d];
-    
+    @apply w-[6.3rem] h-[1.6rem] py-1 bg-BGH hover:brightness-150 rounded-[2rem] text-T1 text-sm font-semibold hover:underline flex items-center justify-center gap-[6px]
+    /* brightness-[1] */
+    border-[1.5px] border-[#1616164d];
+
   }
 }
-
 
 
 .img {
@@ -111,7 +85,13 @@ input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #030303 inset;
 }
 
+
 /* Cor do texto do autocomplete */
 input:-webkit-autofill {
   -webkit-text-fill-color: #55396285 !important;
+}
+
+input[type="search"]::-webkit-calendar-picker-indicator {
+  display: none !important;
+  -webkit-appearance: none;
 }

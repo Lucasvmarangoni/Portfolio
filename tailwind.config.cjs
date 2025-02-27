@@ -34,8 +34,9 @@ module.exports = {
       backgroundColor: {
         "BG": "#030303",
         'BH': '#3b275367',
-        'BGH': '#070707', // 0d0d0eaf
-        'BGB': '#3b275367',
+        'BGH': '#0d0d0eaf', // 0d0d0eaf
+        'BGC': '#0d0d0eaf',
+        'BGB': '#3b27535b',
         'Bhover': '#22212185'
       },
       transitionTimingFunction: {

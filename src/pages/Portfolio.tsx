@@ -39,7 +39,7 @@ export const Projetos = () => {
   // const libraries: string[] = ["TLogella"]
 
   const datalist: string[] = [
-    'Golang',   
+    'Golang',
     'Node Typescript',
     'Node Typescript Nest'
   ]
@@ -80,22 +80,22 @@ export const Projetos = () => {
   return (
     MotionFirst(1.0, 0.5,
       <div
-        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-200  " + pageWidth}
+        className={"mt-10 w-[1030px] py-20 bg-BGH m-auto brightness-150  " + pageWidth}
       >
         <div className="flex justify-center items-center m-auto pb-4 gap-4 
-          n0:w-[800px]
-          n1:w-[500px]
-          n2:w-[500px]
-          n3:w-[460px] n3:flex
-          n4:w-[430px] 
-          n5:w-[350px] 
-          n6:w-[300px] 
-          n7:w-[200px] n7:flex-wrap 
+          n0:max-w-[800px]
+          n1:max-w-[500px]
+          n2:max-w-[500px]
+          n3:max-w-[460px] n3:flex
+          n4:max-w-[430px] 
+          n5:max-w-[350px] 
+          n6:max-w-[300px] 
+          n7:max-w-[200px] n7:flex-wrap 
           ">
 
           <img
-            className="bg-[#6d6d6d0e] opacity-100 rounded-[10rem] brightness-50
-              n0:w-32  
+            className="bg-[#6d6d6d0e] opacity-100 rounded-[3em] brightness-[0.3]
+              n0:w-40 
               n1:w-32    
               n2:w-32
               n3:w-32
@@ -104,14 +104,14 @@ export const Projetos = () => {
               n6:w-32
               n7:w-32
              "
-            src="/foto-perfil.png"
+            src="foto.png"
             alt="Foto do perfil"
           />
 
           <div className={"text-center flex flex-col "} >
             {Motion(0.7, 0.2,
               <h1
-                className="text-T2 font-medium brightness-[1.8]
+                className="text-T2 font-medium brightness-[0.5]  
               n0:text-2xl n0:text-left
               n1:text-2xl n1:text-left
               n2:text-2xl n2:text-left
@@ -127,7 +127,7 @@ export const Projetos = () => {
             )}
             {Motion(0.7, 0.3,
               <h1
-                className="text-T4 font-semibold brightness-[2]
+                className="text-T4 font-semibold 
         n0:text-3xl n0:text-left
         n1:text-3xl n1:text-left
         n2:text-3xl n2:text-left
@@ -141,7 +141,7 @@ export const Projetos = () => {
               </h1>
             )}
             {Motion(0.7, 0.4,
-              <p className="mb-1 text-justify  text-T2  n3:text-left n7:text-center     
+              <p className="mb-1 text-justify  text-T2  n3:text-left n7:text-center brightness-[0.5]    
           ">
                 Sou Desenvolvedor Backend
               </p>
@@ -167,11 +167,11 @@ export const Projetos = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="18" height="18" rx="2" fill="#3b27535b" />
+                    <rect width="18" height="18" rx="2" fill="#3b27535b" />
                     <path d="M16.5604 0H1.53803C0.717186 0 0 0.590625 0 1.40183V16.4575C0 17.2732 0.717186 18 1.53803 18H16.556C17.3812 18 18 17.2683 18 16.4575V1.40183C18.0048 0.590625 17.3812 0 16.5604 0ZM5.57959 15.0039H3.00093V6.98625H5.57959V15.0039ZM4.37946 5.76723H4.36097C3.53571 5.76723 3.00133 5.1529 3.00133 4.38388C3.00133 3.6008 3.54977 3.00094 4.39352 3.00094C5.23727 3.00094 5.75356 3.59638 5.77204 4.38388C5.77164 5.1529 5.23727 5.76723 4.37946 5.76723ZM15.0039 15.0039H12.4252V10.62C12.4252 9.56973 12.0499 8.85214 11.117 8.85214C10.4042 8.85214 9.98235 9.33429 9.79472 9.80397C9.7244 9.97272 9.70552 10.2025 9.70552 10.4372V15.0039H7.12686V6.98625H9.70552V8.10201C10.0808 7.56763 10.667 6.79862 12.0311 6.79862C13.7238 6.79862 15.0043 7.91438 15.0043 10.3199L15.0039 15.0039Z" fill="black" />
                   </svg>
-
                   <p>Linkedin</p>
                 </NavLink>
               )}
@@ -236,9 +236,9 @@ export const Projetos = () => {
             onInput={dynamicDatalist}
             autoComplete="on"
             type="search"
-            placeholder="Pesquise pelas tecnologias."
+            placeholder="Pesquise pelas tecnologias."        
             list="datalist"
-            className="px-5 bg-BG text-T1 text-sm placeholder:text-[#3b27535b] placeholder:brightness-100 border-[1.5px] border-[#16161656] rounded-3xl ml-8
+            className="px-5 bg-BG text-T1 text-sm placeholder:text-T1 placeholder:brightness-[0.6] border-[1.5px] border-[#16161656] rounded-3xl ml-8 
           n0:w-[30rem] n0:h-10
           n1:w-[35rem] n1:h-10
           n2:w-[33rem] n3:h-10 
@@ -252,7 +252,7 @@ export const Projetos = () => {
             check === 1
               ? <VscChromeClose
                 color="#3b275367"
-                className=" bg-BG pr-2 relative right-10
+                className="pr-2 relative right-10 brightness-[0.6] 
               n0:w-8 n0:h-8
               n1:w-8 n1:h-8
               n2:w-8 n2:h-8
@@ -281,7 +281,7 @@ export const Projetos = () => {
               />
               : <VscSearch
                 color="#3b275367"
-                className="bg-BG pr-2 relative right-10
+                className="pr-2 relative right-10 brightness-[0.6]
               n0:w-8 n0:h-8
               n1:w-8 n1:h-8
               n2:w-8 n2:h-8
@@ -313,34 +313,15 @@ export const Projetos = () => {
           " alt="Lucasvmarangoni's Github Activity Graph" />
         </div> */}
 
-        <div className="grid gap-40 relative">
+        <div className="grid gap-40 relative brightness-[1]">
 
           <div className="grid gap-10 scroll-item ">
             <div className=" m-auto flex flex-wrap justify-center align-center
               gap-10">
 
-              {MotionFirst(0.8, 0.4,
-                <div
-                  className=" text-center w-[70%] m-auto brightness-75"
-                >
-                  <h2 className="text-T1 text-2xl mt-10 brightness-[2.5] font-semi-bold mb-4">Projetos</h2>
-                  <p className="PP" >
-                    Esses são meus projetos autorais, todos são planejados e desenvolvidos por mim sozinho ou em colaboração com uma equipe.
-                  </p>
-                </div>
+                <div></div>
 
-                // <div className=" text-center w-[70%] m-auto brightness-200">
-                // <h2 className="text-T4 text-xl mt-10 brightness-75 font-semi-bold mb-4">Projetos</h2>
-                // <p className="text-base text-[#25252588] text-justify" >
-                //   Apresento nesse portfólio apenas meus projetos autorais, ou seja, que desenvolvo sozinho (pessoal) ou em
-                //   colaboração com uma equipe (equipe).
-                // </p>
-                // </div>
-
-              )}
-
-
-              <div
+                     <div
                 className={"flex flex-wrap justify-center "}
               >
                 {

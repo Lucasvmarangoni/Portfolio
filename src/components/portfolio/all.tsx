@@ -32,7 +32,7 @@ export const listAllProjects = (props: Props) => {
 
     return (
         <Dialog.Root>
-            <Dialog.Trigger asChild className="brightness-200">
+            <Dialog.Trigger asChild className="brightness-[1.4]">
                 <div className="divCapa">
                     <button>
                         <img className="projCapa brightness-75" src={picture} alt="" />

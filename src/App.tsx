@@ -7,7 +7,7 @@ import { Layout } from "./pages/Layout";
 
 function App() {
   return (
-    <div className="mx-auto w-full h-[100%] fixed left-[0.1vw] brightness-150 scroll-container">
+    <div className="mx-auto w-full h-[100%] fixed left-[0.1vw] brightness-[2] scroll-container">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="home" element={<Home />} />

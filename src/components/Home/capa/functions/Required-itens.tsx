@@ -11,11 +11,11 @@ export const MOut = (item?: any) => {
 
 export function SpanTag(text: string) {
   return <span
-    className="w-64 invisible text-black text-sm font-semibold bg-[#1d1229] p-2 rounded-md absolute cursor-default"
+    className="w-full max-w-96 invisible text-black text-base font-semibold bg-[#1d1229] p-2 rounded-md absolute cursor-default hover:brightness-125"
     id="sendButton"
   >
     <p>{text}</p>
   </span>
 }
 
-export const SendRequiredButton = "bg-BGB w-64 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:opacity-70"
+export const SendRequiredButton = "bg-BGB w-full w-96 font-semibold py-2 text-base setinha hover:after:right-[103px] hover:brightness-150"
