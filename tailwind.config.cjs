@@ -22,8 +22,8 @@ module.exports = {
       "icons": "1px"
     },
     textColor: {
-      'T1': '#ffffff85', //3b27535b
-      'T2': '#3b27535b', //ffffff85
+      'T1': '#ffffffaf', //3b27535b
+      'T2': '#3b27537b', //ffffff85
     },
     animation: {
       'contentShow': '150ms cubic-bezier(0.16, 1, 0.3, 1)',

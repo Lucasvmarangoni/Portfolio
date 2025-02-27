@@ -23,7 +23,7 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T1 font-medium text-xl flex gap-1 items-center hover:brightness-150 
+          className="text-T1 font-medium text-xl flex gap-1 items-center 
           n4:text-xl
           n5:text-base
           n6:text-base
@@ -31,9 +31,10 @@ export function Header() {
           "
         >
 
-          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" className="brightness-[2.7] "
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" className="brightness-[2.8] "  onMouseOver={OnOver}
+          onMouseOut={OnOut}
             width="26" height="26" viewBox="0 0 137.000000 167.000000"
-            preserveAspectRatio="xMidYMid meet">
+            preserveAspectRatio="xMidYMid meet" pointer-events-none>
 
             <g transform="translate(0.000000,167.000000) scale(0.100000,-0.100000)"
               fill="#3b27535b" >
@@ -64,7 +65,7 @@ export function Header() {
           </svg>
 
           <Link to="/home" className=""> {/*alterar o to= devolta para / quando voltar a ter uma pagina inicial home utilizável. */}
-            <h1 className="brightness-[1] ">Lucas V Marangoni</h1>
+            <h1 className="text-T1">Lucas V Marangoni</h1>
           </Link>
         </button>
 
@@ -91,7 +92,7 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 w-24  text-lg rounded-md hover:brightness-150 hover:text-[1.05rem] block  
+            className=" h-8 w-24 text-lg rounded-md hover:brightness-150 hover:text-[1.05rem] block  
             n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible 
             n3:invisible
             n4:invisible

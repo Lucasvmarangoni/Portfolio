@@ -32,7 +32,7 @@ export const listAllProjects = (props: Props) => {
 
     return (
         <Dialog.Root>
-            <Dialog.Trigger asChild className="brightness-[2.4]">
+            <Dialog.Trigger asChild className="brightness-[1] ">
                 <div className="divCapa">
                     <button>
                         <img className="projCapa " src={picture} alt="" />
@@ -42,15 +42,15 @@ export const listAllProjects = (props: Props) => {
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className="DialogOverlay" />
-                <Dialog.Content className="DialogContent focus:outline-none ">
+                <Dialog.Content className="DialogContent focus:outline-none brightness-[1.3] ">
                     <Dialog.Title className="DialogTitle">
                         <h1 className="projTitle ">
-                            {name} - <span className="projYear ">{year}</span>
+                            {name} - <span className="projYear brightness-[0.5] ">{year}</span>
                         </h1>
                     </Dialog.Title>
 
-                    <Dialog.Description className="Dgrid">
-                        <div id="img" className="banner">
+                    <Dialog.Description className="Dgrid ">
+                        <div id="img" className="banner ">
                             {video ? (
                                 <video controls src={video}></video>
                             ) : (

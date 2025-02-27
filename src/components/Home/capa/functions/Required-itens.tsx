@@ -11,7 +11,7 @@ export const MOut = (item?: any) => {
 
 export function SpanTag(text: string) {
   return <span
-    className="invisible text-black  font-semibold bg-[#1d1229] p-2 rounded-md absolute cursor-default hover:brightness-125 
+    className="invisible text-black  font-semibold bg-[#1d1229] p-2 rounded-md absolute cursor-default brightness-150  hover:brightness-200
     n4:w-96 n4:text-lg
     n6:w-80 
     n7:w-60 n7:text-base
@@ -22,7 +22,7 @@ export function SpanTag(text: string) {
   </span>
 }
 
-export const SendRequiredButton = `bg-BGB font-semibold py-2 text-xl setinha hover:after:right-[103px] hover:brightness-150 
+export const SendRequiredButton = `bg-BGB font-semibold py-2 text-xl setinha hover:after:right-[103px] brightness-150  hover:brightness-200
  n4:w-96
  n6:w-80
  n7:w-60

@@ -82,7 +82,7 @@ export const Projetos = () => {
       <div
         className={"mt-10 w-[1030px] py-20 bg-BGH m-auto " + pageWidth}
       >
-        <div className="flex justify-center items-center m-auto pb-4 gap-4 
+        <div className="flex justify-center items-center m-auto pb-4 gap-4  
           n0:max-w-[800px]
           n1:max-w-[500px]
           n2:max-w-[500px]
@@ -94,14 +94,14 @@ export const Projetos = () => {
           ">
 
           <img
-            className="bg-BGH rounded-[3em] brightness-[0.8]
+            className="bg-BGH rounded-[3em] brightness-[1] 
               n0:w-40 
               n1:w-32    
               n2:w-32
               n3:w-32
               n4:w-48
               n5:w-44
-              n6:w-40
+              n6:w-44
               n7:w-40
              "
             src="foto.png"
@@ -112,7 +112,7 @@ export const Projetos = () => {
 
             {Motion(0.7, 0.3,
               <h1
-                className="text-T2 font-semibold brightness-[2.4]
+                className="text-T2 font-semibold brightness-[2.4] 
         n0:text-3xl n0:text-left
         n1:text-3xl n1:text-left
         n2:text-3xl n2:text-left
@@ -121,6 +121,7 @@ export const Projetos = () => {
         n5:text-2xl 
         n6:text-2xl 
         n7:text-2xl"
+        
               >
                 Lucas V. Marangoni
               </h1>
@@ -306,7 +307,7 @@ export const Projetos = () => {
               <div></div>
 
               <div
-                className={"flex flex-wrap justify-center"}
+                className={"flex flex-wrap justify-center brightness-[3] "}
               >
                 {
                   personalProjects.map((project, transitionDelay) => {
