@@ -38,28 +38,24 @@ export function Contato() {
 
         " />
         <Dialog.Content
-          className="bg-[#09090aea] border border-[#ffffff0e] w-full max-w-lg p-5 rounded-lg grid gap-4 
+          className="bg-BGC border border-[#ffffff0e]  p-5 rounded-lg grid gap-4 
           fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 focus:outline-none brightness-[1.4]
-          n0:w-[1030px]   
-          n1:w-[830px]    
-          n2:w-[781px] 
-          n3:w-[576px] 
-          n4:w-[530px] 
-          n5:w-[430px]
-          n6:w-[350px]
-          n7:w-[240px]
+
           "
         >
           <Dialog.Title className="text-xl text-center flex flex-wrap gap-2 justify-center w-full max-wlg
           
           ">
-            <button className="text-black px-4 bg-BH rounded-md  hover:brightness-200 w-full max-w-48
+            <button className="text-black px-4 bg-BH rounded-md  hover:brightness-200 
+                  w-[48%]   
+                 
+               
             "
               onClick={email}
             >
               Email
             </button>
-            <button className="text-black px-4 bg-BH rounded-md brightness-[1.5] hover:brightness-200 w-full max-w-48"
+            <button className="text-black px-4 bg-BH rounded-md brightness-[1.5] hover:brightness-200 w-[48%] "
               onClick={whatsapp}
             >
               Whatsapp

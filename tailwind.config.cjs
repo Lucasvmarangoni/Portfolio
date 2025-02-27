@@ -35,7 +35,7 @@ module.exports = {
         "BG": "#030303",
         'BH': '#3b275367',
         'BGH': '#0d0d0eaf', // 0d0d0eaf
-        'BGC': '#0d0d0eaf',
+        'BGC': '#09090aea',
         'BGB': '#3b27535b',
         'Bhover': '#22212185'
       },

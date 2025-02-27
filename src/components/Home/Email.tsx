@@ -16,7 +16,7 @@ export function Email() {
                 method="POST"
                 action="https://formsubmit.co/lucasvm.ti@gmail.com"
                 target="_blank"
-                className="grid row-span-3 gap-3
+                className="grid row-span-3 gap-3 
                 "
             >
                 {Motion(1.0, 0.5,
@@ -85,7 +85,7 @@ export function Email() {
                     }}
                     form="form"
                     type="submit"
-                    className=" grid justify-center items-center"
+                    className=" grid justify-center items-center  "
                     disabled={!email || !message}
                 >
                     <span className={`${SendRequiredButton}`}>Enviar</span>

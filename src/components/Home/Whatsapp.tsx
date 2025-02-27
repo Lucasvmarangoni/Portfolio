@@ -47,18 +47,18 @@ export function Whatsapp() {
   }
 
   return (
-    
+
     <Dialog.Description className="mt-0 ">
-      <div className="grid gap-4 justify-center">
+      <div className="grid gap-4 justify-center ">
         <div className="grid gap-3 ">
 
           {Motion(1.0, 0.5,
-            <div className="text-T2 grid gap-2 
+            <div className="text-T2 grid gap-2  
             
             ">
               <label htmlFor="inputName">Nome:</label>
               <input
-                className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                className="bg-BGH border-[#ffffff0e] border-[0.5px] "
                 id="inputName"
                 name="name"
                 type="text"
@@ -72,13 +72,13 @@ export function Whatsapp() {
           )}
 
           {Motion(1.0, 0.6,
-            <div className="text-T2 grid gap-2            
+            <div className="text-T2 grid gap-2       
             ">
               <label className="" htmlFor="inputCompany">
                 Empresa:
               </label>
               <input
-                className="bg-BGH border-[#ffffff0e] border-[0.5px]"
+                className="bg-BGH border-[#ffffff0e] border-[0.5px] "
                 id="inputCompany"
                 name="company"
                 type="text"
