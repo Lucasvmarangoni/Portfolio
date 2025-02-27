@@ -59,12 +59,6 @@ export const Menu = () => {
           </DropdownMenu.Item>
 
           <DropdownMenu.Item className="menu">
-            <button>
-              <Link to="https://www.hackerrank.com/lucasvm_ti" target="_blank">HackerRank</Link>
-            </button>
-          </DropdownMenu.Item>
-
-          <DropdownMenu.Item className="menu">
             <Link id="link" to={href}>
               <button className="">
                 <Contato />

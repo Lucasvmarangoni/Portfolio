@@ -99,10 +99,10 @@ export const Projetos = () => {
               n1:w-32    
               n2:w-32
               n3:w-32
-              n4:w-32
-              n5:w-32
-              n6:w-32
-              n7:w-32
+              n4:w-48
+              n5:w-44
+              n6:w-40
+              n7:w-40
              "
             src="foto.png"
             alt="Foto do perfil"
@@ -118,8 +118,8 @@ export const Projetos = () => {
               n3:text-2xl n3:text-left
               n4:text-2xl 
               n5:text-2xl 
-              n6:text-base 
-              n7:text-base"
+              n6:text-2xl 
+              n7:text-2xl"
               >
                 {/* {<FigsCapaText />} */}
                 Olá, meu nome é
@@ -134,8 +134,8 @@ export const Projetos = () => {
         n3:text-3xl n3:text-left
         n4:text-2xl 
         n5:text-2xl 
-        n6:text-lg 
-        n7:text-base"
+        n6:text-2xl 
+        n7:text-2xl"
               >
                 Lucas V. Marangoni
               </h1>

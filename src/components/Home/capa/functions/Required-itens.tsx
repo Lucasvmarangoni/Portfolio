@@ -12,8 +12,9 @@ export const MOut = (item?: any) => {
 export function SpanTag(text: string) {
   return <span
     className="invisible text-black text-base font-semibold bg-[#1d1229] p-2 rounded-md absolute cursor-default hover:brightness-125 
-    n3:w-96
-    n7:w-
+    n4:w-96
+    n6:w-80
+    n7:w-60
     "
     id="sendButton"
   >
