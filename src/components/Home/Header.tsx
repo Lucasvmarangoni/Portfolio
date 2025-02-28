@@ -31,7 +31,7 @@ export function Header() {
           "
         >
 
-          <img id="img" src="./logo.svg" className="brightness-[2.7]" alt="icone de um homem com capus utilizando computador" />
+          <img id="img" src="./purple.svg" className="brightness-[2]" alt="icone de um homem com capus utilizando computador" />
 
           <Link to="/" className=""> {/*alterar o to= devolta para / quando voltar a ter uma pagina inicial home utilizável. */}
             <h1 className="text-T1">Lucas V Marangoni</h1>
