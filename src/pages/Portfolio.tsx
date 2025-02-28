@@ -132,20 +132,7 @@ export const Projetos = () => {
                 Desenvolvedor Backend
               </p>
             )}
-          <img src="./fun.svg" className="brightness-[1.5] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3 focus:outline-none min-w-[60rem]  w-[80rem] opacity-[0.02] z-0"  />
-            <div
-              className="mt-1 flex justify-center gap-1
-                      n0:flex-wrap
-                      n1:flex-wrap
-                      n2:flex-wrap
-                      n3:flex-wrap 
-                      n4:flex-wrap
-                      n5:flex-wrap
-                      n6:flex-wrap
-                      n7:flex-wrap
-                    "
-            >
-              {Motion(0.6, 0.8,
+          {Motion(0.6, 0.8,
                 <NavLink
                   className="buttons
                         "
