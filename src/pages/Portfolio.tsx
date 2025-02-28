@@ -132,7 +132,7 @@ export const Projetos = () => {
                 Desenvolvedor Backend
               </p>
             )}
-          <img src="./fun.svg" className="brightness-[1.5] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3 focus:outline-none  w-[80rem] opacity-[0.03] z-0"  />
+          <img src="./fun.svg" className="brightness-[1.5] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/3 focus:outline-none min-w-[60rem]  w-[80rem] opacity-[0.03] z-0"  />
             <div
               className="mt-1 flex justify-center gap-1
                       n0:flex-wrap
