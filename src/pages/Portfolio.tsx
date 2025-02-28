@@ -120,9 +120,8 @@ export const Projetos = () => {
         n4:text-2xl 
         n5:text-2xl 
         n6:text-2xl 
-        n7:text-2xl"
-        
-              >
+        n7:text-2xl"        
+        >
                 Lucas V. Marangoni
               </h1>
             )}
@@ -132,7 +131,20 @@ export const Projetos = () => {
                 Desenvolvedor Backend
               </p>
             )}
-          {Motion(0.6, 0.8,
+            
+            <div
+              className="mt-1 flex justify-center gap-1
+                      n0:flex-wrap
+                      n1:flex-wrap
+                      n2:flex-wrap
+                      n3:flex-wrap 
+                      n4:flex-wrap
+                      n5:flex-wrap
+                      n6:flex-wrap
+                      n7:flex-wrap
+                    "
+            >
+              {Motion(0.6, 0.8,
                 <NavLink
                   className="buttons
                         "
