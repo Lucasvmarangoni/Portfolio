@@ -234,13 +234,13 @@ export const Projetos = () => {
               ? <VscChromeClose
                 color="#375949"
                 className="pr-2 relative right-10 
-              n0:w-8 n0:h-8
-              n1:w-8 n1:h-8
-              n2:w-8 n2:h-8
-              n3:w-8 n3:h-8
-              n4:w-8 n4:h-8
-              n5:w-8 n5:h-8 
-              n6:w-7 n6:h-7
+                n0:w-10 n0:h-10
+              n1:w-10 n1:h-10
+              n2:w-10 n2:h-10
+              n3:w-10 n3:h-10
+              n4:w-10 n4:h-10
+              n5:w-10 n5:h-10 
+              n6:w-8 n6:h-8
               n7:w-7 n7:h-7"
                 style={{ cursor: "pointer" }}
                 onClick={() => {
@@ -263,14 +263,14 @@ export const Projetos = () => {
               : <VscSearch
                 color="#375949"
                 className="pr-2 relative right-10 
-              n0:w-8 n0:h-8
-              n1:w-8 n1:h-8
-              n2:w-8 n2:h-8
-              n3:w-8 n3:h-8
-              n4:w-8 n4:h-8
-              n5:w-8 n5:h-8 
-              n6:w-7 n6:h-7
-              n7:w-6 n7:h-6"
+              n0:w-10 n0:h-10
+              n1:w-10 n1:h-10
+              n2:w-10 n2:h-10
+              n3:w-10 n3:h-10
+              n4:w-10 n4:h-10
+              n5:w-10 n5:h-10 
+              n6:w-8 n6:h-8
+              n7:w-7 n7:h-7"
               />
           }
           <datalist id="datalist">
