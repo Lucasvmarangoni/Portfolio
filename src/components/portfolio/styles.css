@@ -28,7 +28,7 @@
   .projTitle {
     @apply text-T2
     text-3xl
-    brightness-[2.3];
+    /* brightness-[2.3]; */
   }
   .projYear {
     @apply text-T1
@@ -45,7 +45,7 @@
   }
   .Icon {
     @apply w-[83px] 
-    bg-BGH
+    bg-BGB
     rounded-md 
     hover:opacity-70 
     flex 
@@ -66,9 +66,9 @@
     px-2
     h-7
     rounded-md
-    hover:opacity-70 
-    cursor-default
-    brightness-200;
+    hover:brightness-200
+    cursor-default;
+    /* brightness-200; */
   }
   .p {
     @apply text-T1 

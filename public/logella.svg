@@ -3,7 +3,7 @@
   <rect width="800" height="400" fill="#030303" />
 
   <!-- Título -->
-  <text x="50%" y="100" text-anchor="middle" font-size="62" font-family="Arial, sans-serif" fill="#375949">
+  <text x="50%" y="100" text-anchor="middle" font-size="68" font-family="Arial, sans-serif" fill="#375949">
     Logella
   </text>
 

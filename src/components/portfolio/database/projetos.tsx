@@ -227,7 +227,7 @@ export const projectsDB: ProjectProps[] = [
     },
     {
         name: 'Financial file manager',
-        year: 'Nov 2023 - ...',
+        year: 'Nov 2023 - Interrompido',
         picture: '/doc-financeiros.svg',
         // video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/financial-file-manager',

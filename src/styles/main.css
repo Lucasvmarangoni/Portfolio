@@ -76,7 +76,19 @@
     border-[2.7px] border-B;
 
   }
+
+
 }
+
+.button-path:hover {
+  fill: white; /* Cor quando o cursor está sobre o ícone */
+}
+
+/* Opção 2: Usando o ID do SVG */
+#button-icon:hover path {
+  fill: white; /* Cor quando o cursor está sobre o ícone */
+}
+
 
 
 .img {
