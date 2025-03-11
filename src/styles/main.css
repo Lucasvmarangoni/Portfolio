@@ -65,15 +65,7 @@
   }
 
   .buttons {
-    @apply w-[6.4rem] 
-    h-[1.8rem] 
-    py-2  
-   
-    hover:brightness-200 
-    rounded-[2rem]
-     text-T2 text-sm font-semibold hover:underline flex items-center justify-center gap-[4px]
-    
-    border-[2.7px] border-B;
+    @apply w-[6.4rem] h-[1.8rem] py-2 hover:brightness-200 rounded-[2rem] text-T2 text-sm font-semibold hover:underline flex items-center justify-center gap-[4px] border-[2.7px] border-B;
 
   }
 
@@ -81,15 +73,15 @@
 }
 
 .button-path:hover {
-  fill: white; /* Cor quando o cursor está sobre o ícone */
+  fill: white;
+  /* Cor quando o cursor está sobre o ícone */
 }
 
 /* Opção 2: Usando o ID do SVG */
 #button-icon:hover path {
-  fill: white; /* Cor quando o cursor está sobre o ícone */
+  fill: white;
+  /* Cor quando o cursor está sobre o ícone */
 }
-
-
 
 .img {
   background-size: 1px;
