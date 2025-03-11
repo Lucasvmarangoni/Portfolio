@@ -13,7 +13,8 @@ export const Layout = () => {
         
         "
         >
-          <p className="brightness-[2.7]">© 2022 Lucas V Marangoni. All Rights Reserved.</p>
+          {/* brightness-[2.7] */}
+          <p className="hover:brightness-200">© 2022 Lucas V Marangoni. All Rights Reserved.</p>
         </div>
       )}
     </div>

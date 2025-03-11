@@ -10,7 +10,6 @@
   }
   .projCapa {
     @apply rounded-xl
-    opacity-50
     n0:w-[27rem] n0:h-[14rem] 
     n1:w-[22rem] n1:h-[12rem]
     n2:w-[27rem] n2:h-[14rem]    

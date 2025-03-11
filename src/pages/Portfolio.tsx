@@ -112,7 +112,8 @@ export const Projetos = () => {
 
             {Motion(0.7, 0.3,
               <h1
-                className="text-T2 font-semibold brightness-[2.4] 
+              // brightness-[2.4] 
+                className="text-T2 font-semibold hover:brightness-200 
         n0:text-3xl n0:text-left
         n1:text-3xl n1:text-left
         n2:text-3xl n2:text-left
@@ -306,14 +307,15 @@ export const Projetos = () => {
               <div></div>
 
               <div
-                className={"flex flex-wrap justify-center brightness-[3] "}
+              // brightness-[3]
+                className={"flex flex-wrap justify-center "}
               >
                 {
                   personalProjects.map((project, transitionDelay) => {
                     return (
                       Motion(0.8, transitionDelay / 4,
                         <div
-                          className="py-4 px-6"
+                          className="py-4 px-6 hover:brightness-200"
                           id={autoraisId[transitionDelay]}
                           key={transitionDelay}
                         >

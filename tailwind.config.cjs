@@ -23,7 +23,7 @@ module.exports = {
     },
     textColor: {
       'T1': '#ffffffaf', //3b27535b
-      'T2': '#3b27537b', //ffffff85
+      'T2': '#375949', //ffffff85
     },
     animation: {
       'contentShow': '150ms cubic-bezier(0.16, 1, 0.3, 1)',
@@ -33,8 +33,11 @@ module.exports = {
         "BG": "#030303",
         'BGH': '#1b1f23', // 0d0d0eaf
         'BGC': '#09090aea',
-        'BGB': '#3b27535b',
+        'BGB': '#375949',
         'Bhover': '#22212185'
+      },
+      borderColor: {
+        B:'#375949be',
       },
       transitionTimingFunction: {
         'in-menu': 'cubic-bezier(0.16, 1, 0.3, 1)',

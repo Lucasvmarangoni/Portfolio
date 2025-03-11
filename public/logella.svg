@@ -1,0 +1,23 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="800" height="400" fill="#030303" />
+
+  <!-- Título -->
+  <text x="50%" y="100" text-anchor="middle" font-size="62" font-family="Arial, sans-serif" fill="#375949">
+    Logella
+  </text>
+
+  <!-- Terminal -->
+  <rect x="190" y="120" width="500" height="200" fill="#030303"  rx="8" />
+  <text x="210" y="160" font-size="18" font-family="monospace" fill="#375949">[INFO] Request received: /home</text>
+  <text x="210" y="190" font-size="18" font-family="monospace" fill="#375949">[INFO] Response 200 OK</text>
+  <text x="210" y="220" font-size="18" font-family="monospace" fill="#ffffffaf">[WARN] Slow response detected</text>
+  <text x="210" y="250" font-size="18" font-family="monospace" fill="#ffffffaf">[ERROR] Database connection failed</text>
+
+
+
+  <!-- Texto Descritivo -->
+  <text x="50%" y="340" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
+    Biblioteca para logs e tratamento de erros
+  </text>
+</svg>

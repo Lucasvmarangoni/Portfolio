@@ -23,15 +23,15 @@ export function Header() {
         <button
           onMouseOver={OnOver}
           onMouseOut={OnOut}
-          className="text-T1 font-medium text-xl flex gap-1 items-center hover:text-[1.2rem] 
+          className="text-T1 font-medium text-xl flex gap-1 items-center hover:text-[1.2rem]  hover:brightness-200
           n4:text-xl
           n5:text-base
           n6:text-base
           n7:text-base
           "
         >
-
-          <img id="img" src="./logo.svg" className="brightness-[2.7]" alt="icone de um homem com capus utilizando computador" />
+          {/* brightness-[2.7]  */}
+          <img id="img" src="./logo.svg" className="" alt="icone de um homem com capus utilizando computador" />
 
           <Link to="/" className=""> {/*alterar o to= devolta para / quando voltar a ter uma pagina inicial home utilizável. */}
             <h1 className="text-T1">Lucas V Marangoni</h1>
@@ -61,7 +61,7 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 w-24 text-lg rounded-md hover:brightness-200 hover:text-[1.05rem] block  
+            className=" h-8 w-24 text-lg rounded-md  hover:text-[1.05rem] block 
             n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible 
             n3:invisible
             n4:invisible
@@ -69,7 +69,7 @@ export function Header() {
             n6:invisible           
             n7:invisible"
           >
-            <NavLink to="/projetos">Projetos</NavLink>
+            <NavLink className="" to="/projetos">Projetos</NavLink>
           </button>
 
 

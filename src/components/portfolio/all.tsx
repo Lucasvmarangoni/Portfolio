@@ -37,7 +37,7 @@ export const listAllProjects = (props: Props) => {
                     <button>
                         <img className="projCapa " src={picture} alt="" />
                     </button>
-                    <h2 className="imgTitle">{name.toUpperCase()}</h2>
+                    {/* <h2 className="imgTitle">{name.toUpperCase()}</h2> */}
                 </div>
             </Dialog.Trigger>
             <Dialog.Portal>

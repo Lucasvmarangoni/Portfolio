@@ -1,0 +1,31 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="800" height="400" fill="#030303" />
+
+  <!-- Título -->
+  <text x="50%" y="100" text-anchor="middle" font-size="62" font-family="Arial, sans-serif" fill="#375949">
+    Tasklist
+  </text>
+
+  <!-- Ícone de lista (bloco de tarefas) -->
+  <rect x="250" y="133" width="300" height="200" fill="030303" rx="10" />
+
+  <!-- Linhas da lista -->
+  <line x1="270" y1="170" x2="520" y2="170" stroke="#DDD" stroke-width="2" />
+  <line x1="270" y1="210" x2="520" y2="210" stroke="#DDD" stroke-width="2" />
+  <line x1="270" y1="250" x2="520" y2="250" stroke="#DDD" stroke-width="2" />
+
+  <!-- Checkboxes -->
+  <circle cx="260" cy="170" r="10" fill="#375949" />
+  <circle cx="260" cy="210" r="10" fill="white" stroke="#333" stroke-width="2" />
+  <circle cx="260" cy="250" r="10" fill="white" stroke="#333" stroke-width="2" />
+
+  <!-- Setas de organização -->
+  <polygon points="550,180 570,170 570,190" fill="#375949" />
+  <polygon points="550,220 570,210 570,230" fill="#ffffffaf" />
+
+  <!-- Texto Descritivo -->
+  <text x="50%" y="340" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
+    API para lista de tarefas
+  </text>
+</svg>

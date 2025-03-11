@@ -28,7 +28,7 @@ export const projectsDB: ProjectProps[] = [
     {
         name: 'Portfolio',
         year: '2022',
-        picture: '/portfolio.png',
+        picture: '/portfolio.svg',
         github: 'https://github.com/Lucasvmarangoni/Portfolio',
         version: '1.11.20',
         type: 'pessoal',
@@ -50,7 +50,7 @@ export const projectsDB: ProjectProps[] = [
     {
         name: 'Paiva Moto Peças',
         year: 'Mar 2023 - Jun 2023',
-        picture: '/paiva.png',
+        picture: '/paiva.svg',
         github: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t2-grupo-2-paiva-moto-pecas',
         version: undefined,
         type: 'equipe',
@@ -100,7 +100,7 @@ export const projectsDB: ProjectProps[] = [
     {
         name: 'TaskList',
         year: 'Jan 2023 - Jul 2023',
-        picture: '/tasklist.png',
+        picture: '/tasklist.svg',
         video: "/tasklist-demo.mp4",
         github: 'https://github.com/Lucasvmarangoni/TaskList',
         version: '2.1.0',
@@ -166,7 +166,7 @@ export const projectsDB: ProjectProps[] = [
     {
         name: 'Currency converter',
         year: 'Jul 2023 - Nov 2023',
-        picture: '/currency-converter.png',
+        picture: '/currency-converter.svg',
         video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/currency-converter',
         version: '1.1.0',
@@ -228,7 +228,7 @@ export const projectsDB: ProjectProps[] = [
     {
         name: 'Financial file manager',
         year: 'Nov 2023 - ...',
-        picture: '/doc-financeiros.png',
+        picture: '/doc-financeiros.svg',
         // video: 'currency-converter-demo.mp4',
         github: 'https://github.com/Lucasvmarangoni/financial-file-manager',
         version: '1.0.0',
@@ -338,9 +338,9 @@ export const projectsDB: ProjectProps[] = [
     {
         name: 'Logella',
         year: '2024',
-        picture: 'logella.png',
+        picture: 'logella.svg',
         github: 'https://github.com/Lucasvmarangoni/logella',
-        version: "1.5.5",
+        version: "1.5.9",
         type: 'lib',
         resume: <Resume content=" 
         <p>
