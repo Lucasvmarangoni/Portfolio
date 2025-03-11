@@ -27,7 +27,7 @@ export function Contato() {
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <p className="cursor-pointer text-center text-lg hover:text-[1.05rem]">Contato</p>
+        <p className="cursor-pointer text-center text-lg hover:text-[1.05rem]">Contact</p>
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 bg-black/50 w-full" />

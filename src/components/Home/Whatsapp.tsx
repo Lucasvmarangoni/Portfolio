@@ -56,7 +56,7 @@ export function Whatsapp() {
             <div className="text-T1 grid gap-2  
             
             ">
-              <label htmlFor="inputName">Nome:</label>
+              <label htmlFor="inputName">Name:</label>
               <input
                 className="bg-BGH border-[#ffffff0e] border-[0.5px] "
                 id="inputName"
@@ -75,7 +75,7 @@ export function Whatsapp() {
             <div className="text-T1 grid gap-2       
             ">
               <label className="" htmlFor="inputCompany">
-                Empresa:
+                Enterprise:
               </label>
               <input
                 className="bg-BGH border-[#ffffff0e] border-[0.5px] "
@@ -95,7 +95,7 @@ export function Whatsapp() {
             <div className="text-T1 grid gap-2         
             ">
               <label className="text-T1" htmlFor="inputMessage">
-                Mensagem:
+                Message:
               </label>
               <textarea
                 className="bg-BGH border-[#ffffff0e] border-[0.5px] h-40"

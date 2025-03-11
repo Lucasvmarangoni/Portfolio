@@ -20,21 +20,22 @@ export const NotaCurrency = () => {
 
         <Collapsible.Content className="CollapsibleContent">
           <p className="p mt-2">
-            <img src="https://img.shields.io/badge/version-1.1.0-white" alt="Versão 1.1.0"></img>
-            <span className="text-T2 brightness-150">Out 2023 - Nov 2023 | </span>Filas na persistência dos dados de usuário, cluster de replicas mongodb, 
-            conteinerização da aplicação, reestruturação da arquitetura dos módulos com ênfase em DDD, config estrita do typescript e refatoração.
+            <img src="https://img.shields.io/badge/version-1.1.0-white" alt="Version 1.1.0"></img>
+            <span className="text-T2 brightness-150">Oct 2023 - Nov 2023 | </span>Queues for user data persistence, MongoDB replica cluster,
+            application containerization, reorganization of module architecture with emphasis on DDD, strict TypeScript configuration, and refactoring.
             <a href='https://trello.com/invite/b/LtPCRU0V/ATTI8ed1d7db6259cc3009736a67b0bea2340E9D2648/manutencao-currency-converter' target='_blank'>
-         <u >Changelog</u></a>
+              <u>Changelog</u></a>
           </p>
 
           <p className="p mt-5">
-            <a href="https://github.com/Lucasvmarangoni/TaskList/commit/92bf7f0" title="clique para ver o código da versão 1.0.0">
-              <img src="https://img.shields.io/badge/version-1.0.0-white" alt="Versão 1.0.0"></img></a> 
-           <span className="text-T2 brightness-150">Jal 2023 - Set 2023 | </span>Conversor de moedas consumindo a API Exchangerates. Desenvolvido com Nest, e 
-           arquitetura de monólito modular. Possui testes unitários, integração e e2e, tratamento de exceções, logs, rate limit, 
-           cache, doc. openAPI e authn (local e OAuth)
+            <a href="https://github.com/Lucasvmarangoni/TaskList/commit/92bf7f0" title="click to see version 1.0.0 code">
+              <img src="https://img.shields.io/badge/version-1.0.0-white" alt="Version 1.0.0"></img></a>
+            <span className="text-T2 brightness-150">Jul 2023 - Sep 2023 | </span>Currency converter consuming the Exchangerates API. Developed with Nest, and
+            modular monolith architecture. It has unit, integration, and e2e tests, exception handling, logs, rate limit,
+            caching, OpenAPI docs, and authentication (local and OAuth).
           </p>
-          
+
+
 
         </Collapsible.Content>
       </div>

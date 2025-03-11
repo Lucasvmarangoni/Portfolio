@@ -28,7 +28,7 @@ export const Projetos = () => {
     `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&langs_count=2&hide_title=${hideTitle}&bg_color=${bgColor}&hide_border=${hideBorder}`
 
   const personalProjects = projectsDB.filter((project) => {
-    return project.type === "pessoal" || project.type === "equipe" || project.type === "lib"
+    return project.type === "personal" || project.type === "team" || project.type === "lib"
   }).reverse();
 
   const librariesProjects = projectsDB.filter((project) => {
@@ -129,7 +129,7 @@ export const Projetos = () => {
             {Motion(0.7, 0.4,
               <p className="mb-1 text-justify text-lg text-T1  n3:text-left n7:text-center 
           ">
-                Desenvolvedor Backend
+                Back-end Developer
               </p>
             )}
 
@@ -197,7 +197,7 @@ export const Projetos = () => {
                   </svg>
 
 
-                  <p className="brightness-[1.2]">Currículo</p>
+                  <p className="brightness-[1.2]">Resume</p>
                 </NavLink>
               )}
             </div>
@@ -209,11 +209,11 @@ export const Projetos = () => {
 
 
         <div
-          className={" flex justify-center items-center" + pageWidth}
+          className={" flex justify-center items-center hover:brightness-200" + pageWidth}
         >
 
           <label
-            aria-label="Pesquise o projeto pela tecnologia."
+            aria-label="Search the project by technology."
             htmlFor="input"
           ></label>
           <input
@@ -222,9 +222,9 @@ export const Projetos = () => {
             onInput={dynamicDatalist}
             autoComplete="on"
             type="search"
-            placeholder="Pesquise pelas tecnologias."
+            placeholder="Search for technologies"
             list="datalist"
-            className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 
+            className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 hover:brightness-50
           n0:w-[30rem] n0:h-10
           n1:w-[35rem] n1:h-10
           n2:w-[33rem] n3:h-10 

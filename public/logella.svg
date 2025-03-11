@@ -18,6 +18,6 @@
 
   <!-- Texto Descritivo -->
   <text x="50%" y="340" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
-    Biblioteca para logs e tratamento de erros
+    Library for logging and error handling
   </text>
 </svg>

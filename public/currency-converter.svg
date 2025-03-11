@@ -25,6 +25,6 @@
 
   <!-- Texto Descritivo -->
   <text x="50%" y="340" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
-    API para conversão de moedas
+    API for currency converter
   </text>
 </svg>

@@ -17,7 +17,7 @@ const Resume: React.FC<ResumeProps> = ({ content }) => {
       <div>
         <Collapsible.Trigger className="w-full">
           <button className="hTec w-full cursor-pointer">
-            <h2 className="text-center w-full">Resumo (CV)</h2>
+            <h2 className="text-center w-full">Resume</h2>
           </button>
         </Collapsible.Trigger>
 

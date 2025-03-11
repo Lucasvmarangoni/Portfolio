@@ -29,11 +29,11 @@
 
   <!-- Título -->
   <text x="50%" y="70" text-anchor="middle" font-size="62" font-family="Arial, sans-serif" fill="#375949">
-    Portfólio
+    Portfolio
   </text>
 
   <!-- Descrição -->
   <text x="50%" y="360" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
-    Meu portfólio de projetos e trabalhos
+    My portfolio of projects and work
   </text>
 </svg>
