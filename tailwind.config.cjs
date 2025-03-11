@@ -22,7 +22,7 @@ module.exports = {
       "icons": "1px"
     },
     textColor: {
-      'T1': '#ffffffaf', //3b27535b
+      'T1': '#ffffffaf', //old-purple 3b27535b
       'T2': '#375949', //ffffff85
     },
     animation: {
