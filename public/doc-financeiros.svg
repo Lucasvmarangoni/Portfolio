@@ -22,7 +22,7 @@
   <line x1="420" y1="260" x2="530" y2="260" stroke="#333" stroke-width="2" />
 
   <!-- Texto Descritivo -->
-  <text x="50%" y="330" text-anchor="middle" font-size="32" font-family="Arial, sans-serif" fill="#ffffffaf">
+  <text x="50%" y="330" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" fill="#ffffffaf">
     System for financial document management
   </text>
 </svg>

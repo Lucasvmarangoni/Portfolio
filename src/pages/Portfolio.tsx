@@ -29,11 +29,11 @@ export const Projetos = () => {
     `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&langs_count=2&hide_title=${hideTitle}&bg_color=${bgColor}&hide_border=${hideBorder}`
 
   const personalProjects = projectsDB.filter((project) => {
-    return project.type === "personal" || project.type === "team" || project.type === "lib"
+    return project.type === "personal" || project.type === "team" || project.type === "library"
   }).reverse();
 
   const librariesProjects = projectsDB.filter((project) => {
-    return project.type === "lib"
+    return project.type === "library"
   }).reverse();
 
   const autoraisId: string[] = ["TLogella", "TFFManager", "TcurrencyConverter", "Tpaiva", "TtaskList", "Tport",]
@@ -196,7 +196,13 @@ export const Projetos = () => {
 
 
         <div
-          className={" flex justify-center items-center hover:brightness-200" + pageWidth}
+          className="flex justify-center items-center m-auto hover:brightness-200 
+          n0:w-[35rem] n0:h-10
+          n1:w-[33rem] n1:h-10
+          n2:w-[33rem] n2:h-10 
+          n3:w-[33rem] n3:h-10 
+          n4:w-[26rem] n4:h-10
+          n5:w-[25rem] n5:h-10"
         >
 
           <label
@@ -212,11 +218,12 @@ export const Projetos = () => {
             placeholder="Search for technologies"
             list="datalist"
             className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 hover:brightness-50
-          n0:w-[30rem] n0:h-10
-          n1:w-[35rem] n1:h-10
-          n2:w-[33rem] n3:h-10 
-          n4:w-[25rem] n4:h-10
-          n5:w-[20rem] n5:h-10 n5:text-sm
+          n0:w-[35rem] n0:h-10
+          n1:w-[33rem] n1:h-10
+          n2:w-[33rem] n2:h-10 
+          n3:w-[32rem] n3:h-10 
+          n4:w-[26rem] n4:h-10
+          n5:w-[25rem] n5:h-10 n5:text-sm
           n6:w-64 n6:h-8 n6:text-xs 
           n7:w-52 n7:h-8 n7:text-xs
           "

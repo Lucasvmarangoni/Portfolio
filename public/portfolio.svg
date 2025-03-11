@@ -33,7 +33,7 @@
   </text>
 
   <!-- Descrição -->
-  <text x="50%" y="360" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
+  <text x="50%" y="360" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" fill="#ffffffaf">
     My portfolio of projects and work
   </text>
 </svg>

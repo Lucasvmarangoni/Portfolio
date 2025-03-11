@@ -95,7 +95,7 @@ export const listAllProjects = (props: Props) => {
                                     : null
                             },
                             {version ? <img src={`https://img.shields.io/badge/version-${version}-black`} alt={`Version ${version}`}></img> : null}
-                            <img src={`https://img.shields.io/badge/Projeto ${type}-black`} alt={`projeto ${type}`}></img>
+                            <p className="text-T2 brightness-200 text-sm ">{type} project</p>
 
 
 

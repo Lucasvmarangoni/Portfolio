@@ -50,14 +50,14 @@ function CurriculumButton() {
     }, []);
 
     return (
-        <div ref={buttonContainerRef} className="relative">
+        <div ref={buttonContainerRef} className="relative inline-block" style={{ minWidth: 'fit-content' }}>
             {!isOpen ? (
                 <button
                     ref={buttonRef}
                     id="button-icon"
-                    className="buttons "
+                    className="buttons"
                     onClick={(e) => {
-                        e.stopPropagation(); 
+                        e.stopPropagation();
                         toggleOptions();
                     }}
                 >
@@ -70,7 +70,7 @@ function CurriculumButton() {
                 </button>
             ) : (
                 <button
-                    className="invisible buttons n5:w24 w-full h-full"
+                    className="invisible buttons "
                     aria-hidden="true"
                 >
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,28 +85,28 @@ function CurriculumButton() {
             {isOpen && (
                 <div
                     ref={containerRef}
-                    className="absolute z-50 flex flex-col gap-2 bg-none rounded-md shadow-lg p-1"
+                    className="absolute z-50 flex flex-col gap-2 bg-none rounded-md shadow-lg "
                     style={{
                         top: '0',
                         left: '0',
                         width: buttonContainerRef.current?.offsetWidth || 'auto'
                     }}
-                    onClick={(e) => e.stopPropagation()} 
+                    onClick={(e) => e.stopPropagation()}
                 >
-                    <button
-                        className="absolute top-[0.39rem] left-[6.4rem] text-T2 opacity-60 hover:opacity-100 flex items-center justify-center w-6 h-6"
+                    {/* <button
+                        className="absolute top-[0.39rem] left-[6.4rem] text-T2 opacity-60 hover:opacity-100 flex items-center justify-center"
                         onClick={closeMenu}
-                        aria-label="Fechar menu"
+                        aria-label="close menu"
                     >
-                        {/* <svg  viewBox="0 0 24 24" fill="#375949" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Close_Square"> <path id="Vector" d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M4 16.8002V7.2002C4 6.08009 4 5.51962 4.21799 5.0918C4.40973 4.71547 4.71547 4.40973 5.0918 4.21799C5.51962 4 6.08009 4 7.2002 4H16.8002C17.9203 4 18.4801 4 18.9079 4.21799C19.2842 4.40973 19.5905 4.71547 19.7822 5.0918C20.0002 5.51962 20.0002 6.07967 20.0002 7.19978V16.7998C20.0002 17.9199 20.0002 18.48 19.7822 18.9078C19.5905 19.2841 19.2842 19.5905 18.9079 19.7822C18.4805 20 17.9215 20 16.8036 20H7.19691C6.07899 20 5.5192 20 5.0918 19.7822C4.71547 19.5905 4.40973 19.2842 4.21799 18.9079C4 18.4801 4 17.9203 4 16.8002Z" 
-                       width={55} stroke="#030303" stroke-width="2" ></path> </g> </g></svg> */}
-                    </button>
+                        <svg  viewBox="0 0 24 24" fill="#375949" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Edit / Close_Square"> <path id="Vector" d="M9 9L11.9999 11.9999M11.9999 11.9999L14.9999 14.9999M11.9999 11.9999L9 14.9999M11.9999 11.9999L14.9999 9M4 16.8002V7.2002C4 6.08009 4 5.51962 4.21799 5.0918C4.40973 4.71547 4.71547 4.40973 5.0918 4.21799C5.51962 4 6.08009 4 7.2002 4H16.8002C17.9203 4 18.4801 4 18.9079 4.21799C19.2842 4.40973 19.5905 4.71547 19.7822 5.0918C20.0002 5.51962 20.0002 6.07967 20.0002 7.19978V16.7998C20.0002 17.9199 20.0002 18.48 19.7822 18.9078C19.5905 19.2841 19.2842 19.5905 18.9079 19.7822C18.4805 20 17.9215 20 16.8036 20H7.19691C6.07899 20 5.5192 20 5.0918 19.7822C4.71547 19.5905 4.40973 19.2842 4.21799 18.9079C4 18.4801 4 17.9203 4 16.8002Z" 
+                       width={55} stroke="#030303" stroke-width="2" ></path> </g> </g></svg>
+                    </button> */}
 
                     <NavLink
                         to="/resume-lucasvmarangoni-en.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="buttons flex items-center justify-start gap-2 px-4 py-2 text-T2 bg-BGH hover:brightness-200"
+                        className="buttons  justify-start gap-2 px-4  text-T2 bg-BGH hover:brightness-200 "
                         onClick={closeMenu}
                     >
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -121,7 +121,7 @@ function CurriculumButton() {
                         to="/curriculo-lucasvmarangoni-ptbr.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="buttons flex items-center justify-start gap-2 px-4 py-2 text-T2 bg-BGH hover:brightness-200"
+                        className="buttons  justify-start gap-2 px-4  text-T2 bg-BGH hover:brightness-200"
                         onClick={closeMenu}
                     >
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

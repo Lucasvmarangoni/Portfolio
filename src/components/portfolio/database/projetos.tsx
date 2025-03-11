@@ -324,7 +324,7 @@ export const projectsDB: ProjectProps[] = [
         picture: 'logella.svg',
         github: 'https://github.com/Lucasvmarangoni/logella',
         version: "1.5.9",
-        type: 'lib',
+        type: 'library',
         resume: <Resume content=" 
        <p>
             A simple and minimalist <strong>Golang</strong> library for observability and security with logs and exception handling.

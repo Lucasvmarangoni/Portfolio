@@ -17,7 +17,7 @@
 
 
   <!-- Texto Descritivo -->
-  <text x="50%" y="340" text-anchor="middle" font-size="35" font-family="Arial, sans-serif" fill="#ffffffaf">
+  <text x="50%" y="340" text-anchor="middle" font-size="38" font-family="Arial, sans-serif" fill="#ffffffaf">
     Library for logging and error handling
   </text>
 </svg>
