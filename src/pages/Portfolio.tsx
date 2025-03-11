@@ -79,7 +79,7 @@ export const Projetos = () => {
   }, []);
 
   return (
-      MotionFirst(1.0, 0.5,
+    MotionFirst(1.0, 0.5,
       <div
         className={"mt-10 w-[1030px] py-20 bg-BGH m-auto " + pageWidth}
       >
@@ -182,33 +182,36 @@ export const Projetos = () => {
               )}
 
               {Motion(0.6, 1.0,
+
+
                 < CurriculumButton />
+
               )}
+            </div>
           </div>
+
+
         </div>
 
 
-      </div>
 
+        <div
+          className={" flex justify-center items-center hover:brightness-200" + pageWidth}
+        >
 
-
-      <div
-        className={" flex justify-center items-center hover:brightness-200" + pageWidth}
-      >
-
-        <label
-          aria-label="Search the project by technology."
-          htmlFor="input"
-        ></label>
-        <input
-          id="input"
-          onChange={Search}
-          onInput={dynamicDatalist}
-          autoComplete="on"
-          type="search"
-          placeholder="Search for technologies"
-          list="datalist"
-          className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 hover:brightness-50
+          <label
+            aria-label="Search the project by technology."
+            htmlFor="input"
+          ></label>
+          <input
+            id="input"
+            onChange={Search}
+            onInput={dynamicDatalist}
+            autoComplete="on"
+            type="search"
+            placeholder="Search for technologies"
+            list="datalist"
+            className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 hover:brightness-50
           n0:w-[30rem] n0:h-10
           n1:w-[35rem] n1:h-10
           n2:w-[33rem] n3:h-10 
@@ -217,12 +220,12 @@ export const Projetos = () => {
           n6:w-64 n6:h-8 n6:text-xs 
           n7:w-52 n7:h-8 n7:text-xs
           "
-        />
-        {
-          check === 1
-            ? <VscChromeClose
-              color="#375949"
-              className="pr-2 relative right-10 
+          />
+          {
+            check === 1
+              ? <VscChromeClose
+                color="#375949"
+                className="pr-2 relative right-10 
               n0:w-8 n0:h-8
               n1:w-8 n1:h-8
               n2:w-8 n2:h-8
@@ -231,27 +234,27 @@ export const Projetos = () => {
               n5:w-8 n5:h-8 
               n6:w-7 n6:h-7
               n7:w-7 n7:h-7"
-              style={{ cursor: "pointer" }}
-              onClick={() => {
-                const filterInput: any = document.querySelector("#input");
-                filterInput.value = ""
-                setCheck(0)
-                setList([])
-                document.querySelectorAll('#TLogella, #TFFManager, #TcurrencyConverter, #TtaskList, #Tpaiva, #Tport')
-                  .forEach((element: any) => {
-                    if (element) {
-                      element.style.display = "flex"
-                    } else {
-                      element.style.display = "none"
-                    }
-                  })
+                style={{ cursor: "pointer" }}
+                onClick={() => {
+                  const filterInput: any = document.querySelector("#input");
+                  filterInput.value = ""
+                  setCheck(0)
+                  setList([])
+                  document.querySelectorAll('#TLogella, #TFFManager, #TcurrencyConverter, #TtaskList, #Tpaiva, #Tport')
+                    .forEach((element: any) => {
+                      if (element) {
+                        element.style.display = "flex"
+                      } else {
+                        element.style.display = "none"
+                      }
+                    })
 
 
-              }}
-            />
-            : <VscSearch
-              color="#375949"
-              className="pr-2 relative right-10 
+                }}
+              />
+              : <VscSearch
+                color="#375949"
+                className="pr-2 relative right-10 
               n0:w-8 n0:h-8
               n1:w-8 n1:h-8
               n2:w-8 n2:h-8
@@ -260,22 +263,22 @@ export const Projetos = () => {
               n5:w-8 n5:h-8 
               n6:w-7 n6:h-7
               n7:w-6 n7:h-6"
-            />
-        }
-        <datalist id="datalist">
-          {list.map((tecnologia, index) =>
-            <option key={index} value={tecnologia} />
-          )
+              />
           }
-          {
-            datalist.map((tecnologia, index) =>
+          <datalist id="datalist">
+            {list.map((tecnologia, index) =>
               <option key={index} value={tecnologia} />
             )
-          }
-        </datalist>
-      </div>
+            }
+            {
+              datalist.map((tecnologia, index) =>
+                <option key={index} value={tecnologia} />
+              )
+            }
+          </datalist>
+        </div>
 
-      {/* <div className="w-full">
+        {/* <div className="w-full">
           <img src={link} className="relative right-4 m-auto   
           n5:w-[23rem]  
           n6:w-[18rem]  
@@ -283,41 +286,41 @@ export const Projetos = () => {
           " alt="Lucasvmarangoni's Github Activity Graph" />
         </div> */}
 
-      <div className="grid gap-40 relative">
+        <div className="grid gap-40 relative">
 
-        <div className="grid gap-10 scroll-item ">
-          <div className=" m-auto flex flex-wrap justify-center align-center
+          <div className="grid gap-10 scroll-item ">
+            <div className=" m-auto flex flex-wrap justify-center align-center
               gap-10">
 
-            <div></div>
+              <div></div>
 
-            <div
-              // brightness-[3]
-              className={"flex flex-wrap justify-center "}
-            >
-              {
-                personalProjects.map((project, transitionDelay) => {
-                  return (
-                    Motion(0.8, transitionDelay / 4,
-                      <div
-                        className="py-4 px-6 hover:brightness-200"
-                        id={autoraisId[transitionDelay]}
-                        key={transitionDelay}
-                      >
-                        {listAllProjects(project)}
-                      </div>
+              <div
+                // brightness-[3]
+                className={"flex flex-wrap justify-center "}
+              >
+                {
+                  personalProjects.map((project, transitionDelay) => {
+                    return (
+                      Motion(0.8, transitionDelay / 4,
+                        <div
+                          className="py-4 px-6 hover:brightness-200"
+                          id={autoraisId[transitionDelay]}
+                          key={transitionDelay}
+                        >
+                          {listAllProjects(project)}
+                        </div>
+                      )
                     )
-                  )
-                })
-              }
+                  })
+                }
+              </div>
             </div>
-          </div>
 
 
 
-          <hr className=" border-[#25252588] w-[80%] m-auto" />
+            <hr className=" border-[#25252588] w-[80%] m-auto" />
 
-          {/* <div className=" m-auto grid flex-wrap justify-center align-center 
+            {/* <div className=" m-auto grid flex-wrap justify-center align-center 
               gap-10">
 
               {MotionFirst(0.8, 0.4,
@@ -356,11 +359,11 @@ export const Projetos = () => {
 
 
 
-        </div>
+          </div>
 
-      </div>
-    </div >
-  )
+        </div>
+      </div >
+    )
   );
 };
 

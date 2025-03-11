@@ -55,7 +55,7 @@ function CurriculumButton() {
                 <button
                     ref={buttonRef}
                     id="button-icon"
-                    className="buttons n5:w24"
+                    className="buttons "
                     onClick={(e) => {
                         e.stopPropagation(); 
                         toggleOptions();
