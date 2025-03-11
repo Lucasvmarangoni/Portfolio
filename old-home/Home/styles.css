@@ -129,7 +129,7 @@
     pb-2       
     relative    
     border-b-2
-    border-[#3b27535b]
+    border-[#375949]
     brightness-150;
     
     /* 
@@ -145,7 +145,7 @@
 }
 
 .active {  
-  border-bottom: 2px solid #3b27535b;
+  border-bottom: 2px solid #375949;
   padding: 1px;  
 
 }
