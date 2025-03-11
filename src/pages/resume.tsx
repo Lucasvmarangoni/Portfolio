@@ -55,7 +55,7 @@ function CurriculumButton() {
                 <button
                     ref={buttonRef}
                     id="button-icon"
-                    className="buttons"
+                    className="buttons brightness-[1.3]"
                     onClick={(e) => {
                         e.stopPropagation();
                         toggleOptions();
@@ -63,22 +63,22 @@ function CurriculumButton() {
                 >
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="18" height="18" rx="2" fill="none" />
-                        <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffff85" fillOpacity="1.4" />
-                        <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffff85" fillOpacity="1.4" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffffaf" fillOpacity="1.4" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffffaf" fillOpacity="1.4" />
                     </svg>
-                    <p className="brightness-[1.2]">Resume</p>
+                    <p className="">Resume</p>
                 </button>
             ) : (
                 <button
-                    className="invisible buttons "
+                    className="invisible buttons brightness-[1.3]"
                     aria-hidden="true"
                 >
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="18" height="18" rx="2" fill="none" />
-                        <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffff85" fillOpacity="1.4" />
-                        <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffff85" fillOpacity="1.4" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffffaf" fillOpacity="1.4" />
+                        <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffffaf" fillOpacity="1.4" />
                     </svg>
-                    <p className="brightness-[1.2]">Resume</p>
+                    <p className="">Resume</p>
                 </button>
             )}
 
@@ -106,30 +106,30 @@ function CurriculumButton() {
                         to="/resume-lucasvmarangoni-en.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="buttons  justify-start gap-2 px-4  text-T2 bg-BGH hover:brightness-200 "
+                        className="buttons  justify-start gap-2 px-4  text-T2 bg-BGH brightness-[1.3] hover:brightness-200 "
                         onClick={closeMenu}
                     >
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="18" height="18" rx="2" fill="none" />
-                            <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffff85" fillOpacity="1.4" />
-                            <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffff85" fillOpacity="1.4" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffffaf" fillOpacity="1.4" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffffaf" fillOpacity="1.4" />
                         </svg>
-                        en
+                        <p className=''>en</p>
                     </NavLink>
 
                     <NavLink
                         to="/curriculo-lucasvmarangoni-ptbr.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="buttons  justify-start gap-2 px-4  text-T2 bg-BGH hover:brightness-200"
+                        className="buttons  justify-start gap-2 px-4  text-T2 bg-BGH brightness-[1.3] hover:brightness-200"
                         onClick={closeMenu}
                     >
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="18" height="18" rx="2" fill="none" />
-                            <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffff85" fillOpacity="1.4" />
-                            <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffff85" fillOpacity="1.4" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffffaf" fillOpacity="1.4" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffffaf" fillOpacity="1.4" />
                         </svg>
-                        pt-br
+                        <p className=''>pt-br</p>
                     </NavLink>
                 </div>
             )}
