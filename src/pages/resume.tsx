@@ -114,7 +114,7 @@ function CurriculumButton() {
                             <path fillRule="evenodd" clipRule="evenodd" d="M15 15.0588V16.4706H3V15.0588H15ZM15 11.5294V12.9412H3V11.5294H15ZM15 8V9.41176H3V8H15Z" fill="#ffffff85" fillOpacity="1.4" />
                             <path fillRule="evenodd" clipRule="evenodd" d="M12.2661 1L7.96147 5.30466L5.73336 3.07656L5 3.80991L7.96147 6.7719L13 1.73388L12.2661 1Z" fill="#ffffff85" fillOpacity="1.4" />
                         </svg>
-                        En
+                        en
                     </NavLink>
 
                     <NavLink
