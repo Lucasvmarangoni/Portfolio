@@ -216,7 +216,7 @@ export const Projetos = () => {
             onInput={dynamicDatalist}
             autoComplete="on"
             type="search"
-            placeholder="Search for technologies"
+            placeholder="Search by technologies"
             list="datalist"
             className="px-5 bg-BG text-T1 text-sm placeholder:text-T1  border-[1.5px] border-[#16161656] rounded-3xl ml-8 hover:brightness-50
           n0:w-[35rem] n0:h-10
