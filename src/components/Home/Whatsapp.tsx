@@ -128,7 +128,7 @@ export function Whatsapp() {
             <CustomNavLink to={link} target="_blank"
             >Send
             </CustomNavLink>
-            {SpanTag("Message field is required!")}
+            {SpanTag("Message is required!")}
           </button>
         )}
       </div>
