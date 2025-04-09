@@ -88,7 +88,7 @@ export function Email() {
                     className=" grid justify-center items-center  "
                     disabled={!email || !message}
                 >
-                    <span className={`${SendRequiredButton}`}>Enviar</span>
+                    <span className={`${SendRequiredButton}`}>Send</span>
                     {SpanTag("Email and message fields are required!")}
                 </button>
             )}
