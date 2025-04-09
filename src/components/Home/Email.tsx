@@ -89,7 +89,7 @@ export function Email() {
                     disabled={!email || !message}
                 >
                     <span className={`${SendRequiredButton}`}>Enviar</span>
-                    {SpanTag("Email e mensagem obrigatórios!")}
+                    {SpanTag("Email and message fields are required!")}
                 </button>
             )}
         </Dialog.Description>
