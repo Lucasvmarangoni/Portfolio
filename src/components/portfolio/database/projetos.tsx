@@ -337,6 +337,9 @@ export const projectsDB: ProjectProps[] = [
         <li>
             <strong>Errs</strong>, call trace separated from the error, propagates the HTTP status, client response features, and more.
         </li>  
+        <li>
+           <strong>Response</strong>, handles HTTP error responses with a cleaner syntax.
+        </li>  
         "
         />,
         description: `
@@ -349,12 +352,14 @@ export const projectsDB: ProjectProps[] = [
             <strong>Logger package</strong> <br>
             This package defines log configurations (zerolog). It allows the use of default or custom color configurations.
             <br><br>
-            <strong>Errors package</strong> <br>
+            <strong>Errs package</strong> <br>
             The Errs package is an error handling library. Its main feature is attaching trace information to errors, allowing them to propagate through the call stack. <br>
             In addition, it also has ready-made custom errors, such as 'IsRequiredError' and 'IsInvalidError'.
             <br><br>
             <strong>Router Package</strong> <br>
             The Router package is a logging package for initializing routes using go-chi.
+            <strong>Response Package</strong> <br>
+                Uses Logella Errs Package to Handles HTTP error responses with a cleaner syntax.
         </p>
        
         `,
