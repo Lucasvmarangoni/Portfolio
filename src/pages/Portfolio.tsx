@@ -95,7 +95,7 @@ export const Projetos = () => {
           ">
 
           <img
-            className=" rounded-[3em] brightness-[1] 
+            className=" rounded-[3em] brightness-[1]
               n0:w-40 
               n1:w-32    
               n2:w-32
