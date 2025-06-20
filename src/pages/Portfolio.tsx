@@ -95,19 +95,22 @@ export const Projetos = () => {
           ">
 
           <img
-            className=" rounded-[3em] brightness-[1]
-              n0:w-40 
-              n1:w-32    
-              n2:w-32
-              n3:w-32
-              n4:w-48
-              n5:w-44
-              n6:w-44
-              n7:w-40
-              "
-            src="foto.png"
+            className="rounded-[3em] 
+             brightness-[0.85] 
+             contrast-[1.15] 
+             saturate-[0.9]
+             n0:w-40
+             n1:w-32    
+             n2:w-32
+             n3:w-32
+             n4:w-48
+             n5:w-44
+             n6:w-44
+             n7:w-40"
+            src="foto1.png"
             alt="Foto do perfil"
           />
+
 
           <div className={"text-center flex flex-col "} >
 
