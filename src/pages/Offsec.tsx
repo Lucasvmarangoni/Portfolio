@@ -12,7 +12,7 @@ import { SearchBar } from "../components/portfolio/functions/Search-bar";
 
 export const OffSec = () => {
 
-  const machines = machinesDB.reverse();
+  const machines = machinesDB;
 
   const machinesID: string[] = machinesDB.map(machine => machine.name);
   console.log("machinesID", machinesID)
