@@ -47,7 +47,6 @@
   border-radius: 5px;
 }
 
-
 ::-moz-selection {
   /* Code for Firefox */
   color: #3b27535b;
@@ -87,21 +86,16 @@
   background-size: 1px;
 }
 
-#input::-webkit-search-cancel-button {
+input.input::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-input:-webkit-autofill {
+input.input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 30px #030303 inset;
-}
-
-
-/* Cor do texto do autocomplete */
-input:-webkit-autofill {
   -webkit-text-fill-color: #55396285 !important;
 }
 
-input[type="search"]::-webkit-calendar-picker-indicator {
+input.input[type="search"]::-webkit-calendar-picker-indicator {
   display: none !important;
   -webkit-appearance: none;
 }

@@ -37,9 +37,9 @@ export const Menu = () => {
       <DropdownMenu.Portal>
         <DropdownMenu.Content
           className="                     
-          min-w-[120px]     
+          min-w-[200px]     
           relative
-          left-[-0.5em]      
+          left-[-3.5em]      
           bg-BGH
           rounded-md            
           py-4
@@ -54,7 +54,13 @@ export const Menu = () => {
         >
           <DropdownMenu.Item className="menu">
             <button>
-              <Link to="/projetos">Projetos</Link>
+              <Link to="/offsec">Offensive Security</Link>
+            </button>
+          </DropdownMenu.Item>
+
+          <DropdownMenu.Item className="menu">
+            <button>
+              <Link to="/projetos">Software Engineer</Link>
             </button>
           </DropdownMenu.Item>
 

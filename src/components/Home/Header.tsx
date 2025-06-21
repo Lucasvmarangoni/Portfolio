@@ -61,23 +61,51 @@ export function Header() {
           </div>
 
           <button
-            className=" h-8 w-24 text-lg rounded-md  hover:text-[1.05rem] block 
-            n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible 
+            className=" h-8 w-40 text-lg  hover:text-[1.05rem]
+            n2:h-8 n2:w-40 n2:py-0 n2:static n2:bg-transparent n2:visible
             n3:invisible
             n4:invisible
             n5:invisible
             n6:invisible           
             n7:invisible"
           >
-            <NavLink className="" to="/projetos">Projects</NavLink>
+            <NavLink className="" to="/offsec">Offensive Security</NavLink>
           </button>
 
+          <span className="text-T2
+          n2:visible      
+          n3:invisible 
+          n4:invisible
+          n5:invisible
+          n6:invisible
+          n7:invisible  
+          ">|</span>
 
+          <button
+            className=" h-8 w-40 text-lg hover:text-[1.05rem] block 
+            n2:h-8 n2:w-40 n2:py-0 n2:static n2:bg-transparent n2:visible 
+            n3:invisible
+            n4:invisible
+            n5:invisible
+            n6:invisible           
+            n7:invisible"
+          >
+            <NavLink className="" to="/projetos">Software Engineer</NavLink>
+          </button>
+
+          <span className="text-T2
+          n2:visible      
+          n3:invisible 
+          n4:invisible
+          n5:invisible
+          n6:invisible
+          n7:invisible  
+          ">|</span>
 
           <button
             id="contato"
-            className="h-8 w-24 text-lg rounded-md  hover:brightness-200 hover:text-[1.05rem] 
-          n2:h-8 n2:w-24 n2:py-0 n2:static n2:bg-transparent n2:visible      
+            className="h-8 w-16 text-lg hover:brightness-200 hover:text-[1.05rem]
+          n2:h-8 n2:w-16 n2:py-0 n2:static n2:bg-transparent n2:visible      
           n3:invisible 
           n4:invisible
           n5:invisible
@@ -85,7 +113,6 @@ export function Header() {
           n7:invisible  
           "
           >
-
             <Contato />
           </button>
         </div>

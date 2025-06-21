@@ -37,7 +37,7 @@ module.exports = {
         'Bhover': '#22212185'
       },
       borderColor: {
-        B:'#375949be',
+        B:'#375949',
       },
       transitionTimingFunction: {
         'in-menu': 'cubic-bezier(0.16, 1, 0.3, 1)',

@@ -28,6 +28,7 @@ export function Search() {
 
   const SpaivaMotoPecas = new Csearch(0, paivaMotoPecas, filter, TpaivaMotoPecas);
   SpaivaMotoPecas.execute();
+  
   const ScurrencyConverter = new Csearch(0, currencyConverter, filter, TcurrencyConverter);
   ScurrencyConverter.execute();  
 
