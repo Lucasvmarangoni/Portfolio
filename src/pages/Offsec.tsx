@@ -67,7 +67,7 @@ export const OffSec = () => {
 
         <SearchBar
           inputId="input-machines"
-          placeholder="Search by skill, os, active, retired, easy, mediun, hard, insane"
+          placeholder="Search by skill, os, active, retired, easy, medium, hard, insane"
           datalistId="datalist"
           datalist={datalist}
           onChange={Search}
